@@ -97,13 +97,13 @@ jobs:
             -PRELEASE_KEY_PASSWORD='${{ secrets.ANDROID_KEY_PASSWORD }}'
 
       - name: Upload APK artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: nexior-${{ steps.version.outputs.name }}.apk
           path: android/app/build/outputs/apk/release/app-release.apk
 
       - name: Upload AAB artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: nexior-${{ steps.version.outputs.name }}.aab
           path: android/app/build/outputs/bundle/release/app-release.aab
