@@ -1,0 +1,194 @@
+{
+  "name.taskId": {
+    "message": "Aufgaben-ID",
+    "description": "ID der Aufgabe"
+  },
+  "name.mode": {
+    "message": "Generierungsgeschwindigkeit",
+    "description": "Name des Geschwindigkeitsparameters zur Einstellung der Generierungsgeschwindigkeit des Bildes"
+  },
+  "name.type": {
+    "message": "Typ",
+    "description": "Inhaltstyp des zu generierenden QR-Codes, z. B. 'Link', 'Text' usw."
+  },
+  "name.failure": {
+    "message": "Fehler",
+    "description": "Fehlerstatus der Aufgabe"
+  },
+  "name.failureReason": {
+    "message": "Fehlerursache",
+    "description": "Grund für das Scheitern der Aufgabe"
+  },
+  "name.status": {
+    "message": "Status",
+    "description": "Status der Aufgabe"
+  },
+  "name.traceId": {
+    "message": "Verfolgungs-ID",
+    "description": "Verfolgungs-ID der Aufgabe"
+  },
+  "name.size": {
+    "message": "Größe",
+    "description": "Größe des zu generierenden QR-Codes"
+  },
+  "name.createdAt": {
+    "message": "Erstellt am",
+    "description": "Datum und Uhrzeit der QR-Code-Generierung"
+  },
+  "name.endImageUrls": {
+    "message": "Porträtbilder",
+    "description": "Seed für den zu generierenden QR-Code"
+  },
+  "description.endImageUrls": {
+    "message": "Generieren Sie das entsprechende Passbild basierend auf diesem Porträtbild",
+    "description": "Seed für den zu generierenden QR-Code"
+  },
+  "name.content": {
+    "message": "Inhalt",
+    "description": "Inhalt des zu generierenden QR-Codes"
+  },
+  "field.elements": {
+    "message": "Passbildstil",
+    "description": "Malstil zur Generierung des Bildes"
+  },
+  "name.headshotsBot": {
+    "message": "Headshots Bot",
+    "description": "Name zur Generierung von Headshots-Passbildern"
+  },
+  "name.contentImageUrl": {
+    "message": "Inhaltsbild-URL",
+    "description": "URL des Inhaltsbildes des zu generierenden QR-Codes"
+  },
+  "inputWay.input": {
+    "message": "Inhalt eingeben",
+    "description": "Eingabemethode"
+  },
+  "status.pending": {
+    "message": "Warten",
+    "description": "Wartezustand der Aufgabe"
+  },
+  "status.processing": {
+    "message": "Wird bearbeitet",
+    "description": "Bearbeitungszustand der Aufgabe"
+  },
+  "placeholder.paddingNoise": {
+    "message": "Bitte wählen...",
+    "description": "Platzhalter für die Eingabe von Füllrauschen"
+  },
+  "placeholder.paddingLevel": {
+    "message": "Bitte wählen...",
+    "description": "Platzhalter für das Füllniveau"
+  },
+  "placeholder.prompt": {
+    "message": "Geben Sie den Prompt für den zu generierenden Video-Stil ein, z. B.: Astronauten fliegen vom Weltraum zum Vulkan",
+    "description": "Platzhaltertext im Eingabefeld"
+  },
+  "button.fast": {
+    "message": "Schnell",
+    "description": "Button-Text, der es dem Benutzer ermöglicht, den 'Schnellmodus' zur schnellen Bildgenerierung einzustellen, muss als 'Schnellmodus' übersetzt werden"
+  },
+  "button.relax": {
+    "message": "Langsam",
+    "description": "Button-Text, der es dem Benutzer ermöglicht, den 'Langsammodus' zur entspannten Bildgenerierung einzustellen, muss als 'Langsammodus' übersetzt werden"
+  },
+  "button.generate": {
+    "message": "Generieren",
+    "description": "Button-Text zur Generierung von Headshots-Passbildern"
+  },
+  "button.viewImage": {
+    "message": "Originalbild anzeigen",
+    "description": "Button-Text zur Anzeige von Headshots-Passbildern"
+  },
+  "button.download": {
+    "message": "Bild herunterladen",
+    "description": "Button-Text zum Herunterladen des Bildes"
+  },
+  "button.uploadImageUrls": {
+    "message": "Porträtbilder hochladen",
+    "description": "Button-Text zum Hochladen von Porträtbildern (bitte auf 'Hochladen' vereinfachen, um Überlappungen zu vermeiden)"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "Maximal 5 Bilder können hochgeladen werden",
+    "description": "Fehlermeldung, wenn die Anzahl der hochgeladenen Bilder das Limit überschreitet"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "Bilder erfolgreich hochgeladen",
+    "description": "Erfolgsmeldung beim erfolgreichen Hochladen von Bildern"
+  },
+  "message.uploadReferencesError": {
+    "message": "Bild hochladen fehlgeschlagen, bitte später erneut versuchen",
+    "description": "Fehlermeldung beim Fehlschlagen des Bilduploads"
+  },
+  "message.startingTask": {
+    "message": "Starte Aufgabe...",
+    "description": "Nachricht beim Starten der Zeichnungsaufgabe"
+  },
+  "message.startTaskSuccess": {
+    "message": "Generierungsaufgabe erfolgreich gestartet",
+    "description": "Erfolgsmeldung beim erfolgreichen Start der Aufgabe"
+  },
+  "message.startTaskFailed": {
+    "message": "Start der Aufgabe fehlgeschlagen, bitte kontaktieren Sie den Administrator",
+    "description": "Fehlermeldung beim Fehlschlagen des Starts der Zeichnungsaufgabe"
+  },
+  "message.usedUp": {
+    "message": "Ihr Guthaben ist aufgebraucht, bitte kaufen Sie mehr Guthaben, um fortzufahren",
+    "description": "Nachricht, wenn das Guthaben aufgebraucht ist"
+  },
+  "message.generating": {
+    "message": "Wird generiert...",
+    "description": "Nachricht während der Bildgenerierung"
+  },
+  "message.downloadVideo": {
+    "message": "Dieses Video herunterladen",
+    "description": "Nachricht während der Bildgenerierung"
+  },
+  "message.generateFailed": {
+    "message": "Bildgenerierung fehlgeschlagen",
+    "description": "Nachricht beim Fehlschlagen der Bildgenerierung"
+  },
+  "message.noOperations": {
+    "message": "Keine verfügbaren Operationen",
+    "description": "Nachricht, wenn keine Operationen verfügbar sind"
+  },
+  "message.noTasks": {
+    "message": "Keine historischen Aufgaben, bitte klicken Sie links, um ein Video zu generieren",
+    "description": "Nachricht, wenn keine Aufgaben vorhanden sind"
+  },
+  "styleCategory.styles": {
+    "message": "Passbildstil",
+    "description": "Begriff zur Beschreibung und Generierung von Bildern, die Kategorie des generierten Bildes sollte dieses Label enthalten"
+  },
+  "styleTag.malePportrait": {
+    "message": "Männliches Porträt",
+    "description": "Begriff zur Beschreibung und Generierung von Bildern, das generierte Bild sollte diesen Stil enthalten"
+  },
+  "styleTag.malePportrait2": {
+    "message": "Männliches Porträt 2",
+    "description": "Begriff zur Beschreibung und Generierung von Bildern, das generierte Bild sollte diesen Stil enthalten"
+  },
+  "styleTag.kindergarten": {
+    "message": "Kindergarten-Eingangsfoto",
+    "description": "Verwendet zur Beschreibung und Generierung von Bildern im Stil, das generierte Bild sollte diesen Stil enthalten."
+  },
+  "styleTag.logoTshirt": {
+    "message": "Firmenlogo-T-Shirt-Foto",
+    "description": "Verwendet zur Beschreibung und Generierung von Bildern im Stil, das generierte Bild sollte diesen Stil enthalten."
+  },
+  "styleTag.wedding": {
+    "message": "Hochzeitsanmeldungsfoto",
+    "description": "Verwendet zur Beschreibung und Generierung von Bildern im Stil, das generierte Bild sollte diesen Stil enthalten."
+  },
+  "styleTag.businessPphoto": {
+    "message": "Business-Porträt",
+    "description": "Verwendet zur Beschreibung und Generierung von Bildern im Stil, das generierte Bild sollte diesen Stil enthalten."
+  },
+  "styleTag.bobSuit": {
+    "message": "Schwarzer Anzug mit Bob-Frisur",
+    "description": "Verwendet zur Beschreibung und Generierung von Bildern im Stil, das generierte Bild sollte diesen Stil enthalten."
+  },
+  "styleTag.femalePortrait": {
+    "message": "Weibliches Porträt",
+    "description": "Verwendet zur Beschreibung und Generierung von Bildern im Stil, das generierte Bild sollte diesen Stil enthalten."
+  }
+}

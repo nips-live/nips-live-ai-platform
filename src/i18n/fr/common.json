@@ -1,0 +1,818 @@
+{
+  "button.setup": {
+    "message": "Configurer",
+    "description": "Texte dans le bouton, utilisé pour effectuer des réglages"
+  },
+  "button.start": {
+    "message": "Démarrer",
+    "description": "Texte du bouton, utilisé pour commencer certaines actions"
+  },
+  "button.copy": {
+    "message": "Copier",
+    "description": "Texte dans le bouton, utilisé pour copier un contenu"
+  },
+  "button.copied": {
+    "message": "Copié",
+    "description": "Texte du bouton, utilisé pour indiquer que le contenu a été copié"
+  },
+  "button.restart": {
+    "message": "Régénérer",
+    "description": "Texte du bouton, utilisé pour régénérer certains contenus"
+  },
+  "button.preview": {
+    "message": "Aperçu",
+    "description": "Texte du bouton, utilisé pour ouvrir un aperçu d'un fichier via une URL"
+  },
+  "button.seeRawImage": {
+    "message": "Voir l'image originale",
+    "description": "Texte du bouton, utilisé pour voir l'image originale"
+  },
+  "button.seeRawVideo": {
+    "message": "Voir la vidéo",
+    "description": "Texte du bouton, utilisé pour voir la vidéo originale"
+  },
+  "button.edit": {
+    "message": "Éditer",
+    "description": "Texte dans le bouton, utilisé pour éditer un contenu"
+  },
+  "button.login": {
+    "message": "Se connecter",
+    "description": "Texte dans le bouton, utilisé pour se connecter"
+  },
+  "button.logout": {
+    "message": "Se déconnecter",
+    "description": "Texte dans le bouton, utilisé pour se déconnecter"
+  },
+  "button.new": {
+    "message": "Nouveau",
+    "description": "Texte dans le bouton, utilisé pour créer un nouvel élément"
+  },
+  "button.delete": {
+    "message": "Supprimer",
+    "description": "Texte dans le bouton, utilisé pour supprimer un contenu"
+  },
+  "button.confirm": {
+    "message": "Confirmer",
+    "description": "Texte dans le bouton, utilisé pour confirmer une action"
+  },
+  "button.cancel": {
+    "message": "Annuler",
+    "description": "Texte dans le bouton, utilisé pour annuler une action"
+  },
+  "button.alert": {
+    "message": "Alerte",
+    "description": "Texte dans le bouton, utilisé pour émettre une alerte"
+  },
+  "button.info": {
+    "message": "Informations",
+    "description": "Texte dans le bouton, utilisé pour afficher des informations"
+  },
+  "button.publish": {
+    "message": "Publier",
+    "description": "Texte dans le bouton, utilisé pour publier un contenu"
+  },
+  "button.watch": {
+    "message": "Regarder",
+    "description": "Texte dans le bouton, utilisé pour regarder un contenu"
+  },
+  "button.verify": {
+    "message": "Vérification d'identité",
+    "description": "Texte dans le bouton, permettant à l'utilisateur de procéder à une vérification d'identité"
+  },
+  "button.profile": {
+    "message": "Profil",
+    "description": "Texte dans le bouton, utilisé pour afficher le profil"
+  },
+  "button.console": {
+    "message": "Console",
+    "description": "Texte dans le bouton, utilisé pour afficher la page de la console, afin de contrôler un contenu sur la page web"
+  },
+  "button.learn": {
+    "message": "Apprendre",
+    "description": "Texte dans le bouton, utilisé pour permettre à l'utilisateur d'apprendre un contenu"
+  },
+  "button.buy": {
+    "message": "Acheter",
+    "description": "Texte dans le bouton, utilisé pour permettre à l'utilisateur d'acheter un contenu"
+  },
+  "button.try": {
+    "message": "Essayer",
+    "description": "Texte dans le bouton, utilisé pour permettre à l'utilisateur d'essayer un contenu"
+  },
+  "button.startForFree": {
+    "message": "Commencer gratuitement",
+    "description": "Texte dans le bouton, utilisé pour permettre à l'utilisateur de commencer gratuitement"
+  },
+  "button.downloadAndroid": {
+    "message": "Télécharger Android",
+    "description": "Texte dans le bouton, utilisé pour télécharger le package d'installation Android"
+  },
+  "button.downloadIos": {
+    "message": "Télécharger le package iOS",
+    "description": "Texte dans le bouton, utilisé pour télécharger le fichier d'installation iOS"
+  },
+  "button.installIos": {
+    "message": "Installer iOS",
+    "description": "Texte dans le bouton, utilisé pour installer l'application iOS"
+  },
+  "button.apply": {
+    "message": "Demander",
+    "description": "Texte dans le bouton, utilisé pour permettre à l'utilisateur de demander un service API"
+  },
+  "button.refresh": {
+    "message": "Rafraîchir",
+    "description": "Texte dans le bouton, utilisé pour rafraîchir la page"
+  },
+  "button.pay": {
+    "message": "Payer",
+    "description": "Texte dans le bouton, utilisé pour permettre à l'utilisateur de payer des frais de service"
+  },
+  "button.repay": {
+    "message": "Continuer le paiement",
+    "description": "Texte dans le bouton, utilisé pour permettre à l'utilisateur de continuer à payer des frais de service"
+  },
+  "button.applied": {
+    "message": "Demandé",
+    "description": "Texte dans le bouton, utilisé pour indiquer que l'utilisateur a demandé ce service"
+  },
+  "button.acquire": {
+    "message": "Obtenir",
+    "description": "Texte dans le bouton, utilisé pour permettre à l'utilisateur d'obtenir un jeton ou une clé pour le service API"
+  },
+  "button.fillExample": {
+    "message": "Remplir l'exemple",
+    "description": "Texte dans le bouton, utilisé pour permettre à l'utilisateur de remplir des données d'exemple"
+  },
+  "button.buyMore": {
+    "message": "Recharger",
+    "description": "Texte dans le bouton, utilisé pour permettre à l'utilisateur de recharger. L'anglais doit être traduit par 'Top Up', le chinois par '充值'."
+  },
+  "button.update": {
+    "message": "Mettre à jour",
+    "description": "Texte dans le bouton, utilisé pour mettre à jour un contenu"
+  },
+  "button.view": {
+    "message": "Voir",
+    "description": "Texte dans le bouton, utilisé pour voir un contenu"
+  },
+  "button.create": {
+    "message": "Créer",
+    "description": "Texte dans le bouton, utilisé pour créer un contenu"
+  },
+  "button.referralEarnings": {
+    "message": "Revenus de parrainage",
+    "description": "Texte dans le bouton, utilisé pour afficher les revenus de parrainage, signifiant que l'utilisateur peut gagner de l'argent en invitant d'autres à utiliser ce service"
+  },
+  "button.finish": {
+    "message": "Terminer",
+    "description": "Texte dans le bouton, utilisé pour terminer une action"
+  },
+  "entity.id": {
+    "message": "ID",
+    "description": "用于显示实体的唯一标识符"
+  },
+  "entity.type": {
+    "message": "Type",
+    "description": "用于显示实体的类型"
+  },
+  "entity.website": {
+    "message": "Ace Data Cloud",
+    "description": "网站名称，无需翻译，保持为'Ace Data Cloud'"
+  },
+  "entity.copyright": {
+    "message": "Droit d'auteur",
+    "description": "显示版权的文本"
+  },
+  "entity.platform": {
+    "message": "Plateforme",
+    "description": "指示这是API服务平台的文本"
+  },
+  "entity.title": {
+    "message": "Titre",
+    "description": "实体的标题"
+  },
+  "entity.icon": {
+    "message": "Icône",
+    "description": "实体的图标"
+  },
+  "entity.status": {
+    "message": "Statut",
+    "description": "实体的状态"
+  },
+  "status.loading": {
+    "message": "Chargement...",
+    "description": "内容加载时显示的状态文案"
+  },
+  "entity.operation": {
+    "message": "Opération",
+    "description": "实体的操作"
+  },
+  "entity.description": {
+    "message": "Description",
+    "description": "实体的描述"
+  },
+  "entity.createdAt": {
+    "message": "Créé le",
+    "description": "实体创建的时间"
+  },
+  "entity.updatedAt": {
+    "message": "Mis à jour le",
+    "description": "实体更新的时间"
+  },
+  "entity.order": {
+    "message": "Commande",
+    "description": "实体的订单，订单包含金钱、服务信息，用户需要为其支付"
+  },
+  "message.noTasks": {
+    "message": "Aucune tâche historique, veuillez commencer une nouvelle tâche～",
+    "description": "没有任务时的消息"
+  },
+  "message.usedAmount": {
+    "message": "Montant utilisé",
+    "description": "用于显示服务已使用的金额"
+  },
+  "message.mobileAppDescription": {
+    "message": "Utilisez AceData directement sur votre téléphone, APK Android disponible pour téléchargement, le package iOS sera ouvert au téléchargement après signature.",
+    "description": "移动应用下载页的说明文案"
+  },
+  "message.mobileAndroidHint": {
+    "message": "Pour les téléphones et tablettes Android, scannez pour télécharger et installer le dernier APK.",
+    "description": "Android 下载卡片说明"
+  },
+  "message.mobileAndroidPending": {
+    "message": "Le package d'installation Android n'est pas encore prêt, veuillez réessayer plus tard.",
+    "description": "Android 安装包暂未可用时的提示"
+  },
+  "message.mobileAvailableNow": {
+    "message": "Android disponible au téléchargement",
+    "description": "用于显示 Android 已可下载的状态"
+  },
+  "message.mobileSecureDelivery": {
+    "message": "Distribution CDN sécurisée",
+    "description": "用于强调下载链接通过 CDN 交付"
+  },
+  "message.mobileDirectInstall": {
+    "message": "Installation directe APK",
+    "description": "用于描述 Android 端为直接 APK 安装方式"
+  },
+  "message.mobileLatestRelease": {
+    "message": "Version publique actuelle",
+    "description": "用于说明当前展示的是最新公开版本"
+  },
+  "message.mobileSharedAccount": {
+    "message": "Compte et quota partagés avec la version web",
+    "description": "用于说明移动端与网页端共用账号"
+  },
+  "message.mobileIosHint": {
+    "message": "Pour iPhone et iPad, installation en ligne directe ; si le système bloque, vous pouvez d'abord télécharger l'IPA puis le distribuer.",
+    "description": "iOS 下载卡片说明"
+  },
+  "message.mobileIosPending": {
+    "message": "Le package d'installation iOS n'est pas encore disponible au téléchargement, en attente de la certification et du profil Apple.",
+    "description": "iOS 安装包暂未可用时的提示"
+  },
+  "message.mobileInstallNote": {
+    "message": "Lors de la première installation d'un package entreprise ou Ad Hoc sur iOS, le système peut demander de faire confiance au certificat dans 'Réglages > Général > VPN et gestion des appareils'.",
+    "description": "移动应用安装提示"
+  },
+  "title.mobileApp": {
+    "message": "Téléchargement mobile",
+    "description": "移动应用下载页标题"
+  },
+  "title.mobileFastAccess": {
+    "message": "Accès rapide, sans passer par l'App Store",
+    "description": "下载页优势卡片标题，强调快速安装"
+  },
+  "title.mobileTrustedRelease": {
+    "message": "Gestion centralisée des versions, distribution plus stable",
+    "description": "下载页优势卡片标题，强调版本和分发稳定性"
+  },
+  "title.mobileUnifiedExperience": {
+    "message": "Expérience mobile et web cohérente",
+    "description": "下载页优势卡片标题，强调统一体验"
+  },
+  "nav.mobileApp": {
+    "message": "Application mobile",
+    "description": "导航中的移动应用下载入口"
+  },
+  "message.mobileFastAccess": {
+    "message": "Les utilisateurs peuvent scanner pour installer directement sur leur téléphone, ou télécharger l'APK sur le bureau puis le distribuer aux membres de l'équipe, idéal pour les essais rapides et les tests internes.",
+    "description": "下载页优势说明，强调快速接入"
+  },
+  "message.mobileTrustedRelease": {
+    "message": "Les points de téléchargement sont centralisés sur une seule page, avec le numéro de version, l'état de la plateforme et les méthodes d'installation visibles d'un coup d'œil, réduisant les coûts de communication dus à la dispersion des liens.",
+    "description": "下载页优势说明，强调统一分发"
+  },
+  "message.mobileUnifiedExperience": {
+    "message": "Le système de compte, le quota et les points d'accès aux services après connexion sont cohérents avec la version Web, facilitant la transition fluide entre le bureau et le mobile.",
+    "description": "下载页优势说明，强调统一账号体验"
+  },
+  "message.remainingAmount": {
+    "message": "Montant restant",
+    "description": "用于显示服务剩余的金额"
+  },
+  "message.copied": {
+    "message": "Copié avec succès",
+    "description": "显示内容已成功复制的消息"
+  },
+  "message.restart": {
+    "message": "Régénérer",
+    "description": "Message indiquant que le contenu a été copié avec succès"
+  },
+  "message.confirmDelete": {
+    "message": "Êtes-vous sûr de vouloir supprimer ?",
+    "description": "Message de confirmation pour la suppression d'un élément"
+  },
+  "message.expiredAt": {
+    "message": "Date d'expiration",
+    "description": "Message affichant la date d'expiration du service"
+  },
+  "message.alert": {
+    "message": "Alerte",
+    "description": "Message d'alerte pour l'utilisateur"
+  },
+  "message.info": {
+    "message": "Information",
+    "description": "Message affichant des informations"
+  },
+  "message.free": {
+    "message": "Gratuit",
+    "description": "Message indiquant que le service est gratuit, signifiant que l'utilisateur n'a pas à payer"
+  },
+  "message.startPrice": {
+    "message": "À partir de",
+    "description": "Message affichant le prix minimum du service"
+  },
+  "message.joinDiscord": {
+    "message": "Rejoindre Discord",
+    "description": "Message invitant l'utilisateur à rejoindre le canal Discord"
+  },
+  "message.addWeChat": {
+    "message": "Service WeChat",
+    "description": "Message invitant l'utilisateur à ajouter un compte WeChat"
+  },
+  "message.serviceTech": {
+    "message": "Support technique",
+    "description": "Message affichant le support technique"
+  },
+  "message.businessCooperation": {
+    "message": "Données & Coopération commerciale",
+    "description": "Message affichant la coopération commerciale"
+  },
+  "message.noData": {
+    "message": "Aucune donnée",
+    "description": "Message affichant qu'il n'y a pas de données dans le tableau ou la liste"
+  },
+  "nav.home": {
+    "message": "Accueil",
+    "description": "Texte dans la barre de navigation du site pour afficher la page d'accueil"
+  },
+  "nav.content": {
+    "message": "Contenu",
+    "description": "Texte dans la barre de navigation du site pour afficher la page de contenu"
+  },
+  "nav.category": {
+    "message": "Catégorie",
+    "description": "Texte dans la barre de navigation du site pour afficher la page de catégorie"
+  },
+  "nav.service": {
+    "message": "Tous les services",
+    "description": "Texte dans la barre de navigation du site pour afficher la page des services"
+  },
+  "nav.profile": {
+    "message": "Mon profil",
+    "description": "Texte dans la barre de navigation du site pour afficher la page de profil"
+  },
+  "nav.products": {
+    "message": "Produits",
+    "description": "Texte dans la barre de navigation du site pour afficher la page des produits"
+  },
+  "nav.referral": {
+    "message": "Programme de parrainage",
+    "description": "Texte dans la barre de navigation du site pour afficher la page de parrainage"
+  },
+  "nav.apiPlatform": {
+    "message": "Plateforme API",
+    "description": "Texte dans la barre de navigation du site pour afficher la page de la plateforme API"
+  },
+  "nav.document": {
+    "message": "Documentation",
+    "description": "Texte dans la barre de navigation du site pour afficher la page de documentation"
+  },
+  "nav.console": {
+    "message": "Console",
+    "description": "Texte dans la barre de navigation du site pour afficher la page de la console"
+  },
+  "nav.chatgpt": {
+    "message": "ChatGPT",
+    "description": "Texte dans la barre de navigation du site pour afficher la page ChatGPT, ne pas traduire ce champ, doit rester 'ChatGPT'"
+  },
+  "nav.deepseek": {
+    "message": "DeepSeek",
+    "description": "Texte dans la barre de navigation du site pour afficher la page DeepSeek, ne pas traduire ce champ, doit rester 'DeepSeek'"
+  },
+  "nav.grok": {
+    "message": "Grok",
+    "description": "Texte dans la barre de navigation du site pour afficher la page Grok, ne pas traduire ce champ, doit rester 'Grok'"
+  },
+  "nav.chat": {
+    "message": "Chat",
+    "description": "Texte dans la barre de navigation du site pour afficher la page de chat, ne pas traduire ce champ, doit rester 'Chat'"
+  },
+  "nav.veo": {
+    "message": "Veo",
+    "description": "Texte dans la barre de navigation du site pour afficher la page de chat, ne pas traduire ce champ, doit rester 'Veo'"
+  },
+  "nav.sora": {
+    "message": "Sora",
+    "description": "Texte dans la barre de navigation du site pour afficher la page de chat, ne pas traduire ce champ, doit rester 'Sora'"
+  },
+  "nav.midjourney": {
+    "message": "Midjourney",
+    "description": "Texte dans la barre de navigation du site pour afficher la page Midjourney, ne pas traduire ce champ, doit rester 'Midjourney'"
+  },
+  "nav.qrart": {
+    "message": "QRArt",
+    "description": "Texte dans la barre de navigation du site pour afficher la page d'art QR, ne pas traduire ce champ, doit rester 'QRArt'"
+  },
+  "nav.suno": {
+    "message": "Suno",
+    "description": "Texte dans la barre de navigation du site pour afficher la page Suno, ne pas traduire ce champ, doit rester 'Suno'"
+  },
+  "nav.pixverse": {
+    "message": "Pixverse",
+    "description": "Texte dans la barre de navigation du site pour afficher la page Pixverse, ne pas traduire ce champ, doit rester 'Pixverse'"
+  },
+  "nav.flux": {
+    "message": "Flux",
+    "description": "Texte dans la barre de navigation du site pour afficher la page Flux, ne pas traduire ce champ, doit rester 'Flux'"
+  },
+  "nav.nanobanana": {
+    "message": "Nano Banana",
+    "description": "Texte dans la barre de navigation du site pour afficher la page Nano Banana, ne pas traduire ce champ, doit rester 'Nano Banana'"
+  },
+  "nav.openaiimage": {
+    "message": "OpenAI Image",
+    "description": "Texte dans la barre de navigation du site pour afficher la page OpenAI Image, ne pas traduire ce champ, doit rester 'OpenAI Image'"
+  },
+  "nav.seedream": {
+    "message": "SeeDream",
+    "description": "网站导航栏中的文本，用于显示SeeDream页面，请不要翻译此字段，必须保持为'SeeDream'"
+  },
+  "nav.seedance": {
+    "message": "SeeDance",
+    "description": "网站导航栏中的文本，用于显示SeeDance页面，请不要翻译此字段，必须保持为'SeeDance'"
+  },
+  "nav.luma": {
+    "message": "Luma",
+    "description": "网站导航栏中的文本，用于显示Luma页面，请不要翻译此字段，必须保持为'Luma'"
+  },
+  "nav.pika": {
+    "message": "Pika",
+    "description": "网站导航栏中的文本，用于显示Pika页面，请不要翻译此字段，必须保持为'Pika'"
+  },
+  "nav.kling": {
+    "message": "Kling",
+    "description": "网站导航栏中的文本，用于显示Kling页面，请不要翻译此字段，必须保持为'Kling'"
+  },
+  "nav.hailuo": {
+    "message": "Hailuo",
+    "description": "网站导航栏中的文本，用于显示Hailuo页面，请不要翻译此字段，必须保持为'Hailuo'"
+  },
+  "nav.wan": {
+    "message": "Wan",
+    "description": "网站导航栏中的文本，用于显示Wan页面，请不要翻译此字段，必须保持为'Wan'"
+  },
+  "nav.producer": {
+    "message": "Producer",
+    "description": "网站导航栏中的文本，用于显示Producer页面，请不要翻译此字段，必须保持为'Producer'"
+  },
+  "nav.kimi": {
+    "message": "Kimi",
+    "description": "网站导航栏中的文本，用于显示Kimi页面，请不要翻译此字段，必须保持为'Kimi'"
+  },
+  "nav.serp": {
+    "message": "SERP",
+    "description": "网站导航栏中的文本，用于显示SERP页面，请不要翻译此字段，必须保持为'SERP'"
+  },
+  "nav.image": {
+    "message": "Image",
+    "description": "网站导航栏中的文本，用于显示图片页面"
+  },
+  "nav.music": {
+    "message": "Musique",
+    "description": "网站导航栏中的文本，用于显示音乐页面"
+  },
+  "nav.video": {
+    "message": "Vidéo",
+    "description": "网站导航栏中的文本，用于显示视频页面"
+  },
+  "nav.distribution": {
+    "message": "Revenus de recommandation",
+    "description": "网站导航栏中的文本，用于显示推荐收益页面"
+  },
+  "nav.logOut": {
+    "message": "Déconnexion",
+    "description": "网站导航栏中的文本，用于退出登录"
+  },
+  "nav.site": {
+    "message": "Configuration du site",
+    "description": "网站导航栏中的文本，用于显示站点配置页面"
+  },
+  "nav.setting": {
+    "message": "Paramètres",
+    "description": "网站导航栏中的文本，用于显示设置页面"
+  },
+  "nav.headshots": {
+    "message": "Photo d'identité AI",
+    "description": "网站导航栏中的文本，用于显示站点配置页面"
+  },
+  "nav.more": {
+    "message": "Plus",
+    "description": "网站导航栏中的文本，用于展开更多服务"
+  },
+  "nav.locale": {
+    "message": "Paramètres de langue",
+    "description": "网站导航栏中的文本，用于更改语言"
+  },
+  "nav.support": {
+    "message": "Support client",
+    "description": "网站导航栏中的文本，用于显示联系页面"
+  },
+  "nav.darkMode": {
+    "message": "Mode sombre",
+    "description": "网站导航栏中的文本，用于切换到深色主题"
+  },
+  "title.alert": {
+    "message": "Alerte",
+    "description": "警告消息的标题"
+  },
+  "title.placeholderOfSelect": {
+    "message": "Veuillez sélectionner",
+    "description": "选择输入的占位符"
+  },
+  "title.placeholderOfInput": {
+    "message": "Veuillez remplir",
+    "description": "输入的占位符"
+  },
+  "title.allApplications": {
+    "message": "Toutes les demandes",
+    "description": "显示所有申请的页面标题"
+  },
+  "title.allOrders": {
+    "message": "Toutes les commandes",
+    "description": "显示所有订单的页面标题"
+  },
+  "title.orderInfo": {
+    "message": "Informations sur la commande",
+    "description": "显示订单信息的页面标题"
+  },
+  "title.buyMore": {
+    "message": "Recharger",
+    "description": "页面标题，用于充值。英文必须翻译为“Top Up”，中文为“充值”。"
+  },
+  "title.distribution": {
+    "message": "Revenus de recommandation",
+    "description": "显示推荐收入的页面标题，意味着用户可以通过邀请他人使用该服务来赚钱"
+  },
+  "title.site": {
+    "message": "Configuration du site",
+    "description": "显示站点配置的页面标题"
+  },
+  "title.distributionHistory": {
+    "message": "Historique des recommandations",
+    "description": "显示推荐历史的页面标题"
+  },
+  "title.invitee": {
+    "message": "Invité",
+    "description": "显示邀请人的页面标题"
+  },
+  "title.allUsages": {
+    "message": "Historique d'utilisation",
+    "description": "显示API服务所有使用的页面标题"
+  },
+  "title.allCredentials": {
+    "message": "Clés",
+    "description": "显示所有凭证的页面标题，凭证用于访问API"
+  },
+  "about.title1": {
+    "message": "Contactez-nous",
+    "description": "显示联系信息的部分标题"
+  },
+  "about.title2": {
+    "message": "Ressources",
+    "description": "Affiche le titre de la section des liens"
+  },
+  "about.title3": {
+    "message": "Liens",
+    "description": "Affiche le titre de la section des informations de support"
+  },
+  "about.address": {
+    "message": "201, North Broad Street, Middletown, DE, États-Unis",
+    "description": "Adresse de l'entreprise"
+  },
+  "about.email": {
+    "message": "office@acedata.cloud",
+    "description": "Email de l'entreprise"
+  },
+  "about.link1": {
+    "message": "Services",
+    "description": "Lien vers la page de documentation"
+  },
+  "about.link2": {
+    "message": "Documentation de développement",
+    "description": "Lien vers la page des services"
+  },
+  "about.link3": {
+    "message": "Console",
+    "description": "Lien vers la page de la console"
+  },
+  "about.link4": {
+    "message": "Profil",
+    "description": "Lien vers la page de profil"
+  },
+  "about.link5": {
+    "message": "Plateforme UI",
+    "description": "Lien vers la page centrale"
+  },
+  "about.link6": {
+    "message": "Revenus recommandés",
+    "description": "Lien vers la page des revenus de recommandation"
+  },
+  "about.link7": {
+    "message": "Support",
+    "description": "Lien vers la page de support"
+  },
+  "about.link8": {
+    "message": "Conditions d'utilisation",
+    "description": "Lien vers la page des conditions d'utilisation"
+  },
+  "about.link9": {
+    "message": "Politique de confidentialité",
+    "description": "Lien vers la page de la politique de confidentialité"
+  },
+  "theme.light": {
+    "message": "Clair",
+    "description": "Nom du thème clair"
+  },
+  "theme.dark": {
+    "message": "Sombre",
+    "description": "Nom du thème sombre"
+  },
+  "theme.system": {
+    "message": "Système",
+    "description": "Nom du thème système, indiquant un changement automatique selon les paramètres du système"
+  },
+  "settings.general": {
+    "message": "Paramètres généraux",
+    "description": "Titre de la section des paramètres généraux dans la page des paramètres"
+  },
+  "settings.language": {
+    "message": "Langue",
+    "description": "Titre de la section des paramètres de langue dans la page des paramètres"
+  },
+  "settings.theme": {
+    "message": "Thème",
+    "description": "Titre de la section des paramètres de thème dans la page des paramètres"
+  },
+  "settings.seo": {
+    "message": "Paramètres SEO",
+    "description": "Titre de la section des paramètres SEO dans la page des paramètres"
+  },
+  "settings.site": {
+    "message": "Paramètres du site",
+    "description": "Titre de la section des paramètres du site dans la page des paramètres"
+  },
+  "settings.distribution": {
+    "message": "Paramètres de distribution",
+    "description": "Titre de la section des paramètres de distribution dans la page des paramètres"
+  },
+  "settings.function": {
+    "message": "Paramètres de fonctionnalité",
+    "description": "Titre de la section des paramètres de fonctionnalité dans la page des paramètres"
+  },
+  "nav.gemini": {
+    "message": "Gemini",
+    "description": "Texte dans la barre de navigation du site pour afficher la page Gemini, doit rester 'Gemini'"
+  },
+  "nav.claude": {
+    "message": "Claude",
+    "description": "Texte dans la barre de navigation du site pour afficher la page Claude, doit rester 'Claude'"
+  },
+  "button.detail": {
+    "message": "Voir les détails",
+    "description": ""
+  },
+  "button.testEnv": {
+    "message": "Environnement de test",
+    "description": "Texte dans le bouton pour basculer vers l'environnement de test"
+  },
+  "button.upload": {
+    "message": "Télécharger",
+    "description": "Texte dans le bouton pour télécharger des fichiers ou du contenu"
+  },
+  "message.cnbeian": {
+    "message": "Enregistrement en Chine",
+    "description": "Informations d'enregistrement pour la région de Chine"
+  },
+  "message.copyFailed": {
+    "message": "Échec de la copie",
+    "description": "Message affichant l'échec de la copie du contenu"
+  },
+  "nav.tryNow": {
+    "message": "Essayez maintenant",
+    "description": "Texte dans la barre de navigation du site pour permettre aux utilisateurs d'essayer le service"
+  },
+  "title.coin": {
+    "message": "Cryptomonnaie",
+    "description": "Titre de la page affichant les cryptomonnaies"
+  },
+  "title.distributionRank": {
+    "message": "Classement des recommandations",
+    "description": "Titre de la page affichant le classement des recommandations"
+  },
+  "title.distributionPlatformRank": {
+    "message": "Classement des plateformes",
+    "description": "Titre de la page affichant le classement des plateformes"
+  },
+  "customers.name1": {
+    "message": "Mark Du",
+    "description": "Nom du client"
+  },
+  "customers.job1": {
+    "message": "Ingénieur logiciel",
+    "description": "Profession du client"
+  },
+  "customers.comment1": {
+    "message": "Ace Data Cloud a fourni un excellent service à notre équipe, nous aidant à améliorer notre productivité. J'adore !",
+    "description": "Évaluation du client"
+  },
+  "customers.name2": {
+    "message": "Jacob Williams",
+    "description": "Nom du client"
+  },
+  "customers.job2": {
+    "message": "Chef de produit",
+    "description": "Profession du client"
+  },
+  "customers.comment2": {
+    "message": "Ace Data Cloud est une excellente plateforme d'intégration, avec un service de qualité supérieure.",
+    "description": "Évaluation du client"
+  },
+  "customers.name3": {
+    "message": "Larry Henry",
+    "description": "Nom du client"
+  },
+  "customers.job3": {
+    "message": "Designer",
+    "description": "Profession du client"
+  },
+  "customers.comment3": {
+    "message": "J'aime le service d'Ace Data Cloud, facile à utiliser et à un prix raisonnable, j'espère qu'il s'améliorera !",
+    "description": "Évaluation du client"
+  },
+  "nav.github": {
+    "message": "GitHub",
+    "description": "Lien vers le dépôt GitHub"
+  },
+  "settings.github": {
+    "message": "Code source",
+    "description": "Lien pour voir le code source sur GitHub"
+  },
+  "settings.about": {
+    "message": "À propos",
+    "description": "Titre de la section à propos dans la page des paramètres"
+  },
+  "settings.poweredBy": {
+    "message": "Projet open source",
+    "description": "Titre affichant sur la page À propos sur quel projet open source ce site est basé"
+  },
+  "settings.poweredByTip": {
+    "message": "Ce site est basé sur le projet open source Nexior, le code est entièrement open source.",
+    "description": "Explication affichant sur la page À propos sur quel projet open source ce site est basé"
+  },
+  "settings.apiService": {
+    "message": "Service API",
+    "description": "Titre affichant sur la page À propos le fournisseur de service API"
+  },
+  "settings.apiServiceTip": {
+    "message": "Le service API de ce site est fourni par Ace Data Cloud.",
+    "description": "Explication affichant sur la page À propos le fournisseur de service API"
+  },
+  "settings.buildYourOwn": {
+    "message": "Créez le vôtre",
+    "description": "Titre indiquant sur la page À propos que les utilisateurs peuvent créer un site similaire"
+  },
+  "settings.buildYourOwnTip": {
+    "message": "Vous souhaitez créer un site AI similaire ? Contactez-nous pour obtenir un support de déploiement.",
+    "description": "Explication sur la page À propos concernant la création d'un site similaire"
+  },
+  "settings.contactUs": {
+    "message": "Contacter le support",
+    "description": "Texte du bouton pour contacter le support"
+  },
+  "message.viewOnGithub": {
+    "message": "Voir sur GitHub",
+    "description": "Texte du lien pour voir le projet sur GitHub"
+  }
+}

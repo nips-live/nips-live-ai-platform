@@ -1,0 +1,542 @@
+{
+  "button.extend": {
+    "message": "Продовжити генерацію",
+    "description": "Текст кнопки для продовження генерації"
+  },
+  "button.download": {
+    "message": "Завантажити",
+    "description": "Текст кнопки для завантаження"
+  },
+  "button.more": {
+    "message": "Більше дій",
+    "description": "Текст кнопки для більше дій"
+  },
+  "button.uploadAudios": {
+    "message": "Завантажити",
+    "description": "Текст кнопки, що дозволяє користувачу завантажити посилання"
+  },
+  "button.video": {
+    "message": "Відео",
+    "description": "Текст кнопки для відео"
+  },
+  "button.download_video": {
+    "message": "Завантажити відео",
+    "description": "Текст кнопки для завантаження відео"
+  },
+  "button.download_wav": {
+    "message": "Завантажити WAV без втрат",
+    "description": "Текст кнопки для завантаження формату WAV без втрат"
+  },
+  "button.download_midi": {
+    "message": "Завантажити MIDI",
+    "description": "Текст кнопки для завантаження формату MIDI"
+  },
+  "button.get_stems": {
+    "message": "Сепарація треків",
+    "description": "Текст кнопки для сепарації треків"
+  },
+  "button.cover_music": {
+    "message": "Кавер",
+    "description": "Текст кнопки для кавера"
+  },
+  "button.concat_music": {
+    "message": "З'єднати",
+    "description": "Текст кнопки для з'єднання музики"
+  },
+  "button.download_audio": {
+    "message": "Завантажити музику",
+    "description": "Текст кнопки для завантаження музики"
+  },
+  "button.remaster": {
+    "message": "Ремастеринг",
+    "description": "Текст кнопки для покращення якості звуку"
+  },
+  "button.replace_section": {
+    "message": "Замінити фрагмент",
+    "description": "Текст кнопки для заміни певного фрагмента пісні"
+  },
+  "button.mashup": {
+    "message": "Мешап",
+    "description": "Текст кнопки для змішування кількох пісень"
+  },
+  "button.generate_lyrics": {
+    "message": "Генерувати текст пісні",
+    "description": "Текст кнопки для автоматичного генерування тексту пісні"
+  },
+  "button.optimize_style": {
+    "message": "Оптимізувати стиль",
+    "description": "Текст кнопки для оптимізації стилю за допомогою AI"
+  },
+  "button.all_stems": {
+    "message": "Всі треки",
+    "description": "Текст кнопки для сепарації всіх треків"
+  },
+  "model.model1": {
+    "message": "v2",
+    "description": "Модель для генерації музики"
+  },
+  "model.model2": {
+    "message": "v3",
+    "description": "Модель для генерації музики"
+  },
+  "name.instrumental": {
+    "message": "Інструментальна",
+    "description": "Генерація чистої музики без вокалу"
+  },
+  "name.referenceAudios": {
+    "message": "Посилальна музика",
+    "description": "Назва посилальної музики"
+  },
+  "model.model3": {
+    "message": "v3.5",
+    "description": "Модель для генерації музики"
+  },
+  "model.model4": {
+    "message": "v4.0",
+    "description": "Модель для генерації музики"
+  },
+  "model.model45": {
+    "message": "v4.5",
+    "description": "Модель для генерації музики"
+  },
+  "model.model5": {
+    "message": "v5",
+    "description": "Модель для генерації музики"
+  },
+  "model.model45plus": {
+    "message": "v4.5+",
+    "description": "Модель для генерації музики"
+  },
+  "name.taskId": {
+    "message": "ID завдання",
+    "description": "ID завдання"
+  },
+  "name.type": {
+    "message": "Кастомний режим",
+    "description": "Назва кастомного режиму"
+  },
+  "name.prompt": {
+    "message": "Опис пісні",
+    "description": "Підказка для введення контенту"
+  },
+  "name.extend": {
+    "message": "Розширити пісню з",
+    "description": "Підказка для введення контенту"
+  },
+  "name.cover": {
+    "message": "Кавер пісні з",
+    "description": "Підказка для введення контенту"
+  },
+  "name.lyrics": {
+    "message": "Текст",
+    "description": "Підказка для введення тексту"
+  },
+  "name.style": {
+    "message": "Стиль",
+    "description": "Підказка для введення стилю пісні"
+  },
+  "name.styleNegative": {
+    "message": "Виключити стиль",
+    "description": "Опис небажаного стилю"
+  },
+  "name.title": {
+    "message": "Заголовок",
+    "description": "Підказка для введення заголовка пісні"
+  },
+  "name.vocalGender": {
+    "message": "Стать вокалу",
+    "description": "Вибір статі вокалу"
+  },
+  "name.advancedParams": {
+    "message": "Розширені параметри",
+    "description": "Налаштування розширених параметрів"
+  },
+  "name.weirdness": {
+    "message": "Креативність",
+    "description": "Контроль рівня креативності в згенерованій музиці"
+  },
+  "name.styleInfluence": {
+    "message": "Вплив стилю",
+    "description": "Контроль впливу стилю на результати генерації"
+  },
+  "name.variationCategory": {
+    "message": "Тип варіації",
+    "description": "Контроль різноманітності згенерованих варіацій"
+  },
+  "name.audioWeight": {
+    "message": "Вага оригіналу",
+    "description": "Вплив оригіналу під час створення кавера"
+  },
+  "name.lyricPrompt": {
+    "message": "Підказка для тексту",
+    "description": "Підказка для автоматичного генерування тексту"
+  },
+  "name.failureReason": {
+    "message": "Причина невдачі",
+    "description": "Причина невдачі завдання"
+  },
+  "name.status": {
+    "message": "Статус",
+    "description": "Статус завдання"
+  },
+  "name.traceId": {
+    "message": "ID відстеження",
+    "description": "ID відстеження завдання"
+  },
+  "name.sunoBot": {
+    "message": "Suno Bot",
+    "description": "Назва генератора Suno"
+  },
+  "name.replaceSection": {
+    "message": "Замінити фрагмент",
+    "description": "Замінити певний фрагмент пісні"
+  },
+  "name.model": {
+    "message": "Модель",
+    "description": "Вибір версії моделі"
+  },
+  "name.songDescription": {
+    "message": "Опис пісні",
+    "description": "Режим опису пісні"
+  },
+  "description.prompt": {
+    "message": "Опишіть бажаний стиль та тему музики",
+    "description": "Опис параметра 'prompt'"
+  },
+  "description.lyrics": {
+    "message": "Введіть власний текст, підтримуються маркери [Куплет], [Приспів], [Місток] тощо",
+    "description": "Опис параметра 'lyrics'"
+  },
+  "description.style": {
+    "message": "Описати музичний стиль, наприклад, акустичний поп, джаз, електроніка",
+    "description": "Опис параметра 'style'"
+  },
+  "description.styleNegative": {
+    "message": "Описати небажані стилі, наприклад, хеві метал, крики",
+    "description": "Опис параметра виключення стилю"
+  },
+  "description.title": {
+    "message": "Назва пісні",
+    "description": "Опис параметра 'title'"
+  },
+  "description.uploadAudios": {
+    "message": "Завантажте музику як посилання для генерації, процес завантаження може зайняти деякий час, після успішної генерації ви зможете створити на основі завантаженої музики",
+    "description": "Опис параметра завантаження посилань"
+  },
+  "description.vocalGender": {
+    "message": "Виберіть стать голосу для генерації (підтримується лише з версії v4.5 і вище)",
+    "description": "Опис вибору статі голосу"
+  },
+  "description.weirdness": {
+    "message": "Чим вищий показник, тим більш креативною та експериментальною буде музика (0-100)",
+    "description": "Опис параметра креативності"
+  },
+  "description.styleInfluence": {
+    "message": "Чим вищий показник, тим більший вплив стилю на результати генерації (0-100)",
+    "description": "Опис параметра впливу стилю"
+  },
+  "description.audioWeight": {
+    "message": "Вага оригінальної пісні на результати при кавері (0-100)",
+    "description": "Опис параметра ваги оригіналу"
+  },
+  "description.lyricPrompt": {
+    "message": "Введіть опис тексту пісні, AI автоматично згенерує текст",
+    "description": "Опис підказки для тексту"
+  },
+  "description.replaceSection": {
+    "message": "Замінити вміст у вказаному проміжку часу пісні",
+    "description": "Опис функції заміни фрагмента"
+  },
+  "status.pending": {
+    "message": "Очікування",
+    "description": "Стан очікування завдання"
+  },
+  "placeholder.prompt": {
+    "message": "Опишіть музику, яку ви хочете, наприклад: тепла народна пісня про ностальгію за осінню...",
+    "description": "Плейсхолдер для опису пісні"
+  },
+  "placeholder.lyrics": {
+    "message": "[Куплет]\nУ цю тиху ніч\nЗірки мерехтять на небі\n\n[Приспів]\nДавайте співати разом\nДо світанку...",
+    "description": "Плейсхолдер для введення тексту"
+  },
+  "placeholder.extend.lyrics": {
+    "message": "Введіть текст, який потрібно розширити...",
+    "description": "Плейсхолдер для розширення тексту"
+  },
+  "placeholder.extend.continue_at": {
+    "message": "З якої секунди почати розширення...",
+    "description": "Плейсхолдер для початкового часу розширення"
+  },
+  "placeholder.style": {
+    "message": "Наприклад: акустичний поп, джаз, R&B, електроніка...",
+    "description": "Плейсхолдер для введення стилю"
+  },
+  "placeholder.styleNegative": {
+    "message": "Наприклад: хеві метал, крики...",
+    "description": "Плейсхолдер для введення небажаного стилю"
+  },
+  "placeholder.title": {
+    "message": "Введіть назву пісні...",
+    "description": "Плейсхолдер для введення заголовка"
+  },
+  "placeholder.select": {
+    "message": "Виберіть модель...",
+    "description": "Плейсхолдер для вибору моделі"
+  },
+  "placeholder.position": {
+    "message": "Виберіть...",
+    "description": "Плейсхолдер для введення позиції"
+  },
+  "placeholder.lyricPrompt": {
+    "message": "Опишіть тему тексту, AI автоматично згенерує...",
+    "description": "Плейсхолдер для підказки тексту"
+  },
+  "placeholder.replaceSectionStart": {
+    "message": "Час початку (секунди)",
+    "description": "Плейсхолдер для початкового часу заміни фрагмента"
+  },
+  "placeholder.replaceSectionEnd": {
+    "message": "Час закінчення (секунди)",
+    "description": "Плейсхолдер для кінцевого часу заміни фрагмента"
+  },
+  "button.generate": {
+    "message": "Генерувати",
+    "description": "Текст кнопки генерації"
+  },
+  "gender.male": {
+    "message": "Чоловічий голос",
+    "description": "Опція для чоловічого голосу"
+  },
+  "gender.female": {
+    "message": "Жіночий голос",
+    "description": "Опція для жіночого голосу"
+  },
+  "gender.auto": {
+    "message": "Авто",
+    "description": "Автоматичний вибір статі голосу"
+  },
+  "variation.high": {
+    "message": "Висока варіація",
+    "description": "Опція для високої різноманітності"
+  },
+  "variation.low": {
+    "message": "Низька варіація",
+    "description": "Опція для низької різноманітності"
+  },
+  "message.startingTask": {
+    "message": "Запуск завдання...",
+    "description": "Повідомлення на початку генерації музики"
+  },
+  "message.startingUploadAudio": {
+    "message": "Завантаження користувацької музики...",
+    "description": "Повідомлення на початку генерації музики"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "Завантажена музика перевищує максимальну кількість",
+    "description": "Повідомлення про помилку, коли завантажена музика перевищує максимальну кількість"
+  },
+  "message.uploadReferencesError": {
+    "message": "Не вдалося завантажити музику",
+    "description": "Повідомлення про помилку, коли завантаження музики не вдалося"
+  },
+  "message.startTaskSuccess": {
+    "message": "Завдання генерації музики успішно запущено",
+    "description": "Повідомлення про успішний запуск завдання генерації музики"
+  },
+  "message.startUploadAudioSuccess": {
+    "message": "Користувацька музика успішно завантажена",
+    "description": "Повідомлення про успішне завантаження музики"
+  },
+  "message.startUploadAudioFailed": {
+    "message": "Не вдалося завантажити користувацьку музику",
+    "description": "Повідомлення про помилку, коли завантаження музики не вдалося"
+  },
+  "message.startTaskFailed": {
+    "message": "Не вдалося запустити завдання генерації музики",
+    "description": "Повідомлення про помилку, коли запуск завдання не вдалося"
+  },
+  "message.getVideoUrlFailed": {
+    "message": "Не вдалося отримати відео музики, будь ласка, спробуйте ще раз пізніше",
+    "description": "Повідомлення про помилку, коли отримання відео не вдалося"
+  },
+  "message.generatingLyrics": {
+    "message": "Генерація тексту...",
+    "description": "Повідомлення під час генерації тексту"
+  },
+  "message.generateLyricsSuccess": {
+    "message": "Текст успішно згенеровано",
+    "description": "Повідомлення про успішну генерацію тексту"
+  },
+  "message.generateLyricsFailed": {
+    "message": "Не вдалося згенерувати текст пісні",
+    "description": "Повідомлення, коли не вдалося згенерувати текст пісні"
+  },
+  "message.optimizingStyle": {
+    "message": "Оптимізація стилю...",
+    "description": "Повідомлення під час оптимізації стилю"
+  },
+  "message.optimizeStyleSuccess": {
+    "message": "Стиль успішно оптимізовано",
+    "description": "Повідомлення, коли стиль успішно оптимізовано"
+  },
+  "message.optimizeStyleFailed": {
+    "message": "Не вдалося оптимізувати стиль",
+    "description": "Повідомлення, коли не вдалося оптимізувати стиль"
+  },
+  "message.fetchingWav": {
+    "message": "Отримання WAV файлу...",
+    "description": "Повідомлення під час отримання WAV файлу"
+  },
+  "message.fetchWavFailed": {
+    "message": "Не вдалося отримати WAV файл",
+    "description": "Повідомлення, коли не вдалося отримати WAV файл"
+  },
+  "message.fetchingMidi": {
+    "message": "Отримання MIDI файлу...",
+    "description": "Повідомлення під час отримання MIDI файлу"
+  },
+  "message.fetchMidiFailed": {
+    "message": "Не вдалося отримати MIDI файл",
+    "description": "Повідомлення, коли не вдалося отримати MIDI файл"
+  },
+  "message.generating": {
+    "message": "Генерація...",
+    "description": "Повідомлення під час генерації музики"
+  },
+  "message.generateFailed": {
+    "message": "Не вдалося згенерувати музику",
+    "description": "Повідомлення, коли не вдалося згенерувати музику"
+  },
+  "message.noOperations": {
+    "message": "Немає доступних операцій",
+    "description": "Повідомлення, коли немає доступних операцій"
+  },
+  "message.noTasks": {
+    "message": "Немає історичних завдань, будь ласка, згенеруйте музику в лівій панелі налаштувань",
+    "description": "Повідомлення, коли немає завдань"
+  },
+  "button.upload_cover": {
+    "message": "Завантажити кавер",
+    "description": "Текст кнопки для завантаження аудіо для кавера"
+  },
+  "button.artist_consistency": {
+    "message": "Консистентність стилю",
+    "description": "Текст кнопки для генерації на основі стилю співака"
+  },
+  "button.artist_consistency_vox": {
+    "message": "Консистентність вокалу",
+    "description": "Текст кнопки для генерації на основі вокального стилю співака"
+  },
+  "button.underpainting": {
+    "message": "Додати акомпанемент",
+    "description": "Текст кнопки для додавання акомпанементу до завантаженої пісні"
+  },
+  "button.overpainting": {
+    "message": "Додати вокал",
+    "description": "Текст кнопки для додавання вокалу до завантаженої пісні"
+  },
+  "button.samples": {
+    "message": "Додати семпли",
+    "description": "Текст кнопки для додавання семплів до завантаженої пісні"
+  },
+  "button.extract_vocals": {
+    "message": "Витягти вокал",
+    "description": "Текст кнопки для витягування вокалу з пісні"
+  },
+  "button.get_timing": {
+    "message": "Отримати ритм",
+    "description": "Текст кнопки для отримання даних ритму пісні"
+  },
+  "button.create_persona": {
+    "message": "Створити стиль співака",
+    "description": "Текст кнопки для створення стилю співака"
+  },
+  "button.mashup_lyrics": {
+    "message": "Змішати тексти",
+    "description": "Текст кнопки для змішування двох текстів пісень"
+  },
+  "name.persona": {
+    "message": "Стиль співака",
+    "description": "Вибір стилю співака"
+  },
+  "name.overpaintingRange": {
+    "message": "Діапазон вокалу",
+    "description": "Часовий діапазон для додавання вокалу"
+  },
+  "name.underpaintingRange": {
+    "message": "Діапазон акомпанементу",
+    "description": "Часовий діапазон для додавання акомпанементу"
+  },
+  "name.samplesRange": {
+    "message": "Діапазон семплів",
+    "description": "Часовий діапазон для додавання семплів"
+  },
+  "placeholder.overpaintingStart": {
+    "message": "Час початку (сек)",
+    "description": "Плейсхолдер для часу початку вокалу"
+  },
+  "placeholder.overpaintingEnd": {
+    "message": "Час закінчення (сек)",
+    "description": "Плейсхолдер для часу закінчення вокалу"
+  },
+  "placeholder.underpaintingStart": {
+    "message": "Час початку (сек)",
+    "description": "Плейсхолдер для часу початку акомпанементу"
+  },
+  "placeholder.underpaintingEnd": {
+    "message": "Час закінчення (сек)",
+    "description": "Плейсхолдер для часу закінчення акомпанементу"
+  },
+  "placeholder.samplesStart": {
+    "message": "Час початку (сек)",
+    "description": "Плейсхолдер для часу початку семплів"
+  },
+  "placeholder.samplesEnd": {
+    "message": "Час закінчення (сек)",
+    "description": "Плейсхолдер для часу закінчення семплів"
+  },
+  "placeholder.personaId": {
+    "message": "Введіть ID стилю співака...",
+    "description": "Плейсхолдер для введення ID стилю співака"
+  },
+  "description.persona": {
+    "message": "Використовуйте створений стиль співака для генерації пісень з консистентним стилем",
+    "description": "Опис функції стилю співака"
+  },
+  "description.overpainting": {
+    "message": "Додайте вокал до завантаженої музики в зазначеному часовому діапазоні",
+    "description": "Опис функції додавання вокалу"
+  },
+  "description.underpainting": {
+    "message": "Додайте акомпанемент до завантаженої музики в зазначеному часовому діапазоні",
+    "description": "Опис функції додавання акомпанементу"
+  },
+  "description.samples": {
+    "message": "Додайте семпли до завантаженої музики в зазначеному часовому діапазоні",
+    "description": "Опис функції додавання семплів"
+  },
+  "message.fetchingTiming": {
+    "message": "Отримання даних ритму...",
+    "description": "Повідомлення під час отримання даних ритму"
+  },
+  "message.fetchTimingFailed": {
+    "message": "Не вдалося отримати дані ритму",
+    "description": "Повідомлення, коли не вдалося отримати дані ритму"
+  },
+  "message.fetchTimingSuccess": {
+    "message": "Дані ритму успішно отримано",
+    "description": "Повідомлення, коли дані ритму успішно отримано"
+  },
+  "message.extractingVocals": {
+    "message": "Витягування вокалу...",
+    "description": "Повідомлення під час витягування вокалу"
+  },
+  "message.extractVocalsFailed": {
+    "message": "Не вдалося витягти вокал",
+    "description": "Повідомлення, коли не вдалося витягти вокал"
+  },
+  "message.extractVocalsSuccess": {
+    "message": "Вокал успішно витягнуто",
+    "description": "Повідомлення, коли вокал успішно витягнуто"
+  }
+}

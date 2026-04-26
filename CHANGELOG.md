@@ -1,0 +1,2596 @@
+# Change Log - @acedatacloud/nexior
+
+<!-- This log was last generated on Sun, 19 Apr 2026 03:30:51 GMT and should not be manually modified. -->
+
+<!-- Start content -->
+
+## 3.34.0
+
+Sun, 19 Apr 2026 03:30:51 GMT
+
+### Minor changes
+
+- feat(kling): add kling-v3, v3-omni, v2-6 model support (cqc@cuiqingcai.com)
+- feat(kling): add kling-v3, v3-omni, v2-6 model support with generate audio toggle (dev@acedata.cloud)
+
+### Patches
+
+- fix: remove 3 broken GLM models from frontend (dev@acedata.cloud)
+
+## 3.32.9
+
+Sun, 05 Apr 2026 13:15:16 GMT
+
+### Patches
+
+- fix: standardize selector borders and default to dark theme (dev@acedata.cloud)
+
+## 3.32.8
+
+Sun, 05 Apr 2026 13:12:53 GMT
+
+### Patches
+
+- fix: replace broken DeepSeek avatar icon with original clean logo (dev@acedata.cloud)
+
+## 3.32.7
+
+Sun, 05 Apr 2026 13:06:20 GMT
+
+### Patches
+
+- fix: add text overflow handling to all task preview cards (dev@acedata.cloud)
+
+## 3.32.6
+
+Sun, 05 Apr 2026 13:03:14 GMT
+
+### Patches
+
+- fix: change default Veo model from veo2-fast to veo31-fast (dev@acedata.cloud)
+
+## 3.32.5
+
+Sun, 05 Apr 2026 11:24:56 GMT
+
+### Patches
+
+- fix: restore input/select/textarea border visibility in both light and dark mode (dev@acedata.cloud)
+
+## 3.32.4
+
+Sun, 05 Apr 2026 10:34:16 GMT
+
+### Patches
+
+- fix: show correct logo on collapsed/expanded sidebar and add dark-mode borders (dev@acedata.cloud)
+
+## 3.32.3
+
+Sun, 05 Apr 2026 10:24:59 GMT
+
+### Patches
+
+- fix: upgrade Solana X402 to signAndSendTransaction, remove Buffer dependency (dev@acedata.cloud)
+
+## 3.32.2
+
+Sun, 05 Apr 2026 10:13:59 GMT
+
+### Patches
+
+- fix: replace hardcoded strings with i18n keys in X402Pay (dev@acedata.cloud)
+
+## 3.32.1
+
+Sun, 05 Apr 2026 10:11:03 GMT
+
+### Patches
+
+- fix: add text overflow ellipsis to suno song title and style (dev@acedata.cloud)
+
+## 3.32.0
+
+Sun, 05 Apr 2026 10:04:52 GMT
+
+### Minor changes
+
+- feat: add PayPal payment option with feature flag (dev@acedata.cloud)
+
+## 3.31.1
+
+Sun, 05 Apr 2026 08:43:57 GMT
+
+### Patches
+
+- fix: update navigator logo with CDN-hosted brand logo (dev@acedata.cloud)
+
+## 3.31.0
+
+Sun, 05 Apr 2026 08:25:52 GMT
+
+### Minor changes
+
+- feat: add PayPal payment option with feature flag (dev@acedata.cloud)
+
+## 3.30.5
+
+Mon, 30 Mar 2026 17:01:23 GMT
+
+### Patches
+
+- fix: add missing English i18n keys for download page buttons (cqc@cuiqingcai.com)
+
+## 3.30.4
+
+Sat, 28 Mar 2026 18:48:51 GMT
+
+### Patches
+
+- refine the mobile download landing page and fix header logo rendering (office@acedata.cloud)
+
+## 3.30.3
+
+Sat, 28 Mar 2026 16:35:08 GMT
+
+### Patches
+
+- restore mobile download entry and Android build sync (office@acedata.cloud)
+
+## 3.30.2
+
+Mon, 16 Mar 2026 14:08:00 GMT
+
+### Patches
+
+- feat: add robots.txt and sitemap.xml for SEO (office@acedata.cloud)
+
+## 3.30.1
+
+Sat, 14 Mar 2026 13:03:07 GMT
+
+### Patches
+
+- style: apply prettier formatting to Vue components (dev@acedata.cloud)
+
+## 3.30.0
+
+Sat, 14 Mar 2026 12:49:35 GMT
+
+### Minor changes
+
+- feat: Discord-style sidebar overflow with folder preview popover (dev@acedata.cloud)
+- Upgrade iOS target to 16.0, ESLint 9, Prettier 3, Husky 9, and outdated deps (dev@acedata.cloud)
+- feat: add Android/iOS CI/CD pipelines for Play Store & App Store (dev@acedata.cloud)
+- feat(seedance): add duration selector and generate audio switch (dev@acedata.cloud)
+- feat(suno): add comprehensive feature enhancements - remaster, replace section, mashup, WAV/MIDI downloads, AI lyrics generation, vocal gender, advanced params, and redesigned UI components (dev@acedata.cloud)
+
+### Patches
+
+- fix: improve dark mode adaptation across components (cqc@cuiqingcai.com)
+- fix nano error (1348977728@qq.com)
+- Upgrade Capacitor to 7.5.0, Android SDK 35, Gradle 8.11.1 (cqc@cuiqingcai.com)
+- Fix mobile OAuth login by using in-app browser and deep links (cqc@cuiqingcai.com)
+- fix: remove radial gradient background from chat dialogue in dark mode (dev@acedata.cloud)
+- fix: adjust dark mode background colors for card visibility (cqc@cuiqingcai.com)
+- fix nano error (1348977728@qq.com)
+- fix: adjust dark mode background colors for card visibility (cqc@cuiqingcai.com)
+- fix(auth): recover from native OAuth loading dead-end (cqc@cuiqingcai.com)
+- fix: adjust dark mode background colors for card visibility (cqc@cuiqingcai.com)
+- fix: redesign model selector and add missing i18n translations (dev@acedata.cloud)
+- fix: redesign model selector and add missing i18n translations (dev@acedata.cloud)
+- fix(android): prevent login from opening Chrome and redirecting to localhost (dev@acedata.cloud)
+- fix(android): use official hub origin on native, skip site config page after login (dev@acedata.cloud)
+- Fix navigator More button popover and task preview text overflow (dev@acedata.cloud)
+- fix: remove gradient background from chat layout in dark mode (dev@acedata.cloud)
+- rename: change mobile app display name from Nexior to AceData (dev@acedata.cloud)
+- feat: add SEO meta tags - description, OG tags, Twitter Cards, canonical URL (dev@acedata.cloud)
+- refactor(ui): replace 1px borders with shadows and fills across 20 components (dev@acedata.cloud)
+- fix: avoid window.location.reload() on native platforms after login (dev@acedata.cloud)
+
+## 3.29.5
+
+Sat, 03 Jan 2026 15:12:48 GMT
+
+### Patches
+
+- update github release change (cqc@cuiqingcai.com)
+
+## 3.29.4
+
+Sat, 03 Jan 2026 03:01:58 GMT
+
+### Patches
+
+- optimize translate (cqc@cuiqingcai.com)
+
+## 3.29.3
+
+Fri, 02 Jan 2026 16:54:16 GMT
+
+### Patches
+
+- remove prompt limit (cqc@cuiqingcai.com)
+
+## 3.29.2
+
+Fri, 02 Jan 2026 12:12:12 GMT
+
+### Patches
+
+- optimize cov management of chat (cqc@cuiqingcai.com)
+
+## 3.29.1
+
+Fri, 02 Jan 2026 11:16:44 GMT
+
+### Patches
+
+- fix login auth issue (cqc@cuiqingcai.com)
+
+## 3.29.0
+
+Fri, 02 Jan 2026 07:09:55 GMT
+
+### Minor changes
+
+- Standardize app logo icons by using constants instead of hardcoded URLs (198982749+Copilot@users.noreply.github.com)
+
+## 3.28.1
+
+Fri, 02 Jan 2026 06:35:29 GMT
+
+### Patches
+
+- Replace Seedance logo SVG import with CDN URL (198982749+Copilot@users.noreply.github.com)
+
+## 3.28.0
+
+Fri, 02 Jan 2026 06:02:24 GMT
+
+### Minor changes
+
+- add seedance  (cqc@cuiqingcai.com)
+
+## 3.27.0
+
+Fri, 02 Jan 2026 04:50:36 GMT
+
+### Minor changes
+
+- add seedream (cqc@cuiqingcai.com)
+
+## 3.26.2
+
+Thu, 01 Jan 2026 07:29:23 GMT
+
+### Patches
+
+- update styles (cqc@cuiqingcai.com)
+
+## 3.26.1
+
+Thu, 01 Jan 2026 05:58:16 GMT
+
+### Patches
+
+- update loading index effect (cqc@cuiqingcai.com)
+
+## 3.26.0
+
+Mon, 29 Dec 2025 09:55:09 GMT
+
+### Minor changes
+
+- support solana payment (cqc@cuiqingcai.com)
+
+## 3.25.5
+
+Sun, 28 Dec 2025 12:28:04 GMT
+
+### Patches
+
+- fix build options (cqc@cuiqingcai.com)
+
+## 3.25.4
+
+Sat, 27 Dec 2025 10:41:20 GMT
+
+### Patches
+
+- fix (cqc@cuiqingcai.com)
+
+## 3.25.3
+
+Thu, 25 Dec 2025 03:28:40 GMT
+
+### Patches
+
+- show aspect ratio (cqc@cuiqingcai.com)
+
+## 3.25.2
+
+Mon, 15 Dec 2025 01:25:07 GMT
+
+### Patches
+
+- update image (1348977728@qq.com)
+
+## 3.25.1
+
+Sun, 07 Dec 2025 17:29:36 GMT
+
+### Patches
+
+- fix bad pagniation (cqc@cuiqingcai.com)
+
+## 3.25.0
+
+Sun, 07 Dec 2025 14:54:18 GMT
+
+### Minor changes
+
+- update loading more (cqc@cuiqingcai.com)
+
+### Patches
+
+- refine console (cqc@cuiqingcai.com)
+- update model (1348977728@qq.com)
+- update pagination exp (cqc@cuiqingcai.com)
+- update model list (cqc@cuiqingcai.com)
+
+## 3.24.2
+
+Sat, 29 Nov 2025 12:21:23 GMT
+
+### Patches
+
+- fix logout (cqc@cuiqingcai.com)
+
+## 3.24.1
+
+Sat, 29 Nov 2025 11:03:50 GMT
+
+### Patches
+
+- optimize experience of nano (cqc@cuiqingcai.com)
+
+## 3.24.0
+
+Sun, 23 Nov 2025 18:01:55 GMT
+
+### Minor changes
+
+- update nano resolution (cqc@cuiqingcai.com)
+
+## 3.23.0
+
+Sat, 22 Nov 2025 19:27:22 GMT
+
+### Minor changes
+
+- add nano pro (cqc@cuiqingcai.com)
+
+## 3.22.0
+
+Sat, 22 Nov 2025 19:11:28 GMT
+
+### Minor changes
+
+- add claude (cqc@cuiqingcai.com)
+
+## 3.21.0
+
+Sat, 22 Nov 2025 16:52:52 GMT
+
+### Minor changes
+
+- add gemini support (cqc@cuiqingcai.com)
+
+## 3.20.2
+
+Tue, 28 Oct 2025 04:24:20 GMT
+
+### Patches
+
+- change duration limit (cqc@cuiqingcai.com)
+
+## 3.20.1
+
+Sun, 26 Oct 2025 04:10:38 GMT
+
+### Patches
+
+- update flux model (1348977728@qq.com)
+
+## 3.20.0
+
+Sun, 19 Oct 2025 07:30:39 GMT
+
+### Minor changes
+
+- add sora (1348977728@qq.com)
+
+## 3.19.5
+
+Sat, 27 Sep 2025 13:25:07 GMT
+
+### Patches
+
+- update i18 (1348977728@qq.com)
+
+## 3.19.4
+
+Sun, 14 Sep 2025 16:29:31 GMT
+
+### Patches
+
+- fix upload bug of nano (office@acedata.cloud)
+
+## 3.19.3
+
+Sat, 13 Sep 2025 17:39:36 GMT
+
+### Patches
+
+- add nano functions (office@acedata.cloud)
+
+## 3.19.2
+
+Sat, 13 Sep 2025 08:46:03 GMT
+
+### Patches
+
+- fix chat layout (office@acedata.cloud)
+
+## 3.19.1
+
+Sat, 13 Sep 2025 04:45:42 GMT
+
+### Patches
+
+- auto deploy (office@acedata.cloud)
+
+## 3.19.0
+
+Mon, 08 Sep 2025 15:26:16 GMT
+
+### Minor changes
+
+- add nanobanana (cqc@cuiqingcai.com)
+
+### Patches
+
+- migrate tailwind csss (office@acedata.cloud)
+- fix qrart style (office@acedata.cloud)
+- fix build error (office@acedata.cloud)
+- fix build bugs (office@acedata.cloud)
+
+## 3.18.8
+
+Mon, 25 Aug 2025 02:50:58 GMT
+
+### Patches
+
+- fix console style (cqc@cuiqingcai.com)
+
+## 3.18.7
+
+Sun, 24 Aug 2025 09:24:01 GMT
+
+### Patches
+
+- add translate (1348977728@qq.com)
+
+## 3.18.6
+
+Sun, 24 Aug 2025 05:15:45 GMT
+
+### Patches
+
+- fix detail ux (cqc@cuiqingcai.com)
+
+## 3.18.5
+
+Sun, 24 Aug 2025 00:53:28 GMT
+
+### Patches
+
+- fix redirect issue (cqc@cuiqingcai.com)
+
+## 3.18.4
+
+Fri, 22 Aug 2025 05:02:38 GMT
+
+### Patches
+
+- fit mj videos (1348977728@qq.com)
+
+## 3.18.3
+
+Mon, 18 Aug 2025 10:37:01 GMT
+
+### Patches
+
+- fix mj hover (1348977728@qq.com)
+
+## 3.18.2
+
+Sun, 17 Aug 2025 17:19:11 GMT
+
+### Patches
+
+- fix chat scroll x (cqc@cuiqingcai.com)
+
+## 3.18.1
+
+Sun, 17 Aug 2025 14:18:47 GMT
+
+### Patches
+
+- add suno mp4 and flux (1348977728@qq.com)
+
+## 3.18.0
+
+Sat, 16 Aug 2025 17:21:42 GMT
+
+### Minor changes
+
+- add adapt to mobile (office@acedata.cloud)
+
+### Patches
+
+- fix pipline (office@acedata.cloud)
+
+## 3.17.7
+
+Sat, 16 Aug 2025 09:33:50 GMT
+
+### Patches
+
+- fix known bugs (office@acedata.cloud)
+
+## 3.17.6
+
+Tue, 12 Aug 2025 09:52:14 GMT
+
+### Patches
+
+- add mj describe (1348977728@qq.com)
+
+## 3.17.5
+
+Tue, 12 Aug 2025 01:59:08 GMT
+
+### Patches
+
+- add tab (1348977728@qq.com)
+
+## 3.17.4
+
+Sun, 10 Aug 2025 06:21:09 GMT
+
+### Patches
+
+- update gpt45 (cqc@cuiqingcai.com)
+
+## 3.17.3
+
+Sat, 09 Aug 2025 17:19:51 GMT
+
+### Patches
+
+- refine gpt and grok model (cqc@cuiqingcai.com)
+
+## 3.17.2
+
+Fri, 08 Aug 2025 18:43:14 GMT
+
+### Patches
+
+- add gpt 5 model (cqc@cuiqingcai.com)
+
+## 3.17.1
+
+Thu, 07 Aug 2025 17:53:06 GMT
+
+### Patches
+
+- refine veo (cqc@cuiqingcai.com)
+
+## 3.17.0
+
+Thu, 07 Aug 2025 10:43:45 GMT
+
+### Minor changes
+
+- add veo (1348977728@qq.com)
+
+## 3.16.1
+
+Wed, 06 Aug 2025 17:27:32 GMT
+
+### Patches
+
+- fix the cache (cqc@cuiqingcai.com)
+
+## 3.16.0
+
+Tue, 05 Aug 2025 16:52:12 GMT
+
+### Minor changes
+
+- add price support (cqc@cuiqingcai.com)
+
+## 3.15.0
+
+Tue, 05 Aug 2025 13:40:51 GMT
+
+### Minor changes
+
+- fix options for kling and pix (cqc@cuiqingcai.com)
+
+## 3.14.1
+
+Tue, 05 Aug 2025 05:59:24 GMT
+
+### Patches
+
+- refine pix experience (cqc@cuiqingcai.com)
+
+## 3.14.0
+
+Mon, 04 Aug 2025 16:55:18 GMT
+
+### Minor changes
+
+- adapt to mobile (cqc@cuiqingcai.com)
+
+## 3.13.1
+
+Sun, 03 Aug 2025 17:52:43 GMT
+
+### Patches
+
+- fix layout init issue (cqc@cuiqingcai.com)
+
+## 3.13.0
+
+Sun, 03 Aug 2025 15:59:11 GMT
+
+### Minor changes
+
+- add mj videos (1348977728@qq.com)
+
+## 3.12.1
+
+Sun, 03 Aug 2025 14:37:59 GMT
+
+### Patches
+
+- fix video style and bugs (office@acedata.cloud)
+
+## 3.12.0
+
+Sun, 03 Aug 2025 13:52:32 GMT
+
+### Minor changes
+
+- add new model for chat (office@acedata.cloud)
+
+## 3.11.1
+
+Fri, 01 Aug 2025 12:29:33 GMT
+
+### Patches
+
+- fix setting and pix bugs (cqc@cuiqingcai.com)
+
+## 3.11.0
+
+Fri, 01 Aug 2025 01:51:39 GMT
+
+### Minor changes
+
+- add pixverse (1348977728@qq.com)
+
+## 3.10.4
+
+Sun, 27 Jul 2025 16:50:06 GMT
+
+### Patches
+
+- add empty task list (cqc@cuiqingcai.com)
+
+## 3.10.3
+
+Sun, 27 Jul 2025 13:01:06 GMT
+
+### Patches
+
+- refine application confirm (cqc@cuiqingcai.com)
+
+## 3.10.2
+
+Sun, 27 Jul 2025 12:30:39 GMT
+
+### Patches
+
+- add i18n for element (cqc@cuiqingcai.com)
+
+## 3.10.1
+
+Sun, 27 Jul 2025 10:58:46 GMT
+
+### Patches
+
+- refine i18n support (cqc@cuiqingcai.com)
+
+## 3.10.0
+
+Sun, 27 Jul 2025 07:10:11 GMT
+
+### Minor changes
+
+- upgrade libs (cqc@cuiqingcai.com)
+
+## 3.9.2
+
+Sat, 26 Jul 2025 18:15:17 GMT
+
+### Patches
+
+- fix name (cqc@cuiqingcai.com)
+- refine console (cqc@cuiqingcai.com)
+
+## 3.9.1
+
+Sat, 26 Jul 2025 16:12:09 GMT
+
+### Patches
+
+- update wallet ux (cqc@cuiqingcai.com)
+
+## 3.9.0
+
+Sat, 26 Jul 2025 14:32:44 GMT
+
+### Minor changes
+
+- use global application (office@acedata.cloud)
+
+## 3.8.1
+
+Sat, 19 Jul 2025 15:03:42 GMT
+
+### Patches
+
+- fix luma style (cqc@cuiqingcai.com)
+
+## 3.8.0
+
+Sat, 19 Jul 2025 11:20:48 GMT
+
+### Minor changes
+
+- refine video ui (office@acedata.cloud)
+
+## 3.7.0
+
+Sat, 19 Jul 2025 08:39:06 GMT
+
+### Minor changes
+
+- new ui of flux (office@acedata.cloud)
+
+## 3.6.0
+
+Sat, 19 Jul 2025 06:40:57 GMT
+
+### Minor changes
+
+- remove chatdoc (office@acedata.cloud)
+
+### Patches
+
+- add change log (office@acedata.cloud)
+
+## 3.5.2
+
+Sat, 19 Jul 2025 05:32:30 GMT
+
+### Patches
+
+- fix mj upload error (office@acedata.cloud)
+
+## 3.5.1
+
+Sat, 19 Jul 2025 04:31:33 GMT
+
+### Patches
+
+- update change log (office@acedata.cloud)
+
+## 3.5.0
+
+Sat, 19 Jul 2025 04:09:47 GMT
+
+### Minor changes
+
+- update application state (office@acedata.cloud)
+
+## 3.4.3
+
+Fri, 18 Jul 2025 15:24:13 GMT
+
+### Patches
+
+- add change log (office@acedata.cloud)
+
+## 3.4.2
+
+Sun, 13 Jul 2025 17:55:22 GMT
+
+### Patches
+
+- clean up translate files (office@acedata.cloud)
+
+## 3.4.1
+
+Sun, 13 Jul 2025 17:02:33 GMT
+
+### Patches
+
+- add suno 4.5 model (office@acedata.cloud)
+
+## 3.4.0
+
+Sun, 13 Jul 2025 16:06:27 GMT
+
+### Minor changes
+
+- add thinking support in chat (office@acedata.cloud)
+
+## 3.3.0
+
+Sun, 13 Jul 2025 15:24:48 GMT
+
+### Minor changes
+
+- support latex in chat (office@acedata.cloud)
+
+## 3.2.2
+
+Sun, 13 Jul 2025 13:33:05 GMT
+
+### Patches
+
+- update hailuo style (cqc@cuiqingcai.com)
+
+## 3.2.1
+
+Sun, 13 Jul 2025 10:23:44 GMT
+
+### Patches
+
+- fix theme init failed issue (cqc@cuiqingcai.com)
+
+## 3.2.0
+
+Sun, 13 Jul 2025 10:08:48 GMT
+
+### Minor changes
+
+- refine new styles for models (cqc@cuiqingcai.com)
+
+## 3.1.0
+
+Sun, 13 Jul 2025 08:55:55 GMT
+
+### Minor changes
+
+- refine mj style and layout (cqc@cuiqingcai.com)
+
+## 3.0.0
+
+Sun, 13 Jul 2025 07:46:14 GMT
+
+### Major changes
+
+- refactor navigator (cqc@cuiqingcai.com)
+
+## 2.20.3
+
+Sat, 12 Jul 2025 16:18:36 GMT
+
+### Patches
+
+- fix setting style (cqc@cuiqingcai.com)
+
+## 2.20.2
+
+Sat, 12 Jul 2025 14:37:30 GMT
+
+### Patches
+
+- refine user setting to dropdown (cqc@cuiqingcai.com)
+
+## 2.20.1
+
+Fri, 11 Jul 2025 16:47:51 GMT
+
+### Patches
+
+- fix chat experience for error (cqc@cuiqingcai.com)
+
+## 2.20.0
+
+Sun, 06 Jul 2025 17:09:22 GMT
+
+### Minor changes
+
+- refactor chat (office@acedata.cloud)
+
+## 2.19.0
+
+Sun, 29 Jun 2025 15:11:11 GMT
+
+### Minor changes
+
+- add user center (office@acedata.cloud)
+
+### Patches
+
+- fix credential error (1348977728@qq.com)
+
+## 2.18.6
+
+Sat, 05 Apr 2025 09:19:30 GMT
+
+### Patches
+
+- add mj v7 support (germey@acedata.cloud)
+
+## 2.18.5
+
+Fri, 04 Apr 2025 17:48:54 GMT
+
+### Patches
+
+- add image generation (germey@acedata.cloud)
+
+## 2.18.4
+
+Sat, 22 Mar 2025 15:02:24 GMT
+
+### Patches
+
+- remove comments (office@acedata.cloud)
+
+## 2.18.3
+
+Thu, 13 Mar 2025 15:20:15 GMT
+
+### Patches
+
+- update i18 (1348977728@qq.com)
+
+## 2.18.2
+
+Wed, 12 Mar 2025 15:09:49 GMT
+
+### Patches
+
+- add kling (1348977728@qq.com)
+
+## 2.18.1
+
+Sun, 02 Mar 2025 17:31:58 GMT
+
+### Patches
+
+- updated readme (office@acedata.cloud)
+
+## 2.18.0
+
+Sun, 02 Mar 2025 16:58:58 GMT
+
+### Minor changes
+
+- optimize application flow (office@acedata.cloud)
+
+## 2.17.2
+
+Sun, 02 Mar 2025 12:19:34 GMT
+
+### Patches
+
+- fix build issue (office@acedata.cloud)
+- fix docker build (office@acedata.cloud)
+
+## 2.17.1
+
+Sat, 01 Mar 2025 18:29:40 GMT
+
+### Patches
+
+- update and fix translate of chat (office@acedata.cloud)
+
+## 2.17.0
+
+Wed, 26 Feb 2025 17:26:59 GMT
+
+### Minor changes
+
+- add grok support (office@acedata.cloud)
+
+## 2.16.3
+
+Sun, 23 Feb 2025 12:36:49 GMT
+
+### Patches
+
+- fix preview (1348977728@qq.com)
+
+## 2.16.2
+
+Sat, 22 Feb 2025 18:51:41 GMT
+
+### Patches
+
+- fix styles (office@acedata.cloud)
+
+## 2.16.1
+
+Sat, 22 Feb 2025 14:48:43 GMT
+
+### Patches
+
+- add luma pagination (1348977728@qq.com)
+
+## 2.16.0
+
+Thu, 20 Feb 2025 15:29:50 GMT
+
+### Minor changes
+
+- add applictions selection (office@acedata.cloud)
+
+## 2.15.6
+
+Thu, 20 Feb 2025 14:24:59 GMT
+
+### Patches
+
+- fix ux styles for index (office@acedata.cloud)
+
+## 2.15.5
+
+Wed, 19 Feb 2025 16:35:02 GMT
+
+### Patches
+
+- change flux logo (office@acedata.cloud)
+
+## 2.15.4
+
+Wed, 19 Feb 2025 16:24:16 GMT
+
+### Patches
+
+- update translations (office@acedata.cloud)
+
+## 2.15.3
+
+Wed, 19 Feb 2025 15:02:25 GMT
+
+### Patches
+
+- add flux (1348977728@qq.com)
+
+## 2.15.2
+
+Sun, 16 Feb 2025 16:26:21 GMT
+
+### Patches
+
+- change subscription behavior better (office@acedata.cloud)
+
+## 2.15.1
+
+Sun, 16 Feb 2025 14:56:40 GMT
+
+### Patches
+
+- fix order state (office@acedata.cloud)
+
+## 2.15.0
+
+Sat, 15 Feb 2025 16:33:38 GMT
+
+### Minor changes
+
+- update unifity entry (office@acedata.cloud)
+
+## 2.14.7
+
+Sat, 15 Feb 2025 15:37:49 GMT
+
+### Patches
+
+- git left chat panel style (office@acedata.cloud)
+
+## 2.14.6
+
+Sat, 15 Feb 2025 14:41:39 GMT
+
+### Patches
+
+- fix the price display for distribution (office@acedata.cloud)
+
+## 2.14.5
+
+Wed, 12 Feb 2025 13:53:57 GMT
+
+### Patches
+
+- add drawai qrart pagination (1348977728@qq.com)
+
+## 2.14.4
+
+Tue, 11 Feb 2025 14:21:11 GMT
+
+### Patches
+
+- update player slider style (office@acedata.cloud)
+- update deepseek experience (office@acedata.cloud)
+
+## 2.14.3
+
+Mon, 10 Feb 2025 14:21:28 GMT
+
+### Patches
+
+- add pika hailuo pagination (1348977728@qq.com)
+
+## 2.14.2
+
+Sun, 09 Feb 2025 18:33:48 GMT
+
+### Patches
+
+- add mj pagination (1348977728@qq.com)
+
+## 2.14.1
+
+Sun, 09 Feb 2025 18:13:26 GMT
+
+### Patches
+
+- fix chat experience (office@acedata.cloud)
+
+## 2.14.0
+
+Sun, 09 Feb 2025 16:33:37 GMT
+
+### Minor changes
+
+- add deepseek model (office@acedata.cloud)
+
+## 2.13.3
+
+Fri, 07 Feb 2025 15:53:17 GMT
+
+### Patches
+
+- add pagination for suno (office@acedata.cloud)
+
+## 2.13.2
+
+Thu, 06 Feb 2025 11:07:29 GMT
+
+### Patches
+
+- add hailuo (1348977728@qq.com)
+
+## 2.13.1
+
+Mon, 03 Feb 2025 04:39:27 GMT
+
+### Patches
+
+- add pika (1348977728@qq.com)
+
+## 2.13.0
+
+Sat, 01 Feb 2025 05:33:24 GMT
+
+### Minor changes
+
+- add tracker for fingerprint (germey@acedata.cloud)
+
+## 2.12.4
+
+Sat, 25 Jan 2025 13:01:15 GMT
+
+### Patches
+
+- add cover stems concat (1348977728@qq.com)
+
+## 2.12.3
+
+Mon, 20 Jan 2025 05:09:59 GMT
+
+### Patches
+
+- add suno upload (1348977728@qq.com)
+
+## 2.12.2
+
+Sun, 12 Jan 2025 16:04:23 GMT
+
+### Patches
+
+- add baidu stat (office@acedata.cloud)
+
+## 2.12.1
+
+Mon, 06 Jan 2025 17:08:58 GMT
+
+### Patches
+
+- adjust ux flow for qrart (office@acedata.cloud)
+
+## 2.12.0
+
+Sun, 05 Jan 2025 16:45:11 GMT
+
+### Minor changes
+
+- update mj style (office@acedata.cloud)
+
+## 2.11.36
+
+Sat, 28 Dec 2024 16:44:41 GMT
+
+### Patches
+
+- add dynamic services (germey@acedata.cloud)
+
+## 2.11.35
+
+Sat, 28 Dec 2024 06:05:38 GMT
+
+### Patches
+
+- fix upload origin (office@acedata.cloud)
+
+## 2.11.34
+
+Fri, 13 Dec 2024 02:30:57 GMT
+
+### Patches
+
+- update suno model (1348977728@qq.com)
+
+## 2.11.33
+
+Sun, 01 Dec 2024 16:40:35 GMT
+
+### Patches
+
+- fix suno style len (1348977728@qq.com)
+
+## 2.11.32
+
+Fri, 15 Nov 2024 13:28:48 GMT
+
+### Patches
+
+- fix drawai upload (1348977728@qq.com)
+
+## 2.11.31
+
+Fri, 15 Nov 2024 06:49:39 GMT
+
+### Patches
+
+- fix drawai reveal (1348977728@qq.com)
+
+## 2.11.30
+
+Thu, 14 Nov 2024 02:55:22 GMT
+
+### Patches
+
+- update headshots translte (1348977728@qq.com)
+
+## 2.11.29
+
+Thu, 14 Nov 2024 02:46:13 GMT
+
+### Patches
+
+- add headshots index (1348977728@qq.com)
+
+## 2.11.28
+
+Wed, 06 Nov 2024 17:26:09 GMT
+
+### Patches
+
+- update translte (1348977728@qq.com)
+
+## 2.11.27
+
+Wed, 06 Nov 2024 15:21:08 GMT
+
+### Patches
+
+- fix suno use (1348977728@qq.com)
+
+## 2.11.26
+
+Wed, 06 Nov 2024 08:12:03 GMT
+
+### Patches
+
+- add headshots translate (1348977728@qq.com)
+
+## 2.11.25
+
+Wed, 06 Nov 2024 05:30:06 GMT
+
+### Patches
+
+- add headshots api (1348977728@qq.com)
+
+## 2.11.24
+
+Mon, 04 Nov 2024 09:44:43 GMT
+
+### Patches
+
+- add headshots ux (1348977728@qq.com)
+
+## 2.11.23
+
+Fri, 20 Sep 2024 03:23:51 GMT
+
+### Patches
+
+- fix stop (1348977728@qq.com)
+
+## 2.11.22
+
+Fri, 13 Sep 2024 09:03:50 GMT
+
+### Patches
+
+- fit discount information (1348977728@qq.com)
+
+## 2.11.21
+
+Wed, 11 Sep 2024 06:41:39 GMT
+
+### Patches
+
+- fix luma (1348977728@qq.com)
+
+## 2.11.20
+
+Tue, 10 Sep 2024 04:21:02 GMT
+
+### Patches
+
+- fix suno (1348977728@qq.com)
+
+## 2.11.19
+
+Sat, 07 Sep 2024 05:40:05 GMT
+
+### Patches
+
+- add cache (1348977728@qq.com)
+
+## 2.11.18
+
+Fri, 06 Sep 2024 04:36:11 GMT
+
+### Patches
+
+- add luma download (1348977728@qq.com)
+
+## 2.11.17
+
+Mon, 02 Sep 2024 04:18:00 GMT
+
+### Patches
+
+- add language (1348977728@qq.com)
+
+## 2.11.16
+
+Sat, 31 Aug 2024 07:22:57 GMT
+
+### Patches
+
+- add price per count (office@acedata.cloud)
+
+## 2.11.15
+
+Fri, 30 Aug 2024 17:27:31 GMT
+
+### Patches
+
+- fix is wechat browser (office@acedata.cloud)
+
+## 2.11.14
+
+Fri, 30 Aug 2024 17:05:12 GMT
+
+### Patches
+
+- Add support for redirect to sub offcial (office@acedata.cloud)
+
+## 2.11.13
+
+Sun, 25 Aug 2024 05:58:27 GMT
+
+### Patches
+
+- add gpt all experience (office@acedata.cloud)
+
+## 2.11.12
+
+Sun, 25 Aug 2024 04:21:24 GMT
+
+### Patches
+
+- fix chat responding state (office@acedata.cloud)
+
+## 2.11.11
+
+Sun, 25 Aug 2024 03:37:27 GMT
+
+### Patches
+
+- optimize chat experience (germey@acedata.cloud)
+
+## 2.11.10
+
+Wed, 21 Aug 2024 17:25:50 GMT
+
+### Patches
+
+- refine translation (office@acedata.cloud)
+
+## 2.11.9
+
+Wed, 21 Aug 2024 05:07:00 GMT
+
+### Patches
+
+- update application estimation (office@acedata.cloud)
+
+## 2.11.8
+
+Wed, 21 Aug 2024 02:49:18 GMT
+
+### Patches
+
+- fit url (1348977728@qq.com)
+
+## 2.11.7
+
+Wed, 21 Aug 2024 02:46:21 GMT
+
+### Patches
+
+- update navbar and index bg color (office@acedata.cloud)
+
+## 2.11.6
+
+Tue, 20 Aug 2024 09:21:59 GMT
+
+### Patches
+
+- add luma-url (1348977728@qq.com)
+
+## 2.11.5
+
+Tue, 20 Aug 2024 09:05:47 GMT
+
+### Patches
+
+- update translate (qicu@microsoft.com)
+
+## 2.11.4
+
+Tue, 20 Aug 2024 06:42:08 GMT
+
+### Patches
+
+- opt luma (1348977728@qq.com)
+
+## 2.11.3
+
+Tue, 20 Aug 2024 04:08:10 GMT
+
+### Patches
+
+- optimize nav experience (office@acedata.cloud)
+
+## 2.11.2
+
+Mon, 19 Aug 2024 08:31:50 GMT
+
+### Patches
+
+- fix application bug (1348977728@qq.com)
+
+## 2.11.1
+
+Mon, 19 Aug 2024 02:55:02 GMT
+
+### Patches
+
+- fit luma extend custom (1348977728@qq.com)
+
+## 2.11.0
+
+Sun, 18 Aug 2024 07:18:18 GMT
+
+### Minor changes
+
+- add luma extend and videoplayer (1348977728@qq.com)
+
+## 2.10.4
+
+Sat, 17 Aug 2024 15:08:37 GMT
+
+### Patches
+
+- add chat stop (1348977728@qq.com)
+
+## 2.10.3
+
+Sat, 17 Aug 2024 13:17:47 GMT
+
+### Patches
+
+- add luma upload (1348977728@qq.com)
+
+## 2.10.2
+
+Sat, 17 Aug 2024 07:21:54 GMT
+
+### Patches
+
+- fit mj style (1348977728@qq.com)
+
+## 2.10.1
+
+Sat, 17 Aug 2024 07:11:02 GMT
+
+### Patches
+
+- fit getApplications (1348977728@qq.com)
+
+## 2.10.0
+
+Fri, 16 Aug 2024 17:50:24 GMT
+
+### Minor changes
+
+- finish luma ui (1348977728@qq.com)
+
+## 2.9.4
+
+Fri, 16 Aug 2024 12:41:20 GMT
+
+### Patches
+
+- change withdrawl text (office@acedata.cloud)
+
+## 2.9.3
+
+Fri, 16 Aug 2024 12:12:10 GMT
+
+### Patches
+
+- change default subscription (office@acedata.cloud)
+
+## 2.9.2
+
+Fri, 16 Aug 2024 08:07:12 GMT
+
+### Patches
+
+- fix application list apply (office@acedata.cloud)
+
+## 2.9.1
+
+Fri, 16 Aug 2024 07:42:29 GMT
+
+### Patches
+
+- fix retrieve task issue (office@acedata.cloud)
+
+## 2.9.0
+
+Thu, 15 Aug 2024 17:54:12 GMT
+
+### Minor changes
+
+- fix chat restart (1348977728@qq.com)
+
+## 2.8.0
+
+Thu, 15 Aug 2024 16:33:11 GMT
+
+### Minor changes
+
+- add subscriptions support (office@acedata.cloud)
+
+## 2.7.0
+
+Thu, 15 Aug 2024 16:11:49 GMT
+
+### Minor changes
+
+- fix chat restart (1348977728@qq.com)
+
+## 2.6.1
+
+Wed, 14 Aug 2024 17:53:13 GMT
+
+### Patches
+
+- fix edit message (office@acedata.cloud)
+
+## 2.6.0
+
+Wed, 14 Aug 2024 08:41:03 GMT
+
+### Minor changes
+
+- add edit chat (1348977728@qq.com)
+
+## 2.5.1
+
+Wed, 14 Aug 2024 04:06:01 GMT
+
+### Patches
+
+- fix application packages options (office@acedata.cloud)
+
+## 2.5.0
+
+Mon, 12 Aug 2024 13:15:36 GMT
+
+### Minor changes
+
+- add suno extend (1348977728@qq.com)
+
+## 2.4.1
+
+Fri, 09 Aug 2024 17:44:42 GMT
+
+### Patches
+
+- fix the confirm flow (office@acedata.cloud)
+- fix packages (office@acedata.cloud)
+- try to fix publish error (office@acedata.cloud)
+- fix type definition (office@acedata.cloud)
+
+## 2.1.0
+
+Sun, 04 Aug 2024 16:56:06 GMT
+
+### Minor changes
+
+- add android and ios support (office@acedata.cloud)
+
+### Patches
+
+- add test env support (office@acedata.cloud)
+- add test env tag (office@acedata.cloud)
+- fix test env detect (office@acedata.cloud)
+
+## 2.0.6
+
+Sat, 03 Aug 2024 16:31:39 GMT
+
+### Patches
+
+- add test env support (office@acedata.cloud)
+
+## 2.0.5
+
+Wed, 31 Jul 2024 17:36:46 GMT
+
+### Patches
+
+- update translate (germey@acedata.cloud)
+
+## 2.0.4
+
+Mon, 29 Jul 2024 04:45:53 GMT
+
+### Patches
+
+- fix suno bug (1348977728@qq.com)
+
+## 2.0.3
+
+Sun, 28 Jul 2024 16:41:32 GMT
+
+### Patches
+
+- fix tech support i18n (office@acedata.cloud)
+
+## 2.0.2
+
+Sun, 28 Jul 2024 05:17:58 GMT
+
+### Patches
+
+- fix auth and experience issues (germey@acedata.cloud)
+
+## 2.0.1
+
+Sat, 27 Jul 2024 19:11:01 GMT
+
+### Patches
+
+- fix suno task processing (germey@acedata.cloud)
+
+## 2.0.0
+
+Sat, 27 Jul 2024 18:35:47 GMT
+
+### Major changes
+
+- init suno (office@acedata.cloud)
+
+## 1.14.0
+
+Tue, 16 Jul 2024 13:57:36 GMT
+
+### Minor changes
+
+- add short link for referral (germey@acedata.cloud)
+
+## 1.13.0
+
+Tue, 16 Jul 2024 13:39:17 GMT
+
+### Minor changes
+
+- add index page (office@acedata.cloud)
+
+## 1.12.0
+
+Sun, 14 Jul 2024 07:35:58 GMT
+
+### Minor changes
+
+- add auto concurrency transform (office@acedata.cloud)
+
+## 1.11.4
+
+Mon, 08 Jul 2024 18:29:13 GMT
+
+### Patches
+
+- fix support switch (office@acedata.cloud)
+
+## 1.11.3
+
+Mon, 08 Jul 2024 18:16:54 GMT
+
+### Patches
+
+- fix site config for support (office@acedata.cloud)
+
+## 1.11.2
+
+Mon, 08 Jul 2024 17:55:17 GMT
+
+### Patches
+
+- add config for support (office@acedata.cloud)
+
+## 1.11.1
+
+Mon, 08 Jul 2024 14:48:47 GMT
+
+### Patches
+
+- fix ui styles (office@acedata.cloud)
+
+## 1.11.0
+
+Mon, 08 Jul 2024 04:03:05 GMT
+
+### Minor changes
+
+- add wechatpay (office@acedata.cloud)
+
+## 1.10.5
+
+Sun, 07 Jul 2024 15:40:07 GMT
+
+### Patches
+
+- fix for domain parsing (office@acedata.cloud)
+
+## 1.10.4
+
+Sun, 07 Jul 2024 13:11:47 GMT
+
+### Patches
+
+- fix the cookie domain (office@acedata.cloud)
+
+## 1.10.3
+
+Sun, 07 Jul 2024 12:31:24 GMT
+
+### Patches
+
+- fix for inviter id (office@acedata.cloud)
+
+## 1.10.2
+
+Thu, 04 Jul 2024 03:37:16 GMT
+
+### Patches
+
+- fix for logout (office@acedata.cloud)
+
+## 1.10.1
+
+Wed, 03 Jul 2024 17:56:58 GMT
+
+### Patches
+
+- fix model name (office@acedata.cloud)
+- fix model name (office@acedata.cloud)
+
+## 1.10.0
+
+Wed, 03 Jul 2024 17:18:06 GMT
+
+### Minor changes
+
+- optimize auth flow (office@acedata.cloud)
+
+## 1.9.1
+
+Tue, 02 Jul 2024 16:30:09 GMT
+
+### Patches
+
+- upgrade to use tasks for mj (germey@acedata.cloud)
+
+## 1.9.0
+
+Mon, 01 Jul 2024 17:01:05 GMT
+
+### Minor changes
+
+- add support for mobile nav (office@acedata.cloud)
+
+## 1.8.4
+
+Mon, 01 Jul 2024 06:15:45 GMT
+
+### Patches
+
+- fix the wrong qrart queue (office@acedata.cloud)
+
+## 1.8.3
+
+Sun, 30 Jun 2024 11:35:08 GMT
+
+### Patches
+
+- update qrart task style (germey@acedata.cloud)
+
+## 1.8.2
+
+Sun, 30 Jun 2024 11:19:28 GMT
+
+### Patches
+
+- update translation files (office@acedata.cloud)
+
+## 1.8.1
+
+Thu, 27 Jun 2024 16:56:44 GMT
+
+### Patches
+
+- update translation files (office@acedata.cloud)
+
+## 1.8.0
+
+Thu, 27 Jun 2024 16:36:00 GMT
+
+### Minor changes
+
+- Update mj new layout (germey@acedata.cloud)
+
+## 1.7.0
+
+Tue, 25 Jun 2024 03:01:07 GMT
+
+### Minor changes
+
+- Add a navbar on top (office@acedata.cloud)
+- bump version (office@acedata.cloud)
+
+### Patches
+
+- update support info (office@acedata.cloud)
+
+## 1.5.5
+
+Mon, 17 Jun 2024 16:58:12 GMT
+
+### Patches
+
+- fix nav width issue (germey@acedata.cloud)
+
+## 1.5.4
+
+Mon, 17 Jun 2024 16:40:10 GMT
+
+### Patches
+
+- fix the auth init issue (germey@acedata.cloud)
+
+## 1.5.3
+
+Mon, 17 Jun 2024 16:01:53 GMT
+
+### Patches
+
+- fix mj custom option (germey@acedata.cloud)
+
+## 1.5.2
+
+Mon, 17 Jun 2024 14:39:35 GMT
+
+### Patches
+
+- fix the site sync bug (germey@acedata.cloud)
+
+## 1.5.1
+
+Mon, 17 Jun 2024 03:29:34 GMT
+
+### Patches
+
+- fix issue for init site (germey@acedata.cloud)
+
+## 1.5.0
+
+Sun, 16 Jun 2024 15:39:44 GMT
+
+### Minor changes
+
+- add config page for site (germey@acedata.cloud)
+
+## 1.4.2
+
+Sat, 15 Jun 2024 04:49:17 GMT
+
+### Patches
+
+- make adaptation for mobile (germey@acedata.cloud)
+
+## 1.4.1
+
+Thu, 13 Jun 2024 16:50:06 GMT
+
+### Patches
+
+- update mj style and fix chat conv groups (germey@acedata.cloud)
+
+## 1.4.0
+
+Thu, 13 Jun 2024 16:04:05 GMT
+
+### Minor changes
+
+- adapt to latest chatgpt stlye for aichat (germey@acedata.cloud)
+
+## 1.3.0
+
+Sun, 26 May 2024 04:02:57 GMT
+
+### Minor changes
+
+- optimize loading speed (germey@acedata.cloud)
+
+## 1.2.1
+
+Tue, 14 May 2024 13:41:47 GMT
+
+### Patches
+
+- add user id support for levels (germey@acedata.cloud)
+
+## 1.2.0
+
+Sun, 12 May 2024 17:51:31 GMT
+
+### Minor changes
+
+- Add nexior support (germey@acedata.cloud)
+
+## 1.1.5
+
+Sun, 12 May 2024 03:07:35 GMT
+
+### Patches
+
+- fix conversations reverse (germey@acedata.cloud)
+
+## 1.1.4
+
+Sat, 11 May 2024 19:00:48 GMT
+
+### Patches
+
+- fix image display issue for vision model (germey@acedata.cloud)
+
+## 1.1.3
+
+Sat, 11 May 2024 10:02:39 GMT
+
+### Patches
+
+- fix logo dark theme (germey@acedata.cloud)
+
+## 1.1.2
+
+Sat, 11 May 2024 09:40:27 GMT
+
+### Patches
+
+- align across site for theme and locale (germey@acedata.cloud)
+
+## 1.1.1
+
+Sun, 05 May 2024 06:16:02 GMT
+
+### Patches
+
+- fix custom style of qrart (germey@acedata.cloud)
+
+## 1.1.0
+
+Fri, 03 May 2024 10:01:48 GMT
+
+### Minor changes
+
+- add new parameter for qrart (germey@acedata.cloud)
+
+## 1.0.1
+
+Sun, 28 Apr 2024 14:22:14 GMT
+
+### Patches
+
+- fix qrart issues (germey@acedata.cloud)
+
+## 1.0.0
+
+Sun, 28 Apr 2024 13:33:01 GMT
+
+### Major changes
+
+- Add Qrart support (germey@acedata.cloud)
+
+## 0.20.2
+
+Mon, 22 Apr 2024 15:47:56 GMT
+
+### Patches
+
+- remove unnecessary records (germey@acedata.cloud)
+
+## 0.20.1
+
+Mon, 22 Apr 2024 05:05:03 GMT
+
+### Patches
+
+- fix progress display for mj (germey@acedata.cloud)
+
+## 0.20.0
+
+Sun, 21 Apr 2024 18:22:58 GMT
+
+### Minor changes
+
+- add support for usage history (germey@acedata.cloud)
+
+## 0.19.0
+
+Sun, 21 Apr 2024 17:40:44 GMT
+
+### Minor changes
+
+- add support for usage history (germey@acedata.cloud)
+
+## 0.18.2
+
+Sat, 20 Apr 2024 17:27:50 GMT
+
+### Patches
+
+- fix conversation display issue (germey@acedata.cloud)
+
+## 0.18.1
+
+Tue, 16 Apr 2024 18:39:16 GMT
+
+### Patches
+
+- fix bug of applying (germey@acedata.cloud)
+
+## 0.18.0
+
+Sun, 14 Apr 2024 17:24:51 GMT
+
+### Minor changes
+
+- add support for renew credentials (germey@acedata.cloud)
+
+## 0.17.6
+
+Sat, 13 Apr 2024 16:31:12 GMT
+
+### Patches
+
+- fix apply dialog display (germey@acedata.cloud)
+
+## 0.17.5
+
+Tue, 09 Apr 2024 17:16:57 GMT
+
+### Patches
+
+- fix bugs of not refreshing for mj (germey@acedata.cloud)
+
+## 0.17.4
+
+Sat, 06 Apr 2024 15:35:50 GMT
+
+### Patches
+
+- fix upload issue (germey@acedata.cloud)
+
+## 0.17.3
+
+Sat, 06 Apr 2024 13:52:35 GMT
+
+### Patches
+
+- fix error json parse for chat (germey@acedata.cloud)
+
+## 0.17.2
+
+Sat, 06 Apr 2024 10:06:57 GMT
+
+### Patches
+
+- fix style bugs (germey@acedata.cloud)
+
+## 0.17.1
+
+Sat, 06 Apr 2024 07:11:07 GMT
+
+### Patches
+
+- update translations (germey@acedata.cloud)
+
+## 0.17.0
+
+Sat, 06 Apr 2024 06:59:17 GMT
+
+### Minor changes
+
+- add dark mode switch (germey@acedata.cloud)
+
+## 0.16.2
+
+Sat, 06 Apr 2024 05:28:44 GMT
+
+### Patches
+
+- fix chatdoc create issue (germey@acedata.cloud)
+
+## 0.16.1
+
+Fri, 05 Apr 2024 06:40:33 GMT
+
+### Patches
+
+- fix wrong model name (germey@acedata.cloud)
+
+## 0.16.0
+
+Thu, 04 Apr 2024 18:13:26 GMT
+
+### Minor changes
+
+- add dark mode support (germey@acedata.cloud)
+
+## 0.15.1
+
+Sun, 31 Mar 2024 17:10:16 GMT
+
+### Patches
+
+- fix order style (germey@acedata.cloud)
+
+## 0.15.0
+
+Mon, 25 Mar 2024 15:25:10 GMT
+
+### Minor changes
+
+- add i18n support (germey@acedata.cloud)
+- add localization support (germey@acedata.cloud)
+
+### Patches
+
+- bump version manually (germey@acedata.cloud)
+- migrate to new architecture (germey@acedata.cloud)
+- fix chatdoc issues (germey@acedata.cloud)
+- bump version manually (germey@acedata.cloud)
+- fix experience bugs (germey@acedata.cloud)
+- add test i18n files (germey@acedata.cloud)
+- update translations files (germey@acedata.cloud)
+- fix translate issues (germey@acedata.cloud)
+- update i18n files (germey@acedata.cloud)
+- update i18n files (germey@acedata.cloud)
+
+## 1.0.1
+
+Mon, 29 Jan 2024 16:17:58 GMT
+
+### Patches
+
+- fix chatdoc upload issue (cqc@germey.cn)
+
+## 1.0.0
+
+Sun, 28 Jan 2024 07:24:49 GMT
+
+### Major changes
+
+- add chatdoc feature (cqc@germey.cn)
+
+## 0.12.2
+
+Sun, 21 Jan 2024 03:37:14 GMT
+
+### Patches
+
+- add docs for docker deploy (germey@acedata.cloud)
+
+## 0.12.1
+
+Mon, 08 Jan 2024 17:48:17 GMT
+
+### Patches
+
+- improve mj experience (germey@acedata.cloud)
+
+## 0.12.0
+
+Mon, 08 Jan 2024 15:49:20 GMT
+
+### Minor changes
+
+- add support for config title and favicon (germey@acedata.cloud)
+
+## 0.11.7
+
+Mon, 08 Jan 2024 14:35:52 GMT
+
+### Patches
+
+- add auth config support (germey@acedata.cloud)
+
+## 0.11.6
+
+Mon, 08 Jan 2024 14:09:32 GMT
+
+### Patches
+
+- fix upload image issue (germey@acedata.cloud)
+
+## 0.11.5
+
+Sun, 07 Jan 2024 14:37:32 GMT
+
+### Patches
+
+- fix distribution level (germey@acedata.cloud)
+
+## 0.11.4
+
+Sun, 07 Jan 2024 13:54:47 GMT
+
+### Patches
+
+- fix invitee page (germey@acedata.cloud)
+
+## 0.11.3
+
+Sun, 07 Jan 2024 13:30:23 GMT
+
+### Patches
+
+- persist floating state when touch (germey@acedata.cloud)
+
+## 0.11.2
+
+Sun, 07 Jan 2024 13:14:56 GMT
+
+### Patches
+
+- fix qr show issue (germey@acedata.cloud)
+
+## 0.11.1
+
+Sun, 07 Jan 2024 12:48:15 GMT
+
+### Patches
+
+- fix ios scan qr issue (germey@acedata.cloud)
+
+## 0.11.0
+
+Sun, 07 Jan 2024 12:22:21 GMT
+
+### Minor changes
+
+- move distribution pages (germey@acedata.cloud)
+
+## 0.10.0
+
+Sun, 07 Jan 2024 11:06:07 GMT
+
+### Minor changes
+
+- add config support global (germey@acedata.cloud)
+
+## 0.9.3
+
+Fri, 05 Jan 2024 18:09:16 GMT
+
+### Patches
+
+- fix error message for chat (germey@acedata.cloud)
+
+## 0.9.2
+
+Wed, 03 Jan 2024 12:21:58 GMT
+
+### Patches
+
+- refine styles (germey@acedata.cloud)
+
+## 0.9.1
+
+Wed, 03 Jan 2024 10:14:47 GMT
+
+### Patches
+
+- update style of model selector (germey@acedata.cloud)
+
+## 0.9.0
+
+Wed, 03 Jan 2024 08:41:15 GMT
+
+### Minor changes
+
+- update onboarding experience (germey@acedata.cloud)
+
+## 0.8.4
+
+Wed, 03 Jan 2024 06:02:27 GMT
+
+### Patches
+
+- add pr pipeline check (germey@acedata.cloud)
+
+## 0.8.3
+
+Wed, 03 Jan 2024 05:56:48 GMT
+
+### Patches
+
+- fix block styles (germey@acedata.cloud)
+
+## 0.8.2
+
+Wed, 03 Jan 2024 05:10:13 GMT
+
+### Patches
+
+- split chunks to optimize loading speed (germey@acedata.cloud)
+
+## 0.8.1
+
+Wed, 03 Jan 2024 04:20:31 GMT
+
+### Patches
+
+- fix docker build issue (germey@acedata.cloud)
+
+## 0.8.0
+
+Wed, 03 Jan 2024 04:14:55 GMT
+
+### Minor changes
+
+- upgrade tailwind and add css optimization (germey@acedata.cloud)
+
+## 0.7.3
+
+Wed, 03 Jan 2024 03:33:35 GMT
+
+### Patches
+
+- fix bug of perist cookie (germey@acedata.cloud)
+
+## 0.7.2
+
+Tue, 02 Jan 2024 19:18:59 GMT
+
+### Patches
+
+- fix bug of setting cookie of inviter id (germey@acedata.cloud)
+
+## 0.7.1
+
+Tue, 02 Jan 2024 18:23:41 GMT
+
+### Patches
+
+- fix inviter id setting (germey@acedata.cloud)
+
+## 0.7.0
+
+Tue, 02 Jan 2024 17:13:47 GMT
+
+### Minor changes
+
+- add auth modal (germey@acedata.cloud)
+
+## 0.6.1
+
+Tue, 02 Jan 2024 06:56:37 GMT
+
+### Patches
+
+- add inviter id cookies persist (germey@acedata.cloud)
+
+## 0.6.0
+
+Tue, 02 Jan 2024 05:44:29 GMT
+
+### Minor changes
+
+- adapt for mobile screen (germey@acedata.cloud)
+
+## 0.5.1
+
+Mon, 01 Jan 2024 18:11:56 GMT
+
+### Patches
+
+- fix stream event and netlify build (germey@acedata.cloud)
+
+## 0.5.0
+
+Mon, 01 Jan 2024 17:58:26 GMT
+
+### Minor changes
+
+- add support for deployment of netlify (germey@acedata.cloud)
+
+## 0.4.1
+
+Mon, 01 Jan 2024 17:34:33 GMT
+
+### Patches
+
+- fix hub url (germey@acedata.cloud)
+
+## 0.4.0
+
+Mon, 01 Jan 2024 17:28:15 GMT
+
+### Minor changes
+
+- refine and clean files (germey@acedata.cloud)
+
+## 0.3.0
+
+Mon, 01 Jan 2024 16:20:13 GMT
+
+### Minor changes
+
+- add vercel deployment support (germey@acedata.cloud)
+
+## 0.2.4
+
+Mon, 01 Jan 2024 14:11:29 GMT
+
+### Patches
+
+- update readme (germey@acedata.cloud)
+
+## 0.2.3
+
+Mon, 01 Jan 2024 12:57:43 GMT
+
+### Patches
+
+- fix build number issue (germey@acedata.cloud)
+
+## 0.2.2
+
+Mon, 01 Jan 2024 12:47:55 GMT
+
+### Patches
+
+- update build number (germey@acedata.cloud)
+
+## 0.2.1
+
+Mon, 01 Jan 2024 12:38:54 GMT
+
+### Patches
+
+- update yarn lock (germey@acedata.cloud)
+
+## 0.2.0
+
+Mon, 01 Jan 2024 12:26:12 GMT
+
+### Minor changes
+
+- add publish pipelines (germey@acedata.cloud)
+
+### Patches
+
+- fix github pipelines (germey@acedata.cloud)
+
+## 0.1.2
+
+Mon, 01 Jan 2024 11:44:05 GMT
+
+### Patches
+
+- change commit info (germey@acedata.cloud)
+
+## 0.1.1
+
+Mon, 01 Jan 2024 11:28:17 GMT
+
+### Patches
+
+- fix git hooks (germey@acedata.cloud)
+- fix invite link (germey@acedata.cloud)

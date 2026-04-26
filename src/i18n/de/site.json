@@ -1,0 +1,450 @@
+{
+  "field.title": {
+    "message": "Seitenüberschrift",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.origin": {
+    "message": "Seiten-Domain",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.description": {
+    "message": "Seitenbeschreibung",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.keywords": {
+    "message": "Seiten-Keywords",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.logo": {
+    "message": "Seiten-Logo",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.favicon": {
+    "message": "Seiten-Favicon",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.qr": {
+    "message": "QR-Code",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.url": {
+    "message": "Link",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.admins": {
+    "message": "Seiten-Admin-ID",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.distributionDefaultInviterId": {
+    "message": "Standard-Einladungs-ID",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.distributionForceInviterId": {
+    "message": "Zwangseinladungs-ID",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresChat": {
+    "message": "Chat",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresVeo": {
+    "message": "Veo",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresSora": {
+    "message": "Sora",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresGrok": {
+    "message": "Grok",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresDeepseek": {
+    "message": "Deepseek",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresChatgpt": {
+    "message": "ChatGPT",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresMidjourney": {
+    "message": "Midjourney",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresChatdoc": {
+    "message": "Chatdoc",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresQrart": {
+    "message": "Qrart",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresLuma": {
+    "message": "Luma",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresPixverse": {
+    "message": "Pixverse",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresPika": {
+    "message": "Pika",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresKling": {
+    "message": "Kling",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresHailuo": {
+    "message": "Hailuo",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresHeadshots": {
+    "message": "AI-Porträt",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresSuno": {
+    "message": "Suno",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresFlux": {
+    "message": "Flux",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresNanobanana": {
+    "message": "Nano Banana",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresOpenaiimage": {
+    "message": "OpenAI-Bild",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresSeedream": {
+    "message": "SeeDream",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresSeedance": {
+    "message": "SeeDance",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresWan": {
+    "message": "Wan",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresProducer": {
+    "message": "Producer",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresKimi": {
+    "message": "Kimi",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresSerp": {
+    "message": "SERP",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresSupport": {
+    "message": "Kundensupport",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "field.featuresI18n": {
+    "message": "Mehrsprachige Unterstützung",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "title.basicConfig": {
+    "message": "Basis-Konfiguration",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "title.seoConfig": {
+    "message": "SEO-Konfiguration",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "title.editAdmins": {
+    "message": "Admins bearbeiten",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "title.featuresConfig": {
+    "message": "Funktionskonfiguration",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "title.editTitle": {
+    "message": "Titel bearbeiten",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "title.editOrigin": {
+    "message": "Domain bearbeiten",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "title.editKeywords": {
+    "message": "Keywords bearbeiten",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "title.editLogo": {
+    "message": "Logo bearbeiten",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "title.editFavicon": {
+    "message": "Favicon bearbeiten",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "title.editDescription": {
+    "message": "Beschreibung bearbeiten",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "title.distributionConfig": {
+    "message": "Vertriebskonfiguration",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "title.editDistributionDefaultInviterId": {
+    "message": "Standard-Einladungs-ID bearbeiten",
+    "description": "Anzeige im Bearbeitungsfeld"
+  },
+  "title.editDistributionForceInviterId": {
+    "message": "Stamm Einladender bearbeiten",
+    "description": "Anzeige im Bearbeitungsfeld Titel"
+  },
+  "title.editQR": {
+    "message": "QR-Code bearbeiten",
+    "description": "Anzeige im Bearbeitungsfeld Titel"
+  },
+  "title.editUrl": {
+    "message": "Link bearbeiten",
+    "description": "Anzeige im Bearbeitungsfeld Titel"
+  },
+  "placeholder.title": {
+    "message": "Bitte Titel der Seite eingeben",
+    "description": "Anzeige im Bearbeitungsfeld Titel"
+  },
+  "placeholder.origin": {
+    "message": "Bitte Domain der Seite eingeben",
+    "description": "Anzeige im Bearbeitungsfeld Titel"
+  },
+  "placeholder.editUrl": {
+    "message": "Bitte Link eingeben",
+    "description": "Anzeige im Bearbeitungsfeld Titel"
+  },
+  "placeholder.description": {
+    "message": "Bitte Beschreibung der Seite eingeben",
+    "description": "Anzeige im Bearbeitungsfeld Titel"
+  },
+  "placeholder.keywords": {
+    "message": "Bitte Schlüsselwörter der Seite eingeben",
+    "description": "Anzeige im Bearbeitungsfeld Titel"
+  },
+  "placeholder.editDistributionDefaultInviterId": {
+    "message": "Bitte Standard Einladender ID eingeben",
+    "description": "Anzeige im Bearbeitungsfeld Titel"
+  },
+  "placeholder.editDistributionForceInviterId": {
+    "message": "Bitte zwingende Einladender ID eingeben",
+    "description": "Anzeige im Bearbeitungsfeld Titel"
+  },
+  "message.uploadImageExceed": {
+    "message": "Bildüberschreitung des Upload-Limits",
+    "description": "Hinweis, wenn das hochgeladene Bild das Limit überschreitet"
+  },
+  "message.uploadImageError": {
+    "message": "Fehler beim Hochladen des Bildes",
+    "description": "Hinweis bei einem Fehler beim Hochladen des Bildes"
+  },
+  "message.editLogoTip": {
+    "message": "Empfohlene Größe: 200*60px",
+    "description": "Hinweis zur Bildgröße beim Hochladen"
+  },
+  "message.editQRTip": {
+    "message": "Empfohlene Größe: 200*200px",
+    "description": "Hinweis zur Bildgröße beim Hochladen"
+  },
+  "message.editFaviconTip": {
+    "message": "Empfohlene Größe: 32*32px",
+    "description": "Hinweis zur Bildgröße beim Hochladen"
+  },
+  "message.editUrl": {
+    "message": "Bitte Link eingeben",
+    "description": "Hinweis zur Eingabe des Links"
+  },
+  "message.atLeastOneAdmin": {
+    "message": "Mindestens einen Administrator behalten",
+    "description": "Hinweis, dass mindestens ein Administrator erforderlich ist"
+  },
+  "message.distributionDefaultInviterIdTip": {
+    "message": "Benutzer-ID des Standard Einladers. Wenn der Verteilungslink keinen inviter_id Parameter enthält, wird diese Benutzer-ID standardmäßig als Einladender verwendet.",
+    "description": "Hinweis zur Standard Einladender ID"
+  },
+  "message.distributionForceInviterIdTip": {
+    "message": "Benutzer-ID des zwingenden Einladers. Wenn diese ID festgelegt ist, wird unabhängig davon, ob der Verteilungslink den inviter_id Parameter enthält, diese Benutzer-ID als Einladender verwendet.",
+    "description": "Hinweis zur zwingenden Einladender ID"
+  },
+  "message.originTip": {
+    "message": "Domain der Seite, die Konfiguration der Seite ist an die Domain gebunden und kann nicht geändert werden.",
+    "description": "Hinweis zur Domain der Seite"
+  },
+  "message.titleTip": {
+    "message": "Titel der Seite, angezeigt im Browser-Tab.",
+    "description": "Hinweis zum Titel der Seite"
+  },
+  "message.descriptionTip": {
+    "message": "Beschreibung der Seite, befindet sich in den Metadaten der Seite und dient der SEO-Optimierung.",
+    "description": "Hinweis zur Beschreibung der Seite"
+  },
+  "message.logoTip": {
+    "message": "Logo der Seite, angezeigt oben im Menü, wenn das Menü ausgeklappt ist.",
+    "description": "Hinweis zum Logo der Seite"
+  },
+  "message.faviconTip": {
+    "message": "Favicon der Seite, angezeigt im Browser-Tab.",
+    "description": "Hinweis zum Favicon der Seite"
+  },
+  "message.adminsTip": {
+    "message": "Administrator-ID der Seite. Standardmäßig wird der Benutzer, der die Seite zuerst erstellt, Administrator. Nur Administratoren können die Seite verwalten.",
+    "description": "Hinweis zu den Administratoren der Seite"
+  },
+  "message.adminsTip2": {
+    "message": "Hier können Administrator-IDs hinzugefügt oder entfernt werden. Benutzer-IDs können unter https://auth.acedata.cloud eingesehen werden.",
+    "description": "Hinweis zu den Administratoren der Seite"
+  },
+  "message.keywordsTip": {
+    "message": "Schlüsselwörter der Seite, befinden sich in den Metadaten der Seite und dienen der SEO-Optimierung.",
+    "description": "Hinweis zu den Schlüsselwörtern der Seite"
+  },
+  "message.keywordsTip2": {
+    "message": "Hier können Schlüsselwörter der Website hinzugefügt oder entfernt werden. Je präziser die Schlüsselwörter, desto besser für die SEO-Optimierung.",
+    "description": "Hinweis zu den Schlüsselwörtern der Seite"
+  },
+  "message.featuresChat": {
+    "message": "Chat-Funktion aktivieren oder deaktivieren.",
+    "description": "Beschreibung der Chat-Funktion"
+  },
+  "message.featuresGrok": {
+    "message": "Grok-Funktion aktivieren oder deaktivieren.",
+    "description": "Beschreibung der Grok-Funktion"
+  },
+  "message.featuresDeepseek": {
+    "message": "Deepseek-Funktion aktivieren oder deaktivieren.",
+    "description": "Beschreibung der Deepseek-Funktion"
+  },
+  "message.featuresChatgpt": {
+    "message": "ChatGPT-Funktion aktivieren oder deaktivieren.",
+    "description": "Beschreibung der ChatGPT-Funktion"
+  },
+  "message.featuresMidjourney": {
+    "message": "Midjourney-Funktion aktivieren oder deaktivieren.",
+    "description": "Beschreibung der Midjourney-Funktion"
+  },
+  "message.featuresChatdoc": {
+    "message": "Chatdoc-Funktion aktivieren oder deaktivieren.",
+    "description": "Beschreibung der Chatdoc-Funktion"
+  },
+  "message.featuresQrart": {
+    "message": "Qrart-Funktion aktivieren oder deaktivieren.",
+    "description": "Beschreibung der Qrart-Funktion"
+  },
+  "message.featuresVeo": {
+    "message": "Veo-Funktion aktivieren oder deaktivieren.",
+    "description": "Beschreibung der Veo-Funktion"
+  },
+  "message.featuresSora": {
+    "message": "Sora-Funktion aktivieren oder deaktivieren.",
+    "description": "Beschreibung der Sora-Funktion"
+  },
+  "message.featuresSuno": {
+    "message": "Suno-Funktion aktivieren oder deaktivieren.",
+    "description": "Suno Funktion der Beschreibung"
+  },
+  "message.featuresPixverse": {
+    "message": "Pixverse-Funktion aktivieren oder deaktivieren.",
+    "description": "Pixverse Funktion der Beschreibung"
+  },
+  "message.featuresFlux": {
+    "message": "FLux-Funktion aktivieren oder deaktivieren.",
+    "description": "FLux Funktion der Beschreibung"
+  },
+  "message.featuresNanobanana": {
+    "message": "Nano Banana-Funktion aktivieren oder deaktivieren.",
+    "description": "Nano Banana Funktion der Beschreibung"
+  },
+  "message.featuresOpenaiimage": {
+    "message": "OpenAI-Bildfunktion aktivieren oder deaktivieren.",
+    "description": "OpenAI Bildfunktion der Beschreibung"
+  },
+  "message.featuresSeedream": {
+    "message": "SeeDream-Funktion aktivieren oder deaktivieren.",
+    "description": "SeeDream Funktion der Beschreibung"
+  },
+  "message.featuresSeedance": {
+    "message": "SeeDance-Funktion aktivieren oder deaktivieren.",
+    "description": "SeeDance Funktion der Beschreibung"
+  },
+  "message.featuresWan": {
+    "message": "Wan-Funktion aktivieren oder deaktivieren.",
+    "description": "Wan Funktion der Beschreibung"
+  },
+  "message.featuresProducer": {
+    "message": "Producer-Funktion aktivieren oder deaktivieren.",
+    "description": "Producer Funktion der Beschreibung"
+  },
+  "message.featuresKimi": {
+    "message": "Kimi-Funktion aktivieren oder deaktivieren.",
+    "description": "Kimi Funktion der Beschreibung"
+  },
+  "message.featuresSerp": {
+    "message": "SERP-Funktion aktivieren oder deaktivieren.",
+    "description": "SERP Funktion der Beschreibung"
+  },
+  "message.featuresLuma": {
+    "message": "Luma-Funktion aktivieren oder deaktivieren.",
+    "description": "Luma Funktion der Beschreibung"
+  },
+  "message.featuresPika": {
+    "message": "Pika-Funktion aktivieren oder deaktivieren.",
+    "description": "Pika Funktion der Beschreibung"
+  },
+  "message.featuresKling": {
+    "message": "Kling-Funktion aktivieren oder deaktivieren.",
+    "description": "Kling Funktion der Beschreibung"
+  },
+  "message.featuresHailuo": {
+    "message": "Hailuo-Funktion aktivieren oder deaktivieren.",
+    "description": "Hailuo Funktion der Beschreibung"
+  },
+  "message.featuresHeadshots": {
+    "message": "AI-Passfoto-Funktion aktivieren oder deaktivieren.",
+    "description": "AI-Passfoto Funktion der Beschreibung"
+  },
+  "message.featuresSupport": {
+    "message": "Kundensupport aktivieren oder deaktivieren.",
+    "description": "Support Funktion der Beschreibung"
+  },
+  "message.featuresI18n": {
+    "message": "Mehrsprachige Unterstützung aktivieren oder deaktivieren. Bei Deaktivierung kann der Benutzer nur die Standardsprache verwenden.",
+    "description": "Mehrsprachige Unterstützung der Beschreibung"
+  },
+  "button.upload": {
+    "message": "Hochladen",
+    "description": "Hochladen"
+  },
+  "button.enabled": {
+    "message": "Aktiviert",
+    "description": "Schaltertext, der anzeigt, dass es aktiviert ist"
+  },
+  "button.disabled": {
+    "message": "Deaktiviert",
+    "description": "Schaltertext, der anzeigt, dass es deaktiviert ist"
+  },
+  "field.featuresGemini": {
+    "message": "Gemini",
+    "description": "Als Titel im Bearbeitungsfeld angezeigt"
+  },
+  "message.featuresGemini": {
+    "message": "Gemini-Funktion aktivieren oder deaktivieren.",
+    "description": "Beschreibung der Gemini-Funktion"
+  },
+  "field.featuresClaude": {
+    "message": "Claude",
+    "description": "Als Titel im Bearbeitungsfeld angezeigt"
+  },
+  "message.featuresClaude": {
+    "message": "Claude-Funktion aktivieren oder deaktivieren.",
+    "description": "Beschreibung der Claude-Funktion"
+  }
+}

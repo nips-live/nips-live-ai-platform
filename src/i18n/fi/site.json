@@ -1,0 +1,450 @@
+{
+  "field.title": {
+    "message": "Sivuston otsikko",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.origin": {
+    "message": "Sivuston verkkotunnus",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.description": {
+    "message": "Sivuston kuvaus",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.keywords": {
+    "message": "Sivuston avainsanat",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.logo": {
+    "message": "Sivuston logo",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.favicon": {
+    "message": "Sivuston favicon",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.qr": {
+    "message": "QR-koodi",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.url": {
+    "message": "Linkki",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.admins": {
+    "message": "Sivuston ylläpitäjätunnus",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.distributionDefaultInviterId": {
+    "message": "Oletus kutsuja ID",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.distributionForceInviterId": {
+    "message": "Pakotettu kutsuja ID",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresChat": {
+    "message": "Chat",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresVeo": {
+    "message": "Veo",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresSora": {
+    "message": "Sora",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresGrok": {
+    "message": "Grok",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresDeepseek": {
+    "message": "Deepseek",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresChatgpt": {
+    "message": "ChatGPT",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresMidjourney": {
+    "message": "Midjourney",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresChatdoc": {
+    "message": "Chatdoc",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresQrart": {
+    "message": "Qrart",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresLuma": {
+    "message": "Luma",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresPixverse": {
+    "message": "Pixverse",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresPika": {
+    "message": "Pika",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresKling": {
+    "message": "Kling",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresHailuo": {
+    "message": "Hailuo",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresHeadshots": {
+    "message": "AI-profiilikuva",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresSuno": {
+    "message": "Suno",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresFlux": {
+    "message": "Flux",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresNanobanana": {
+    "message": "Nano Banaani",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresOpenaiimage": {
+    "message": "OpenAI kuva",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresSeedream": {
+    "message": "SeeDream",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresSeedance": {
+    "message": "SeeDance",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresWan": {
+    "message": "Wan",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresProducer": {
+    "message": "Tuottaja",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresKimi": {
+    "message": "Kimi",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresSerp": {
+    "message": "SERP",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresSupport": {
+    "message": "Asiakastuki",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "field.featuresI18n": {
+    "message": "Monikielinen tuki",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.basicConfig": {
+    "message": "Perusasetukset",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.seoConfig": {
+    "message": "SEO asetukset",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.editAdmins": {
+    "message": "Muokkaa ylläpitäjiä",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.featuresConfig": {
+    "message": "Ominaisuudet asetukset",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.editTitle": {
+    "message": "Muokkaa otsikkoa",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.editOrigin": {
+    "message": "Muokkaa verkkotunnusta",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.editKeywords": {
+    "message": "Muokkaa avainsanoja",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.editLogo": {
+    "message": "Muokkaa logoa",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.editFavicon": {
+    "message": "Muokkaa faviconia",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.editDescription": {
+    "message": "Muokkaa kuvausta",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.distributionConfig": {
+    "message": "Jakeluasetukset",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.editDistributionDefaultInviterId": {
+    "message": "Muokkaa oletuskutsujaa",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.editDistributionForceInviterId": {
+    "message": "Muokkaa pakotettua kutsujaa",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.editQR": {
+    "message": "Muokkaa QR-koodia",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "title.editUrl": {
+    "message": "Muokkaa linkkiä",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "placeholder.title": {
+    "message": "Syötä sivuston otsikko",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "placeholder.origin": {
+    "message": "Syötä sivuston verkkotunnus",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "placeholder.editUrl": {
+    "message": "Syötä linkki",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "placeholder.description": {
+    "message": "Syötä sivuston kuvaus",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "placeholder.keywords": {
+    "message": "Syötä sivuston avainsanat",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "placeholder.editDistributionDefaultInviterId": {
+    "message": "Syötä oletuskutsujan ID",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "placeholder.editDistributionForceInviterId": {
+    "message": "Syötä pakotetun kutsujan ID",
+    "description": "Näytetään muokkausruudun otsikkona"
+  },
+  "message.uploadImageExceed": {
+    "message": "Kuvan lataus ylittää rajan",
+    "description": "Kuvan lataus ylittää rajan ilmoitus"
+  },
+  "message.uploadImageError": {
+    "message": "Kuvan latausvirhe",
+    "description": "Kuvan latausvirhe ilmoitus"
+  },
+  "message.editLogoTip": {
+    "message": "Suositeltu koko: 200*60px",
+    "description": "Kuvan lataamisen ohje"
+  },
+  "message.editQRTip": {
+    "message": "Suositeltu koko: 200*200px",
+    "description": "Kuvan lataamisen ohje"
+  },
+  "message.editFaviconTip": {
+    "message": "Suositeltu koko: 32*32px",
+    "description": "Kuvan lataamisen ohje"
+  },
+  "message.editUrl": {
+    "message": "Syötä linkki",
+    "description": "Syötä linkin ohje"
+  },
+  "message.atLeastOneAdmin": {
+    "message": "Vähintään yksi ylläpitäjä on säilytettävä",
+    "description": "Vähintään yksi ylläpitäjä ilmoitus"
+  },
+  "message.distributionDefaultInviterIdTip": {
+    "message": "Oletuskutsujan käyttäjä ID, jos jakolinkki ei sisällä inviter_id-parametria, käytetään oletuksena tätä käyttäjä ID:tä kutsujana.",
+    "description": "Oletuskutsujan ID:n ohje"
+  },
+  "message.distributionForceInviterIdTip": {
+    "message": "Pakotetun kutsujan käyttäjä ID, jos tämä ID on asetettu, käytetään tätä käyttäjä ID:tä kutsujana riippumatta siitä, sisältääkö jakolinkki inviter_id-parametrin.",
+    "description": "Pakotetun kutsujan ID:n ohje"
+  },
+  "message.originTip": {
+    "message": "Sivuston verkkotunnus, sivuston asetukset on sidottu verkkotunnukseen, verkkotunnusta ei voi muuttaa.",
+    "description": "Sivuston verkkotunnuksen ohje"
+  },
+  "message.titleTip": {
+    "message": "Sivuston otsikko, näytetään selaimen välilehdessä.",
+    "description": "Sivuston otsikon ohje"
+  },
+  "message.descriptionTip": {
+    "message": "Sivuston kuvaus, sijaitsee sivuston metatiedoissa, käytetään sivuston SEO-optimointiin.",
+    "description": "Sivuston kuvauksen ohje"
+  },
+  "message.logoTip": {
+    "message": "Sivuston logo, näytetään sivuston valikon yläosassa, kun valikko on avattu.",
+    "description": "Sivuston logon ohje"
+  },
+  "message.faviconTip": {
+    "message": "Sivuston favicon, näytetään selaimen välilehdessä.",
+    "description": "Sivuston faviconin ohje"
+  },
+  "message.adminsTip": {
+    "message": "Sivuston ylläpitäjä ID, oletuksena ensimmäinen sivuston luoja on ylläpitäjä, vain sivuston ylläpitäjät voivat hallita sivustoa.",
+    "description": "Sivuston ylläpitäjien ohje"
+  },
+  "message.adminsTip2": {
+    "message": "Voit lisätä tai poistaa ylläpitäjä ID:tä täältä, voit tarkistaa käyttäjä ID:t https://auth.acedata.cloud",
+    "description": "Sivuston ylläpitäjien ohje"
+  },
+  "message.keywordsTip": {
+    "message": "Sivuston avainsanat, sijaitsee sivuston metatiedoissa, käytetään sivuston SEO-optimointiin.",
+    "description": "Sivuston avainsanojen ohje"
+  },
+  "message.keywordsTip2": {
+    "message": "Voit lisätä tai poistaa sivuston avainsanoja täältä, mitä tarkempia avainsanoja, sitä parempi SEO-optimointi.",
+    "description": "Sivuston avainsanojen ohje"
+  },
+  "message.featuresChat": {
+    "message": "Ota käyttöön tai poista käytöstä Chat-toimintomoduuli.",
+    "description": "Chat-toiminnon kuvaus"
+  },
+  "message.featuresGrok": {
+    "message": "Ota käyttöön tai poista käytöstä Grok-toimintomoduuli.",
+    "description": "Grok-toiminnon kuvaus"
+  },
+  "message.featuresDeepseek": {
+    "message": "Ota käyttöön tai poista käytöstä Deepseek-toimintomoduuli.",
+    "description": "Deepseek-toiminnon kuvaus"
+  },
+  "message.featuresChatgpt": {
+    "message": "Ota käyttöön tai poista käytöstä ChatGPT-toimintomoduuli.",
+    "description": "ChatGPT-toiminnon kuvaus"
+  },
+  "message.featuresMidjourney": {
+    "message": "Ota käyttöön tai poista käytöstä Midjourney-toimintomoduuli.",
+    "description": "Midjourney-toiminnon kuvaus"
+  },
+  "message.featuresChatdoc": {
+    "message": "Ota käyttöön tai poista käytöstä Chatdoc-toimintomoduuli.",
+    "description": "Chatdoc-toiminnon kuvaus"
+  },
+  "message.featuresQrart": {
+    "message": "Ota käyttöön tai poista käytöstä Qrart-toimintomoduuli.",
+    "description": "Qrart-toiminnon kuvaus"
+  },
+  "message.featuresVeo": {
+    "message": "Ota käyttöön tai poista käytöstä Veo-toimintomoduuli.",
+    "description": "Veo-toiminnon kuvaus"
+  },
+  "message.featuresSora": {
+    "message": "Ota käyttöön tai poista käytöstä Sora-toimintomoduuli.",
+    "description": "Sora-toiminnon kuvaus"
+  },
+  "message.featuresSuno": {
+    "message": "Ota käyttöön tai poista käytöstä Suno-ominaisuusmoduuli.",
+    "description": "Suno-ominaisuuden kuvaus"
+  },
+  "message.featuresPixverse": {
+    "message": "Ota käyttöön tai poista käytöstä Pixverse-ominaisuusmoduuli.",
+    "description": "Pixverse-ominaisuuden kuvaus"
+  },
+  "message.featuresFlux": {
+    "message": "Ota käyttöön tai poista käytöstä FLux-ominaisuusmoduuli.",
+    "description": "FLux-ominaisuuden kuvaus"
+  },
+  "message.featuresNanobanana": {
+    "message": "Ota käyttöön tai poista käytöstä Nano Banana -ominaisuusmoduuli.",
+    "description": "Nano Banana -ominaisuuden kuvaus"
+  },
+  "message.featuresOpenaiimage": {
+    "message": "Ota käyttöön tai poista käytöstä OpenAI-kuvaominaisuusmoduuli.",
+    "description": "OpenAI-kuvaominaisuuden kuvaus"
+  },
+  "message.featuresSeedream": {
+    "message": "Ota käyttöön tai poista käytöstä SeeDream-ominaisuusmoduuli.",
+    "description": "SeeDream-ominaisuuden kuvaus"
+  },
+  "message.featuresSeedance": {
+    "message": "Ota käyttöön tai poista käytöstä SeeDance-ominaisuusmoduuli.",
+    "description": "SeeDance-ominaisuuden kuvaus"
+  },
+  "message.featuresWan": {
+    "message": "Ota käyttöön tai poista käytöstä Wan-ominaisuusmoduuli.",
+    "description": "Wan-ominaisuuden kuvaus"
+  },
+  "message.featuresProducer": {
+    "message": "Ota käyttöön tai poista käytöstä Producer-ominaisuusmoduuli.",
+    "description": "Producer-ominaisuuden kuvaus"
+  },
+  "message.featuresKimi": {
+    "message": "Ota käyttöön tai poista käytöstä Kimi-ominaisuusmoduuli.",
+    "description": "Kimi-ominaisuuden kuvaus"
+  },
+  "message.featuresSerp": {
+    "message": "Ota käyttöön tai poista käytöstä SERP-ominaisuusmoduuli.",
+    "description": "SERP-ominaisuuden kuvaus"
+  },
+  "message.featuresLuma": {
+    "message": "Ota käyttöön tai poista käytöstä Luma-ominaisuusmoduuli.",
+    "description": "Luma-ominaisuuden kuvaus"
+  },
+  "message.featuresPika": {
+    "message": "Ota käyttöön tai poista käytöstä Pika-ominaisuusmoduuli.",
+    "description": "Pika-ominaisuuden kuvaus"
+  },
+  "message.featuresKling": {
+    "message": "Ota käyttöön tai poista käytöstä Kling-ominaisuusmoduuli.",
+    "description": "Kling-ominaisuuden kuvaus"
+  },
+  "message.featuresHailuo": {
+    "message": "Ota käyttöön tai poista käytöstä Hailuo-ominaisuusmoduuli.",
+    "description": "Hailuo-ominaisuuden kuvaus"
+  },
+  "message.featuresHeadshots": {
+    "message": "Ota käyttöön tai poista käytöstä AI-asiakirjakuvien ominaisuusmoduuli.",
+    "description": "AI-asiakirjakuvien ominaisuuden kuvaus"
+  },
+  "message.featuresSupport": {
+    "message": "Ota käyttöön tai poista käytöstä asiakastuki",
+    "description": "Tuen kuvaus"
+  },
+  "message.featuresI18n": {
+    "message": "Ota käyttöön tai poista käytöstä monikielinen tuki, sulkemisen jälkeen käyttäjä voi käyttää vain oletuskieltä.",
+    "description": "Monikielisen tuen kuvaus"
+  },
+  "button.upload": {
+    "message": "Lataa",
+    "description": "Lataa"
+  },
+  "button.enabled": {
+    "message": "Otetaan käyttöön",
+    "description": "Kytkin teksti, joka osoittaa, että se on otettu käyttöön"
+  },
+  "button.disabled": {
+    "message": "Poistettu käytöstä",
+    "description": "Kytkin teksti, joka osoittaa, että se on poistettu käytöstä"
+  },
+  "field.featuresGemini": {
+    "message": "Gemini",
+    "description": "Näytetään otsikkona muokkausruudussa"
+  },
+  "message.featuresGemini": {
+    "message": "Ota käyttöön tai poista käytöstä Gemini-ominaisuusmoduuli.",
+    "description": "Gemini-ominaisuuden kuvaus"
+  },
+  "field.featuresClaude": {
+    "message": "Claude",
+    "description": "Näytetään otsikkona muokkausruudussa"
+  },
+  "message.featuresClaude": {
+    "message": "Ota käyttöön tai poista käytöstä Claude-ominaisuusmoduuli.",
+    "description": "Claude-ominaisuuden kuvaus"
+  }
+}

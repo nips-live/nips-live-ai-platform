@@ -1,0 +1,766 @@
+{
+  "button.thinkDeeper": {
+    "message": "深度思考",
+    "description": "深入思考按鈕"
+  },
+  "button.deepsearch": {
+    "message": "深度搜索",
+    "description": "深度搜索按鈕"
+  },
+  "button.search": {
+    "message": "搜索",
+    "description": "搜索按鈕"
+  },
+  "button.edit": {
+    "message": "編輯",
+    "description": "編輯發送的消息"
+  },
+  "modelGroup.chatgpt": {
+    "message": "ChatGPT",
+    "description": "服務的模型名稱，即 GPT"
+  },
+  "modelGroup.chatgptDescription": {
+    "message": "OpenAI 公司開發的 AI 模型",
+    "description": "ChatGPT 模型的描述"
+  },
+  "modelGroup.deepseek": {
+    "message": "DeepSeek",
+    "description": "服務的模型名稱，即 DeepSeek"
+  },
+  "modelGroup.deepseekDescription": {
+    "message": "深度求索公司開發的 AI 模型",
+    "description": "DeepSeek 模型的描述"
+  },
+  "modelGroup.grok": {
+    "message": "Grok",
+    "description": "服務的模型名稱，即 Grok"
+  },
+  "modelGroup.grokDescription": {
+    "message": "xAI 公司開發的 AI 模型",
+    "description": "Grok3 模型的描述"
+  },
+  "modelGroup.gemini": {
+    "message": "Gemini",
+    "description": "服務的模型名稱，即 Gemini"
+  },
+  "modelGroup.geminiDescription": {
+    "message": "Google 開發的 AI 模型",
+    "description": "Gemini 模型組的描述"
+  },
+  "modelGroup.claude": {
+    "message": "Claude",
+    "description": "服務的模型名稱，即 Claude"
+  },
+  "modelGroup.claudeDescription": {
+    "message": "Anthropic 公司開發的 AI 模型",
+    "description": "Claude 模型組的描述"
+  },
+  "modelGroup.kimi": {
+    "message": "Kimi",
+    "description": "服務的模型名稱，即 Kimi"
+  },
+  "modelGroup.kimiDescription": {
+    "message": "月之暗面公司開發的 AI 模型",
+    "description": "Kimi 模型組的描述"
+  },
+  "modelGroup.glm": {
+    "message": "GLM",
+    "description": "服務的模型名稱，即 GLM"
+  },
+  "modelGroup.glmDescription": {
+    "message": "智譜 AI 開發的大語言模型",
+    "description": "GLM 模型組的描述"
+  },
+  "model.54": {
+    "message": "gpt-5.4",
+    "description": "服務的模型名稱，即 GPT 5.4"
+  },
+  "model.54Description": {
+    "message": "最新一代旗艦 GPT 5.4 模型",
+    "description": "GPT 5.4 模型的描述"
+  },
+  "model.54Mini": {
+    "message": "gpt-5.4-mini",
+    "description": "服務的模型名稱，即 GPT 5.4 Mini"
+  },
+  "model.54MiniDescription": {
+    "message": "更快更輕量的 GPT 5.4 模型",
+    "description": "GPT 5.4 Mini 模型的描述"
+  },
+  "model.54Nano": {
+    "message": "gpt-5.4-nano",
+    "description": "服務的模型名稱，即 GPT 5.4 Nano"
+  },
+  "model.54NanoDescription": {
+    "message": "最小、最快的 GPT 5.4 模型",
+    "description": "GPT 5.4 Nano 模型的描述"
+  },
+  "model.deepseekChat": {
+    "message": "3.0 標準",
+    "description": "服務的模型名稱，即 DeepSeek 聊天"
+  },
+  "model.deepseekChatDescription": {
+    "message": "適用於日常任務",
+    "description": "DeepSeek 聊天模型的描述"
+  },
+  "model.deepseekReasoner": {
+    "message": "R1 推理",
+    "description": "服務的模型名稱，即 DeepSeek 推理"
+  },
+  "model.deepseekReasonerDescription": {
+    "message": "適用於推理和深度思考問題",
+    "description": "DeepSeek 推理模型的描述"
+  },
+  "model.deepseekChat32": {
+    "message": "V3.2 實驗版",
+    "description": "服務的模型名稱，即 DeepSeek V3.2 Exp"
+  },
+  "model.deepseekChat32Description": {
+    "message": "最新實驗版本",
+    "description": "DeepSeek V3.2 實驗模型的描述"
+  },
+  "model.grok4": {
+    "message": "grok-4",
+    "description": "服務的模型名稱，即 Grok 4"
+  },
+  "model.grok4Description": {
+    "message": "目前最先進的模型",
+    "description": "Grok 4 模型的描述"
+  },
+  "model.grok3": {
+    "message": "grok-3",
+    "description": "服務的模型名稱"
+  },
+  "model.grok3Description": {
+    "message": "適用於大多數任務",
+    "description": "Grok3 模型的描述"
+  },
+  "model.grok3Reasoner": {
+    "message": "grok-3 推理",
+    "description": "服務的模型名稱，即 Grok3 推理"
+  },
+  "model.grok3ReasonerDescription": {
+    "message": "適用於推理和深度思考問題",
+    "description": "Grok3 推理模型的描述"
+  },
+  "model.grok3Deepsearch": {
+    "message": "grok-3 深度研究",
+    "description": "服務的模型名稱，即 Grok3 深度研究"
+  },
+  "model.grok3DeepsearchDescription": {
+    "message": "適用於深度研究和複雜問題",
+    "description": "Grok3 深度研究模型的描述"
+  },
+  "model.gemini30Pro": {
+    "message": "gemini-3.0-pro",
+    "description": "服務的模型名稱，即 Gemini 3.0 Pro"
+  },
+  "model.gemini30ProDescription": {
+    "message": "目前最先進的模型",
+    "description": "Gemini 3.0 Pro 模型的描述"
+  },
+  "model.gemini25Pro": {
+    "message": "gemini-2.5-pro",
+    "description": "服務的模型名稱，即 Gemini 2.5 Pro"
+  },
+  "model.gemini25ProDescription": {
+    "message": "適用於複雜推理任務",
+    "description": "Gemini 2.5 Pro 模型的描述"
+  },
+  "model.gemini25Flash": {
+    "message": "gemini-2.5-flash",
+    "description": "服務的模型名稱，即 Gemini 2.5 Flash"
+  },
+  "model.gemini25FlashDescription": {
+    "message": "更快更輕量的模型",
+    "description": "Gemini 2.5 Flash 模型的描述"
+  },
+  "model.claudeOpus4": {
+    "message": "claude-opus-4",
+    "description": "服務的模型名稱，即 Claude Opus 4"
+  },
+  "model.claudeOpus4Description": {
+    "message": "目前最先進的模型",
+    "description": "Claude Opus 4 模型的描述"
+  },
+  "model.claudeSonnet4": {
+    "message": "claude-sonnet-4",
+    "description": "服務的模型名稱，即 Claude Sonnet 4"
+  },
+  "model.claudeSonnet4Description": {
+    "message": "適用於大多數任務",
+    "description": "Claude Sonnet 4 模型的描述"
+  },
+  "model.claude37Sonnet": {
+    "message": "claude-3.7-sonnet",
+    "description": "服務的模型名稱，即 Claude 3.7 Sonnet"
+  },
+  "model.claude37SonnetDescription": {
+    "message": "均衡的性能和速度",
+    "description": "Claude 3.7 Sonnet 模型的描述"
+  },
+  "model.kimiK25": {
+    "message": "kimi-k2.5",
+    "description": "服務的模型名稱，即 Kimi K2.5"
+  },
+  "model.kimiK25Description": {
+    "message": "目前最先進的模型",
+    "description": "Kimi K2.5 模型的描述"
+  },
+  "model.kimiK2Thinking": {
+    "message": "kimi-k2 推理",
+    "description": "服務的模型名稱，即 Kimi K2 推理"
+  },
+  "model.kimiK2ThinkingDescription": {
+    "message": "適用於推理和深度思考問題",
+    "description": "Kimi K2 推理模型的描述"
+  },
+  "model.kimiK2ThinkingTurbo": {
+    "message": "kimi-k2 极速推理",
+    "description": "服務的模型名稱，即 Kimi K2 极速推理"
+  },
+  "model.kimiK2ThinkingTurboDescription": {
+    "message": "更快速的推理模型",
+    "description": "Kimi K2 极速推理模型的描述"
+  },
+  "model.glm51": {
+    "message": "glm-5.1",
+    "description": "服務的模型名稱，即 GLM 5.1"
+  },
+  "model.glm51Description": {
+    "message": "智譜最新旗艦模型",
+    "description": "GLM 5.1 模型的描述"
+  },
+  "model.glm47": {
+    "message": "glm-4.7",
+    "description": "服務的模型名稱，即 GLM 4.7"
+  },
+  "model.glm47Description": {
+    "message": "均衡性能與成本",
+    "description": "GLM 4.7 模型的描述"
+  },
+  "message.startNewChat": {
+    "message": "開始新對話",
+    "description": "網頁中的消息，告訴用戶開始新對話"
+  },
+  "message.uploadFile": {
+    "message": "上傳文件",
+    "description": "網頁中的消息，告訴用戶上傳文件"
+  },
+  "message.noToken": {
+    "message": "請先申請相應服務",
+    "description": "網頁中的消息，告訴用戶先申請相應服務"
+  },
+  "message.newMessagePlaceholder": {
+    "message": "請輸入您的問題...",
+    "description": "網頁中的佔位符，告訴用戶輸入問題"
+  },
+  "message.noInput": {
+    "message": "問題不能為空",
+    "description": "網頁中的消息，告訴用戶問題不能為空"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "最多只能上傳 1 個文件",
+    "description": "網頁中的消息，告訴用戶最多只能上傳 1 個文件"
+  },
+  "message.uploadReferencesError": {
+    "message": "文件上傳失敗，請稍後重試",
+    "description": "網頁中的消息，告訴用戶文件上傳失敗，請稍後重試"
+  },
+  "message.notApplied": {
+    "message": "您尚未申請此服務，請先申請",
+    "description": "網頁中的消息，告訴用戶您尚未申請此服務，請先申請"
+  },
+  "message.tryForFree": {
+    "message": "免費試用",
+    "description": "網頁中的消息，告訴用戶免費試用"
+  },
+  "message.question1": {
+    "message": "創建訓練計劃",
+    "description": "開始對話的示例問題，要求用戶編寫一段輸出 Hello World 的 JavaScript 代碼"
+  },
+  "message.question2": {
+    "message": "製作個人網頁",
+    "description": "開始對話的示例問題，要求用戶給 Mike 寫封電子郵件，告訴他我剛搬家"
+  },
+  "message.question3": {
+    "message": "設計有趣的編程遊戲",
+    "description": "開始對話的示例問題，要求用戶用簡單的語言解釋量子計算的基本原理"
+  },
+  "message.question4": {
+    "message": "像當地人一樣體驗首爾",
+    "description": "開始對話的示例問題，要求用戶解釋虛擬現實對藝術創作產生了什麼影響"
+  },
+  "message.question5": {
+    "message": "9.8 和 9.11 誰更大？",
+    "description": "開始對話的示例問題，要求比較兩個數字的大小"
+  },
+  "message.question6": {
+    "message": "AI 對未來有何影響？",
+    "description": "開始對話的示例問題，AI 對未來有什麼影響？"
+  },
+  "message.question7": {
+    "message": "如何提高學習效率？",
+    "description": "開始對話的示例問題，如何提高自己的學習效率？"
+  },
+  "message.question8": {
+    "message": "如何提高專注力？",
+    "description": "開始對話的示例問題，如何提高自己的專注力？"
+  },
+  "message.errorApiError": {
+    "message": "回答失敗，請稍後重試",
+    "description": "網頁中的消息，告訴用戶回答失敗，請稍後重試"
+  },
+  "message.errorBadRequest": {
+    "message": "請求內容不規範，請重新提問",
+    "description": "網頁中的消息，告訴用戶請求內容不規範，請重新提問"
+  },
+  "message.errorNoConversation": {
+    "message": "對話不存在或已過期，請開始新對話",
+    "description": "網頁中的消息，告訴用戶對話不存在或已過期，請開始新對話"
+  },
+  "message.errorContentTooLarge": {
+    "message": "問題內容過長，請縮短後重試",
+    "description": "網頁中的消息，告訴用戶問題內容過長，請縮短後重試"
+  },
+  "message.errorTooManyRequests": {
+    "message": "您的操作過於頻繁，請稍後重試",
+    "description": "網頁中的消息，告訴用戶您的操作過於頻繁，請稍後重試"
+  },
+  "message.errorBusy": {
+    "message": "伺服器繁忙，請稍後重試",
+    "description": "網頁中的消息，告訴用戶伺服器繁忙，請稍後重試"
+  },
+  "message.errorUsedUp": {
+    "message": "您已用完套餐次數，請購買更多次數繼續使用",
+    "description": "網頁中的消息，告訴用戶您已用完套餐次數，請購買更多次數繼續使用"
+  },
+  "message.errorUnknown": {
+    "message": "伺服器發生未知錯誤，請稍後重試或聯繫客服",
+    "description": "網頁中的消息，告訴用戶伺服器發生未知錯誤，請稍後重試或聯繫客服"
+  },
+  "message.errorTimeout": {
+    "message": "回答問題超時，請稍後重試",
+    "description": "網頁中的消息，告訴用戶回答問題超時，請稍後重試"
+  },
+  "message.errorNotApplied": {
+    "message": "您尚未申請此服務，請先申請再繼續提問",
+    "description": "網頁中的消息，告訴用戶您尚未申請此服務，請先申請再繼續提問"
+  },
+  "message.confirmDelete": {
+    "message": "確認刪除",
+    "description": "網頁中的消息，告訴用戶確認刪除"
+  },
+  "message.howToUse": {
+    "message": "AI 可能會出錯，請檢查重要信息。",
+    "description": "網頁中的消息，告訴用戶 AI 可能會出錯，請檢查重要信息"
+  },
+  "title.chat": {
+    "message": "AI 聊天",
+    "description": "網頁的標題，即 AI 聊天"
+  },
+  "title.example": {
+    "message": "示例",
+    "description": "網頁的標題，即 示例"
+  },
+  "title.capabilities": {
+    "message": "功能",
+    "description": "網頁的標題，即 功能"
+  },
+  "title.limitations": {
+    "message": "限制",
+    "description": "網頁中的標題，指出這部分內容是關於服務的技術限制"
+  },
+  "title.complexQuestion": {
+    "message": "回答複雜問題",
+    "description": "網頁中的標題，指出這部分內容是關於服務回答複雜問題的能力"
+  },
+  "title.professionalQuestion": {
+    "message": "諮詢專業問題",
+    "description": "網頁中的標題，指出這部分內容是關於服務諮詢專業問題的能力"
+  },
+  "title.getTips": {
+    "message": "獲取靈感和創意",
+    "description": "網頁中的標題，指出這部分內容是關於服務獲取靈感和創意的能力"
+  },
+  "group.today": {
+    "message": "今天",
+    "description": "網頁中的分組名稱，即 今天"
+  },
+  "group.yesterday": {
+    "message": "昨天",
+    "description": "網頁中的分組名稱，即 昨天"
+  },
+  "group.thisWeek": {
+    "message": "本週",
+    "description": "網頁中的分組名稱，即 本週"
+  },
+  "group.earlier": {
+    "message": "更早",
+    "description": "網頁中的分組名稱，即 更早"
+  },
+  "mcp.title": {
+    "message": "MCP 伺服器",
+    "description": "MCP 伺服器管理對話框標題"
+  },
+  "mcp.addServer": {
+    "message": "添加伺服器",
+    "description": "添加 MCP 伺服器按鈕"
+  },
+  "mcp.name": {
+    "message": "名稱",
+    "description": "MCP 伺服器名稱"
+  },
+  "mcp.namePlaceholder": {
+    "message": "為伺服器命名",
+    "description": "MCP 伺服器名稱佔位符"
+  },
+  "mcp.url": {
+    "message": "URL",
+    "description": "MCP 伺服器 URL"
+  },
+  "mcp.urlPlaceholder": {
+    "message": "https://example.com/mcp",
+    "description": "MCP 伺服器 URL 佔位符"
+  },
+  "mcp.description": {
+    "message": "描述",
+    "description": "MCP 伺服器描述"
+  },
+  "mcp.descriptionPlaceholder": {
+    "message": "描述此伺服器的用途",
+    "description": "MCP 伺服器描述佔位符"
+  },
+  "mcp.authType": {
+    "message": "認證方式",
+    "description": "MCP 伺服器認證方式"
+  },
+  "mcp.authNone": {
+    "message": "無",
+    "description": "無認證"
+  },
+  "mcp.authBearer": {
+    "message": "Bearer Token",
+    "description": "Bearer Token 認證"
+  },
+  "mcp.authToken": {
+    "message": "Token",
+    "description": "認證 Token"
+  },
+  "mcp.authTokenPlaceholder": {
+    "message": "輸入認證 Token",
+    "description": "認證 Token 佔位符"
+  },
+  "mcp.test": {
+    "message": "測試連接",
+    "description": "測試 MCP 伺服器連接"
+  },
+  "mcp.testSuccess": {
+    "message": "連接成功",
+    "description": "連接測試成功"
+  },
+  "mcp.testFailed": {
+    "message": "連接失敗",
+    "description": "連接測試失敗"
+  },
+  "mcp.toolsFound": {
+    "message": "發現 {count} 個工具",
+    "description": "發現的工具數量"
+  },
+  "mcp.empty": {
+    "message": "暫無 MCP 伺服器，添加一個以擴展 AI 的能力",
+    "description": "MCP 伺服器列表為空"
+  },
+  "mcp.loadErrorHint": {
+    "message": "無法加載 MCP 伺服器，該功能可能暫未開放。",
+    "description": "MCP 伺服器因網路/CORS錯誤加載失敗時的提示"
+  },
+  "mcp.nameUrlRequired": {
+    "message": "請填寫名稱和 URL",
+    "description": "名稱和 URL 必填"
+  },
+  "mcp.urlRequired": {
+    "message": "請填寫 URL",
+    "description": "URL 必填"
+  },
+  "mcp.created": {
+    "message": "添加成功",
+    "description": "MCP 伺服器添加成功"
+  },
+  "mcp.updated": {
+    "message": "更新成功",
+    "description": "MCP 伺服器更新成功"
+  },
+  "mcp.deleted": {
+    "message": "刪除成功",
+    "description": "MCP 伺服器刪除成功"
+  },
+  "mcp.saveFailed": {
+    "message": "保存失敗",
+    "description": "MCP 伺服器保存失敗"
+  },
+  "mcp.deleteConfirm": {
+    "message": "確認刪除伺服器 \"{name}\"？",
+    "description": "刪除確認"
+  },
+  "mcp.tooltip": {
+    "message": "MCP 伺服器",
+    "description": "MCP 按鈕提示"
+  },
+  "mcp.authOAuth": {
+    "message": "OAuth 2.0",
+    "description": "OAuth 認證類型"
+  },
+  "mcp.oauthHint": {
+    "message": "保存後，在伺服器卡片上點擊「授權」按鈕完成 OAuth 認證。",
+    "description": "選擇 OAuth 認證類型時的提示"
+  },
+  "mcp.authorize": {
+    "message": "授權",
+    "description": "OAuth 授權按鈕"
+  },
+  "mcp.oauthAuthorized": {
+    "message": "OAuth 授權成功",
+    "description": "OAuth 授權成功消息"
+  },
+  "mcp.oauthFailed": {
+    "message": "OAuth 授權失敗",
+    "description": "OAuth 授權失敗消息"
+  },
+  "mcp.popupBlocked": {
+    "message": "彈出窗口被阻止，請允許本站彈出窗口。",
+    "description": "彈出窗口被阻止提示"
+  },
+  "connector.title": {
+    "message": "連接器",
+    "description": "連接器管理對話框標題"
+  },
+  "connector.tooltip": {
+    "message": "OAuth 連接器",
+    "description": "連接器按鈕提示"
+  },
+  "connector.noProviders": {
+    "message": "暫無可用連接器，請在服務端配置 OAuth 提供商。",
+    "description": "無提供商消息"
+  },
+  "connector.connect": {
+    "message": "連接",
+    "description": "連接按鈕"
+  },
+  "connector.disconnect": {
+    "message": "斷開",
+    "description": "斷開按鈕"
+  },
+  "connector.connected": {
+    "message": "連接器連接成功",
+    "description": "連接成功消息"
+  },
+  "connector.disconnected": {
+    "message": "連接器已斷開",
+    "description": "斷開成功消息"
+  },
+  "connector.authFailed": {
+    "message": "授權失敗，請重試。",
+    "description": "授權失敗消息"
+  },
+  "connector.loadError": {
+    "message": "加載連接器失敗",
+    "description": "加載錯誤消息"
+  },
+  "connector.loadErrorHint": {
+    "message": "無法加載連接器，該功能可能暫未開放。",
+    "description": "連接器因網路/CORS錯誤加載失敗時的提示"
+  },
+  "connector.disconnectError": {
+    "message": "斷開連接器失敗",
+    "description": "斷開錯誤消息"
+  },
+  "connector.toggleError": {
+    "message": "更新連接器失敗",
+    "description": "切換錯誤消息"
+  },
+  "connector.processing": {
+    "message": "正在處理授權...",
+    "description": "OAuth 回調處理消息"
+  },
+  "connector.authSuccess": {
+    "message": "授權成功！",
+    "description": "OAuth 回調成功消息"
+  },
+  "connector.closeWindow": {
+    "message": "此窗口將自動關閉。",
+    "description": "OAuth 回調關閉提示"
+  },
+  "skill.title": {
+    "message": "技能",
+    "description": "技能管理對話框標題"
+  },
+  "skill.tooltip": {
+    "message": "AI 技能",
+    "description": "技能按鈕提示"
+  },
+  "skill.builtin": {
+    "message": "內建",
+    "description": "內建技能標籤"
+  },
+  "skill.empty": {
+    "message": "暫無可用技能。",
+    "description": "技能列表為空提示"
+  },
+  "skill.loadError": {
+    "message": "加載技能失敗",
+    "description": "技能加載失敗提示"
+  },
+  "skill.add": {
+    "message": "添加技能",
+    "description": "添加技能按鈕標籤"
+  },
+  "skill.delete": {
+    "message": "刪除",
+    "description": "刪除技能按鈕標籤"
+  },
+  "skill.deleteConfirm": {
+    "message": "確認刪除技能「{name}」？此操作無法撤銷。",
+    "description": "刪除技能前的確認消息"
+  },
+  "skill.deleteSuccess": {
+    "message": "已刪除",
+    "description": "刪除技能成功消息"
+  },
+  "skill.deleteError": {
+    "message": "刪除失敗",
+    "description": "刪除技能錯誤消息"
+  },
+  "skill.createSuccess": {
+    "message": "技能已創建",
+    "description": "創建技能成功消息"
+  },
+  "skill.createError": {
+    "message": "創建技能失敗",
+    "description": "創建技能錯誤消息"
+  },
+  "skill.form.name": {
+    "message": "名稱",
+    "description": "技能表單名稱標籤"
+  },
+  "skill.form.namePlaceholder": {
+    "message": "例如 summarizer",
+    "description": "技能表單名稱佔位符"
+  },
+  "skill.form.nameRequired": {
+    "message": "請填寫名稱",
+    "description": "技能表單名稱必填消息"
+  },
+  "skill.form.displayName": {
+    "message": "顯示名稱",
+    "description": "技能表單顯示名稱標籤"
+  },
+  "skill.form.displayNamePlaceholder": {
+    "message": "在技能列表中展示的名稱",
+    "description": "技能表單顯示名稱佔位符"
+  },
+  "skill.form.icon": {
+    "message": "圖標（emoji）",
+    "description": "技能表單圖標標籤"
+  },
+  "skill.form.description": {
+    "message": "描述",
+    "description": "技能表單描述標籤"
+  },
+  "skill.form.type": {
+    "message": "類型",
+    "description": "技能表單類型標籤"
+  },
+  "skill.form.typePrompt": {
+    "message": "提示詞",
+    "description": "Prompt type label"
+  },
+  "skill.form.typeCode": {
+    "message": "程式碼",
+    "description": "Code type label"
+  },
+  "skill.form.instructions": {
+    "message": "提示詞內容",
+    "description": "Prompt instructions label"
+  },
+  "skill.form.instructionsPlaceholder": {
+    "message": "粘貼或編寫該技能對應的提示詞 / 指令...",
+    "description": "Prompt instructions placeholder"
+  },
+  "skill.form.instructionsRequired": {
+    "message": "提示詞類型必須填寫提示詞內容",
+    "description": "Prompt instructions required message"
+  },
+  "skill.form.code": {
+    "message": "程式碼",
+    "description": "Code skill label"
+  },
+  "skill.form.codePlaceholder": {
+    "message": "粘貼該技能對應的程式碼...",
+    "description": "Code skill placeholder"
+  },
+  "skill.form.codeRequired": {
+    "message": "程式碼類型必須填寫程式碼",
+    "description": "Code skill required message"
+  },
+  "skill.form.tags": {
+    "message": "標籤",
+    "description": "Skill form tags label"
+  },
+  "skill.form.tagsPlaceholder": {
+    "message": "用逗號分隔，如：寫作, 程式設計",
+    "description": "Skill form tags placeholder"
+  },
+  "skill.form.uploadText": {
+    "message": "上傳 .txt / .md 檔案",
+    "description": "Upload prompt file button"
+  },
+  "skill.form.uploadCode": {
+    "message": "上傳程式碼檔案",
+    "description": "Upload code file button"
+  },
+  "agent.title": {
+    "message": "桌面代理",
+    "description": "代理管理對話框標題"
+  },
+  "agent.tooltip": {
+    "message": "桌面代理",
+    "description": "代理按鈕提示"
+  },
+  "agent.connected": {
+    "message": "已連接",
+    "description": "代理已連接狀態"
+  },
+  "agent.notConnected": {
+    "message": "未連接",
+    "description": "代理未連接狀態"
+  },
+  "agent.description": {
+    "message": "連接桌面代理以在 AI 對話中訪問本地檔案、執行命令和使用本地 MCP 伺服器。",
+    "description": "代理描述"
+  },
+  "agent.name": {
+    "message": "代理名稱",
+    "description": "代理名稱標籤"
+  },
+  "agent.tools": {
+    "message": "可用工具",
+    "description": "代理工具數量標籤"
+  },
+  "agent.connectedSince": {
+    "message": "連接時間",
+    "description": "代理連接時間標籤"
+  },
+  "agent.connectedHint": {
+    "message": "您的桌面代理已連接，可以使用。",
+    "description": "代理已連接提示"
+  },
+  "agent.installLabel": {
+    "message": "安裝桌面代理：",
+    "description": "安裝說明標籤"
+  },
+  "agent.runLabel": {
+    "message": "運行代理：",
+    "description": "運行說明標籤"
+  }
+}

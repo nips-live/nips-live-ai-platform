@@ -1,0 +1,222 @@
+{
+  "name.taskId": {
+    "message": "ID Εργασίας",
+    "description": "Το ID της εργασίας"
+  },
+  "name.failure": {
+    "message": "Αποτυχία",
+    "description": "Η κατάσταση αποτυχίας της εργασίας"
+  },
+  "name.failureReason": {
+    "message": "Λόγος Αποτυχίας",
+    "description": "Ο λόγος αποτυχίας της εργασίας"
+  },
+  "name.status": {
+    "message": "Κατάσταση",
+    "description": "Η κατάσταση της εργασίας"
+  },
+  "name.traceId": {
+    "message": "ID Ιχνηλάτη",
+    "description": "Το ID ιχνηλάτη της εργασίας"
+  },
+  "name.createdAt": {
+    "message": "Ημερομηνία Δημιουργίας",
+    "description": "Η ημερομηνία και ώρα δημιουργίας του βίντεο Sora"
+  },
+  "name.startEndImage": {
+    "message": "Εικόνες Αρχής/Τέλους",
+    "description": "Ετικέτα πεδίου φόρμας: Εικόνες αναφοράς αρχής/τέλους (συνιστάται να μεταφραστεί ως 'Start/End Frames', διατηρώντας τη σύντομη μορφή για να μην καλύπτει το κουμπί)"
+  },
+  "name.action": {
+    "message": "Ενέργεια",
+    "description": "Λίστα διαθέσιμων ενεργειών"
+  },
+  "name.prompt": {
+    "message": "Υπόδειξη Βίντεο",
+    "description": "Η υπόδειξη για την είσοδο περιεχομένου"
+  },
+  "name.model": {
+    "message": "Έκδοση Μοντέλου",
+    "description": "Η έκδοση του μοντέλου που χρησιμοποιείται για τη δημιουργία του βίντεο"
+  },
+  "name.soraBot": {
+    "message": "OpenAI Sora Bot",
+    "description": "Το όνομα του δημιουργού βίντεο Sora"
+  },
+  "name.orientation": {
+    "message": "Κατεύθυνση Βίντεο",
+    "description": "Το όνομα της παραμέτρου κατεύθυνσης του βίντεο"
+  },
+  "option.portrait": {
+    "message": "Κατακόρυφο",
+    "description": "Κείμενο επιλογής: Κατακόρυφη κατεύθυνση (συνιστάται να μεταφραστεί ως 'Portrait', διατηρώντας τη σύντομη μορφή)"
+  },
+  "option.landscape": {
+    "message": "Οριζόντιο",
+    "description": "Κείμενο επιλογής: Οριζόντια κατεύθυνση (συνιστάται να μεταφραστεί ως 'Landscape', διατηρώντας τη σύντομη μορφή)"
+  },
+  "name.duration": {
+    "message": "Διάρκεια Βίντεο",
+    "description": "Το όνομα της παραμέτρου διάρκειας του βίντεο"
+  },
+  "name.size": {
+    "message": "Ανάλυση Βίντεο",
+    "description": "Το όνομα της παραμέτρου ανάλυσης του βίντεο"
+  },
+  "description.imageUrl": {
+    "message": "Στην εργασία δημιουργίας βίντεο με πολλές εικόνες, πρέπει να ανεβάσετε πολλές εικόνες.",
+    "description": "Η περιγραφή της παραμέτρου 'imageUrl'"
+  },
+  "description.prompt": {
+    "message": "Οι λέξεις-κλειδιά για τη δημιουργία του βίντεο Sora",
+    "description": "Η περιγραφή της παραμέτρου 'prompt'"
+  },
+  "description.uploadStartEndImage": {
+    "message": "Πίνακας συνδέσμων εικόνας αναφοράς, η πρώτη είναι η εικόνα αρχής και η δεύτερη η εικόνα τέλους",
+    "description": "Η περιγραφή της παραμέτρου 'image_url'"
+  },
+  "status.pending": {
+    "message": "Σε Αναμονή",
+    "description": "Η κατάσταση αναμονής της εργασίας"
+  },
+  "status.processing": {
+    "message": "Επεξεργασία",
+    "description": "Η κατάσταση επεξεργασίας της εργασίας"
+  },
+  "placeholder.paddingNoise": {
+    "message": "Επιλέξτε...",
+    "description": "Το placeholder για την είσοδο θορύβου padding"
+  },
+  "placeholder.select": {
+    "message": "Επιλογή",
+    "description": "Το placeholder κειμένου στο πεδίο επιλογής"
+  },
+  "placeholder.paddingLevel": {
+    "message": "Επιλέξτε...",
+    "description": "Το placeholder για το επίπεδο padding"
+  },
+  "placeholder.prompt": {
+    "message": "Εισάγετε τις λέξεις-κλειδιά για το στυλ του βίντεο, π.χ.: moving",
+    "description": "Το placeholder κειμένου στο πεδίο υπόδειξης"
+  },
+  "placeholder.position": {
+    "message": "Επιλέξτε...",
+    "description": "Το placeholder για την είσοδο θέσης"
+  },
+  "tip.proOnly": {
+    "message": "Μόνο το μοντέλο sora-2-pro υποστηρίζει την τροποποίηση αυτής της παραμέτρου",
+    "description": "Υπόδειξη στους χρήστες ότι μόνο το επαγγελματικό μοντέλο υποστηρίζει την τροποποίηση αυτής της παραμέτρου"
+  },
+  "button.generate": {
+    "message": "Δημιουργία",
+    "description": "Το κείμενο του κουμπιού για τη δημιουργία του βίντεο Sora"
+  },
+  "button.action1": {
+    "message": "Δημιουργία Βίντεο",
+    "description": "Το κείμενο του κουμπιού για τη δημιουργία του βίντεο Sora"
+  },
+  "button.action2": {
+    "message": "Δημιουργία Βίντεο από Εικόνες",
+    "description": "Το κείμενο του κουμπιού για τη δημιουργία του βίντεο Sora"
+  },
+  "button.download": {
+    "message": "Λήψη Βίντεο",
+    "description": "Το κείμενο του κουμπιού για τη λήψη του βίντεο"
+  },
+  "button.uploadImageUrl": {
+    "message": "Ανέβασμα",
+    "description": "Το κείμενο του κουμπιού για το ανέβασμα εικόνας (συνιστάται να απλοποιηθεί σε 'Upload', χωρίς 'Upload Image')"
+  },
+  "button.uploadVideoUrl": {
+    "message": "Ανέβασμα Βίντεο",
+    "description": "Το κείμενο του κουμπιού για το ανέβασμα βίντεο"
+  },
+  "button.uploadReferences": {
+    "message": "Ανέβασμα",
+    "description": "Το κείμενο του κουμπιού που επιτρέπει στους χρήστες να ανεβάσουν αναφορές"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "Μπορείτε να ανεβάσετε έως 2 εικόνες",
+    "description": "Το μήνυμα σφάλματος όταν ο αριθμός των ανεβασμένων εικόνων υπερβαίνει το όριο"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "Επιτυχής Ανέβασμα Εικόνας",
+    "description": "Το μήνυμα επιτυχίας όταν η εικόνα ανέβει επιτυχώς"
+  },
+  "message.uploadReferencesError": {
+    "message": "Αποτυχία Ανέβασμα Εικόνας, παρακαλώ δοκιμάστε ξανά αργότερα",
+    "description": "Το μήνυμα σφάλματος όταν η εικόνα αποτυγχάνει να ανέβει"
+  },
+  "message.startingTask": {
+    "message": "Εκκίνηση Εργασίας...",
+    "description": "Το μήνυμα κατά την εκκίνηση της εργασίας σχεδίασης"
+  },
+  "message.startTaskSuccess": {
+    "message": "Επιτυχής Έναρξη Εργασίας Δημιουργίας",
+    "description": "Το μήνυμα επιτυχίας όταν η εργασία εκκινείται επιτυχώς"
+  },
+  "message.startTaskFailed": {
+    "message": "Αποτυχία Έναρξης Εργασίας, παρακαλώ επικοινωνήστε με τον διαχειριστή",
+    "description": "Το μήνυμα σφάλματος όταν η εργασία σχεδίασης αποτυγχάνει να εκκινήσει"
+  },
+  "message.usedUp": {
+    "message": "Τα πόντοι σας έχουν εξαντληθεί, παρακαλώ αγοράστε περισσότερους πόντους για να συνεχίσετε",
+    "description": "Το μήνυμα όταν οι πόντοι έχουν εξαντληθεί"
+  },
+  "message.generating": {
+    "message": "Δημιουργία σε Εξέλιξη...",
+    "description": "Το μήνυμα κατά τη διάρκεια της δημιουργίας της εικόνας"
+  },
+  "message.downloadVideo": {
+    "message": "Λήψη αυτού του βίντεο",
+    "description": "Το μήνυμα κατά τη διάρκεια της δημιουργίας της εικόνας"
+  },
+  "message.generateFailed": {
+    "message": "Αποτυχία Δημιουργίας Βίντεο",
+    "description": "Το μήνυμα όταν η δημιουργία της εικόνας αποτυγχάνει"
+  },
+  "message.uploadVideoExceed": {
+    "message": "Ο αριθμός των εικόνων πρώτης καρέ υπερβαίνει το όριο",
+    "description": "Μήνυμα σφάλματος όταν ο αριθμός των εικόνων πρώτης καρέ υπερβαίνει το όριο"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "Το μέγεθος του αρχείου δεν μπορεί να υπερβαίνει τα 10MB!",
+    "description": "Μήνυμα σφάλματος όταν το μέγεθος του αρχείου υπερβαίνει τα 10MB!"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "Το αρχείο πρέπει να είναι σε μορφή MP4!",
+    "description": "Μήνυμα σφάλματος όταν το αρχείο δεν είναι σε μορφή MP4!"
+  },
+  "message.uploadStartEndImageExceed": {
+    "message": "Ο αριθμός των εικόνων πρώτης καρέ υπερβαίνει το όριο",
+    "description": "Μήνυμα σφάλματος όταν ο αριθμός των εικόνων πρώτης καρέ υπερβαίνει το όριο"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "Ο αριθμός των εικόνων τελευταίας καρέ υπερβαίνει το όριο",
+    "description": "Μήνυμα σφάλματος όταν ο αριθμός των εικόνων τελευταίας καρέ υπερβαίνει το όριο"
+  },
+  "message.uploadStartImageError": {
+    "message": "Αποτυχία φόρτωσης εικόνας πρώτης καρέ",
+    "description": "Μήνυμα σφάλματος όταν η φόρτωση της εικόνας πρώτης καρέ αποτυγχάνει"
+  },
+  "message.uploadVideoError": {
+    "message": "Αποτυχία φόρτωσης βίντεο",
+    "description": "Μήνυμα σφάλματος όταν η φόρτωση του βίντεο αποτυγχάνει"
+  },
+  "message.uploadEndImageError": {
+    "message": "Αποτυχία φόρτωσης εικόνας τελευταίας καρέ",
+    "description": "Μήνυμα σφάλματος όταν η φόρτωση της εικόνας τελευταίας καρέ αποτυγχάνει"
+  },
+  "message.uploadDocumentsError": {
+    "message": "Αποτυχία φόρτωσης εγγράφων",
+    "description": "Μήνυμα σφάλματος όταν η φόρτωση των εγγράφων αποτυγχάνει"
+  },
+  "message.noOperations": {
+    "message": "Δεν υπάρχουν διαθέσιμες ενέργειες",
+    "description": "Μήνυμα όταν δεν υπάρχουν διαθέσιμες ενέργειες"
+  },
+  "message.noTasks": {
+    "message": "Δεν υπάρχουν ιστορικά καθήκοντα, παρακαλώ κάντε κλικ για να δημιουργήσετε βίντεο αριστερά",
+    "description": "Μήνυμα όταν δεν υπάρχουν καθήκοντα"
+  }
+}

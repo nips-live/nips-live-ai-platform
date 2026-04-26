@@ -1,0 +1,542 @@
+{
+  "button.extend": {
+    "message": "繼續生成",
+    "description": "繼續生成按鈕文本"
+  },
+  "button.download": {
+    "message": "下載",
+    "description": "下載按鈕文本"
+  },
+  "button.more": {
+    "message": "更多操作",
+    "description": "更多操作按鈕文本"
+  },
+  "button.uploadAudios": {
+    "message": "上傳",
+    "description": "按鈕文本，允許用戶上傳參考"
+  },
+  "button.video": {
+    "message": "視頻",
+    "description": "視頻按鈕文本"
+  },
+  "button.download_video": {
+    "message": "下載視頻",
+    "description": "下載視頻按鈕文本"
+  },
+  "button.download_wav": {
+    "message": "下載 WAV 無損",
+    "description": "下載WAV無損格式按鈕文本"
+  },
+  "button.download_midi": {
+    "message": "下載 MIDI",
+    "description": "下載MIDI格式按鈕文本"
+  },
+  "button.get_stems": {
+    "message": "聲曲分離",
+    "description": "聲曲分離按鈕文本"
+  },
+  "button.cover_music": {
+    "message": "翻唱",
+    "description": "翻唱按鈕文本"
+  },
+  "button.concat_music": {
+    "message": "拼接",
+    "description": "拼接音樂按鈕文本"
+  },
+  "button.download_audio": {
+    "message": "下載音樂",
+    "description": "下載音樂按鈕文本"
+  },
+  "button.remaster": {
+    "message": "重製母版",
+    "description": "重製母版提升音質按鈕文本"
+  },
+  "button.replace_section": {
+    "message": "替換片段",
+    "description": "替換歌曲中的某個片段按鈕文本"
+  },
+  "button.mashup": {
+    "message": "混搭",
+    "description": "混搭多首歌曲按鈕文本"
+  },
+  "button.generate_lyrics": {
+    "message": "AI 生成歌詞",
+    "description": "使用AI自動生成歌詞按鈕文本"
+  },
+  "button.optimize_style": {
+    "message": "優化風格",
+    "description": "使用AI優化風格描述按鈕文本"
+  },
+  "button.all_stems": {
+    "message": "全部分離",
+    "description": "分離所有音軌按鈕文本"
+  },
+  "model.model1": {
+    "message": "v2",
+    "description": "用於生成音樂的模型"
+  },
+  "model.model2": {
+    "message": "v3",
+    "description": "用於生成音樂的模型"
+  },
+  "name.instrumental": {
+    "message": "純音樂",
+    "description": "生成純音樂無人聲"
+  },
+  "name.referenceAudios": {
+    "message": "參考音樂",
+    "description": "參考音樂的名稱"
+  },
+  "model.model3": {
+    "message": "v3.5",
+    "description": "用於生成音樂的模型"
+  },
+  "model.model4": {
+    "message": "v4.0",
+    "description": "用於生成音樂的模型"
+  },
+  "model.model45": {
+    "message": "v4.5",
+    "description": "用於生成音樂的模型"
+  },
+  "model.model5": {
+    "message": "v5",
+    "description": "用於生成音樂的模型"
+  },
+  "model.model45plus": {
+    "message": "v4.5+",
+    "description": "用於生成音樂的模型"
+  },
+  "name.taskId": {
+    "message": "任務 ID",
+    "description": "任務的 ID"
+  },
+  "name.type": {
+    "message": "定制模式",
+    "description": "定制模式的名稱"
+  },
+  "name.prompt": {
+    "message": "歌曲描述",
+    "description": "內容輸入的提示"
+  },
+  "name.extend": {
+    "message": "擴展歌曲來自",
+    "description": "內容輸入的提示"
+  },
+  "name.cover": {
+    "message": "翻唱歌曲來自",
+    "description": "內容輸入的提示"
+  },
+  "name.lyrics": {
+    "message": "歌詞",
+    "description": "歌詞內容輸入的提示"
+  },
+  "name.style": {
+    "message": "風格",
+    "description": "歌曲風格內容輸入的提示"
+  },
+  "name.styleNegative": {
+    "message": "排除風格",
+    "description": "不想要的風格描述"
+  },
+  "name.title": {
+    "message": "標題",
+    "description": "歌曲標題內容輸入的提示"
+  },
+  "name.vocalGender": {
+    "message": "人聲性別",
+    "description": "選擇人聲性別"
+  },
+  "name.advancedParams": {
+    "message": "高級參數",
+    "description": "高級參數設置"
+  },
+  "name.weirdness": {
+    "message": "創意度",
+    "description": "控制生成音樂的創意程度"
+  },
+  "name.styleInfluence": {
+    "message": "風格影響力",
+    "description": "控制風格對生成結果的影響程度"
+  },
+  "name.variationCategory": {
+    "message": "變體類型",
+    "description": "控制生成變體的多樣性程度"
+  },
+  "name.audioWeight": {
+    "message": "原曲權重",
+    "description": "翻唱時原曲的影響權重"
+  },
+  "name.lyricPrompt": {
+    "message": "歌詞提示",
+    "description": "用於自動生成歌詞的提示"
+  },
+  "name.failureReason": {
+    "message": "失敗原因",
+    "description": "任務失敗的原因"
+  },
+  "name.status": {
+    "message": "狀態",
+    "description": "任務的狀態"
+  },
+  "name.traceId": {
+    "message": "追蹤 ID",
+    "description": "任務的追蹤 ID"
+  },
+  "name.sunoBot": {
+    "message": "Suno Bot",
+    "description": "Suno生成器的名稱"
+  },
+  "name.replaceSection": {
+    "message": "替換片段",
+    "description": "替換歌曲中的某個片段"
+  },
+  "name.model": {
+    "message": "模型",
+    "description": "選擇模型版本"
+  },
+  "name.songDescription": {
+    "message": "歌曲描述",
+    "description": "歌曲描述模式"
+  },
+  "description.prompt": {
+    "message": "描述你想要的音樂風格和主題",
+    "description": "參數'prompt'的描述"
+  },
+  "description.lyrics": {
+    "message": "輸入自定義歌詞，支持 [Verse]、[Chorus]、[Bridge] 等段落標記",
+    "description": "參數'lyrics'的描述"
+  },
+  "description.style": {
+    "message": "描述音樂風格，如 acoustic pop、jazz、electronic",
+    "description": "參數'style'的描述"
+  },
+  "description.styleNegative": {
+    "message": "描述不想要的風格，例如 heavy metal、screaming",
+    "description": "排除風格參數的描述"
+  },
+  "description.title": {
+    "message": "歌曲標題",
+    "description": "參數'title'的描述"
+  },
+  "description.uploadAudios": {
+    "message": "上傳音樂作為生成的參考，過程需要等待一會，生成成功後可根據上傳的音樂進行生成",
+    "description": "上傳參考參數的描述"
+  },
+  "description.vocalGender": {
+    "message": "選擇生成人聲的性別（僅 v4.5 及以上版本支持）",
+    "description": "人聲性別選擇器的描述"
+  },
+  "description.weirdness": {
+    "message": "值越高生成的音樂越有創意和實驗性 (0-100)",
+    "description": "創意度參數的描述"
+  },
+  "description.styleInfluence": {
+    "message": "值越高風格標籤對生成結果的影響越大 (0-100)",
+    "description": "風格影響力參數的描述"
+  },
+  "description.audioWeight": {
+    "message": "翻唱時原曲對結果的影響權重 (0-100)",
+    "description": "原曲權重參數的描述"
+  },
+  "description.lyricPrompt": {
+    "message": "輸入歌詞描述，AI 將自動生成歌詞",
+    "description": "歌詞提示描述"
+  },
+  "description.replaceSection": {
+    "message": "替換歌曲中指定時間段的內容",
+    "description": "替換片段功能的描述"
+  },
+  "status.pending": {
+    "message": "等待中",
+    "description": "任務的等待狀態"
+  },
+  "placeholder.prompt": {
+    "message": "描述你想要的音樂，例如：一首溫暖的民謠，關於秋天的思念...",
+    "description": "歌曲描述輸入的佔位符"
+  },
+  "placeholder.lyrics": {
+    "message": "[Verse]\n在這個寂靜的夜裡\n星星在天空閃爍\n\n[Chorus]\n讓我們一起唱歌\n直到天亮...",
+    "description": "歌詞輸入的佔位符"
+  },
+  "placeholder.extend.lyrics": {
+    "message": "請輸入需要擴展的歌詞...",
+    "description": "擴展歌詞輸入的佔位符"
+  },
+  "placeholder.extend.continue_at": {
+    "message": "從第幾秒開始擴展...",
+    "description": "擴展起始時間的佔位符"
+  },
+  "placeholder.style": {
+    "message": "例如：acoustic pop, jazz, R&B, electronic...",
+    "description": "風格輸入的佔位符"
+  },
+  "placeholder.styleNegative": {
+    "message": "例如：heavy metal, screaming...",
+    "description": "排除風格輸入的佔位符"
+  },
+  "placeholder.title": {
+    "message": "輸入歌曲名稱...",
+    "description": "標題輸入的佔位符"
+  },
+  "placeholder.select": {
+    "message": "請選擇模型...",
+    "description": "模型選擇的佔位符"
+  },
+  "placeholder.position": {
+    "message": "請選擇...",
+    "description": "位置輸入的佔位符"
+  },
+  "placeholder.lyricPrompt": {
+    "message": "描述歌詞主題，AI 將自動生成...",
+    "description": "歌詞提示輸入的佔位符"
+  },
+  "placeholder.replaceSectionStart": {
+    "message": "開始時間 (秒)",
+    "description": "替換片段開始時間的佔位符"
+  },
+  "placeholder.replaceSectionEnd": {
+    "message": "結束時間 (秒)",
+    "description": "替換片段結束時間的佔位符"
+  },
+  "button.generate": {
+    "message": "生成",
+    "description": "生成按鈕文本"
+  },
+  "gender.male": {
+    "message": "男聲",
+    "description": "男性人聲選項"
+  },
+  "gender.female": {
+    "message": "女聲",
+    "description": "女性人聲選項"
+  },
+  "gender.auto": {
+    "message": "自動",
+    "description": "自動選擇人聲性別"
+  },
+  "variation.high": {
+    "message": "高變體",
+    "description": "高多樣性變體選項"
+  },
+  "variation.low": {
+    "message": "低變體",
+    "description": "低多樣性變體選項"
+  },
+  "message.startingTask": {
+    "message": "正在啟動任務...",
+    "description": "音樂生成任務開始時的消息"
+  },
+  "message.startingUploadAudio": {
+    "message": "正在上傳自定義音樂...",
+    "description": "音樂生成任務開始時的消息"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "上傳的音樂超過了最大數量",
+    "description": "上傳的音樂超過了最大數量時的錯誤消息"
+  },
+  "message.uploadReferencesError": {
+    "message": "上傳音樂失敗",
+    "description": "上傳音樂失敗時的錯誤消息"
+  },
+  "message.startTaskSuccess": {
+    "message": "成功啟動音樂生成任務",
+    "description": "成功啟動音樂生成任務時的成功消息"
+  },
+  "message.startUploadAudioSuccess": {
+    "message": "成功上傳自定義音樂",
+    "description": "成功啟動音樂生成任務時的成功消息"
+  },
+  "message.startUploadAudioFailed": {
+    "message": "上傳自定義音樂失敗",
+    "description": "啟動音樂生成任務失敗時的錯誤消息"
+  },
+  "message.startTaskFailed": {
+    "message": "啟動音樂生成任務失敗",
+    "description": "啟動音樂生成任務失敗時的錯誤消息"
+  },
+  "message.getVideoUrlFailed": {
+    "message": "獲取音樂視頻失敗，請稍後重試",
+    "description": "獲取視頻失敗時的錯誤消息"
+  },
+  "message.generatingLyrics": {
+    "message": "正在生成歌詞...",
+    "description": "生成歌詞時的消息"
+  },
+  "message.generateLyricsSuccess": {
+    "message": "歌詞生成成功",
+    "description": "歌詞生成成功時的消息"
+  },
+  "message.generateLyricsFailed": {
+    "message": "生成歌詞失敗",
+    "description": "歌詞生成失敗時的消息"
+  },
+  "message.optimizingStyle": {
+    "message": "正在優化風格描述...",
+    "description": "優化風格時的消息"
+  },
+  "message.optimizeStyleSuccess": {
+    "message": "風格優化成功",
+    "description": "風格優化成功時的消息"
+  },
+  "message.optimizeStyleFailed": {
+    "message": "風格優化失敗",
+    "description": "風格優化失敗時的消息"
+  },
+  "message.fetchingWav": {
+    "message": "正在獲取 WAV 檔案...",
+    "description": "獲取WAV檔案時的消息"
+  },
+  "message.fetchWavFailed": {
+    "message": "獲取 WAV 檔案失敗",
+    "description": "獲取WAV檔案失敗時的消息"
+  },
+  "message.fetchingMidi": {
+    "message": "正在獲取 MIDI 檔案...",
+    "description": "獲取MIDI檔案時的消息"
+  },
+  "message.fetchMidiFailed": {
+    "message": "獲取 MIDI 檔案失敗",
+    "description": "獲取MIDI檔案失敗時的消息"
+  },
+  "message.generating": {
+    "message": "生成中...",
+    "description": "音樂正在生成時的消息"
+  },
+  "message.generateFailed": {
+    "message": "生成音樂失敗",
+    "description": "音樂生成失敗時的消息"
+  },
+  "message.noOperations": {
+    "message": "沒有可用操作",
+    "description": "沒有可用操作時的消息"
+  },
+  "message.noTasks": {
+    "message": "沒有歷史任務，請在左側配置欄生成音樂",
+    "description": "沒有任務時的消息"
+  },
+  "button.upload_cover": {
+    "message": "上傳翻唱",
+    "description": "上傳音頻後翻唱按鈕文本"
+  },
+  "button.artist_consistency": {
+    "message": "風格一致性",
+    "description": "基於歌手風格生成按鈕文本"
+  },
+  "button.artist_consistency_vox": {
+    "message": "人聲風格一致性",
+    "description": "基於歌手人聲風格生成按鈕文本"
+  },
+  "button.underpainting": {
+    "message": "添加伴奏",
+    "description": "為上傳的歌曲添加伴奏按鈕文本"
+  },
+  "button.overpainting": {
+    "message": "添加人聲",
+    "description": "為上傳的歌曲添加人聲按鈕文本"
+  },
+  "button.samples": {
+    "message": "添加採樣",
+    "description": "為上傳的歌曲添加採樣按鈕文本"
+  },
+  "button.extract_vocals": {
+    "message": "提取人聲",
+    "description": "從歌曲中提取人聲按鈕文本"
+  },
+  "button.get_timing": {
+    "message": "獲取節拍",
+    "description": "獲取歌曲節拍數據按鈕文本"
+  },
+  "button.create_persona": {
+    "message": "創建歌手風格",
+    "description": "創建歌手風格按鈕文本"
+  },
+  "button.mashup_lyrics": {
+    "message": "混搭歌詞",
+    "description": "混搭兩段歌詞按鈕文本"
+  },
+  "name.persona": {
+    "message": "歌手風格",
+    "description": "歌手風格選擇"
+  },
+  "name.overpaintingRange": {
+    "message": "人聲範圍",
+    "description": "添加人聲的時間範圍"
+  },
+  "name.underpaintingRange": {
+    "message": "伴奏範圍",
+    "description": "添加伴奏的時間範圍"
+  },
+  "name.samplesRange": {
+    "message": "採樣範圍",
+    "description": "添加採樣的時間範圍"
+  },
+  "placeholder.overpaintingStart": {
+    "message": "開始時間 (秒)",
+    "description": "人聲開始時間的佔位符"
+  },
+  "placeholder.overpaintingEnd": {
+    "message": "結束時間 (秒)",
+    "description": "人聲結束時間的佔位符"
+  },
+  "placeholder.underpaintingStart": {
+    "message": "開始時間 (秒)",
+    "description": "伴奏開始時間的佔位符"
+  },
+  "placeholder.underpaintingEnd": {
+    "message": "結束時間 (秒)",
+    "description": "伴奏結束時間的佔位符"
+  },
+  "placeholder.samplesStart": {
+    "message": "開始時間 (秒)",
+    "description": "採樣開始時間的佔位符"
+  },
+  "placeholder.samplesEnd": {
+    "message": "結束時間 (秒)",
+    "description": "採樣結束時間的佔位符"
+  },
+  "placeholder.personaId": {
+    "message": "輸入歌手風格 ID...",
+    "description": "歌手風格 ID 輸入的佔位符"
+  },
+  "description.persona": {
+    "message": "使用已創建的歌手風格來生成一致風格的歌曲",
+    "description": "歌手風格功能的描述"
+  },
+  "description.overpainting": {
+    "message": "在指定時間範圍內為上傳的音樂添加人聲",
+    "description": "添加人聲功能的描述"
+  },
+  "description.underpainting": {
+    "message": "在指定時間範圍內為上傳的音樂添加伴奏",
+    "description": "添加伴奏功能的描述"
+  },
+  "description.samples": {
+    "message": "在指定時間範圍內為上傳的音樂添加採樣",
+    "description": "添加採樣功能的描述"
+  },
+  "message.fetchingTiming": {
+    "message": "正在獲取節拍數據...",
+    "description": "獲取節拍數據時的消息"
+  },
+  "message.fetchTimingFailed": {
+    "message": "獲取節拍數據失敗",
+    "description": "獲取節拍數據失敗時的消息"
+  },
+  "message.fetchTimingSuccess": {
+    "message": "節拍數據獲取成功",
+    "description": "獲取節拍數據成功時的消息"
+  },
+  "message.extractingVocals": {
+    "message": "正在提取人聲...",
+    "description": "提取人聲時的消息"
+  },
+  "message.extractVocalsFailed": {
+    "message": "提取人聲失敗",
+    "description": "提取人聲失敗時的消息"
+  },
+  "message.extractVocalsSuccess": {
+    "message": "人聲提取成功",
+    "description": "提取人聲成功時的消息"
+  }
+}

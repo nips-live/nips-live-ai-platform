@@ -1,0 +1,298 @@
+{
+  "name.taskId": {
+    "message": "Tehtävä ID",
+    "description": "Tehtävän ID"
+  },
+  "name.type": {
+    "message": "Tyyppi",
+    "description": "Kling-videon sisältötyyppi, kuten 'linkki', 'teksti' jne."
+  },
+  "name.modeStd": {
+    "message": "Standardi",
+    "description": "Kling-videon standarditila"
+  },
+  "name.modePro": {
+    "message": "Korkea laatu",
+    "description": "Kling-videon korkealaatuinen tila"
+  },
+  "name.failure": {
+    "message": "Epätosi",
+    "description": "Tehtävän epäonnistumistila"
+  },
+  "name.failureReason": {
+    "message": "Epäonnistumisen syy",
+    "description": "Tehtävän epäonnistumisen syy"
+  },
+  "name.status": {
+    "message": "Tila",
+    "description": "Tehtävän tila"
+  },
+  "name.traceId": {
+    "message": "Seuranta ID",
+    "description": "Tehtävän seuranta ID"
+  },
+  "name.createdAt": {
+    "message": "Luontiaika",
+    "description": "Kling-videon luontipäivämäärä ja -aika"
+  },
+  "name.cfgScale": {
+    "message": "Vapausaste",
+    "description": "Videon luomisen vapausasteparametri (0-1), suurempi arvo tarkoittaa läheisyyttä viittaukseen"
+  },
+  "name.generateAudio": {
+    "message": "Synkronoi ääni",
+    "description": "Synkronoidaanko ääni, tukee kling-v3, kling-v3-omni ja kling-v2-6 (pro-tila)"
+  },
+  "name.startImage": {
+    "message": "Ensimmäinen kehys",
+    "description": "Lomakekentän etiketti: ensimmäinen kehys (pidä lyhyenä, jotta se ei peitä painiketta)"
+  },
+  "name.negativePrompt": {
+    "message": "Negatiivinen vihje",
+    "description": "Videon negatiivinen tekstivihje"
+  },
+  "name.endImage": {
+    "message": "Viimeinen kehys",
+    "description": "Lomakekentän etiketti: viimeinen kehys (pidä lyhyenä, jotta se ei peitä painiketta)"
+  },
+  "name.videoUrl": {
+    "message": "Mukautettu video",
+    "description": "Mukautettu video"
+  },
+  "name.prompt": {
+    "message": "Videovihje",
+    "description": "Sisältösyötteen vihje"
+  },
+  "name.duration": {
+    "message": "Videon kesto",
+    "description": "Videon kesto"
+  },
+  "name.ingredients": {
+    "message": "Monikuva-video",
+    "description": "Monikuva-video kytkin/etiketti (pidä lyhyenä)"
+  },
+  "name.model": {
+    "message": "Malliversio",
+    "description": "Videon luomiseen käytettävä malliversio"
+  },
+  "name.ratio": {
+    "message": "Videosuhde",
+    "description": "Videon luomiseen käytettävä videosuhde"
+  },
+  "name.mode": {
+    "message": "Videotila",
+    "description": "Videon luomiseen käytettävä tila"
+  },
+  "name.effect": {
+    "message": "Videotehoste",
+    "description": "Tyyliparametrin nimi, jota käytetään eri versioiden tai tyylien mallien välillä vaihtamiseen"
+  },
+  "name.ingredientsModel": {
+    "message": "Ainesosamalli",
+    "description": "Videon luomiseen käytettävä malliversio"
+  },
+  "name.klingBot": {
+    "message": "Kling Bot",
+    "description": "Kling-videon luontityökalun nimi"
+  },
+  "description.ingredients": {
+    "message": "Jos haluat ladata useita kuvia oman videosi luomiseksi, ota tämä painike käyttöön.",
+    "description": "Parametrin 'ingredients' kuvaus"
+  },
+  "description.imageUrl": {
+    "message": "Monikuva-videon tehtävässä on ladattava useita kuvia.",
+    "description": "Parametrin 'imageUrl' kuvaus"
+  },
+  "description.prompt": {
+    "message": "Kling-videon luomiseen käytettävä vihje",
+    "description": "Parametrin 'prompt' kuvaus"
+  },
+  "description.negativePrompt": {
+    "message": "Negatiivinen tekstivihje, valinnainen, enintään 200 merkkiä",
+    "description": "Parametrin 'negativePrompt' kuvaus"
+  },
+  "description.uploadStartImage": {
+    "message": "Lataa ensimmäinen kehyskuva viittauksena, viimeinen video perustuu ensimmäiseen kehykseen",
+    "description": "Latausviittausparametrin kuvaus"
+  },
+  "description.uploadEndImage": {
+    "message": "Lataa viimeinen kehyskuva viittauksena, viimeinen video perustuu viimeiseen kehykseen",
+    "description": "Latausviittausparametrin kuvaus"
+  },
+  "description.cfgScale": {
+    "message": "Videon luomisen vapausaste, valinnainen [0,1]. Suurempi arvo tarkoittaa vahvempaa korrelaatiota.",
+    "description": "Latausviittausparametrin kuvaus"
+  },
+  "status.pending": {
+    "message": "Odottaa",
+    "description": "Tehtävän odotustila"
+  },
+  "status.processing": {
+    "message": "Käsittelyssä",
+    "description": "Tehtävän odotustila"
+  },
+  "placeholder.paddingNoise": {
+    "message": "Valitse...",
+    "description": "Täyteäänisyötteen paikkamerkki"
+  },
+  "placeholder.select": {
+    "message": "Valitse",
+    "description": "Valintakentän paikkateksti"
+  },
+  "placeholder.paddingLevel": {
+    "message": "Valitse...",
+    "description": "Täyteasteen paikkamerkki"
+  },
+  "placeholder.prompt": {
+    "message": "Syötä videon tyylin vihje, esim. moving",
+    "description": "Vihjekentän paikkateksti"
+  },
+  "placeholder.negativePrompt": {
+    "message": "Syötä videon tyylin negatiivinen vihje, enintään 200 merkkiä",
+    "description": "Vihjekentän paikkateksti"
+  },
+  "placeholder.position": {
+    "message": "Valitse...",
+    "description": "Sijaintisyötteen paikkamerkki"
+  },
+  "placeholder.aspectRatio": {
+    "message": "Valitse...",
+    "description": "Leveys-korkeus-suhteen syötteen paikkamerkki"
+  },
+  "placeholder.preset": {
+    "message": "Valitse...",
+    "description": "Esiasetuksen syötteen paikkamerkki"
+  },
+  "placeholder.markerShape": {
+    "message": "Valitse...",
+    "description": "Paikkamerkki merkki muodon syötteelle"
+  },
+  "placeholder.rotate": {
+    "message": "Valitse...",
+    "description": "Paikkamerkki kiertämisen syötteelle"
+  },
+  "placeholder.subMarker": {
+    "message": "Valitse...",
+    "description": "Paikkamerkki alamerkin syötteelle"
+  },
+  "button.precise": {
+    "message": "Tarkka",
+    "description": "Kling-videon luomisen painikkeen teksti"
+  },
+  "button.creative": {
+    "message": "Luova",
+    "description": "Kling-videon luomisen painikkeen teksti"
+  },
+  "button.generate": {
+    "message": "Luo",
+    "description": "Kling-videon luomisen painikkeen teksti"
+  },
+  "button.extend": {
+    "message": "Laajenna videota",
+    "description": "Videon laajentamisen painikkeen teksti"
+  },
+  "button.download": {
+    "message": "Lataa video",
+    "description": "Videon lataamisen painikkeen teksti"
+  },
+  "button.uploadImageUrl": {
+    "message": "Lataa",
+    "description": "Kuvan lataamisen painikkeen teksti (yksinkertaista englanniksi 'Upload', älä käytä 'Upload Image')"
+  },
+  "button.uploadVideoUrl": {
+    "message": "Lataa video",
+    "description": "Videon lataamisen painikkeen teksti"
+  },
+  "button.uploadReferences": {
+    "message": "Lataa",
+    "description": "Painikkeen teksti, joka sallii käyttäjän ladata viittauksia"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "Voit ladata enintään 1 kuva",
+    "description": "Virheilmoitus, kun ladattujen kuvien määrä ylittää rajan"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "Kuva ladattu onnistuneesti",
+    "description": "Onnistuneen kuvan lataamisen onnistumisviesti"
+  },
+  "message.uploadReferencesError": {
+    "message": "Kuvan lataaminen epäonnistui, yritä uudelleen myöhemmin",
+    "description": "Virheilmoitus, kun kuvan lataaminen epäonnistuu"
+  },
+  "message.startingTask": {
+    "message": "Aloitetaan tehtävä...",
+    "description": "Viesti, kun piirustustehtävä alkaa"
+  },
+  "message.startTaskSuccess": {
+    "message": "Tehtävä käynnistetty onnistuneesti",
+    "description": "Onnistuneen tehtävän käynnistämisen onnistumisviesti"
+  },
+  "message.startTaskFailed": {
+    "message": "Tehtävän käynnistäminen epäonnistui, ota yhteyttä ylläpitäjään",
+    "description": "Virheilmoitus, kun piirustustehtävän käynnistäminen epäonnistuu"
+  },
+  "message.usedUp": {
+    "message": "Pisteesi on käytetty loppuun, osta lisää pisteitä jatkaaksesi käyttöä",
+    "description": "Viesti, kun pisteet on käytetty loppuun"
+  },
+  "message.generating": {
+    "message": "Luodaan...",
+    "description": "Viesti, kun kuvaa luodaan"
+  },
+  "message.downloadVideo": {
+    "message": "Lataa tämä video",
+    "description": "Viesti, kun kuvaa luodaan"
+  },
+  "message.extendVideo": {
+    "message": "Jatka tämän videon luomista",
+    "description": "Viesti, kun kuvaa luodaan"
+  },
+  "message.generateFailed": {
+    "message": "Kuvan luominen epäonnistui",
+    "description": "Viesti, kun kuvan luominen epäonnistuu"
+  },
+  "message.uploadVideoExceed": {
+    "message": "Ladattujen ensimmäisten kuvien määrä ylittää rajan",
+    "description": "Virheilmoitus, kun ladattujen ensimmäisten kuvien määrä ylittää rajan"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "Ladattavan tiedoston koko ei saa ylittää 10MB!",
+    "description": "Virheilmoitus, kun ladattavan tiedoston koko ylittää 10MB!"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "Ladattavan tiedoston on oltava MP4-muodossa!",
+    "description": "Virheilmoitus, kun ladattavan tiedoston on oltava MP4-muodossa!"
+  },
+  "message.uploadStartImageExceed": {
+    "message": "Ladattujen ensimmäisten kuvien määrä ylittää rajan",
+    "description": "Virheilmoitus, kun ladattujen ensimmäisten kuvien määrä ylittää rajan"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "Ladattujen viimeisten kuvien määrä ylittää rajan",
+    "description": "Virheilmoitus, kun ladattujen viimeisten kuvien määrä ylittää rajan"
+  },
+  "message.uploadStartImageError": {
+    "message": "Ensimmäisten kuvien lataaminen epäonnistui",
+    "description": "Virheilmoitus, kun ensimmäisten kuvien lataaminen epäonnistuu"
+  },
+  "message.uploadVideoError": {
+    "message": "Videon lataaminen epäonnistui",
+    "description": "Virheilmoitus, kun ensimmäisten kuvien lataaminen epäonnistuu"
+  },
+  "message.uploadEndImageError": {
+    "message": "Viimeisten kuvien lataaminen epäonnistui",
+    "description": "Virheilmoitus, kun viimeisten kuvien lataaminen epäonnistuu"
+  },
+  "message.uploadDocumentsError": {
+    "message": "Asiakirjan lataaminen epäonnistui",
+    "description": "Virheilmoitus, kun asiakirjan lataaminen epäonnistuu"
+  },
+  "message.noOperations": {
+    "message": "Ei käytettävissä olevia toimintoja",
+    "description": "Viesti, kun käytettävissä ei ole toimintoja"
+  },
+  "message.noTasks": {
+    "message": "Ei historiallisia tehtäviä, napsauta vasemmalla luodaksesi videon",
+    "description": "Viesti, kun tehtäviä ei ole"
+  }
+}

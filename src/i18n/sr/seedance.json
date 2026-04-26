@@ -1,0 +1,186 @@
+{
+  "name.seedanceBot": {
+    "message": "SeeDance бот",
+    "description": "SeeDance видео генератор назив"
+  },
+  "name.prompt": {
+    "message": "Упутство",
+    "description": "Упутство за генерисање видеа"
+  },
+  "description.prompt": {
+    "message": "Описујте видео који желите да генеришете, можете додати SeeDance параметре (нпр: --rs 720p --rt 16:9 --dur 5).",
+    "description": "Упутство за унос упутства"
+  },
+  "placeholder.prompt": {
+    "message": "Опис вашег видеа…",
+    "description": "Упутство за место"
+  },
+  "name.model": {
+    "message": "Модел",
+    "description": "Ознака за избор модела"
+  },
+  "description.model": {
+    "message": "Изаберите верзију SeeDance модела за генерисање.",
+    "description": "Упутство за избор модела"
+  },
+  "placeholder.select": {
+    "message": "Изаберите",
+    "description": "Упутство за избор"
+  },
+  "name.duration": {
+    "message": "Трајање",
+    "description": "Ознака за избор трајања видеа"
+  },
+  "description.duration": {
+    "message": "Трајање видеа (секунде), распон 2-12 секунди.",
+    "description": "Упутство за трајање видеа"
+  },
+  "name.generateAudio": {
+    "message": "Генериши аудио",
+    "description": "Ознака за генерисање аудија"
+  },
+  "description.generateAudio": {
+    "message": "Када је укључено, видео ће имати аудио. Подржава само seedance-1.5-pro модел, цена је око 2 пута већа.",
+    "description": "Упутство за генерисање аудија"
+  },
+  "name.resolution": {
+    "message": "Резолуција",
+    "description": "Ознака за резолуцију видеа"
+  },
+  "model.seedance10pro": {
+    "message": "doubao-seedance-1.0-pro",
+    "description": "SeeDance 1.0 Pro модел"
+  },
+  "model.seedance10proFast": {
+    "message": "doubao-seedance-1.0-pro-fast",
+    "description": "SeeDance 1.0 Pro Fast модел"
+  },
+  "model.seedance15pro": {
+    "message": "doubao-seedance-1.5-pro",
+    "description": "SeeDance 1.5 Pro модел"
+  },
+  "model.seedance10liteT2v": {
+    "message": "doubao-seedance-1.0-lite-t2v",
+    "description": "SeeDance 1.0 Lite T2V модел"
+  },
+  "model.seedance10liteI2v": {
+    "message": "doubao-seedance-1.0-lite-i2v",
+    "description": "SeeDance 1.0 Lite I2V модел"
+  },
+  "name.serviceTier": {
+    "message": "Сервисни ниво",
+    "description": "Ознака за сервисни ниво"
+  },
+  "description.serviceTier": {
+    "message": "Ниво обраде: default или flex.",
+    "description": "Упутство за сервисни ниво"
+  },
+  "serviceTier.default": {
+    "message": "default",
+    "description": "Подразумевано ниво"
+  },
+  "serviceTier.flex": {
+    "message": "flex",
+    "description": "Флексибилно ниво"
+  },
+  "name.returnLastFrame": {
+    "message": "Врати последњи кадар",
+    "description": "Ознака за прекидач за враћање последњег кадра"
+  },
+  "description.returnLastFrame": {
+    "message": "Када је укључено, враћаће се додатна слика последњег кадра.",
+    "description": "Упутство за враћање последњег кадра"
+  },
+  "name.firstFrame": {
+    "message": "Слика првог кадра",
+    "description": "Ознака за учитавање слике првог кадра"
+  },
+  "description.firstFrame": {
+    "message": "Опционално. Учитајте референтну/слику првог кадра.",
+    "description": "Упутство за слику првог кадра"
+  },
+  "name.lastFrame": {
+    "message": "Слика последњег кадра",
+    "description": "Ознака за учитавање слике последњег кадра"
+  },
+  "description.lastFrame": {
+    "message": "Опционално. Учитајте слику последњег кадра (потребна слика првог кадра).",
+    "description": "Упутство за слику последњег кадра"
+  },
+  "button.generate": {
+    "message": "Генериши",
+    "description": "Дугме за генерисање"
+  },
+  "button.upload": {
+    "message": "Учитај",
+    "description": "Дугме за учитавање"
+  },
+  "button.download": {
+    "message": "Преузми",
+    "description": "Дугме за преузимање"
+  },
+  "button.on": {
+    "message": "Укључено",
+    "description": "Текст за укључивање прекидача"
+  },
+  "button.off": {
+    "message": "Искључено",
+    "description": "Текст за искључивање прекидача"
+  },
+  "message.startingTask": {
+    "message": "Покреће SeeDance задатак…",
+    "description": "Порука за почетак задатка"
+  },
+  "message.startTaskSuccess": {
+    "message": "Задатак је покренут",
+    "description": "Порука о успешном почетку задатка"
+  },
+  "message.startTaskFailed": {
+    "message": "Покретање није успело:",
+    "description": "Порука о неуспеху при покретању задатка"
+  },
+  "message.usedUp": {
+    "message": "Квота је исцрпљена",
+    "description": "Порука о исцрпљеној квоти"
+  },
+  "message.uploadExceed": {
+    "message": "Можете учитати највише 1 слику",
+    "description": "Порука о прекорачењу при учитавању"
+  },
+  "message.uploadError": {
+    "message": "Учитавање није успело",
+    "description": "Порука о неуспеху при учитавању"
+  },
+  "message.downloadVideo": {
+    "message": "Преузми видео",
+    "description": "Порука за преузимање видеа"
+  },
+  "status.pending": {
+    "message": "У реду",
+    "description": "Статус у реду"
+  },
+  "status.processing": {
+    "message": "Генерише се",
+    "description": "Статус генерације"
+  },
+  "name.taskId": {
+    "message": "ID задатка",
+    "description": "Ознака за ID задатка"
+  },
+  "name.traceId": {
+    "message": "Trace ID",
+    "description": "Ознака за Trace ID"
+  },
+  "name.failure": {
+    "message": "Неуспех",
+    "description": "Ознака за неуспех"
+  },
+  "name.failureReason": {
+    "message": "Разлог неуспеха",
+    "description": "Ознака за разлог неуспеха"
+  },
+  "name.status": {
+    "message": "Статус",
+    "description": "Ознака за статус"
+  }
+}
