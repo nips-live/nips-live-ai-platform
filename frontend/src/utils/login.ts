@@ -5,20 +5,32 @@ type LoginRedirectOptions = {
   site?: string;
 };
 
-function currentPath() {
-  return `${window.location.pathname}${window.location.search}${window.location.hash}`;
-}
+function safeRedirectPath(input?: string | LoginRedirectOptions) {
+  const raw = typeof input === 'string' ? input : input?.redirect;
 
-function resolveRedirect(input?: string | LoginRedirectOptions) {
-  if (typeof input === 'string') {
-    return input;
+  if (!raw) {
+    return '/';
   }
 
-  if (input?.redirect) {
-    return input.redirect;
+  if (raw.includes('api.nips.live') || raw.includes('auth.acedata.cloud') || raw.includes('/auth/logout')) {
+    return '/';
   }
 
-  return currentPath();
+  try {
+    const parsed = new URL(raw, window.location.origin);
+
+    if (parsed.hostname !== window.location.hostname) {
+      return '/';
+    }
+
+    if (parsed.pathname.startsWith('/auth/logout')) {
+      return '/';
+    }
+
+    return `${parsed.pathname}${parsed.search}${parsed.hash}`;
+  } catch {
+    return raw.startsWith('/') ? raw : '/';
+  }
 }
 
 export function login() {
@@ -30,6 +42,7 @@ export function logout() {
   localStorage.removeItem('access_token');
   localStorage.removeItem('Authorization');
   localStorage.removeItem('user');
+  sessionStorage.removeItem('nips_login_redirect');
   router.push('/auth/login');
 }
 
@@ -42,11 +55,15 @@ export function getLoginUrl() {
 }
 
 export function loginRedirect(input?: string | LoginRedirectOptions) {
-  const target = resolveRedirect(input);
+  const target = safeRedirectPath(input);
 
   if (target && target !== '/auth/login') {
     sessionStorage.setItem('nips_login_redirect', target);
   }
 
   router.push('/auth/login');
+}
+
+export function logoutRedirect() {
+  logout();
 }
