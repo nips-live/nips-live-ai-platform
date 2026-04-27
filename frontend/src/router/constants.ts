@@ -84,3 +84,8 @@ export const ROUTE_DISTRIBUTION_HISTORY = 'distribution-history';
 export const ROUTE_DISTRIBUTION_INVITEES = 'distribution-invitees';
 
 export const ROUTE_CONSOLE_USAGE_LIST = 'console-usage-list';
+
+export const ROUTE_AUTH_REGISTER = 'auth-register';
+export const ROUTE_AUTH_FORGOT_PASSWORD = 'auth-forgot-password';
+export const ROUTE_AUTH_RESET_PASSWORD = 'auth-reset-password';
+export const ROUTE_AUTH_ACTIVATE = 'auth-activate';
