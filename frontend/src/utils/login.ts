@@ -1,39 +1,52 @@
-import store from '@/store';
-import { getBaseUrlAuth, getBaseUrlHub } from './baseUrl';
-import { getCookie } from 'typescript-cookie';
+﻿import router from '@/router';
 
-export const getInviterId = () => {
-  // if forceInviterId is set, then use forceInviterId
-  if (store?.state?.site?.distribution?.force_inviter_id) {
-    return store?.state?.site?.distribution?.force_inviter_id;
-  }
-  // parse the query string and set to cookies
-  const query = new URLSearchParams(window.location.search);
-  // Otherwise, use the inviter_id in the url, then use the inviter_id in the cookie, and finally use the default inviter_id
-  const result =
-    query.get('inviter_id') || getCookie('INVITER_ID') || store?.state?.site?.distribution?.default_inviter_id;
-  return result;
-};
-
-export const loginRedirect = ({
-  redirect = '/',
-  site = window.location.origin
-}: {
+type LoginRedirectOptions = {
   redirect?: string;
   site?: string;
-}) => {
-  const hubBaseUrl = getBaseUrlHub();
-  const authBaseUrl = getBaseUrlAuth();
-  const inviterId = getInviterId();
-  // callback url used to init access token and then redirect back of `redirect`
-  const callbackUrl = `${hubBaseUrl}/auth/callback?redirect=${redirect}`;
-  // redirect to auth service to get access token then redirect back
-  const targetBaseUrl = `${authBaseUrl}/auth/login`;
-  const targetQuery = {
-    site,
-    ...(inviterId ? { inviter_id: inviterId } : {}),
-    ...(callbackUrl ? { redirect: callbackUrl } : {})
-  };
-  const targetUrl = `${targetBaseUrl}?${new URLSearchParams(targetQuery).toString()}`;
-  window.location.href = targetUrl;
 };
+
+function currentPath() {
+  return `${window.location.pathname}${window.location.search}${window.location.hash}`;
+}
+
+function resolveRedirect(input?: string | LoginRedirectOptions) {
+  if (typeof input === 'string') {
+    return input;
+  }
+
+  if (input?.redirect) {
+    return input.redirect;
+  }
+
+  return currentPath();
+}
+
+export function login() {
+  router.push('/auth/login');
+}
+
+export function logout() {
+  localStorage.removeItem('token');
+  localStorage.removeItem('access_token');
+  localStorage.removeItem('Authorization');
+  localStorage.removeItem('user');
+  router.push('/auth/login');
+}
+
+export function redirectToLogin() {
+  router.push('/auth/login');
+}
+
+export function getLoginUrl() {
+  return '/auth/login';
+}
+
+export function loginRedirect(input?: string | LoginRedirectOptions) {
+  const target = resolveRedirect(input);
+
+  if (target && target !== '/auth/login') {
+    sessionStorage.setItem('nips_login_redirect', target);
+  }
+
+  router.push('/auth/login');
+}
