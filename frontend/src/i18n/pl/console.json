@@ -1,0 +1,146 @@
+{
+  "button.suggested": {
+    "message": "Zalecane",
+    "description": "Tekst na przycisku, który oznacza przycisk zalecany"
+  },
+  "menu.orderList": {
+    "message": "Lista zamówień",
+    "description": "Tekst w menu strony, zamówienie odnosi się do zamówień użytkownika na usługi"
+  },
+  "menu.applicationList": {
+    "message": "Lista aplikacji",
+    "description": "Tekst w menu strony, aplikacja odnosi się do wniosków użytkownika o usługi"
+  },
+  "menu.userProfile": {
+    "message": "Profil użytkownika",
+    "description": "Tekst w menu strony, profil użytkownika odnosi się do danych osobowych użytkownika"
+  },
+  "menu.idVerify": {
+    "message": "Weryfikacja tożsamości",
+    "description": "Tekst w menu strony, weryfikacja tożsamości odnosi się do potwierdzenia tożsamości użytkownika"
+  },
+  "menu.manageApplication": {
+    "message": "Zarządzanie aplikacjami",
+    "description": "Tekst w menu strony, zarządzanie aplikacjami odnosi się do zarządzania wnioskami użytkownika"
+  },
+  "menu.distributionIndex": {
+    "message": "Zyski z poleceń",
+    "description": "Tekst w menu strony, zyski z poleceń odnoszą się do dochodów użytkownika z poleceń"
+  },
+  "menu.developerPlatform": {
+    "message": "Platforma dewelopera",
+    "description": "Tekst w menu strony, platforma dewelopera odnosi się do platformy dla deweloperów"
+  },
+  "menu.usageList": {
+    "message": "Historia użycia",
+    "description": "Tekst w menu strony, historia użycia odnosi się do historii korzystania z usług API przez użytkownika"
+  },
+  "menu.credentialIndex": {
+    "message": "Poświadczenia",
+    "description": "Tekst w menu strony, poświadczenia odnoszą się do poświadczeń dostępu do API"
+  },
+  "menu.manageOrder": {
+    "message": "Zarządzanie zamówieniami",
+    "description": "Tekst w menu strony, zarządzanie zamówieniami odnosi się do zarządzania zamówieniami użytkownika, zamówienie odnosi się do zamówień na usługi"
+  },
+  "menu.manageDistributionStatus": {
+    "message": "Zarządzanie dystrybucją",
+    "description": "Tekst w menu strony, zarządzanie dystrybucją odnosi się do zarządzania stanem dystrybucji użytkownika, związane z dochodami z poleceń"
+  },
+  "message.benefit1": {
+    "message": "Wsparcie dedykowanego konsultanta",
+    "description": "Tekst na stronie głównej, wsparcie dedykowanego konsultanta oznacza, że użytkownik może uzyskać pomoc od dedykowanego konsultanta"
+  },
+  "message.benefit2": {
+    "message": "Priorytetowy dostęp do nowych funkcji",
+    "description": "Tekst na stronie głównej, priorytetowy dostęp do nowych funkcji oznacza, że użytkownik może jako pierwszy korzystać z nowych funkcji"
+  },
+  "message.buyExtra": {
+    "message": "Kup teraz",
+    "description": "Tekst na stronie głównej, kupno limitu oznacza, że użytkownik może kupić dodatkowy limit"
+  },
+  "message.subscribe": {
+    "message": "Subskrybuj",
+    "description": "Tekst na stronie głównej, subskrypcja członkostwa oznacza, że użytkownik może subskrybować członkostwo"
+  },
+  "message.doNotWantSubscribe": {
+    "message": "Nie chcesz subskrybować członkostwa cyklicznego? Możesz również spróbować zakupu limitu osobno.",
+    "description": "Tekst na stronie głównej, nie chcesz subskrybować oznacza, że użytkownik nie chce subskrybować członkostwa"
+  },
+  "message.doNotWantExtra": {
+    "message": "Nie chcesz kupić limitu? Możesz również spróbować subskrybować członkostwo cykliczne.",
+    "description": "Tekst na stronie głównej, nie chcesz kupić limitu oznacza, że użytkownik nie chce kupić limitu"
+  },
+  "message.applicationNotFound": {
+    "message": "Aplikacja nie istnieje",
+    "description": "Wiadomość wyświetlana użytkownikowi, gdy aplikacja nie istnieje."
+  },
+  "subscription.title": {
+    "message": "Subskrybuj członkostwo, aby cieszyć się większymi korzyściami",
+    "description": "Wiadomość wyświetlana użytkownikowi, gdy subskrybuje usługę."
+  },
+  "subscription.3days": {
+    "message": "3-dniowe członkostwo próbne",
+    "description": "Typ członkostwa, 3-dniowe członkostwo próbne"
+  },
+  "subscription.3days.description": {
+    "message": "Członkostwo próbne, idealne do krótkoterminowego użytku.",
+    "description": "Typ członkostwa, idealne do krótkoterminowego użytku"
+  },
+  "subscription.weekly": {
+    "message": "Członkostwo tygodniowe",
+    "description": "Typ członkostwa, członkostwo tygodniowe oznacza, że użytkownik kupił członkostwo tygodniowe"
+  },
+  "subscription.monthly": {
+    "message": "Członkostwo miesięczne",
+    "description": "Typ członkostwa, członkostwo miesięczne oznacza, że użytkownik kupił członkostwo miesięczne"
+  },
+  "subscription.yearly": {
+    "message": "Członkostwo roczne",
+    "description": "Typ członkostwa, członkostwo roczne oznacza, że użytkownik kupił członkostwo roczne"
+  },
+  "subscription.weekly.description": {
+    "message": "Członkostwo tygodniowe próbne, idealne do krótkoterminowego użytku.",
+    "description": "Opis typu członkostwa, członkostwo tygodniowe oznacza, że użytkownik kupił członkostwo tygodniowe"
+  },
+  "subscription.monthly.description": {
+    "message": "Elastyczne członkostwo miesięczne, idealne do długoterminowego użytku.",
+    "description": "Opis typu członkostwa, członkostwo miesięczne oznacza, że użytkownik kupił członkostwo miesięczne"
+  },
+  "subscription.yearly.description": {
+    "message": "Najlepsze członkostwo roczne, najbardziej opłacalny wybór.",
+    "description": "Opis typu członkostwa, członkostwo roczne oznacza, że użytkownik kupił członkostwo roczne"
+  },
+  "subscription.introduction": {
+    "message": "Subskrybuj członkostwo, aby odblokować wszystkie usługi AI na stronie.",
+    "description": "Opis członkostwa, przedstawiający korzyści z członkostwa"
+  },
+  "menu.coinIndex": {
+    "message": "Integracja kryptowalut",
+    "description": "Tekst w menu strony, odnosi się do integracji kryptowalut"
+  },
+  "menu.platformTokenIndex": {
+    "message": "Token platformy",
+    "description": "Tekst w menu strony, token platformy odnosi się do tokena używanego do dostępu do platformy Ace Data Cloud"
+  },
+  "menu.publishIndex": {
+    "message": "Centrum publikacji",
+    "description": "Tekst w menu strony, centrum publikacji odnosi się do miejsca, w którym użytkownicy publikują treści"
+  },
+  "menu.platformRankIndex": {
+    "message": "Ranking platformy",
+    "description": "Tekst w menu strony, ranking platformy odnosi się do listy dochodów polecanych przez użytkowników"
+  },
+  "menu.manageOrderDiscount": {
+    "message": "Zarządzanie rabatami",
+    "description": "Tekst w menu strony, wejście do zarządzania rabatami na zamówienia, widoczne tylko dla administratorów"
+  },
+  "menu.manageUser": {
+    "message": "Zarządzanie użytkownikami",
+    "description": "Tekst w menu strony, wejście do zarządzania użytkownikami, widoczne tylko dla administratorów"
+  },
+  "menu.revenueAnalysis": {
+    "message": "Analiza dochodów",
+    "description": "Tekst w menu strony, wejście do analizy dochodów, widoczne tylko dla administratorów"
+  }
+}

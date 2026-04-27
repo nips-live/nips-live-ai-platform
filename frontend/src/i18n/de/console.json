@@ -1,0 +1,146 @@
+{
+  "button.suggested": {
+    "message": "Vorschlagen",
+    "description": "Button-Text, der vorschlägt, dass es sich um einen Empfehlungsbutton handelt"
+  },
+  "menu.orderList": {
+    "message": "Bestellliste",
+    "description": "Text im Website-Menü, wobei Bestellung sich auf die Bestellungen des Benutzers für Dienstleistungen bezieht"
+  },
+  "menu.applicationList": {
+    "message": "Antragsliste",
+    "description": "Text im Website-Menü, wobei Antrag sich auf die Anträge des Benutzers für Dienstleistungen bezieht"
+  },
+  "menu.userProfile": {
+    "message": "Benutzerprofil",
+    "description": "Text im Website-Menü, wobei Benutzerprofil sich auf die persönlichen Daten des Benutzers bezieht"
+  },
+  "menu.idVerify": {
+    "message": "Identitätsprüfung",
+    "description": "Text im Website-Menü, wobei Identitätsprüfung sich auf die Verifizierung der Identität des Benutzers bezieht"
+  },
+  "menu.manageApplication": {
+    "message": "Antragsverwaltung",
+    "description": "Text im Website-Menü, wobei Antragsverwaltung sich auf die Verwaltung der Anträge des Benutzers bezieht"
+  },
+  "menu.distributionIndex": {
+    "message": "Empfehlungseinnahmen",
+    "description": "Text im Website-Menü, wobei Empfehlungseinnahmen sich auf die Einnahmen des Benutzers aus Empfehlungen bezieht"
+  },
+  "menu.developerPlatform": {
+    "message": "Entwicklerplattform",
+    "description": "Text im Website-Menü, wobei Entwicklerplattform die Plattform für Entwickler bezeichnet"
+  },
+  "menu.usageList": {
+    "message": "Nutzungsverlauf",
+    "description": "Text im Website-Menü, wobei Nutzungsverlauf sich auf die Nutzungshistorie des Benutzers für API-Dienste bezieht"
+  },
+  "menu.credentialIndex": {
+    "message": "Zugangsdaten",
+    "description": "Text im Website-Menü, wobei Zugangsdaten sich auf die Zugangsdaten für die API beziehen"
+  },
+  "menu.manageOrder": {
+    "message": "Bestellverwaltung",
+    "description": "Text im Website-Menü, wobei Bestellverwaltung sich auf die Verwaltung der Bestellungen des Benutzers bezieht, wobei Bestellung sich auf die Bestellungen des Benutzers für Dienstleistungen bezieht"
+  },
+  "menu.manageDistributionStatus": {
+    "message": "Verwaltung der Verteilung",
+    "description": "Text im Website-Menü, wobei Verwaltung der Verteilung sich auf die Verwaltung des Verteilungsstatus des Benutzers bezieht, der die Einnahmen aus Empfehlungen betrifft"
+  },
+  "message.benefit1": {
+    "message": "Exklusiver Kundenservice-Support",
+    "description": "Text auf der Startseite, wobei exklusiver Kundenservice-Support bedeutet, dass der Benutzer Unterstützung von einem speziellen Kundenservice erhält"
+  },
+  "message.benefit2": {
+    "message": "Priorität beim Testen neuer Funktionen",
+    "description": "Text auf der Startseite, wobei Priorität beim Testen neuer Funktionen bedeutet, dass der Benutzer neue Funktionen zuerst ausprobieren kann"
+  },
+  "message.buyExtra": {
+    "message": "Jetzt kaufen",
+    "description": "Text auf der Startseite, wobei kaufen sich auf den Kauf von Guthaben bezieht"
+  },
+  "message.subscribe": {
+    "message": "Jetzt abonnieren",
+    "description": "Text auf der Startseite, wobei abonnieren sich auf das Abonnieren eines Mitglieds bezieht"
+  },
+  "message.doNotWantSubscribe": {
+    "message": "Möchten Sie kein Abonnement für ein Mitglied? Sie können auch versuchen, Guthaben separat zu kaufen.",
+    "description": "Text auf der Startseite, wobei nicht abonnieren bedeutet, dass der Benutzer kein Mitglied abonnieren möchte"
+  },
+  "message.doNotWantExtra": {
+    "message": "Möchten Sie kein Guthaben kaufen? Sie können auch versuchen, ein Mitgliedsabonnement abzuschließen.",
+    "description": "Text auf der Startseite, wobei nicht kaufen bedeutet, dass der Benutzer kein Guthaben kaufen möchte"
+  },
+  "message.applicationNotFound": {
+    "message": "Antrag nicht gefunden",
+    "description": "Nachricht, die dem Benutzer angezeigt wird, wenn der Antrag nicht existiert."
+  },
+  "subscription.title": {
+    "message": "Abonnieren Sie ein Mitglied und genießen Sie mehr Vorteile",
+    "description": "Nachricht, die dem Benutzer angezeigt wird, wenn er den Dienst abonniert."
+  },
+  "subscription.3days": {
+    "message": "3 Tage Testmitgliedschaft",
+    "description": "Mitgliedschaftstyp, 3 Tage Testmitgliedschaft"
+  },
+  "subscription.3days.description": {
+    "message": "Testmitgliedschaft, geeignet für kurzfristige Nutzung.",
+    "description": "Mitgliedschaftstyp, geeignet für kurzfristige Nutzung"
+  },
+  "subscription.weekly": {
+    "message": "Wochenmitgliedschaft",
+    "description": "Mitgliedschaftstyp, wobei Wochenmitgliedschaft bedeutet, dass der Benutzer eine Wochenmitgliedschaft erworben hat"
+  },
+  "subscription.monthly": {
+    "message": "Monatsmitgliedschaft",
+    "description": "Mitgliedschaftstyp, wobei Monatsmitgliedschaft bedeutet, dass der Benutzer eine Monatsmitgliedschaft erworben hat"
+  },
+  "subscription.yearly": {
+    "message": "Jahresmitgliedschaft",
+    "description": "Mitgliedschaftstyp, wobei Jahresmitgliedschaft bedeutet, dass der Benutzer eine Jahresmitgliedschaft erworben hat"
+  },
+  "subscription.weekly.description": {
+    "message": "Testwochenmitgliedschaft, geeignet für kurzfristige Nutzung.",
+    "description": "Beschreibung des Mitgliedschaftstyps, wobei Wochenmitgliedschaft bedeutet, dass der Benutzer eine Wochenmitgliedschaft erworben hat"
+  },
+  "subscription.monthly.description": {
+    "message": "Flexible Monatsmitgliedschaft, geeignet für langfristige Nutzung.",
+    "description": "Beschreibung des Mitgliedschaftstyps, wobei Monatsmitgliedschaft bedeutet, dass der Benutzer eine Monatsmitgliedschaft erworben hat"
+  },
+  "subscription.yearly.description": {
+    "message": "Wertvolle Jahresmitgliedschaft, die beste Wahl.",
+    "description": "Beschreibung des Mitgliedschaftstyps, wobei Jahresmitgliedschaft bedeutet, dass der Benutzer eine Jahresmitgliedschaft erworben hat"
+  },
+  "subscription.introduction": {
+    "message": "Abonnieren Sie ein Mitglied, um alle AI-Dienste der Website freizuschalten.",
+    "description": "Einführung in die Mitgliedschaft, die die Mitgliedschaft beschreibt"
+  },
+  "menu.coinIndex": {
+    "message": "Integration von Kryptowährungen",
+    "description": "Text im Website-Menü, der sich auf die Integration von Kryptowährungen bezieht"
+  },
+  "menu.platformTokenIndex": {
+    "message": "Plattform-Token",
+    "description": "Text im Website-Menü, wobei Plattform-Token sich auf die Token bezieht, die zum Zugriff auf die Ace Data Cloud-Plattform verwendet werden"
+  },
+  "menu.publishIndex": {
+    "message": "Veröffentlichungszentrum",
+    "description": "Text im Website-Menü, das Veröffentlichungszentrum bezieht sich auf den Ort, an dem Benutzer Inhalte veröffentlichen"
+  },
+  "menu.platformRankIndex": {
+    "message": "Plattform-Rangliste",
+    "description": "Text im Website-Menü, die Plattform-Rangliste bezieht sich auf die Empfehlungs-Rangliste der Benutzer"
+  },
+  "menu.manageOrderDiscount": {
+    "message": "Rabattverwaltung",
+    "description": "Text im Website-Menü, der nur für Administratoren sichtbare Eingangs zur Verwaltung von Bestellrabatten"
+  },
+  "menu.manageUser": {
+    "message": "Benutzerverwaltung",
+    "description": "Text im Website-Menü, der nur für Administratoren sichtbare Eingangs zur Verwaltung von Benutzern"
+  },
+  "menu.revenueAnalysis": {
+    "message": "Einnahmenanalyse",
+    "description": "Text im Website-Menü, der nur für Administratoren sichtbare Eingangs zur Analyse der Einnahmen"
+  }
+}

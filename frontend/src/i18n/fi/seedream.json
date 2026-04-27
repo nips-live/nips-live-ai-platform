@@ -1,0 +1,138 @@
+{
+  "name.taskId": {
+    "message": "Tehtävä ID",
+    "description": "Tehtävän ID"
+  },
+  "name.task": {
+    "message": "Tehtävätyyppi",
+    "description": "SeeDream kuvan käsittelytyyppi"
+  },
+  "name.generate": {
+    "message": "Luo kuva",
+    "description": "Toimintatyyppi: Luo kuva"
+  },
+  "name.edits": {
+    "message": "Muokkaa kuvaa",
+    "description": "Toimintatyyppi: Muokkaa kuvaa"
+  },
+  "name.imageUrls": {
+    "message": "Viittauskuvat",
+    "description": "Viittauskuvat muokkausta varten"
+  },
+  "name.failure": {
+    "message": "Epätosi",
+    "description": "Tehtävä epäonnistui"
+  },
+  "name.failureReason": {
+    "message": "Epäonnistumisen syy",
+    "description": "Tehtävän epäonnistumisen syy"
+  },
+  "name.status": {
+    "message": "Tila",
+    "description": "Tehtävän tila"
+  },
+  "name.traceId": {
+    "message": "Seuranta ID",
+    "description": "Seuranta ID"
+  },
+  "name.prompt": {
+    "message": "Kuvan ohjeet",
+    "description": "Luonnin/muokkauksen ohjeet"
+  },
+  "name.seedreamBot": {
+    "message": "SeeDream Bot",
+    "description": "SeeDream kuvanluontityökalun nimi"
+  },
+  "name.size": {
+    "message": "Koko",
+    "description": "Luo kuvan koko"
+  },
+  "name.watermark": {
+    "message": "Vesileima",
+    "description": "Lisätäänkö vesileima"
+  },
+  "description.prompt": {
+    "message": "Kuvan luomiseen tai muokkaamiseen käytettävät ohjeet",
+    "description": "Ohjeiden kuvaus"
+  },
+  "description.model": {
+    "message": "Malli, jota käytetään kuvien luomiseen tai muokkaamiseen.",
+    "description": "malli parametrin kuvaus"
+  },
+  "description.size": {
+    "message": "Kuvan koko. Tuetaan esiasetuksia `1K`, `2K`, `4K` tai mukautettua `<leveys>x<korkeus>`.",
+    "description": "koko parametrin kuvaus"
+  },
+  "description.watermark": {
+    "message": "Lisätäänkö AI-vesileima luotuun kuvaan. Oletusarvoisesti päällä.",
+    "description": "vesileima parametrin kuvaus"
+  },
+  "description.imageUrls": {
+    "message": "Lataa 1-14 viittauskuvaa kuvan muokkaamisen mahdollistamiseksi.",
+    "description": "kuva parametrin kuvaus"
+  },
+  "status.pending": {
+    "message": "Odottaa",
+    "description": "Tehtävän odotustila"
+  },
+  "placeholder.select": {
+    "message": "Valitse",
+    "description": "Valintapaikka"
+  },
+  "placeholder.prompt": {
+    "message": "Syötä ohjeet, esim: valkoinen siamilainen kissa",
+    "description": "Ohjeiden paikkamerkki"
+  },
+  "button.generate": {
+    "message": "Luo",
+    "description": "Luo-painike"
+  },
+  "button.uploadImageUrls": {
+    "message": "Lataa kuvat",
+    "description": "Viittauskuvien latauspainike (yksinkertaista englanniksi 'Upload', älä käytä 'Upload Images')"
+  },
+  "message.startingTask": {
+    "message": "Aloitetaan tehtävää...",
+    "description": "Tehtävän aloitusviesti"
+  },
+  "message.startTaskSuccess": {
+    "message": "Tehtävä luotu onnistuneesti",
+    "description": "Tehtävä luotiin onnistuneesti"
+  },
+  "message.startTaskFailed": {
+    "message": "Tehtävän aloittaminen epäonnistui, ota yhteyttä ylläpitäjään:",
+    "description": "Tehtävän luominen epäonnistui"
+  },
+  "message.usedUp": {
+    "message": "Pisteesi on käytetty loppuun, osta lisää pisteitä jatkaaksesi käyttöä",
+    "description": "Loppu viesti"
+  },
+  "message.uploadImageExceed": {
+    "message": "Voit ladata enintään 14 kuvaa",
+    "description": "Kuvien määrä ylittää rajan"
+  },
+  "message.uploadImageError": {
+    "message": "Kuvan lataaminen epäonnistui, yritä myöhemmin uudelleen",
+    "description": "Lataus epäonnistui"
+  },
+  "name.model": {
+    "message": "Malli",
+    "description": "SeeDream mallin valintatunniste"
+  },
+  "model.seedream45": {
+    "message": "doubao-seedream-4.5",
+    "description": "SeeDream 4.5 mallin vaihtoehto"
+  },
+  "model.seedream40": {
+    "message": "doubao-seedream-4.0",
+    "description": "SeeDream 4.0 mallin vaihtoehto"
+  },
+  "model.seedream30t2i": {
+    "message": "doubao-seedream-3.0-t2i",
+    "description": "SeeDream 3.0 t2i mallin vaihtoehto"
+  },
+  "model.seededit30i2i": {
+    "message": "doubao-seededit-3.0-i2i",
+    "description": "SeeEdit 3.0 i2i mallin vaihtoehto"
+  }
+}

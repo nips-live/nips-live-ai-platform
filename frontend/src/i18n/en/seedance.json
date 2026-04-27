@@ -1,0 +1,186 @@
+{
+  "name.seedanceBot": {
+    "message": "SeeDance Bot",
+    "description": "Name of the SeeDance video generator"
+  },
+  "name.prompt": {
+    "message": "Prompt",
+    "description": "Prompt for generating the video"
+  },
+  "description.prompt": {
+    "message": "Describe the video you want to generate, you can add SeeDance parameters (e.g., --rs 720p --rt 16:9 --dur 5).",
+    "description": "Instructions for prompt input"
+  },
+  "placeholder.prompt": {
+    "message": "Describe your video…",
+    "description": "Placeholder for prompt"
+  },
+  "name.model": {
+    "message": "Model",
+    "description": "Label for model selection"
+  },
+  "description.model": {
+    "message": "Select the SeeDance model version to use for generation.",
+    "description": "Instructions for model selection"
+  },
+  "placeholder.select": {
+    "message": "Select",
+    "description": "Placeholder for dropdown selection"
+  },
+  "name.duration": {
+    "message": "Duration",
+    "description": "Label for video duration selection"
+  },
+  "description.duration": {
+    "message": "Video duration (seconds), range 2-12 seconds.",
+    "description": "Instructions for video duration"
+  },
+  "name.generateAudio": {
+    "message": "Generate Audio",
+    "description": "Label for audio generation option"
+  },
+  "description.generateAudio": {
+    "message": "If enabled, the video will include audio. Only supported by the seedance-1.5-pro model, costs about 2 times more.",
+    "description": "Instructions for audio generation"
+  },
+  "name.resolution": {
+    "message": "Resolution",
+    "description": "Label for video resolution"
+  },
+  "model.seedance10pro": {
+    "message": "doubao-seedance-1.0-pro",
+    "description": "SeeDance 1.0 Pro model"
+  },
+  "model.seedance10proFast": {
+    "message": "doubao-seedance-1.0-pro-fast",
+    "description": "SeeDance 1.0 Pro Fast model"
+  },
+  "model.seedance15pro": {
+    "message": "doubao-seedance-1.5-pro",
+    "description": "SeeDance 1.5 Pro model"
+  },
+  "model.seedance10liteT2v": {
+    "message": "doubao-seedance-1.0-lite-t2v",
+    "description": "SeeDance 1.0 Lite T2V model"
+  },
+  "model.seedance10liteI2v": {
+    "message": "doubao-seedance-1.0-lite-i2v",
+    "description": "SeeDance 1.0 Lite I2V model"
+  },
+  "name.serviceTier": {
+    "message": "Service Tier",
+    "description": "Label for service tier"
+  },
+  "description.serviceTier": {
+    "message": "Processing tier: default or flex.",
+    "description": "Instructions for service tier"
+  },
+  "serviceTier.default": {
+    "message": "default",
+    "description": "Default tier"
+  },
+  "serviceTier.flex": {
+    "message": "flex",
+    "description": "Flexible tier"
+  },
+  "name.returnLastFrame": {
+    "message": "Return Last Frame",
+    "description": "Label for return last frame toggle"
+  },
+  "description.returnLastFrame": {
+    "message": "If enabled, an additional last frame image will be returned.",
+    "description": "Instructions for returning last frame"
+  },
+  "name.firstFrame": {
+    "message": "First Frame Image",
+    "description": "Label for first frame image upload"
+  },
+  "description.firstFrame": {
+    "message": "Optional. Upload a reference/first frame image.",
+    "description": "Instructions for first frame image"
+  },
+  "name.lastFrame": {
+    "message": "Last Frame Image",
+    "description": "Label for last frame image upload"
+  },
+  "description.lastFrame": {
+    "message": "Optional. Upload a last frame image (requires first frame).",
+    "description": "Instructions for last frame image"
+  },
+  "button.generate": {
+    "message": "Generate",
+    "description": "Button to generate"
+  },
+  "button.upload": {
+    "message": "Upload",
+    "description": "Button to upload"
+  },
+  "button.download": {
+    "message": "Download",
+    "description": "Button to download"
+  },
+  "button.on": {
+    "message": "On",
+    "description": "Text for toggle switch on"
+  },
+  "button.off": {
+    "message": "Off",
+    "description": "Text for toggle switch off"
+  },
+  "message.startingTask": {
+    "message": "Starting SeeDance task…",
+    "description": "Prompt for starting task"
+  },
+  "message.startTaskSuccess": {
+    "message": "Task started",
+    "description": "Prompt for successful task start"
+  },
+  "message.startTaskFailed": {
+    "message": "Failed to start: ",
+    "description": "Prompt for failed task start"
+  },
+  "message.usedUp": {
+    "message": "Quota exhausted",
+    "description": "Prompt for exhausted quota"
+  },
+  "message.uploadExceed": {
+    "message": "You can only upload 1 image at most",
+    "description": "Prompt for upload limit exceeded"
+  },
+  "message.uploadError": {
+    "message": "Upload failed",
+    "description": "Prompt for upload failure"
+  },
+  "message.downloadVideo": {
+    "message": "Download Video",
+    "description": "Prompt for downloading video"
+  },
+  "status.pending": {
+    "message": "Pending",
+    "description": "Status for pending"
+  },
+  "status.processing": {
+    "message": "Processing",
+    "description": "Status for processing"
+  },
+  "name.taskId": {
+    "message": "Task ID",
+    "description": "Label for task ID"
+  },
+  "name.traceId": {
+    "message": "Trace ID",
+    "description": "Label for trace ID"
+  },
+  "name.failure": {
+    "message": "Failure",
+    "description": "Label for failure"
+  },
+  "name.failureReason": {
+    "message": "Failure Reason",
+    "description": "Label for failure reason"
+  },
+  "name.status": {
+    "message": "Status",
+    "description": "Label for status"
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "name.taskId": {
+    "message": "ID de tâche",
+    "description": "ID de la tâche"
+  },
+  "name.type": {
+    "message": "Type",
+    "description": "Type de contenu du vidéo Kling à générer, comme 'lien', 'texte', etc."
+  },
+  "name.modeStd": {
+    "message": "Standard",
+    "description": "Mode standard du vidéo Kling"
+  },
+  "name.modePro": {
+    "message": "Haute qualité",
+    "description": "Mode haute qualité du vidéo Kling"
+  },
+  "name.failure": {
+    "message": "Échec",
+    "description": "État d'échec de la tâche"
+  },
+  "name.failureReason": {
+    "message": "Raison de l'échec",
+    "description": "Raison de l'échec de la tâche"
+  },
+  "name.status": {
+    "message": "État",
+    "description": "État de la tâche"
+  },
+  "name.traceId": {
+    "message": "ID de suivi",
+    "description": "ID de suivi de la tâche"
+  },
+  "name.createdAt": {
+    "message": "Date de création",
+    "description": "Date et heure de génération du vidéo Kling"
+  },
+  "name.cfgScale": {
+    "message": "Niveau de liberté",
+    "description": "Paramètre de liberté pour la génération de vidéo (0-1), plus la valeur est grande, plus elle est proche de la référence"
+  },
+  "name.generateAudio": {
+    "message": "Générer audio synchronisé",
+    "description": "Si l'audio doit être généré en synchronisation, supporte kling-v3, kling-v3-omni et kling-v2-6 (mode pro)"
+  },
+  "name.startImage": {
+    "message": "Image de référence initiale",
+    "description": "Étiquette du champ de formulaire : image de référence initiale"
+  },
+  "name.negativePrompt": {
+    "message": "Mots-clés négatifs",
+    "description": "Texte d'invite négatif pour la génération de vidéo"
+  },
+  "name.endImage": {
+    "message": "Image de référence finale",
+    "description": "Étiquette du champ de formulaire : image de référence finale"
+  },
+  "name.videoUrl": {
+    "message": "Vidéo personnalisée",
+    "description": "Vidéo personnalisée"
+  },
+  "name.prompt": {
+    "message": "Invite vidéo",
+    "description": "Texte d'invite pour le contenu"
+  },
+  "name.duration": {
+    "message": "Durée de la vidéo",
+    "description": "Durée de la vidéo"
+  },
+  "name.ingredients": {
+    "message": "Création vidéo multi-image",
+    "description": "Interrupteur/étiquette pour la création vidéo multi-image"
+  },
+  "name.model": {
+    "message": "Version du modèle",
+    "description": "Version du modèle utilisée pour générer la vidéo"
+  },
+  "name.ratio": {
+    "message": "Ratio vidéo",
+    "description": "Ratio vidéo utilisé pour générer la vidéo"
+  },
+  "name.mode": {
+    "message": "Mode vidéo",
+    "description": "Mode utilisé pour générer la vidéo"
+  },
+  "name.effect": {
+    "message": "Effet vidéo",
+    "description": "Nom du paramètre de style pour passer d'une version ou d'un style de modèle à un autre"
+  },
+  "name.ingredientsModel": {
+    "message": "Modèle d'ingrédients",
+    "description": "Version du modèle utilisée pour générer la vidéo"
+  },
+  "name.klingBot": {
+    "message": "Kling Bot",
+    "description": "Nom du générateur de vidéo Kling"
+  },
+  "description.ingredients": {
+    "message": "Si vous souhaitez télécharger plusieurs images pour générer votre vidéo, activez ce bouton.",
+    "description": "Description du paramètre 'ingredients'"
+  },
+  "description.imageUrl": {
+    "message": "Dans la tâche de création vidéo multi-image, plusieurs images doivent être téléchargées.",
+    "description": "Description du paramètre 'imageUrl'"
+  },
+  "description.prompt": {
+    "message": "Mots-clés d'invite pour générer le vidéo Kling",
+    "description": "Description du paramètre 'prompt'"
+  },
+  "description.negativePrompt": {
+    "message": "Texte d'invite négatif, optionnel, ne dépassant pas 200 caractères",
+    "description": "Description du paramètre 'negativePrompt'"
+  },
+  "description.uploadStartImage": {
+    "message": "Téléchargez l'image de la première image comme référence pour la génération, la vidéo finale se basera sur la première image.",
+    "description": "Description du paramètre de téléchargement de référence"
+  },
+  "description.uploadEndImage": {
+    "message": "Téléchargez l'image de la dernière image comme référence pour la génération, la vidéo finale se basera sur la dernière image.",
+    "description": "Description du paramètre de téléchargement de référence"
+  },
+  "description.cfgScale": {
+    "message": "Niveau de liberté pour la génération de vidéo, optionnel [0,1]. Plus la valeur est grande, plus la corrélation est forte.",
+    "description": "Description du paramètre de téléchargement de référence"
+  },
+  "status.pending": {
+    "message": "En attente",
+    "description": "État d'attente de la tâche"
+  },
+  "status.processing": {
+    "message": "En cours de traitement",
+    "description": "État d'attente de la tâche"
+  },
+  "placeholder.paddingNoise": {
+    "message": "Veuillez sélectionner...",
+    "description": "Espace réservé pour l'entrée de bruit de remplissage"
+  },
+  "placeholder.select": {
+    "message": "Sélectionner",
+    "description": "Texte d'espace réservé dans le champ de sélection"
+  },
+  "placeholder.paddingLevel": {
+    "message": "Veuillez sélectionner...",
+    "description": "Espace réservé pour le niveau de remplissage"
+  },
+  "placeholder.prompt": {
+    "message": "Entrez les mots-clés pour le style de vidéo à générer, par exemple : moving",
+    "description": "Texte d'espace réservé dans le champ d'invite"
+  },
+  "placeholder.negativePrompt": {
+    "message": "Entrez les mots-clés négatifs pour le style de vidéo à générer, ne dépassant pas 200 caractères",
+    "description": "Texte d'espace réservé dans le champ d'invite"
+  },
+  "placeholder.position": {
+    "message": "Veuillez sélectionner...",
+    "description": "Espace réservé pour l'entrée de position"
+  },
+  "placeholder.aspectRatio": {
+    "message": "Veuillez sélectionner...",
+    "description": "Espace réservé pour l'entrée de ratio d'aspect"
+  },
+  "placeholder.preset": {
+    "message": "Veuillez sélectionner...",
+    "description": "Espace réservé pour l'entrée de préréglage"
+  },
+  "placeholder.markerShape": {
+    "message": "Veuillez sélectionner...",
+    "description": "Espace réservé pour l'entrée de la forme du marqueur"
+  },
+  "placeholder.rotate": {
+    "message": "Veuillez sélectionner...",
+    "description": "Espace réservé pour l'entrée de rotation"
+  },
+  "placeholder.subMarker": {
+    "message": "Veuillez sélectionner...",
+    "description": "Espace réservé pour l'entrée de sous-marqueur"
+  },
+  "button.precise": {
+    "message": "Précis",
+    "description": "Texte du bouton pour générer une vidéo Kling"
+  },
+  "button.creative": {
+    "message": "Créatif",
+    "description": "Texte du bouton pour générer une vidéo Kling"
+  },
+  "button.generate": {
+    "message": "Générer",
+    "description": "Texte du bouton pour générer une vidéo Kling"
+  },
+  "button.extend": {
+    "message": "Étendre la vidéo",
+    "description": "Texte du bouton pour étendre la vidéo"
+  },
+  "button.download": {
+    "message": "Télécharger la vidéo",
+    "description": "Texte du bouton pour télécharger la vidéo"
+  },
+  "button.uploadImageUrl": {
+    "message": "Télécharger",
+    "description": "Texte du bouton pour télécharger une image (simplifié à 'Télécharger')"
+  },
+  "button.uploadVideoUrl": {
+    "message": "Télécharger la vidéo",
+    "description": "Texte du bouton pour télécharger une vidéo"
+  },
+  "button.uploadReferences": {
+    "message": "Télécharger",
+    "description": "Texte du bouton permettant à l'utilisateur de télécharger des références"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "Vous pouvez télécharger jusqu'à 1 image",
+    "description": "Message d'erreur lorsque le nombre d'images téléchargées dépasse la limite"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "Image téléchargée avec succès",
+    "description": "Message de succès lors du téléchargement réussi d'une image"
+  },
+  "message.uploadReferencesError": {
+    "message": "Échec du téléchargement de l'image, veuillez réessayer plus tard",
+    "description": "Message d'erreur lors de l'échec du téléchargement de l'image"
+  },
+  "message.startingTask": {
+    "message": "Démarrage de la tâche...",
+    "description": "Message au début de la tâche de dessin"
+  },
+  "message.startTaskSuccess": {
+    "message": "Tâche de génération lancée avec succès",
+    "description": "Message de succès lors du démarrage réussi d'une tâche"
+  },
+  "message.startTaskFailed": {
+    "message": "Échec du lancement de la tâche, veuillez contacter l'administrateur",
+    "description": "Message d'erreur lors de l'échec du démarrage de la tâche de dessin"
+  },
+  "message.usedUp": {
+    "message": "Vos crédits sont épuisés, veuillez en acheter davantage pour continuer",
+    "description": "Message lorsque les crédits sont épuisés"
+  },
+  "message.generating": {
+    "message": "Génération en cours...",
+    "description": "Message pendant que l'image est en cours de génération"
+  },
+  "message.downloadVideo": {
+    "message": "Télécharger cette vidéo",
+    "description": "Message pendant que l'image est en cours de génération"
+  },
+  "message.extendVideo": {
+    "message": "Continuer à générer cette vidéo",
+    "description": "Message pendant que l'image est en cours de génération"
+  },
+  "message.generateFailed": {
+    "message": "Échec de la génération de l'image",
+    "description": "Message lors de l'échec de la génération de l'image"
+  },
+  "message.uploadVideoExceed": {
+    "message": "Le nombre d'images de la première image téléchargées dépasse la limite",
+    "description": "Message d'erreur lorsque le nombre d'images de la première image téléchargées dépasse la limite"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "La taille du fichier téléchargé ne doit pas dépasser 10 Mo !",
+    "description": "Message d'erreur lorsque la taille du fichier téléchargé dépasse 10 Mo"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "Le fichier téléchargé doit être au format MP4 !",
+    "description": "Message d'erreur lorsque le fichier téléchargé n'est pas au format MP4"
+  },
+  "message.uploadStartImageExceed": {
+    "message": "Le nombre d'images de la première image téléchargées dépasse la limite",
+    "description": "Message d'erreur lorsque le nombre d'images de la première image téléchargées dépasse la limite"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "Le nombre d'images de la dernière image téléchargées dépasse la limite",
+    "description": "Message d'erreur lorsque le nombre d'images de la dernière image téléchargées dépasse la limite"
+  },
+  "message.uploadStartImageError": {
+    "message": "Échec du téléchargement de la première image",
+    "description": "Message d'erreur lors de l'échec du téléchargement de la première image"
+  },
+  "message.uploadVideoError": {
+    "message": "Échec du téléchargement de la vidéo",
+    "description": "Message d'erreur lors de l'échec du téléchargement de la vidéo"
+  },
+  "message.uploadEndImageError": {
+    "message": "Échec du téléchargement de la dernière image",
+    "description": "Message d'erreur lors de l'échec du téléchargement de la dernière image"
+  },
+  "message.uploadDocumentsError": {
+    "message": "Échec du téléchargement du document",
+    "description": "Message d'erreur lors de l'échec du téléchargement du document"
+  },
+  "message.noOperations": {
+    "message": "Aucune opération disponible",
+    "description": "Message lorsqu'il n'y a pas d'opérations disponibles"
+  },
+  "message.noTasks": {
+    "message": "Aucune tâche historique, veuillez cliquer à gauche pour générer une vidéo",
+    "description": "Message lorsqu'il n'y a pas de tâches"
+  }
+}

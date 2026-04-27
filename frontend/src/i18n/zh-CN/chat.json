@@ -1,0 +1,766 @@
+{
+  "button.thinkDeeper": {
+    "message": "深度思考",
+    "description": "深入思考按钮"
+  },
+  "button.deepsearch": {
+    "message": "深度搜索",
+    "description": "深度搜索按钮"
+  },
+  "button.search": {
+    "message": "搜索",
+    "description": "搜索按钮"
+  },
+  "button.edit": {
+    "message": "编辑消息",
+    "description": "编辑发送的消息"
+  },
+  "modelGroup.chatgpt": {
+    "message": "ChatGPT",
+    "description": "服务的模型名称，即 GPT"
+  },
+  "modelGroup.chatgptDescription": {
+    "message": "OpenAI 公司开发的 AI 模型",
+    "description": "ChatGPT 模型的描述"
+  },
+  "modelGroup.deepseek": {
+    "message": "DeepSeek",
+    "description": "服务的模型名称，即 DeepSeek"
+  },
+  "modelGroup.deepseekDescription": {
+    "message": "深度求索公司开发的 AI 模型",
+    "description": "DeepSeek 模型的描述"
+  },
+  "modelGroup.grok": {
+    "message": "Grok",
+    "description": "服务的模型名称，即 Grok"
+  },
+  "modelGroup.grokDescription": {
+    "message": "xAI 公司开发的 AI 模型",
+    "description": "Grok3 模型的描述"
+  },
+  "modelGroup.gemini": {
+    "message": "Gemini",
+    "description": "服务的模型名称，即 Gemini"
+  },
+  "modelGroup.geminiDescription": {
+    "message": "Google 开发的 AI 模型",
+    "description": "Gemini 模型组的描述"
+  },
+  "modelGroup.claude": {
+    "message": "Claude",
+    "description": "服务的模型名称，即 Claude"
+  },
+  "modelGroup.claudeDescription": {
+    "message": "Anthropic 公司开发的 AI 模型",
+    "description": "Claude 模型组的描述"
+  },
+  "modelGroup.kimi": {
+    "message": "Kimi",
+    "description": "服务的模型名称，即 Kimi"
+  },
+  "modelGroup.kimiDescription": {
+    "message": "月之暗面公司开发的 AI 模型",
+    "description": "Kimi 模型组的描述"
+  },
+  "modelGroup.glm": {
+    "message": "GLM",
+    "description": "服务的模型名称，即 GLM"
+  },
+  "modelGroup.glmDescription": {
+    "message": "智谱 AI 开发的大语言模型",
+    "description": "GLM 模型组的描述"
+  },
+  "model.54": {
+    "message": "gpt-5.4",
+    "description": "服务的模型名称，即 GPT 5.4"
+  },
+  "model.54Description": {
+    "message": "最新一代旗舰 GPT 5.4 模型",
+    "description": "GPT 5.4 模型的描述"
+  },
+  "model.54Mini": {
+    "message": "gpt-5.4-mini",
+    "description": "服务的模型名称，即 GPT 5.4 Mini"
+  },
+  "model.54MiniDescription": {
+    "message": "更快更轻量的 GPT 5.4 模型",
+    "description": "GPT 5.4 Mini 模型的描述"
+  },
+  "model.54Nano": {
+    "message": "gpt-5.4-nano",
+    "description": "服务的模型名称，即 GPT 5.4 Nano"
+  },
+  "model.54NanoDescription": {
+    "message": "最小、最快的 GPT 5.4 模型",
+    "description": "GPT 5.4 Nano 模型的描述"
+  },
+  "model.deepseekChat": {
+    "message": "3.0 标准",
+    "description": "服务的模型名称，即 DeepSeek 聊天"
+  },
+  "model.deepseekChatDescription": {
+    "message": "适用于日常任务",
+    "description": "DeepSeek 聊天模型的描述"
+  },
+  "model.deepseekReasoner": {
+    "message": "R1 推理",
+    "description": "服务的模型名称，即 DeepSeek 推理"
+  },
+  "model.deepseekReasonerDescription": {
+    "message": "适用于推理和深度思考问题",
+    "description": "DeepSeek 推理模型的描述"
+  },
+  "model.deepseekChat32": {
+    "message": "V3.2 实验版",
+    "description": "服务的模型名称，即 DeepSeek V3.2 Exp"
+  },
+  "model.deepseekChat32Description": {
+    "message": "最新实验版本",
+    "description": "DeepSeek V3.2 实验模型的描述"
+  },
+  "model.grok4": {
+    "message": "grok-4",
+    "description": "服务的模型名称，即 Grok 4"
+  },
+  "model.grok4Description": {
+    "message": "目前最先进的模型",
+    "description": "Grok 4 模型的描述"
+  },
+  "model.grok3": {
+    "message": "grok-3",
+    "description": "服务的模型名称"
+  },
+  "model.grok3Description": {
+    "message": "适用于大多数任务",
+    "description": "Grok3 模型的描述"
+  },
+  "model.grok3Reasoner": {
+    "message": "grok-3 推理",
+    "description": "服务的模型名称，即 Grok3 推理"
+  },
+  "model.grok3ReasonerDescription": {
+    "message": "适用于推理和深度思考问题",
+    "description": "Grok3 推理模型的描述"
+  },
+  "model.grok3Deepsearch": {
+    "message": "grok-3 深度研究",
+    "description": "服务的模型名称，即 Grok3 深度研究"
+  },
+  "model.grok3DeepsearchDescription": {
+    "message": "适用于深度研究和复杂问题",
+    "description": "Grok3 深度研究模型的描述"
+  },
+  "model.gemini30Pro": {
+    "message": "gemini-3.0-pro",
+    "description": "服务的模型名称，即 Gemini 3.0 Pro"
+  },
+  "model.gemini30ProDescription": {
+    "message": "目前最先进的模型",
+    "description": "Gemini 3.0 Pro 模型的描述"
+  },
+  "model.gemini25Pro": {
+    "message": "gemini-2.5-pro",
+    "description": "服务的模型名称，即 Gemini 2.5 Pro"
+  },
+  "model.gemini25ProDescription": {
+    "message": "适用于复杂推理任务",
+    "description": "Gemini 2.5 Pro 模型的描述"
+  },
+  "model.gemini25Flash": {
+    "message": "gemini-2.5-flash",
+    "description": "服务的模型名称，即 Gemini 2.5 Flash"
+  },
+  "model.gemini25FlashDescription": {
+    "message": "更快更轻量的模型",
+    "description": "Gemini 2.5 Flash 模型的描述"
+  },
+  "model.claudeOpus4": {
+    "message": "claude-opus-4",
+    "description": "服务的模型名称，即 Claude Opus 4"
+  },
+  "model.claudeOpus4Description": {
+    "message": "目前最先进的模型",
+    "description": "Claude Opus 4 模型的描述"
+  },
+  "model.claudeSonnet4": {
+    "message": "claude-sonnet-4",
+    "description": "服务的模型名称，即 Claude Sonnet 4"
+  },
+  "model.claudeSonnet4Description": {
+    "message": "适用于大多数任务",
+    "description": "Claude Sonnet 4 模型的描述"
+  },
+  "model.claude37Sonnet": {
+    "message": "claude-3.7-sonnet",
+    "description": "服务的模型名称，即 Claude 3.7 Sonnet"
+  },
+  "model.claude37SonnetDescription": {
+    "message": "均衡的性能和速度",
+    "description": "Claude 3.7 Sonnet 模型的描述"
+  },
+  "model.kimiK25": {
+    "message": "kimi-k2.5",
+    "description": "服务的模型名称，即 Kimi K2.5"
+  },
+  "model.kimiK25Description": {
+    "message": "目前最先进的模型",
+    "description": "Kimi K2.5 模型的描述"
+  },
+  "model.kimiK2Thinking": {
+    "message": "kimi-k2 推理",
+    "description": "服务的模型名称，即 Kimi K2 推理"
+  },
+  "model.kimiK2ThinkingDescription": {
+    "message": "适用于推理和深度思考问题",
+    "description": "Kimi K2 推理模型的描述"
+  },
+  "model.kimiK2ThinkingTurbo": {
+    "message": "kimi-k2 极速推理",
+    "description": "服务的模型名称，即 Kimi K2 极速推理"
+  },
+  "model.kimiK2ThinkingTurboDescription": {
+    "message": "更快速的推理模型",
+    "description": "Kimi K2 极速推理模型的描述"
+  },
+  "model.glm51": {
+    "message": "glm-5.1",
+    "description": "服务的模型名称，即 GLM 5.1"
+  },
+  "model.glm51Description": {
+    "message": "智谱最新旗舰模型",
+    "description": "GLM 5.1 模型的描述"
+  },
+  "model.glm47": {
+    "message": "glm-4.7",
+    "description": "服务的模型名称，即 GLM 4.7"
+  },
+  "model.glm47Description": {
+    "message": "均衡性能与成本",
+    "description": "GLM 4.7 模型的描述"
+  },
+  "message.startNewChat": {
+    "message": "开始新对话",
+    "description": "网页中的消息，告诉用户开始新对话"
+  },
+  "message.uploadFile": {
+    "message": "上传文件",
+    "description": "网页中的消息，告诉用户上传文件"
+  },
+  "message.noToken": {
+    "message": "请先申请相应服务",
+    "description": "网页中的消息，告诉用户先申请相应服务"
+  },
+  "message.newMessagePlaceholder": {
+    "message": "请输入您的问题...",
+    "description": "网页中的占位符，告诉用户输入问题"
+  },
+  "message.noInput": {
+    "message": "问题不能为空",
+    "description": "网页中的消息，告诉用户问题不能为空"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "最多只能上传 1 个文件",
+    "description": "网页中的消息，告诉用户最多只能上传 1 个文件"
+  },
+  "message.uploadReferencesError": {
+    "message": "文件上传失败，请稍后重试",
+    "description": "网页中的消息，告诉用户文件上传失败，请稍后重试"
+  },
+  "message.notApplied": {
+    "message": "您尚未申请此服务，请先申请",
+    "description": "网页中的消息，告诉用户您尚未申请此服务，请先申请"
+  },
+  "message.tryForFree": {
+    "message": "免费试用",
+    "description": "网页中的消息，告诉用户免费试用"
+  },
+  "message.question1": {
+    "message": "创建训练计划",
+    "description": "开始对话的示例问题，要求用户编写一段输出 Hello World 的 JavaScript 代码"
+  },
+  "message.question2": {
+    "message": "制作个人网页",
+    "description": "开始对话的示例问题，要求用户给 Mike 写封电子邮件，告诉他我刚搬家"
+  },
+  "message.question3": {
+    "message": "设计有趣的编程游戏",
+    "description": "开始对话的示例问题，要求用户用简单的语言解释量子计算的基本原理"
+  },
+  "message.question4": {
+    "message": "像当地人一样体验首尔",
+    "description": "开始对话的示例问题，要求用户解释虚拟现实对艺术创作产生了什么影响"
+  },
+  "message.question5": {
+    "message": "9.8 和 9.11 谁更大？",
+    "description": "开始对话的示例问题，要求比较两个数字的大小"
+  },
+  "message.question6": {
+    "message": "AI 对未来有何影响？",
+    "description": "开始对话的示例问题，AI 对未来有什么影响？"
+  },
+  "message.question7": {
+    "message": "如何提高学习效率？",
+    "description": "开始对话的示例问题，如何提高自己的学习效率？"
+  },
+  "message.question8": {
+    "message": "如何提高专注力？",
+    "description": "开始对话的示例问题，如何提高自己的专注力？"
+  },
+  "message.errorApiError": {
+    "message": "回答失败，请稍后重试",
+    "description": "网页中的消息，告诉用户回答失败，请稍后重试"
+  },
+  "message.errorBadRequest": {
+    "message": "请求内容不规范，请重新提问",
+    "description": "网页中的消息，告诉用户请求内容不规范，请重新提问"
+  },
+  "message.errorNoConversation": {
+    "message": "对话不存在或已过期，请开始新对话",
+    "description": "网页中的消息，告诉用户对话不存在或已过期，请开始新对话"
+  },
+  "message.errorContentTooLarge": {
+    "message": "问题内容过长，请缩短后重试",
+    "description": "网页中的消息，告诉用户问题内容过长，请缩短后重试"
+  },
+  "message.errorTooManyRequests": {
+    "message": "您的操作过于频繁，请稍后重试",
+    "description": "网页中的消息，告诉用户您的操作过于频繁，请稍后重试"
+  },
+  "message.errorBusy": {
+    "message": "服务器繁忙，请稍后重试",
+    "description": "网页中的消息，告诉用户服务器繁忙，请稍后重试"
+  },
+  "message.errorUsedUp": {
+    "message": "您已用完套餐次数，请购买更多次数继续使用",
+    "description": "网页中的消息，告诉用户您已用完套餐次数，请购买更多次数继续使用"
+  },
+  "message.errorUnknown": {
+    "message": "服务器发生未知错误，请稍后重试或联系客服",
+    "description": "网页中的消息，告诉用户服务器发生未知错误，请稍后重试或联系客服"
+  },
+  "message.errorTimeout": {
+    "message": "回答问题超时，请稍后重试",
+    "description": "网页中的消息，告诉用户回答问题超时，请稍后重试"
+  },
+  "message.errorNotApplied": {
+    "message": "您尚未申请此服务，请先申请再继续提问",
+    "description": "网页中的消息，告诉用户您尚未申请此服务，请先申请再继续提问"
+  },
+  "message.confirmDelete": {
+    "message": "确认删除",
+    "description": "网页中的消息，告诉用户确认删除"
+  },
+  "message.howToUse": {
+    "message": "AI 可能会出错，请检查重要信息。",
+    "description": "网页中的消息，告诉用户 AI 可能会出错，请检查重要信息"
+  },
+  "title.chat": {
+    "message": "AI 聊天",
+    "description": "网页的标题，即 AI 聊天"
+  },
+  "title.example": {
+    "message": "示例",
+    "description": "网页的标题，即 示例"
+  },
+  "title.capabilities": {
+    "message": "功能",
+    "description": "网页的标题，即 功能"
+  },
+  "title.limitations": {
+    "message": "限制",
+    "description": "网页中的标题，指出这部分内容是关于服务的技术限制"
+  },
+  "title.complexQuestion": {
+    "message": "回答复杂问题",
+    "description": "网页中的标题，指出这部分内容是关于服务回答复杂问题的能力"
+  },
+  "title.professionalQuestion": {
+    "message": "咨询专业问题",
+    "description": "网页中的标题，指出这部分内容是关于服务咨询专业问题的能力"
+  },
+  "title.getTips": {
+    "message": "获取灵感和创意",
+    "description": "网页中的标题，指出这部分内容是关于服务获取灵感和创意的能力"
+  },
+  "group.today": {
+    "message": "今天",
+    "description": "网页中的分组名称，即 今天"
+  },
+  "group.yesterday": {
+    "message": "昨天",
+    "description": "网页中的分组名称，即 昨天"
+  },
+  "group.thisWeek": {
+    "message": "本周",
+    "description": "网页中的分组名称，即 本周"
+  },
+  "group.earlier": {
+    "message": "更早",
+    "description": "网页中的分组名称，即 更早"
+  },
+  "mcp.title": {
+    "message": "MCP 服务器",
+    "description": "MCP 服务器管理对话框标题"
+  },
+  "mcp.addServer": {
+    "message": "添加服务器",
+    "description": "添加 MCP 服务器按钮"
+  },
+  "mcp.name": {
+    "message": "名称",
+    "description": "MCP 服务器名称"
+  },
+  "mcp.namePlaceholder": {
+    "message": "为服务器命名",
+    "description": "MCP 服务器名称占位符"
+  },
+  "mcp.url": {
+    "message": "URL",
+    "description": "MCP 服务器 URL"
+  },
+  "mcp.urlPlaceholder": {
+    "message": "https://example.com/mcp",
+    "description": "MCP 服务器 URL 占位符"
+  },
+  "mcp.description": {
+    "message": "描述",
+    "description": "MCP 服务器描述"
+  },
+  "mcp.descriptionPlaceholder": {
+    "message": "描述此服务器的用途",
+    "description": "MCP 服务器描述占位符"
+  },
+  "mcp.authType": {
+    "message": "认证方式",
+    "description": "MCP 服务器认证方式"
+  },
+  "mcp.authNone": {
+    "message": "无",
+    "description": "无认证"
+  },
+  "mcp.authBearer": {
+    "message": "Bearer Token",
+    "description": "Bearer Token 认证"
+  },
+  "mcp.authToken": {
+    "message": "Token",
+    "description": "认证 Token"
+  },
+  "mcp.authTokenPlaceholder": {
+    "message": "输入认证 Token",
+    "description": "认证 Token 占位符"
+  },
+  "mcp.test": {
+    "message": "测试连接",
+    "description": "测试 MCP 服务器连接"
+  },
+  "mcp.testSuccess": {
+    "message": "连接成功",
+    "description": "连接测试成功"
+  },
+  "mcp.testFailed": {
+    "message": "连接失败",
+    "description": "连接测试失败"
+  },
+  "mcp.toolsFound": {
+    "message": "发现 {count} 个工具",
+    "description": "发现的工具数量"
+  },
+  "mcp.empty": {
+    "message": "暂无 MCP 服务器，添加一个以扩展 AI 的能力",
+    "description": "MCP 服务器列表为空"
+  },
+  "mcp.loadErrorHint": {
+    "message": "无法加载 MCP 服务器，该功能可能暂未开放。",
+    "description": "MCP 服务器因网络/CORS错误加载失败时的提示"
+  },
+  "mcp.nameUrlRequired": {
+    "message": "请填写名称和 URL",
+    "description": "名称和 URL 必填"
+  },
+  "mcp.urlRequired": {
+    "message": "请填写 URL",
+    "description": "URL 必填"
+  },
+  "mcp.created": {
+    "message": "添加成功",
+    "description": "MCP 服务器添加成功"
+  },
+  "mcp.updated": {
+    "message": "更新成功",
+    "description": "MCP 服务器更新成功"
+  },
+  "mcp.deleted": {
+    "message": "删除成功",
+    "description": "MCP 服务器删除成功"
+  },
+  "mcp.saveFailed": {
+    "message": "保存失败",
+    "description": "MCP 服务器保存失败"
+  },
+  "mcp.deleteConfirm": {
+    "message": "确认删除服务器 \"{name}\"？",
+    "description": "删除确认"
+  },
+  "mcp.tooltip": {
+    "message": "MCP 服务器",
+    "description": "MCP 按钮提示"
+  },
+  "mcp.authOAuth": {
+    "message": "OAuth 2.0",
+    "description": "OAuth 认证类型"
+  },
+  "mcp.oauthHint": {
+    "message": "保存后，在服务器卡片上点击「授权」按钮完成 OAuth 认证。",
+    "description": "选择 OAuth 认证类型时的提示"
+  },
+  "mcp.authorize": {
+    "message": "授权",
+    "description": "OAuth 授权按钮"
+  },
+  "mcp.oauthAuthorized": {
+    "message": "OAuth 授权成功",
+    "description": "OAuth 授权成功消息"
+  },
+  "mcp.oauthFailed": {
+    "message": "OAuth 授权失败",
+    "description": "OAuth 授权失败消息"
+  },
+  "mcp.popupBlocked": {
+    "message": "弹出窗口被阻止，请允许本站弹出窗口。",
+    "description": "弹出窗口被阻止提示"
+  },
+  "connector.title": {
+    "message": "连接器",
+    "description": "连接器管理对话框标题"
+  },
+  "connector.tooltip": {
+    "message": "OAuth 连接器",
+    "description": "连接器按钮提示"
+  },
+  "connector.noProviders": {
+    "message": "暂无可用连接器，请在服务端配置 OAuth 提供商。",
+    "description": "无提供商消息"
+  },
+  "connector.connect": {
+    "message": "连接",
+    "description": "连接按钮"
+  },
+  "connector.disconnect": {
+    "message": "断开",
+    "description": "断开按钮"
+  },
+  "connector.connected": {
+    "message": "连接器连接成功",
+    "description": "连接成功消息"
+  },
+  "connector.disconnected": {
+    "message": "连接器已断开",
+    "description": "断开成功消息"
+  },
+  "connector.authFailed": {
+    "message": "授权失败，请重试。",
+    "description": "授权失败消息"
+  },
+  "connector.loadError": {
+    "message": "加载连接器失败",
+    "description": "加载错误消息"
+  },
+  "connector.loadErrorHint": {
+    "message": "无法加载连接器，该功能可能暂未开放。",
+    "description": "连接器因网络/CORS错误加载失败时的提示"
+  },
+  "connector.disconnectError": {
+    "message": "断开连接器失败",
+    "description": "断开错误消息"
+  },
+  "connector.toggleError": {
+    "message": "更新连接器失败",
+    "description": "切换错误消息"
+  },
+  "connector.processing": {
+    "message": "正在处理授权...",
+    "description": "OAuth 回调处理消息"
+  },
+  "connector.authSuccess": {
+    "message": "授权成功！",
+    "description": "OAuth 回调成功消息"
+  },
+  "connector.closeWindow": {
+    "message": "此窗口将自动关闭。",
+    "description": "OAuth 回调关闭提示"
+  },
+  "skill.title": {
+    "message": "技能",
+    "description": "技能管理对话框标题"
+  },
+  "skill.tooltip": {
+    "message": "AI 技能",
+    "description": "技能按钮提示"
+  },
+  "skill.builtin": {
+    "message": "内置",
+    "description": "内置技能标签"
+  },
+  "skill.empty": {
+    "message": "暂无可用技能。",
+    "description": "技能列表为空提示"
+  },
+  "skill.loadError": {
+    "message": "加载技能失败",
+    "description": "技能加载失败提示"
+  },
+  "skill.add": {
+    "message": "添加技能",
+    "description": "Add skill button label"
+  },
+  "skill.delete": {
+    "message": "删除",
+    "description": "Delete skill button label"
+  },
+  "skill.deleteConfirm": {
+    "message": "确认删除技能「{name}」？此操作无法撤销。",
+    "description": "Confirm message before deleting a skill"
+  },
+  "skill.deleteSuccess": {
+    "message": "已删除",
+    "description": "Delete skill success message"
+  },
+  "skill.deleteError": {
+    "message": "删除失败",
+    "description": "Delete skill error message"
+  },
+  "skill.createSuccess": {
+    "message": "技能已创建",
+    "description": "Create skill success message"
+  },
+  "skill.createError": {
+    "message": "创建技能失败",
+    "description": "Create skill error message"
+  },
+  "skill.form.name": {
+    "message": "名称",
+    "description": "Skill form name label"
+  },
+  "skill.form.namePlaceholder": {
+    "message": "例如 summarizer",
+    "description": "Skill form name placeholder"
+  },
+  "skill.form.nameRequired": {
+    "message": "请填写名称",
+    "description": "Skill form name required message"
+  },
+  "skill.form.displayName": {
+    "message": "显示名称",
+    "description": "Skill form display name label"
+  },
+  "skill.form.displayNamePlaceholder": {
+    "message": "在技能列表中展示的名称",
+    "description": "Skill form display name placeholder"
+  },
+  "skill.form.icon": {
+    "message": "图标（emoji）",
+    "description": "Skill form icon label"
+  },
+  "skill.form.description": {
+    "message": "描述",
+    "description": "Skill form description label"
+  },
+  "skill.form.type": {
+    "message": "类型",
+    "description": "Skill form type label"
+  },
+  "skill.form.typePrompt": {
+    "message": "提示词",
+    "description": "Prompt type label"
+  },
+  "skill.form.typeCode": {
+    "message": "代码",
+    "description": "Code type label"
+  },
+  "skill.form.instructions": {
+    "message": "提示词内容",
+    "description": "Prompt instructions label"
+  },
+  "skill.form.instructionsPlaceholder": {
+    "message": "粘贴或编写该技能对应的提示词 / 指令...",
+    "description": "Prompt instructions placeholder"
+  },
+  "skill.form.instructionsRequired": {
+    "message": "提示词类型必须填写提示词内容",
+    "description": "Prompt instructions required message"
+  },
+  "skill.form.code": {
+    "message": "代码",
+    "description": "Code skill label"
+  },
+  "skill.form.codePlaceholder": {
+    "message": "粘贴该技能对应的代码...",
+    "description": "Code skill placeholder"
+  },
+  "skill.form.codeRequired": {
+    "message": "代码类型必须填写代码",
+    "description": "Code skill required message"
+  },
+  "skill.form.tags": {
+    "message": "标签",
+    "description": "Skill form tags label"
+  },
+  "skill.form.tagsPlaceholder": {
+    "message": "用逗号分隔，如：写作, 编程",
+    "description": "Skill form tags placeholder"
+  },
+  "skill.form.uploadText": {
+    "message": "上传 .txt / .md 文件",
+    "description": "Upload prompt file button"
+  },
+  "skill.form.uploadCode": {
+    "message": "上传代码文件",
+    "description": "Upload code file button"
+  },
+  "agent.title": {
+    "message": "桌面代理",
+    "description": "代理管理对话框标题"
+  },
+  "agent.tooltip": {
+    "message": "桌面代理",
+    "description": "代理按钮提示"
+  },
+  "agent.connected": {
+    "message": "已连接",
+    "description": "代理已连接状态"
+  },
+  "agent.notConnected": {
+    "message": "未连接",
+    "description": "代理未连接状态"
+  },
+  "agent.description": {
+    "message": "连接桌面代理以在 AI 对话中访问本地文件、运行命令和使用本地 MCP 服务器。",
+    "description": "代理描述"
+  },
+  "agent.name": {
+    "message": "代理名称",
+    "description": "代理名称标签"
+  },
+  "agent.tools": {
+    "message": "可用工具",
+    "description": "代理工具数量标签"
+  },
+  "agent.connectedSince": {
+    "message": "连接时间",
+    "description": "代理连接时间标签"
+  },
+  "agent.connectedHint": {
+    "message": "您的桌面代理已连接，可以使用。",
+    "description": "代理已连接提示"
+  },
+  "agent.installLabel": {
+    "message": "安装桌面代理：",
+    "description": "安装说明标签"
+  },
+  "agent.runLabel": {
+    "message": "运行代理：",
+    "description": "运行说明标签"
+  }
+}

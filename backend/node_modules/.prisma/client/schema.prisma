@@ -1,0 +1,95 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  USER
+  ADMIN
+  MODERATOR
+  DEVELOPER
+}
+
+enum PaymentProvider {
+  STRIPE
+  SOLANA
+}
+
+enum PaymentStatus {
+  PENDING
+  PAID
+  FAILED
+  EXPIRED
+  REFUNDED
+}
+
+enum AiRequestStatus {
+  CREATED
+  RUNNING
+  COMPLETED
+  FAILED
+  PLACEHOLDER
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String?
+  avatarUrl    String?
+  role         UserRole @default(USER)
+  credits      Int      @default(0)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  requests AiRequest[]
+  payments Payment[]
+}
+
+model Payment {
+  id              String          @id @default(cuid())
+  userId          String?
+  user            User?           @relation(fields: [userId], references: [id])
+  provider        PaymentProvider
+  status          PaymentStatus   @default(PENDING)
+  amountCents     Int
+  currency        String
+  credits         Int             @default(0)
+  description     String?
+  externalId      String?         @unique
+  solanaSignature String?         @unique
+  solanaReceiver  String?
+  raw             Json?
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+}
+
+model AiRequest {
+  id        String          @id @default(cuid())
+  userId    String?
+  user      User?           @relation(fields: [userId], references: [id])
+  service   String
+  model     String?
+  prompt    String?
+  status    AiRequestStatus @default(CREATED)
+  result    Json?
+  error     String?
+  cost      Int             @default(1)
+  createdAt DateTime        @default(now())
+  updatedAt DateTime        @updatedAt
+}
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  actorId   String?
+  action    String
+  entity    String?
+  entityId  String?
+  metadata  Json?
+  ip        String?
+  createdAt DateTime @default(now())
+}

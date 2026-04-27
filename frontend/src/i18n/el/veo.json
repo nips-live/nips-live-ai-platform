@@ -1,0 +1,222 @@
+{
+  "name.taskId": {
+    "message": "Ταυτότητα εργασίας",
+    "description": "Το ID της εργασίας"
+  },
+  "name.translation": {
+    "message": "Αυτόματη μετάφραση",
+    "description": "Η αυτόματη μετάφραση του βίντεο Veo"
+  },
+  "name.modePro": {
+    "message": "Υψηλή ποιότητα",
+    "description": "Η λειτουργία υψηλής ποιότητας του βίντεο Kling"
+  },
+  "name.failure": {
+    "message": "Αποτυχία",
+    "description": "Η κατάσταση αποτυχίας της εργασίας"
+  },
+  "name.failureReason": {
+    "message": "Λόγος αποτυχίας",
+    "description": "Ο λόγος αποτυχίας της εργασίας"
+  },
+  "name.status": {
+    "message": "Κατάσταση",
+    "description": "Η κατάσταση της εργασίας"
+  },
+  "name.traceId": {
+    "message": "Ταυτότητα παρακολούθησης",
+    "description": "Η ταυτότητα παρακολούθησης της εργασίας"
+  },
+  "name.createdAt": {
+    "message": "Ημερομηνία δημιουργίας",
+    "description": "Η ημερομηνία και ώρα δημιουργίας του βίντεο Veo"
+  },
+  "name.startEndImage": {
+    "message": "Αναφορές αρχικής/τελικής εικόνας",
+    "description": "Ετικέτα πεδίου φόρμας: Αναφορές αρχικής/τελικής εικόνας (συνιστάται να μεταφραστεί ως 'Start/End Frames', διατηρώντας τη σύντομη μορφή για να μην καλύπτει το κουμπί)"
+  },
+  "name.action": {
+    "message": "Ενέργεια",
+    "description": "Λίστα διαθέσιμων ενεργειών"
+  },
+  "name.action3": {
+    "message": "Λήψη βίντεο 1080p από",
+    "description": "Αναφορές εικόνας για το βίντεο που θα παραχθεί"
+  },
+  "name.prompt": {
+    "message": "Υπόδειξη βίντεο",
+    "description": "Υπόδειξη για την είσοδο περιεχομένου"
+  },
+  "name.model": {
+    "message": "Έκδοση μοντέλου",
+    "description": "Η έκδοση του μοντέλου που χρησιμοποιείται για την παραγωγή του βίντεο"
+  },
+  "name.veoBot": {
+    "message": "Google Veo Bot",
+    "description": "Το όνομα του δημιουργού βίντεο Veo"
+  },
+  "name.ratio": {
+    "message": "Αναλογία",
+    "description": "Το όνομα της παραμέτρου αναλογίας"
+  },
+  "description.translation": {
+    "message": "Κατά τη δημιουργία της εργασίας βίντεο, μπορείτε να ενεργοποιήσετε την αυτόματη μετάφραση για τις λέξεις-κλειδιά.",
+    "description": "Περιγραφή της παραμέτρου 'translation'"
+  },
+  "description.imageUrl": {
+    "message": "Στην εργασία δημιουργίας βίντεο με πολλές εικόνες, πρέπει να ανεβάσετε πολλές εικόνες.",
+    "description": "Περιγραφή της παραμέτρου 'imageUrl'"
+  },
+  "description.prompt": {
+    "message": "Λέξεις-κλειδιά για τη δημιουργία του βίντεο Veo",
+    "description": "Περιγραφή της παραμέτρου 'prompt'"
+  },
+  "description.uploadStartEndImage": {
+    "message": "Πίνακας συνδέσμων αναφοράς εικόνας, η πρώτη είναι η αρχική εικόνα και η δεύτερη είναι η τελική εικόνα",
+    "description": "Περιγραφή της παραμέτρου 'image_url'"
+  },
+  "status.pending": {
+    "message": "Σε αναμονή",
+    "description": "Η κατάσταση αναμονής της εργασίας"
+  },
+  "status.processing": {
+    "message": "Επεξεργασία",
+    "description": "Η κατάσταση επεξεργασίας της εργασίας"
+  },
+  "placeholder.paddingNoise": {
+    "message": "Επιλέξτε...",
+    "description": "Placeholder για την είσοδο θορύβου πλήρωσης"
+  },
+  "placeholder.select": {
+    "message": "Επιλογή",
+    "description": "Placeholder κειμένου στο πεδίο επιλογής"
+  },
+  "placeholder.paddingLevel": {
+    "message": "Επιλέξτε...",
+    "description": "Placeholder για το επίπεδο πλήρωσης"
+  },
+  "placeholder.prompt": {
+    "message": "Εισάγετε λέξεις-κλειδιά για το στυλ του βίντεο, π.χ.: moving",
+    "description": "Placeholder κειμένου στο πεδίο υπόδειξης"
+  },
+  "placeholder.position": {
+    "message": "Επιλέξτε...",
+    "description": "Placeholder για την είσοδο θέσης"
+  },
+  "button.generate": {
+    "message": "Δημιουργία",
+    "description": "Κείμενο κουμπιού για τη δημιουργία του βίντεο Veo"
+  },
+  "button.action1": {
+    "message": "Δημιουργία βίντεο",
+    "description": "Κείμενο κουμπιού για τη δημιουργία του βίντεο Veo"
+  },
+  "button.action2": {
+    "message": "Δημιουργία βίντεο από εικόνες",
+    "description": "Κείμενο κουμπιού για τη δημιουργία του βίντεο Veo"
+  },
+  "button.action3": {
+    "message": "Λήψη 1080p",
+    "description": "Κείμενο κουμπιού για τη δημιουργία του βίντεο Veo"
+  },
+  "button.download": {
+    "message": "Λήψη βίντεο",
+    "description": "Κείμενο κουμπιού για τη λήψη του βίντεο"
+  },
+  "button.uploadImageUrl": {
+    "message": "Ανέβασμα",
+    "description": "Κείμενο κουμπιού για το ανέβασμα εικόνας (απλοποιήστε στα Αγγλικά σε 'Upload', μην χρησιμοποιήσετε 'Upload Image')"
+  },
+  "button.uploadVideoUrl": {
+    "message": "Ανέβασμα βίντεο",
+    "description": "Κείμενο κουμπιού για το ανέβασμα βίντεο"
+  },
+  "button.uploadReferences": {
+    "message": "Ανέβασμα",
+    "description": "Κείμενο κουμπιού που επιτρέπει στον χρήστη να ανεβάσει αναφορές"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "Μπορείτε να ανεβάσετε έως 2 εικόνες",
+    "description": "Μήνυμα σφάλματος όταν ο αριθμός των ανεβασμένων εικόνων υπερβαίνει το όριο"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "Επιτυχής ανάρτηση εικόνας",
+    "description": "Μήνυμα επιτυχίας όταν η ανάρτηση εικόνας είναι επιτυχής"
+  },
+  "message.uploadReferencesError": {
+    "message": "Αποτυχία ανάρτησης εικόνας, παρακαλώ δοκιμάστε ξανά αργότερα",
+    "description": "Μήνυμα σφάλματος όταν η ανάρτηση εικόνας αποτυγχάνει"
+  },
+  "message.startingTask": {
+    "message": "Εκκίνηση εργασίας...",
+    "description": "Μήνυμα κατά την εκκίνηση της εργασίας σχεδίασης"
+  },
+  "message.startTaskSuccess": {
+    "message": "Επιτυχής εκκίνηση της εργασίας δημιουργίας",
+    "description": "Μήνυμα επιτυχίας όταν η εργασία εκκινείται επιτυχώς"
+  },
+  "message.startTaskFailed": {
+    "message": "Αποτυχία εκκίνησης της εργασίας, παρακαλώ επικοινωνήστε με τον διαχειριστή",
+    "description": "Μήνυμα σφάλματος όταν η εκκίνηση της εργασίας σχεδίασης αποτυγχάνει"
+  },
+  "message.usedUp": {
+    "message": "Τα σημεία σας έχουν εξαντληθεί, παρακαλώ αγοράστε περισσότερα σημεία για να συνεχίσετε",
+    "description": "Μήνυμα όταν τα σημεία έχουν εξαντληθεί"
+  },
+  "message.generating": {
+    "message": "Δημιουργία σε εξέλιξη...",
+    "description": "Μήνυμα κατά τη διάρκεια της δημιουργίας εικόνας"
+  },
+  "message.downloadVideo": {
+    "message": "Λήψη αυτού του βίντεο",
+    "description": "Μήνυμα κατά τη διάρκεια της δημιουργίας εικόνας"
+  },
+  "message.generateFailed": {
+    "message": "Αποτυχία δημιουργίας βίντεο",
+    "description": "Μήνυμα όταν η δημιουργία εικόνας αποτυγχάνει"
+  },
+  "message.uploadVideoExceed": {
+    "message": "Ο αριθμός των ανεβασμένων αρχικών εικόνων υπερβαίνει το όριο",
+    "description": "Μήνυμα σφάλματος όταν ο αριθμός των ανεβασμένων αρχικών εικόνων υπερβαίνει το όριο"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "Το μέγεθος του αρχείου δεν μπορεί να υπερβαίνει τα 10MB!",
+    "description": "Μήνυμα σφάλματος όταν το μέγεθος του αρχείου υπερβαίνει τα 10MB!"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "Το αρχείο πρέπει να είναι σε μορφή MP4!",
+    "description": "Μήνυμα σφάλματος όταν το αρχείο δεν είναι σε μορφή MP4!"
+  },
+  "message.uploadStartEndImageExceed": {
+    "message": "Ο αριθμός των εικόνων αρχής υπερβαίνει το όριο",
+    "description": "Μήνυμα σφάλματος όταν ο αριθμός των εικόνων αρχής υπερβαίνει το όριο"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "Ο αριθμός των εικόνων τέλους υπερβαίνει το όριο",
+    "description": "Μήνυμα σφάλματος όταν ο αριθμός των εικόνων τέλους υπερβαίνει το όριο"
+  },
+  "message.uploadStartImageError": {
+    "message": "Αποτυχία φόρτωσης εικόνας αρχής",
+    "description": "Μήνυμα σφάλματος όταν η φόρτωση της εικόνας αρχής αποτυγχάνει"
+  },
+  "message.uploadVideoError": {
+    "message": "Αποτυχία φόρτωσης βίντεο",
+    "description": "Μήνυμα σφάλματος όταν η φόρτωση του βίντεο αποτυγχάνει"
+  },
+  "message.uploadEndImageError": {
+    "message": "Αποτυχία φόρτωσης εικόνας τέλους",
+    "description": "Μήνυμα σφάλματος όταν η φόρτωση της εικόνας τέλους αποτυγχάνει"
+  },
+  "message.uploadDocumentsError": {
+    "message": "Αποτυχία φόρτωσης εγγράφων",
+    "description": "Μήνυμα σφάλματος όταν η φόρτωση των εγγράφων αποτυγχάνει"
+  },
+  "message.noOperations": {
+    "message": "Δεν υπάρχουν διαθέσιμες ενέργειες",
+    "description": "Μήνυμα όταν δεν υπάρχουν διαθέσιμες ενέργειες"
+  },
+  "message.noTasks": {
+    "message": "Δεν υπάρχουν ιστορικά καθήκοντα, παρακαλώ κάντε κλικ για να δημιουργήσετε βίντεο αριστερά",
+    "description": "Μήνυμα όταν δεν υπάρχουν καθήκοντα"
+  }
+}

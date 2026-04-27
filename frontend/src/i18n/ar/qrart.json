@@ -1,0 +1,454 @@
+{
+  "name.taskId": {
+    "message": "معرف المهمة",
+    "description": "معرف المهمة"
+  },
+  "name.type": {
+    "message": "النوع",
+    "description": "نوع محتوى رمز الاستجابة السريعة الذي سيتم إنشاؤه، مثل 'رابط' أو 'نص' وما إلى ذلك"
+  },
+  "name.failure": {
+    "message": "فشل",
+    "description": "حالة فشل المهمة"
+  },
+  "name.failureReason": {
+    "message": "سبب الفشل",
+    "description": "سبب فشل المهمة"
+  },
+  "name.status": {
+    "message": "الحالة",
+    "description": "حالة المهمة"
+  },
+  "name.traceId": {
+    "message": "معرف التتبع",
+    "description": "معرف التتبع للمهمة"
+  },
+  "name.size": {
+    "message": "الحجم",
+    "description": "حجم رمز الاستجابة السريعة الذي سيتم إنشاؤه"
+  },
+  "name.createdAt": {
+    "message": "تاريخ الإنشاء",
+    "description": "تاريخ ووقت إنشاء رمز الاستجابة السريعة"
+  },
+  "name.pixelStyle": {
+    "message": "نمط البكسل",
+    "description": "نمط البكسل لرمز الاستجابة السريعة الذي سيتم إنشاؤه"
+  },
+  "name.seed": {
+    "message": "قيمة البذرة",
+    "description": "البذرة التي سيتم استخدامها لإنشاء رمز الاستجابة السريعة"
+  },
+  "name.paddingLevel": {
+    "message": "مستوى الحشو",
+    "description": "مستوى الحشو لرمز الاستجابة السريعة الذي سيتم إنشاؤه"
+  },
+  "name.paddingNoise": {
+    "message": "ضوضاء الحشو",
+    "description": "ضوضاء الحشو لرمز الاستجابة السريعة الذي سيتم إنشاؤه"
+  },
+  "name.content": {
+    "message": "المحتوى",
+    "description": "المحتوى لرمز الاستجابة السريعة الذي سيتم إنشاؤه"
+  },
+  "name.ecl": {
+    "message": "مستوى تصحيح الأخطاء",
+    "description": "مستوى تصحيح أخطاء رمز الاستجابة السريعة الذي سيتم إنشاؤه"
+  },
+  "name.position": {
+    "message": "الموقع",
+    "description": "الموقع لرمز الاستجابة السريعة الذي سيتم إنشاؤه"
+  },
+  "name.prompt": {
+    "message": "التوجيه",
+    "description": "التوجيه لإدخال المحتوى"
+  },
+  "name.rotate": {
+    "message": "زاوية الدوران",
+    "description": "دوران رمز الاستجابة السريعة الذي سيتم إنشاؤه"
+  },
+  "name.advanced": {
+    "message": "متقدم",
+    "description": "الإعدادات المتقدمة لرمز الاستجابة السريعة الذي سيتم إنشاؤه"
+  },
+  "name.aspectRatio": {
+    "message": "نسبة العرض إلى الارتفاع",
+    "description": "نسبة العرض إلى الارتفاع لرمز الاستجابة السريعة الذي سيتم إنشاؤه"
+  },
+  "name.markerShape": {
+    "message": "شكل العلامة",
+    "description": "شكل العلامة لرمز الاستجابة السريعة الذي سيتم إنشاؤه"
+  },
+  "name.subMarker": {
+    "message": "العلامة الفرعية",
+    "description": "العلامة الفرعية لرمز الاستجابة السريعة الذي سيتم إنشاؤه"
+  },
+  "name.qrw": {
+    "message": "الرؤية",
+    "description": "اسم مولد رمز الاستجابة السريعة"
+  },
+  "name.steps": {
+    "message": "عدد الخطوات",
+    "description": "عدد الخطوات لإنشاء رمز الاستجابة السريعة"
+  },
+  "name.preset": {
+    "message": "النمط المسبق",
+    "description": "النمط المسبق لرمز الاستجابة السريعة الذي سيتم إنشاؤه"
+  },
+  "name.qrartBot": {
+    "message": "بوت فن الاستجابة السريعة",
+    "description": "اسم مولد رمز الاستجابة السريعة"
+  },
+  "name.contentImageUrl": {
+    "message": "رابط صورة المحتوى",
+    "description": "رابط صورة المحتوى لرمز الاستجابة السريعة الذي سيتم إنشاؤه"
+  },
+  "inputWay.input": {
+    "message": "إدخال",
+    "description": "طريقة الإدخال"
+  },
+  "inputWay.upload": {
+    "message": "رفع",
+    "description": "طريقة الإدخال"
+  },
+  "description.qrw": {
+    "message": "وضوح رمز الاستجابة السريعة، كلما زاد الحجم زاد وضوح رمز الاستجابة السريعة",
+    "description": "وصف للمعامل 'qrw'"
+  },
+  "description.steps": {
+    "message": "عدد خطوات إنشاء رمز الاستجابة السريعة، كلما زادت الخطوات زاد وضوح رمز الاستجابة السريعة",
+    "description": "وصف للمعامل 'steps'"
+  },
+  "status.pending": {
+    "message": "قيد الانتظار",
+    "description": "حالة الانتظار للمهمة"
+  },
+  "placeholder.paddingNoise": {
+    "message": "يرجى الاختيار...",
+    "description": "نص العنصر النائب لإدخال ضوضاء الحشو"
+  },
+  "placeholder.paddingLevel": {
+    "message": "يرجى الاختيار...",
+    "description": "نص العنصر النائب لمستوى الحشو"
+  },
+  "placeholder.prompt": {
+    "message": "أدخل كلمات توجيه لنمط رمز الاستجابة السريعة، مثلا: flowers",
+    "description": "نص العنصر النائب في حقل التوجيه"
+  },
+  "placeholder.seed": {
+    "message": "نطاق البذور بين 1 و 9007199254740991",
+    "description": "نص العنصر النائب لإدخال البذور"
+  },
+  "placeholder.position": {
+    "message": "يرجى الاختيار...",
+    "description": "نص العنصر النائب لإدخال الموقع"
+  },
+  "placeholder.content": {
+    "message": "أدخل محتوى رمز الاستجابة السريعة، مثلا: https://www.google.com",
+    "description": "نص العنصر النائب في حقل المحتوى"
+  },
+  "placeholder.aspectRatio": {
+    "message": "يرجى الاختيار...",
+    "description": "نص العنصر النائب لنسبة العرض إلى الارتفاع"
+  },
+  "placeholder.preset": {
+    "message": "يرجى الاختيار...",
+    "description": "نص العنصر النائب لمداخل النمط المسبق"
+  },
+  "placeholder.markerShape": {
+    "message": "يرجى الاختيار...",
+    "description": "نص العنصر النائب لإدخال شكل العلامة"
+  },
+  "placeholder.rotate": {
+    "message": "يرجى الاختيار...",
+    "description": "نص العنصر النائب لإدخال الدوران"
+  },
+  "placeholder.subMarker": {
+    "message": "يرجى الاختيار...",
+    "description": "نص العنصر النائب لإدخال العلامة الفرعية"
+  },
+  "button.generate": {
+    "message": "توليد",
+    "description": "نص الزر لإنشاء رمز الاستجابة السريعة"
+  },
+  "button.uploadQr": {
+    "message": "رفع رمز الاستجابة السريعة",
+    "description": "نص الزر لرفع رمز الاستجابة السريعة"
+  },
+  "preset.sunset": {
+    "message": "غروب الشمس",
+    "description": "نمط مسبق لرمز الاستجابة السريعة المراد إنشاؤه"
+  },
+  "preset.floral": {
+    "message": "الأزهار",
+    "description": "نمط مسبق لرمز الاستجابة السريعة المراد إنشاؤه"
+  },
+  "preset.snowflakes": {
+    "message": "الثلج",
+    "description": "نمط مسبق لرمز الاستجابة السريعة المراد إنشاؤه"
+  },
+  "preset.feathers": {
+    "message": "الريش",
+    "description": "نمط مسبق لرمز الاستجابة السريعة المراد إنشاؤه"
+  },
+  "preset.raindrops": {
+    "message": "قطرات المطر",
+    "description": "نمط مسبق لرمز الاستجابة السريعة المراد إنشاؤه"
+  },
+  "preset.ultraRealism": {
+    "message": "واقعية فائقة",
+    "description": "نمط مسبق لرمز الاستجابة السريعة المراد إنشاؤه"
+  },
+  "preset.epicRealms": {
+    "message": "عوالم ملحمية",
+    "description": "نمط مسبق لرمز الاستجابة السريعة المراد إنشاؤه"
+  },
+  "preset.intricateStudio": {
+    "message": "استوديو معقد",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.symmetricMasterpiece": {
+    "message": "تحفة متناسقة",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.luminousHighway": {
+    "message": "طريق مضيء",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.celestialJourney": {
+    "message": "رحلة سماوية",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.neonMech": {
+    "message": "ميكانيك نيون",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.etherealLowPoly": {
+    "message": "متعدد الأضلاع الأثيري",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.goldenVista": {
+    "message": "إطلالة ذهبية",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.cinematicExpanse": {
+    "message": "سعة سينمائية",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.cinematicWarm": {
+    "message": "دفء سينمائي",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.desolateWilderness": {
+    "message": "برية مقفرة",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.vibrantPalette": {
+    "message": "لوحة نابضة بالحياة",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.enigmaticJourney": {
+    "message": "رحلة غامضة",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.timelessCinematic": {
+    "message": "فيلم أبدي",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.regalGalaxy": {
+    "message": "مجرة ملكية",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.illustriousCanvas": {
+    "message": "لوحة مرموقة",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.expressiveMural": {
+    "message": "جدارية معبرة",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "preset.sereneHaze": {
+    "message": "ضباب هادئ",
+    "description": "النمط الافتراضي لإنشاء رمز QR"
+  },
+  "message.uploadQr": {
+    "message": "قم بتحميل صورة رمز QR لإنشاء رمز فني مطابق لمحتوى QR",
+    "description": "تعليمات تحميل رمز QR"
+  },
+  "message.promptPlaceholder": {
+    "message": "يرجى إدخال جملة تصف الصورة المراد إنشاؤها، مثل: قطة لطيفة. ستغطي المعلمات الإضافية المعلمات الافتراضية",
+    "description": "نص العنصر النائب في حقل الموجه"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "يمكنك تحميل ما يصل إلى 5 صور",
+    "description": "رسالة خطأ عند تجاوز عدد الصور المحملة"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "تم تحميل الصورة بنجاح",
+    "description": "رسالة نجاح عند تحميل الصور بنجاح"
+  },
+  "message.uploadReferencesError": {
+    "message": "فشل تحميل الصورة، يرجى المحاولة لاحقًا",
+    "description": "رسالة خطأ عند فشل تحميل الصور"
+  },
+  "message.startingTask": {
+    "message": "جارٍ بدء المهمة...",
+    "description": "رسالة عند بدء مهمة الرسم"
+  },
+  "message.startTaskSuccess": {
+    "message": "تم بدء مهمة الإنشاء بنجاح",
+    "description": "رسالة نجاح عند بدء المهمة بنجاح"
+  },
+  "message.startTaskFailed": {
+    "message": "فشل في بدء المهمة، يرجى الاتصال بالمشرف",
+    "description": "رسالة خطأ عند فشل بدء مهمة الرسم"
+  },
+  "message.usedUp": {
+    "message": "لقد استنفدت نقاطك، يرجى شراء المزيد لمتابعة الاستخدام",
+    "description": "رسالة عند استنفاد النقاط"
+  },
+  "message.generating": {
+    "message": "جاري التوليد...",
+    "description": "رسالة عند توليد الصورة"
+  },
+  "message.generateFailed": {
+    "message": "فشل في توليد الصورة",
+    "description": "رسالة خطأ عند فشل توليد الصورة"
+  },
+  "message.noOperations": {
+    "message": "لا توجد عمليات متاحة",
+    "description": "رسالة عند عدم وجود عمليات متاحة"
+  },
+  "message.noTasks": {
+    "message": "لا توجد مهام سابقة، يرجى النقر أدناه لإنشاء رمز QR جديد",
+    "description": "رسالة عند عدم وجود مهام"
+  },
+  "markerShape.square": {
+    "message": "مربع",
+    "description": "شكل العلامة لاستخدامه في إنشاء رمز QR"
+  },
+  "markerShape.circle": {
+    "message": "دائرة",
+    "description": "شكل العلامة لاستخدامه في إنشاء رمز QR"
+  },
+  "markerShape.plus": {
+    "message": "علامة زائد",
+    "description": "شكل العلامة لاستخدامه في إنشاء رمز QR"
+  },
+  "markerShape.box": {
+    "message": "مربع",
+    "description": "شكل العلامة لاستخدامه في إنشاء رمز QR"
+  },
+  "markerShape.octagon": {
+    "message": "ثماني الأضلاع",
+    "description": "شكل العلامة لاستخدامه في إنشاء رمز QR"
+  },
+  "markerShape.tinyPlus": {
+    "message": "علامة زائد صغيرة",
+    "description": "شكل العلامة لاستخدامه في إنشاء رمز QR"
+  },
+  "markerShape.random": {
+    "message": "عشوائي",
+    "description": "شكل العلامة لاستخدامه في إنشاء رمز QR"
+  },
+  "subMarker.square": {
+    "message": "مربع",
+    "description": "شكل العلامة الفرعية لاستخدامها في إنشاء رمز QR"
+  },
+  "subMarker.circle": {
+    "message": "دائرة",
+    "description": "شكل العلامة الفرعية لاستخدامها في إنشاء رمز QR"
+  },
+  "subMarker.plus": {
+    "message": "علامة زائد",
+    "description": "شكل العلامة الفرعية لاستخدامها في إنشاء رمز QR"
+  },
+  "subMarker.box": {
+    "message": "مربع",
+    "description": "شكل العلامة الفرعية لاستخدامها في إنشاء رمز QR"
+  },
+  "subMarker.random": {
+    "message": "عشوائي",
+    "description": "شكل العلامة الفرعية لاستخدامها في إنشاء رمز QR"
+  },
+  "position.center": {
+    "message": "الوسط",
+    "description": "الموقع لاستخدامه في إنشاء رمز QR"
+  },
+  "position.topLeft": {
+    "message": "أعلى اليسار",
+    "description": "الموقع لاستخدامه في إنشاء رمز QR"
+  },
+  "position.topRight": {
+    "message": "أعلى اليمين",
+    "description": "الموقع لاستخدامه في إنشاء رمز QR"
+  },
+  "position.bottomLeft": {
+    "message": "أسفل اليسار",
+    "description": "用于生成QR码的位置"
+  },
+  "position.bottomRight": {
+    "message": "أسفل اليمين",
+    "description": "用于生成QR码的位置"
+  },
+  "position.top": {
+    "message": "أعلى",
+    "description": "用于生成QR码的位置"
+  },
+  "position.bottom": {
+    "message": "أسفل",
+    "description": "用于生成QR码的位置"
+  },
+  "position.left": {
+    "message": "يسار",
+    "description": "用于生成QR码的位置"
+  },
+  "position.right": {
+    "message": "يمين",
+    "description": "用于生成QR码的位置"
+  },
+  "pixelStyle.row": {
+    "message": "صف",
+    "description": "用于生成QR码的像素风格"
+  },
+  "pixelStyle.column": {
+    "message": "عمود",
+    "description": "用于生成QR码的像素风格"
+  },
+  "pixelStyle.square": {
+    "message": "مربع",
+    "description": "用于生成QR码的像素风格"
+  },
+  "pixelStyle.rounded": {
+    "message": "مستدير",
+    "description": "用于生成QR码的像素风格"
+  },
+  "pixelStyle.dot": {
+    "message": "نقطة",
+    "description": "用于生成QR码的像素风格"
+  },
+  "pixelStyle.squircle": {
+    "message": "مستطيل مستدير الزوايا",
+    "description": "用于生成QR码的像素风格"
+  },
+  "type.text": {
+    "message": "نص",
+    "description": "用于生成QR码的内容类型"
+  },
+  "type.link": {
+    "message": "رابط",
+    "description": "用于生成QR码的内容类型"
+  },
+  "type.email": {
+    "message": "بريد إلكتروني",
+    "description": "用于生成QR码的内容类型"
+  },
+  "type.phone": {
+    "message": "هاتف",
+    "description": "用于生成QR码的内容类型"
+  },
+  "type.sms": {
+    "message": "رسالة نصية",
+    "description": "用于生成QR码的内容类型"
+  }
+}

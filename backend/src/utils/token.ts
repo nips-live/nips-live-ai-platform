@@ -1,0 +1,1 @@
+import jwt from 'jsonwebtoken'; import { env } from '../env.js'; export type JwtUser={id:string;email:string;role:string}; export const signUser=(u:JwtUser)=>jwt.sign(u,env.jwtSecret,{expiresIn:'7d'}); export const verifyUser=(t:string)=>jwt.verify(t,env.jwtSecret) as JwtUser;

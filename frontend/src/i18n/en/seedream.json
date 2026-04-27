@@ -1,0 +1,138 @@
+{
+  "name.taskId": {
+    "message": "Task ID",
+    "description": "The ID of the task"
+  },
+  "name.task": {
+    "message": "Task Type",
+    "description": "SeeDream image operation type"
+  },
+  "name.generate": {
+    "message": "Create Image",
+    "description": "Operation type: Create Image"
+  },
+  "name.edits": {
+    "message": "Edit Image",
+    "description": "Operation type: Edit Image"
+  },
+  "name.imageUrls": {
+    "message": "Reference Images",
+    "description": "Reference images for editing"
+  },
+  "name.failure": {
+    "message": "Failure",
+    "description": "Task failure"
+  },
+  "name.failureReason": {
+    "message": "Failure Reason",
+    "description": "Reason for task failure"
+  },
+  "name.status": {
+    "message": "Status",
+    "description": "Task status"
+  },
+  "name.traceId": {
+    "message": "Trace ID",
+    "description": "Trace ID"
+  },
+  "name.prompt": {
+    "message": "Image Prompt",
+    "description": "Prompt for generating/editing"
+  },
+  "name.seedreamBot": {
+    "message": "SeeDream Bot",
+    "description": "Name of the SeeDream image generator"
+  },
+  "name.size": {
+    "message": "Size",
+    "description": "Output image size"
+  },
+  "name.watermark": {
+    "message": "Watermark",
+    "description": "Whether to add a watermark"
+  },
+  "description.prompt": {
+    "message": "Prompt for generating or editing an image",
+    "description": "Description of the prompt"
+  },
+  "description.model": {
+    "message": "Model used for generating or editing images.",
+    "description": "Description of the model parameter"
+  },
+  "description.size": {
+    "message": "Image size. Supports presets `1K`, `2K`, `4K`, or custom `<width>x<height>`.",
+    "description": "Description of the size parameter"
+  },
+  "description.watermark": {
+    "message": "Whether to add an AI watermark to the generated image. Enabled by default.",
+    "description": "Description of the watermark parameter"
+  },
+  "description.imageUrls": {
+    "message": "Upload 1-14 reference images to enable image editing.",
+    "description": "Description of the image parameter"
+  },
+  "status.pending": {
+    "message": "Pending",
+    "description": "Task waiting status"
+  },
+  "placeholder.select": {
+    "message": "Select",
+    "description": "Selection placeholder"
+  },
+  "placeholder.prompt": {
+    "message": "Enter prompt, e.g., a white Siamese cat",
+    "description": "Prompt placeholder"
+  },
+  "button.generate": {
+    "message": "Generate",
+    "description": "Generate button"
+  },
+  "button.uploadImageUrls": {
+    "message": "Upload",
+    "description": "Upload reference images button (simplified to 'Upload')"
+  },
+  "message.startingTask": {
+    "message": "Starting task...",
+    "description": "Message indicating task start"
+  },
+  "message.startTaskSuccess": {
+    "message": "Task initiated successfully",
+    "description": "Task successfully created"
+  },
+  "message.startTaskFailed": {
+    "message": "Failed to initiate task, please contact the administrator:",
+    "description": "Task creation failed"
+  },
+  "message.usedUp": {
+    "message": "Your credits are exhausted, please purchase more to continue using",
+    "description": "Exhausted credits message"
+  },
+  "message.uploadImageExceed": {
+    "message": "You can upload a maximum of 14 images",
+    "description": "Image count exceeds limit"
+  },
+  "message.uploadImageError": {
+    "message": "Failed to upload image, please try again later",
+    "description": "Upload failure"
+  },
+  "name.model": {
+    "message": "Model",
+    "description": "SeeDream model selection label"
+  },
+  "model.seedream45": {
+    "message": "doubao-seedream-4.5",
+    "description": "SeeDream 4.5 model option"
+  },
+  "model.seedream40": {
+    "message": "doubao-seedream-4.0",
+    "description": "SeeDream 4.0 model option"
+  },
+  "model.seedream30t2i": {
+    "message": "doubao-seedream-3.0-t2i",
+    "description": "SeeDream 3.0 t2i model option"
+  },
+  "model.seededit30i2i": {
+    "message": "doubao-seededit-3.0-i2i",
+    "description": "SeeEdit 3.0 i2i model option"
+  }
+}

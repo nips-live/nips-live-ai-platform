@@ -1,0 +1,290 @@
+{
+  "style.effect1": {
+    "message": "Leijua",
+    "description": "Pika:n videovaikutuksen nimi"
+  },
+  "style.effect2": {
+    "message": "Päätä",
+    "description": "Pika:n videovaikutuksen nimi"
+  },
+  "style.effect3": {
+    "message": "Silmä-pommi",
+    "description": "Pika:n videovaikutuksen nimi"
+  },
+  "style.effect4": {
+    "message": "Ta-da",
+    "description": "Pika:n videovaikutuksen nimi"
+  },
+  "style.effect5": {
+    "message": "Ilmaa pois",
+    "description": "Pika:n videovaikutuksen nimi"
+  },
+  "style.effect6": {
+    "message": "Murene",
+    "description": "Pika:n videovaikutuksen nimi"
+  },
+  "style.effect7": {
+    "message": "Hajoita",
+    "description": "Pika:n videovaikutuksen nimi"
+  },
+  "style.effect8": {
+    "message": "Purista",
+    "description": "Pika:n videovaikutuksen nimi"
+  },
+  "style.effect9": {
+    "message": "Ilmaa sisään",
+    "description": "Pika:n videovaikutuksen nimi"
+  },
+  "style.effect10": {
+    "message": "Sulata",
+    "description": "Pika:n videovaikutuksen nimi"
+  },
+  "style.effect11": {
+    "message": "Kakku-ify",
+    "description": "Pika:n videovaikutuksen nimi"
+  },
+  "style.effect12": {
+    "message": "Murskaa",
+    "description": "Pika:n videovaikutuksen nimi"
+  },
+  "style.effect13": {
+    "message": "Räjäytä",
+    "description": "Pika:n videovaikutuksen nimi"
+  },
+  "name.taskId": {
+    "message": "Tehtävä ID",
+    "description": "Tehtävän ID"
+  },
+  "name.type": {
+    "message": "Tyyppi",
+    "description": "Pika-videon sisältötyyppi, kuten 'linkki', 'teksti' jne."
+  },
+  "name.failure": {
+    "message": "Epäonnistui",
+    "description": "Tehtävän epäonnistumisen tila"
+  },
+  "name.failureReason": {
+    "message": "Epäonnistumisen syy",
+    "description": "Tehtävän epäonnistumisen syy"
+  },
+  "name.status": {
+    "message": "Tila",
+    "description": "Tehtävän tila"
+  },
+  "name.traceId": {
+    "message": "Seuranta ID",
+    "description": "Tehtävän seuranta ID"
+  },
+  "name.createdAt": {
+    "message": "Luontiaika",
+    "description": "Pika-videon luontipäivämäärä ja -aika"
+  },
+  "name.imageUrl": {
+    "message": "Viitekuva",
+    "description": "Viitekuva videolle, joka luodaan"
+  },
+  "name.videoUrl": {
+    "message": "Mukautettu video",
+    "description": "Mukautettu video"
+  },
+  "name.prompt": {
+    "message": "Videon ohje",
+    "description": "Sisällön syötteen ohje"
+  },
+  "name.ingredients": {
+    "message": "Monikuva-video",
+    "description": "Monikuva-video kytkin/tunnus (englanniksi: Multi-Image, pidä lyhyenä)"
+  },
+  "name.model": {
+    "message": "Malliversio",
+    "description": "Videon luomiseen käytettävä malliversio"
+  },
+  "name.effect": {
+    "message": "Videovaikutus",
+    "description": "Tyyliparametrin nimi, jota käytetään eri versioiden tai tyylien mallien välillä vaihtamiseen"
+  },
+  "name.ingredientsModel": {
+    "message": "Ainesosamalli",
+    "description": "Videon luomiseen käytettävä malliversio"
+  },
+  "name.pikaBot": {
+    "message": "Pika Bot",
+    "description": "Pika-videon luontityökalun nimi"
+  },
+  "description.ingredients": {
+    "message": "Jos haluat ladata useita kuvia luodaksesi oman videon, ota tämä painike käyttöön.",
+    "description": "Parametrin 'ingredients' kuvaus"
+  },
+  "description.imageUrl": {
+    "message": "Monikuva-videon tehtävässä on pakko ladata useita kuvia.",
+    "description": "Parametrin 'imageUrl' kuvaus"
+  },
+  "description.prompt": {
+    "message": "Pika-videon luomiseen tarvittavat ohjeet",
+    "description": "Parametrin 'prompt' kuvaus"
+  },
+  "status.pending": {
+    "message": "Odottaa",
+    "description": "Tehtävän odotustila"
+  },
+  "status.processing": {
+    "message": "Käsittelyssä",
+    "description": "Tehtävän odotustila"
+  },
+  "placeholder.paddingNoise": {
+    "message": "Valitse...",
+    "description": "Täyttömelun syötteen paikkamerkki"
+  },
+  "placeholder.select": {
+    "message": "Valitse",
+    "description": "Valintakentän paikkateksti"
+  },
+  "placeholder.paddingLevel": {
+    "message": "Valitse...",
+    "description": "Täyttötason paikkamerkki"
+  },
+  "placeholder.prompt": {
+    "message": "Syötä videon tyylin ohjeet, esim. moving",
+    "description": "Ohje-kentän paikkateksti"
+  },
+  "placeholder.position": {
+    "message": "Valitse...",
+    "description": "Sijainnin syötteen paikkamerkki"
+  },
+  "placeholder.aspectRatio": {
+    "message": "Valitse...",
+    "description": "Leveys-korkeus suhteen syötteen paikkamerkki"
+  },
+  "placeholder.preset": {
+    "message": "Valitse...",
+    "description": "Esiasetuksen syötteen paikkamerkki"
+  },
+  "placeholder.markerShape": {
+    "message": "Valitse...",
+    "description": "Merkki muodon syötteen paikkamerkki"
+  },
+  "placeholder.rotate": {
+    "message": "Valitse...",
+    "description": "Kääntösyötteen paikkamerkki"
+  },
+  "placeholder.subMarker": {
+    "message": "Valitse...",
+    "description": "Alamerkin syötteen paikkamerkki"
+  },
+  "button.precise": {
+    "message": "Tarkka",
+    "description": "Pika-videon luomiseen käytettävä painiketeksti"
+  },
+  "button.creative": {
+    "message": "Luova",
+    "description": "Pika-videon luomiseen käytettävä painiketeksti"
+  },
+  "button.generate": {
+    "message": "Luo",
+    "description": "Pika-videon luomiseen käytettävä painiketeksti"
+  },
+  "button.extend": {
+    "message": "Laajenna videota",
+    "description": "Videon laajentamiseen käytettävä painiketeksti"
+  },
+  "button.download": {
+    "message": "Lataa video",
+    "description": "Videon lataamiseen käytettävä painiketeksti"
+  },
+  "button.uploadImageUrl": {
+    "message": "Lataa kuva",
+    "description": "Kuvan lataamiseen käytettävä painiketeksti (englanniksi yksinkertaista 'Upload', älä käytä 'Upload Image')"
+  },
+  "button.uploadVideoUrl": {
+    "message": "Lataa video",
+    "description": "Videon lataamiseen käytettävä painiketeksti"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "Voit ladata enintään 5 kuvaa",
+    "description": "Virheilmoitus, kun ladattujen kuvien määrä ylittää rajan"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "Kuvien lataaminen onnistui",
+    "description": "Onnistuneesta kuvien lataamisesta ilmoittava viesti"
+  },
+  "message.uploadReferencesError": {
+    "message": "Kuvien lataaminen epäonnistui, yritä myöhemmin uudelleen",
+    "description": "Virheilmoitus, kun kuvien lataaminen epäonnistuu"
+  },
+  "message.startingTask": {
+    "message": "Tehtävää käynnistetään...",
+    "description": "Viesti, kun piirustustehtävä alkaa"
+  },
+  "message.startTaskSuccess": {
+    "message": "Tehtävän käynnistäminen onnistui",
+    "description": "Onnistuneesta tehtävän käynnistämisestä ilmoittava viesti"
+  },
+  "message.startTaskFailed": {
+    "message": "Tehtävän käynnistäminen epäonnistui, ota yhteyttä ylläpitoon",
+    "description": "Virheilmoitus, kun piirustustehtävän käynnistäminen epäonnistuu"
+  },
+  "message.usedUp": {
+    "message": "Pisteesi on käytetty loppuun, osta lisää pisteitä jatkaaksesi",
+    "description": "Viesti, kun pisteet on käytetty loppuun"
+  },
+  "message.generating": {
+    "message": "Generoidaan...",
+    "description": "Viesti, kun kuvaa ollaan generoimassa"
+  },
+  "message.downloadVideo": {
+    "message": "Lataa tämä video",
+    "description": "Viesti, kun kuvaa ollaan generoimassa"
+  },
+  "message.extendVideo": {
+    "message": "Jatka tämän videon generoimista",
+    "description": "Viesti, kun kuvaa ollaan generoimassa"
+  },
+  "message.generateFailed": {
+    "message": "Kuvan generoiminen epäonnistui",
+    "description": "Viesti, kun kuvan generoiminen epäonnistuu"
+  },
+  "message.uploadVideoExceed": {
+    "message": "Ladattujen ensimmäisten kehysten määrä ylittää rajan",
+    "description": "Virheilmoitus, kun ladattujen ensimmäisten kehysten määrä ylittää rajan"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "Ladattavan tiedoston koko ei saa ylittää 10MB!",
+    "description": "Virheilmoitus, kun ladattavan tiedoston koko ylittää 10MB"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "Ladattavan tiedoston on oltava MP4-muodossa!",
+    "description": "Virheilmoitus, kun ladattavan tiedoston muoto ei ole MP4"
+  },
+  "message.uploadStartImageExceed": {
+    "message": "Ladattujen ensimmäisten kehysten määrä ylittää rajan",
+    "description": "Virheilmoitus, kun ladattujen ensimmäisten kehysten määrä ylittää rajan"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "Ladattujen viimeisten kehysten määrä ylittää rajan",
+    "description": "Virheilmoitus, kun ladattujen viimeisten kehysten määrä ylittää rajan"
+  },
+  "message.uploadStartImageError": {
+    "message": "Ensimmäisten kehysten lataaminen epäonnistui",
+    "description": "Virheilmoitus, kun ensimmäisten kehysten lataaminen epäonnistuu"
+  },
+  "message.uploadVideoError": {
+    "message": "Videon lataaminen epäonnistui",
+    "description": "Virheilmoitus, kun videon lataaminen epäonnistuu"
+  },
+  "message.uploadEndImageError": {
+    "message": "Viimeisten kehysten lataaminen epäonnistui",
+    "description": "Virheilmoitus, kun viimeisten kehysten lataaminen epäonnistuu"
+  },
+  "message.uploadDocumentsError": {
+    "message": "Asiakirjan lataaminen epäonnistui",
+    "description": "Virheilmoitus, kun asiakirjan lataaminen epäonnistuu"
+  },
+  "message.noOperations": {
+    "message": "Ei käytettävissä olevia toimintoja",
+    "description": "Viesti, kun ei ole käytettävissä olevia toimintoja"
+  },
+  "message.noTasks": {
+    "message": "Ei historiallisia tehtäviä, napsauta vasemmalla luodaksesi videon",
+    "description": "Viesti, kun ei ole tehtäviä"
+  }
+}

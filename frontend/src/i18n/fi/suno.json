@@ -1,0 +1,542 @@
+{
+  "button.extend": {
+    "message": "Jatka luomista",
+    "description": "Jatka luomista -painikkeen teksti"
+  },
+  "button.download": {
+    "message": "Lataa",
+    "description": "Lataa -painikkeen teksti"
+  },
+  "button.more": {
+    "message": "Lisää toimintoja",
+    "description": "Lisää toimintoja -painikkeen teksti"
+  },
+  "button.uploadAudios": {
+    "message": "Lataa",
+    "description": "Painikkeen teksti, joka sallii käyttäjän ladata viittaus"
+  },
+  "button.video": {
+    "message": "Video",
+    "description": "Video -painikkeen teksti"
+  },
+  "button.download_video": {
+    "message": "Lataa video",
+    "description": "Lataa video -painikkeen teksti"
+  },
+  "button.download_wav": {
+    "message": "Lataa WAV häviötön",
+    "description": "Lataa WAV häviöttömän muodon painikkeen teksti"
+  },
+  "button.download_midi": {
+    "message": "Lataa MIDI",
+    "description": "Lataa MIDI-muodon painikkeen teksti"
+  },
+  "button.get_stems": {
+    "message": "Ääniraitojen erottaminen",
+    "description": "Ääniraitojen erottaminen -painikkeen teksti"
+  },
+  "button.cover_music": {
+    "message": "Kansiversio",
+    "description": "Kansiversio -painikkeen teksti"
+  },
+  "button.concat_music": {
+    "message": "Yhdistä",
+    "description": "Yhdistä musiikkia -painikkeen teksti"
+  },
+  "button.download_audio": {
+    "message": "Lataa musiikki",
+    "description": "Lataa musiikki -painikkeen teksti"
+  },
+  "button.remaster": {
+    "message": "Uudelleenmasteroi",
+    "description": "Uudelleenmasteroi äänenlaadun parantamiseksi -painikkeen teksti"
+  },
+  "button.replace_section": {
+    "message": "Korvaa osa",
+    "description": "Korvaa tietty osa kappaleesta -painikkeen teksti"
+  },
+  "button.mashup": {
+    "message": "Mashup",
+    "description": "Mashup useista kappaleista -painikkeen teksti"
+  },
+  "button.generate_lyrics": {
+    "message": "AI luo sanoitukset",
+    "description": "AI:n automaattisesti luomien sanoitusten painikkeen teksti"
+  },
+  "button.optimize_style": {
+    "message": "Optimoi tyyli",
+    "description": "AI:n avulla tyylin optimointiin -painikkeen teksti"
+  },
+  "button.all_stems": {
+    "message": "Kaikki erottaminen",
+    "description": "Kaikkien ääniraitojen erottaminen -painikkeen teksti"
+  },
+  "model.model1": {
+    "message": "v2",
+    "description": "Malli musiikin luomiseen"
+  },
+  "model.model2": {
+    "message": "v3",
+    "description": "Malli musiikin luomiseen"
+  },
+  "name.instrumental": {
+    "message": "Instrumentaalinen",
+    "description": "Instrumentaalisen musiikin luominen ilman laulua"
+  },
+  "name.referenceAudios": {
+    "message": "Viittausmusiikki",
+    "description": "Viittausmusiikin nimi"
+  },
+  "model.model3": {
+    "message": "v3.5",
+    "description": "Malli musiikin luomiseen"
+  },
+  "model.model4": {
+    "message": "v4.0",
+    "description": "Malli musiikin luomiseen"
+  },
+  "model.model45": {
+    "message": "v4.5",
+    "description": "Malli musiikin luomiseen"
+  },
+  "model.model5": {
+    "message": "v5",
+    "description": "Malli musiikin luomiseen"
+  },
+  "model.model45plus": {
+    "message": "v4.5+",
+    "description": "Malli musiikin luomiseen"
+  },
+  "name.taskId": {
+    "message": "Tehtävä ID",
+    "description": "Tehtävän ID"
+  },
+  "name.type": {
+    "message": "Mukautettu malli",
+    "description": "Mukautetun mallin nimi"
+  },
+  "name.prompt": {
+    "message": "Kappaleen kuvaus",
+    "description": "Sisällön syötteen kehotus"
+  },
+  "name.extend": {
+    "message": "Laajenna kappaletta",
+    "description": "Sisällön syötteen kehotus"
+  },
+  "name.cover": {
+    "message": "Kansiversio kappaleesta",
+    "description": "Sisällön syötteen kehotus"
+  },
+  "name.lyrics": {
+    "message": "Sanoitukset",
+    "description": "Sanoitusten sisällön syötteen kehotus"
+  },
+  "name.style": {
+    "message": "Tyyli",
+    "description": "Kappaleen tyylin sisällön syötteen kehotus"
+  },
+  "name.styleNegative": {
+    "message": "Poissuljettavat tyylit",
+    "description": "Ei-toivottujen tyylien kuvaus"
+  },
+  "name.title": {
+    "message": "Otsikko",
+    "description": "Kappaleen otsikon sisällön syötteen kehotus"
+  },
+  "name.vocalGender": {
+    "message": "Laulajan sukupuoli",
+    "description": "Valitse laulajan sukupuoli"
+  },
+  "name.advancedParams": {
+    "message": "Edistyneet asetukset",
+    "description": "Edistyneiden asetusten määrittäminen"
+  },
+  "name.weirdness": {
+    "message": "Luovuustaso",
+    "description": "Säilyttää musiikin luovuuden taso"
+  },
+  "name.styleInfluence": {
+    "message": "Tyylin vaikutus",
+    "description": "Säilyttää tyylin vaikutuksen luotavaan tulokseen"
+  },
+  "name.variationCategory": {
+    "message": "Muunnelmatyyppi",
+    "description": "Säilyttää muunnelmien monimuotoisuuden tason"
+  },
+  "name.audioWeight": {
+    "message": "Alkuperäisen kappaleen paino",
+    "description": "Kansiversion vaikutus alkuperäiseen kappaleeseen"
+  },
+  "name.lyricPrompt": {
+    "message": "Sanoituskehotus",
+    "description": "Käytetään automaattisesti luotujen sanoitusten kehotuksena"
+  },
+  "name.failureReason": {
+    "message": "Epäonnistumisen syy",
+    "description": "Tehtävän epäonnistumisen syy"
+  },
+  "name.status": {
+    "message": "Tila",
+    "description": "Tehtävän tila"
+  },
+  "name.traceId": {
+    "message": "Seuranta ID",
+    "description": "Tehtävän seuranta ID"
+  },
+  "name.sunoBot": {
+    "message": "Suno Bot",
+    "description": "Suno-generoijan nimi"
+  },
+  "name.replaceSection": {
+    "message": "Korvaa osa",
+    "description": "Korvaa tietty osa kappaleesta"
+  },
+  "name.model": {
+    "message": "Malli",
+    "description": "Valitse malliversio"
+  },
+  "name.songDescription": {
+    "message": "Kappaleen kuvaus",
+    "description": "Kappaleen kuvausmalli"
+  },
+  "description.prompt": {
+    "message": "Kuvaile haluamaasi musiikkityyliä ja teemaa",
+    "description": "Parametrin 'prompt' kuvaus"
+  },
+  "description.lyrics": {
+    "message": "Syötä mukautetut sanoitukset, tukee [Verse], [Chorus], [Bridge] jne. jaksoja",
+    "description": "Parametrin 'lyrics' kuvaus"
+  },
+  "description.style": {
+    "message": "Kuvaile musiikkityyliä, kuten akustinen pop, jazz, elektroninen",
+    "description": "Parametrin 'style' kuvaus"
+  },
+  "description.styleNegative": {
+    "message": "Kuvaile ei-toivottuja tyylejä, kuten heavy metal, huutaminen",
+    "description": "Poissulkevan tyylin parametrin kuvaus"
+  },
+  "description.title": {
+    "message": "Kappaleen otsikko",
+    "description": "Parametrin 'title' kuvaus"
+  },
+  "description.uploadAudios": {
+    "message": "Lataa musiikkia viittauksena generointiin, latausprosessi vie hetken, onnistuneen latauksen jälkeen voit käyttää ladattua musiikkia generoinnissa",
+    "description": "Viittausparametrin latauskuvaus"
+  },
+  "description.vocalGender": {
+    "message": "Valitse ihmisen äänen sukupuoli (vain v4.5 ja uudemmat versiot tukevat)",
+    "description": "Ihmisen äänen sukupuolen valitsimen kuvaus"
+  },
+  "description.weirdness": {
+    "message": "Korkeampi arvo tekee musiikista luovempaa ja kokeellisempaa (0-100)",
+    "description": "Luovuusparametrin kuvaus"
+  },
+  "description.styleInfluence": {
+    "message": "Korkeampi arvo tarkoittaa, että tyylitunnisteet vaikuttavat enemmän generointitulokseen (0-100)",
+    "description": "Tyylin vaikutusparametrin kuvaus"
+  },
+  "description.audioWeight": {
+    "message": "Alkuperäisen kappaleen vaikutus painoarvo (0-100)",
+    "description": "Alkuperäisen kappaleen painoarvo parametrin kuvaus"
+  },
+  "description.lyricPrompt": {
+    "message": "Syötä laulun kuvaus, AI luo automaattisesti sanoitukset",
+    "description": "Sanoituskehotteen kuvaus"
+  },
+  "description.replaceSection": {
+    "message": "Korvaa tietty osa kappaleesta",
+    "description": "Korvausosio-ominaisuuden kuvaus"
+  },
+  "status.pending": {
+    "message": "Odottaa",
+    "description": "Tehtävän odotustila"
+  },
+  "placeholder.prompt": {
+    "message": "Kuvaile haluamaasi musiikkia, esimerkiksi: lämmin folk, syksyn kaipuu...",
+    "description": "Kappaleen kuvaus syötteen paikkamerkki"
+  },
+  "placeholder.lyrics": {
+    "message": "[Säe]\nTässä hiljaisessa yössä\nTähdet tuikkivat taivaalla\n\n[Kertosäe]\nLaulakaamme yhdessä\nKunnes aamu koittaa...",
+    "description": "Sanoitusten syötteen paikkamerkki"
+  },
+  "placeholder.extend.lyrics": {
+    "message": "Syötä laajennettavat sanoitukset...",
+    "description": "Sanoitusten laajennus syötteen paikkamerkki"
+  },
+  "placeholder.extend.continue_at": {
+    "message": "Mistä sekunnista alkaen laajennetaan...",
+    "description": "Laajennuksen aloitusajan paikkamerkki"
+  },
+  "placeholder.style": {
+    "message": "Esimerkiksi: akustinen pop, jazz, R&B, elektroninen...",
+    "description": "Tyylin syötteen paikkamerkki"
+  },
+  "placeholder.styleNegative": {
+    "message": "Esimerkiksi: heavy metal, huutaminen...",
+    "description": "Poissulkevan tyylin syötteen paikkamerkki"
+  },
+  "placeholder.title": {
+    "message": "Syötä kappaleen nimi...",
+    "description": "Otsikon syötteen paikkamerkki"
+  },
+  "placeholder.select": {
+    "message": "Valitse malli...",
+    "description": "Mallin valinnan paikkamerkki"
+  },
+  "placeholder.position": {
+    "message": "Valitse...",
+    "description": "Sijainnin syötteen paikkamerkki"
+  },
+  "placeholder.lyricPrompt": {
+    "message": "Kuvaile sanoitusten aihetta, AI luo automaattisesti...",
+    "description": "Sanoituskehotteen syötteen paikkamerkki"
+  },
+  "placeholder.replaceSectionStart": {
+    "message": "Aloitusaika (sekuntia)",
+    "description": "Korvausosion aloitusajan paikkamerkki"
+  },
+  "placeholder.replaceSectionEnd": {
+    "message": "Lopetusaika (sekuntia)",
+    "description": "Korvausosion lopetusajan paikkamerkki"
+  },
+  "button.generate": {
+    "message": "Generoi",
+    "description": "Generointipainikkeen teksti"
+  },
+  "gender.male": {
+    "message": "Miesääni",
+    "description": "Miesäänen vaihtoehto"
+  },
+  "gender.female": {
+    "message": "Naisääni",
+    "description": "Naisäänen vaihtoehto"
+  },
+  "gender.auto": {
+    "message": "Automaattinen",
+    "description": "Automaattinen äänen sukupuolen valinta"
+  },
+  "variation.high": {
+    "message": "Korkea variaatio",
+    "description": "Korkean monimuotoisuuden variaatio vaihtoehto"
+  },
+  "variation.low": {
+    "message": "Matala variaatio",
+    "description": "Matalan monimuotoisuuden variaatio vaihtoehto"
+  },
+  "message.startingTask": {
+    "message": "Aloitetaan tehtävä...",
+    "description": "Viesti musiikin generointitehtävän alkaessa"
+  },
+  "message.startingUploadAudio": {
+    "message": "Ladataan mukautettua musiikkia...",
+    "description": "Viesti musiikin generointitehtävän alkaessa"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "Ladattujen musiikkien määrä ylittää maksimin",
+    "description": "Virheviesti, kun ladattujen musiikkien määrä ylittää maksimin"
+  },
+  "message.uploadReferencesError": {
+    "message": "Musiikin lataus epäonnistui",
+    "description": "Virheviesti, kun musiikin lataus epäonnistuu"
+  },
+  "message.startTaskSuccess": {
+    "message": "Musiikin generointitehtävä käynnistettiin onnistuneesti",
+    "description": "Viesti, kun musiikin generointitehtävä käynnistetään onnistuneesti"
+  },
+  "message.startUploadAudioSuccess": {
+    "message": "Mukautetun musiikin lataus onnistui",
+    "description": "Viesti, kun musiikin generointitehtävä käynnistetään onnistuneesti"
+  },
+  "message.startUploadAudioFailed": {
+    "message": "Mukautetun musiikin lataus epäonnistui",
+    "description": "Virheviesti, kun musiikin generointitehtävä epäonnistuu"
+  },
+  "message.startTaskFailed": {
+    "message": "Musiikin generointitehtävän käynnistys epäonnistui",
+    "description": "Virheviesti, kun musiikin generointitehtävän käynnistys epäonnistuu"
+  },
+  "message.getVideoUrlFailed": {
+    "message": "Musiikkivideon haku epäonnistui, yritä myöhemmin uudelleen",
+    "description": "Virheviesti, kun videon haku epäonnistuu"
+  },
+  "message.generatingLyrics": {
+    "message": "Sanoitusten generointi käynnissä...",
+    "description": "Viesti sanoitusten generoinnin aikana"
+  },
+  "message.generateLyricsSuccess": {
+    "message": "Sanoitusten generointi onnistui",
+    "description": "Viesti, kun sanoitusten generointi onnistuu"
+  },
+  "message.generateLyricsFailed": {
+    "message": "Sanoitusten luonti epäonnistui",
+    "description": "Sanoitusten luonti epäonnistui -viesti"
+  },
+  "message.optimizingStyle": {
+    "message": "Optimoi tyylikuvausta...",
+    "description": "Tyylin optimoinnin aikana näytettävä viesti"
+  },
+  "message.optimizeStyleSuccess": {
+    "message": "Tyylin optimointi onnistui",
+    "description": "Tyylin optimointi onnistui -viesti"
+  },
+  "message.optimizeStyleFailed": {
+    "message": "Tyylin optimointi epäonnistui",
+    "description": "Tyylin optimointi epäonnistui -viesti"
+  },
+  "message.fetchingWav": {
+    "message": "Hankitaan WAV-tiedostoa...",
+    "description": "WAV-tiedoston hankinnan aikana näytettävä viesti"
+  },
+  "message.fetchWavFailed": {
+    "message": "WAV-tiedoston hankinta epäonnistui",
+    "description": "WAV-tiedoston hankinta epäonnistui -viesti"
+  },
+  "message.fetchingMidi": {
+    "message": "Hankitaan MIDI-tiedostoa...",
+    "description": "MIDI-tiedoston hankinnan aikana näytettävä viesti"
+  },
+  "message.fetchMidiFailed": {
+    "message": "MIDI-tiedoston hankinta epäonnistui",
+    "description": "MIDI-tiedoston hankinta epäonnistui -viesti"
+  },
+  "message.generating": {
+    "message": "Luodaan...",
+    "description": "Musiikin luomisen aikana näytettävä viesti"
+  },
+  "message.generateFailed": {
+    "message": "Musiikin luonti epäonnistui",
+    "description": "Musiikin luonti epäonnistui -viesti"
+  },
+  "message.noOperations": {
+    "message": "Ei käytettävissä olevia toimintoja",
+    "description": "Ei käytettävissä olevia toimintoja -viesti"
+  },
+  "message.noTasks": {
+    "message": "Ei historiallisia tehtäviä, luo musiikkia vasemmalla olevasta asetuspaneelista",
+    "description": "Ei tehtäviä -viesti"
+  },
+  "button.upload_cover": {
+    "message": "Lataa cover",
+    "description": "Äänitteen lataamisen jälkeen cover-painikkeen teksti"
+  },
+  "button.artist_consistency": {
+    "message": "Tyylin johdonmukaisuus",
+    "description": "Laulajan tyylin perusteella luotavan painikkeen teksti"
+  },
+  "button.artist_consistency_vox": {
+    "message": "Laulun tyylin johdonmukaisuus",
+    "description": "Laulajan äänen tyylin perusteella luotavan painikkeen teksti"
+  },
+  "button.underpainting": {
+    "message": "Lisää taustamusiikkia",
+    "description": "Lisää taustamusiikkia ladattuun kappaleeseen -painikkeen teksti"
+  },
+  "button.overpainting": {
+    "message": "Lisää laulu",
+    "description": "Lisää laulu ladattuun kappaleeseen -painikkeen teksti"
+  },
+  "button.samples": {
+    "message": "Lisää näytteitä",
+    "description": "Lisää näytteitä ladattuun kappaleeseen -painikkeen teksti"
+  },
+  "button.extract_vocals": {
+    "message": "Poista laulu",
+    "description": "Poista laulu kappaleesta -painikkeen teksti"
+  },
+  "button.get_timing": {
+    "message": "Hanki rytmi",
+    "description": "Hanki kappaleen rytmidata -painikkeen teksti"
+  },
+  "button.create_persona": {
+    "message": "Luo laulajan tyyli",
+    "description": "Luo laulajan tyyli -painikkeen teksti"
+  },
+  "button.mashup_lyrics": {
+    "message": "Yhdistä sanoitukset",
+    "description": "Yhdistä kaksi sanoitusta -painikkeen teksti"
+  },
+  "name.persona": {
+    "message": "Laulajan tyyli",
+    "description": "Laulajan tyylin valinta"
+  },
+  "name.overpaintingRange": {
+    "message": "Laulun aikaraja",
+    "description": "Laulun lisäämisen aikaraja"
+  },
+  "name.underpaintingRange": {
+    "message": "Taustamusiikin aikaraja",
+    "description": "Taustamusiikin lisäämisen aikaraja"
+  },
+  "name.samplesRange": {
+    "message": "Näytteiden aikaraja",
+    "description": "Näytteiden lisäämisen aikaraja"
+  },
+  "placeholder.overpaintingStart": {
+    "message": "Aloitusaika (sekunteina)",
+    "description": "Laulun aloitusajan paikkamerkki"
+  },
+  "placeholder.overpaintingEnd": {
+    "message": "Lopetusaika (sekunteina)",
+    "description": "Laulun lopetusajan paikkamerkki"
+  },
+  "placeholder.underpaintingStart": {
+    "message": "Aloitusaika (sekunteina)",
+    "description": "Taustamusiikin aloitusajan paikkamerkki"
+  },
+  "placeholder.underpaintingEnd": {
+    "message": "Lopetusaika (sekunteina)",
+    "description": "Taustamusiikin lopetusajan paikkamerkki"
+  },
+  "placeholder.samplesStart": {
+    "message": "Aloitusaika (sekunteina)",
+    "description": "Näytteiden aloitusajan paikkamerkki"
+  },
+  "placeholder.samplesEnd": {
+    "message": "Lopetusaika (sekunteina)",
+    "description": "Näytteiden lopetusajan paikkamerkki"
+  },
+  "placeholder.personaId": {
+    "message": "Syötä laulajan tyylin ID...",
+    "description": "Laulajan tyylin ID:n syöttämisen paikkamerkki"
+  },
+  "description.persona": {
+    "message": "Käytä luotua laulajan tyyliä johdonmukaisesti tyylin mukaisissa kappaleissa",
+    "description": "Laulajan tyylin toiminnallisuuden kuvaus"
+  },
+  "description.overpainting": {
+    "message": "Lisää laulu ladattuun musiikkiin määritellyllä aikarajalla",
+    "description": "Laulun lisäämisen toiminnallisuuden kuvaus"
+  },
+  "description.underpainting": {
+    "message": "Lisää taustamusiikkia ladattuun musiikkiin määritellyllä aikarajalla",
+    "description": "Taustamusiikin lisäämisen toiminnallisuuden kuvaus"
+  },
+  "description.samples": {
+    "message": "Lisää näytteitä ladattuun musiikkiin määritellyllä aikarajalla",
+    "description": "Näytteiden lisäämisen toiminnallisuuden kuvaus"
+  },
+  "message.fetchingTiming": {
+    "message": "Hankitaan rytmidataa...",
+    "description": "Rytmidatan hankinnan aikana näytettävä viesti"
+  },
+  "message.fetchTimingFailed": {
+    "message": "Rytmidatan hankinta epäonnistui",
+    "description": "Rytmidatan hankinta epäonnistui -viesti"
+  },
+  "message.fetchTimingSuccess": {
+    "message": "Rytmidatan hankinta onnistui",
+    "description": "Rytmidatan hankinta onnistui -viesti"
+  },
+  "message.extractingVocals": {
+    "message": "Poistetaan laulua...",
+    "description": "Laulun poistamisen aikana näytettävä viesti"
+  },
+  "message.extractVocalsFailed": {
+    "message": "Laulun poistaminen epäonnistui",
+    "description": "Laulun poistaminen epäonnistui -viesti"
+  },
+  "message.extractVocalsSuccess": {
+    "message": "Laulun poistaminen onnistui",
+    "description": "Laulun poistaminen onnistui -viesti"
+  }
+}

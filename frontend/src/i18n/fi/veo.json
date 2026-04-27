@@ -1,0 +1,222 @@
+{
+  "name.taskId": {
+    "message": "Tehtävä ID",
+    "description": "Tehtävän ID"
+  },
+  "name.translation": {
+    "message": "Automaattinen käännös",
+    "description": "Veo-videon automaattinen käännös"
+  },
+  "name.modePro": {
+    "message": "Korkea laatu",
+    "description": "Kling-videon korkean laadun tila"
+  },
+  "name.failure": {
+    "message": "Epätosi",
+    "description": "Tehtävän epäonnistumisen tila"
+  },
+  "name.failureReason": {
+    "message": "Epäonnistumisen syy",
+    "description": "Tehtävän epäonnistumisen syy"
+  },
+  "name.status": {
+    "message": "Tila",
+    "description": "Tehtävän tila"
+  },
+  "name.traceId": {
+    "message": "Seuranta ID",
+    "description": "Tehtävän seuranta ID"
+  },
+  "name.createdAt": {
+    "message": "Luontiaika",
+    "description": "Veo-videon luontipäivämäärä ja -aika"
+  },
+  "name.startEndImage": {
+    "message": "Alku-/loppukehys",
+    "description": "Lomakekenttä: alku/loppukehyskuva (suositus käännökselle: 'Start/End Frames', pidä lyhyenä, jotta se ei peitä painiketta)"
+  },
+  "name.action": {
+    "message": "Toiminto",
+    "description": "Saatavilla olevien toimintojen lista"
+  },
+  "name.action3": {
+    "message": "Hanki 1080p video",
+    "description": "Viittauskuva videon luomiseksi"
+  },
+  "name.prompt": {
+    "message": "Videon ohje",
+    "description": "Sisällön syötteen ohje"
+  },
+  "name.model": {
+    "message": "Malliversio",
+    "description": "Videon luomiseen käytettävä malliversio"
+  },
+  "name.veoBot": {
+    "message": "Google Veo Bot",
+    "description": "Veo-videogeneraattorin nimi"
+  },
+  "name.ratio": {
+    "message": "Suhde",
+    "description": "Suhdeparametrin nimi"
+  },
+  "description.translation": {
+    "message": "Videon luomistehtävässä voit ottaa käyttöön automaattisen käännöksen ohjeista.",
+    "description": "Parametrin 'translation' kuvaus"
+  },
+  "description.imageUrl": {
+    "message": "Monikuvatehtävässä on ladattava useita kuvia.",
+    "description": "Parametrin 'imageUrl' kuvaus"
+  },
+  "description.prompt": {
+    "message": "Veo-videon luomiseen tarvittavat ohjeet",
+    "description": "Parametrin 'prompt' kuvaus"
+  },
+  "description.uploadStartEndImage": {
+    "message": "Viittauskuvien linkkien taulukko, ensimmäinen on alku- ja seuraava loppukehyskuva",
+    "description": "Parametrin 'image_url' kuvaus"
+  },
+  "status.pending": {
+    "message": "Odottaa",
+    "description": "Tehtävän odotustila"
+  },
+  "status.processing": {
+    "message": "Käsittelyssä",
+    "description": "Tehtävän käsittelytila"
+  },
+  "placeholder.paddingNoise": {
+    "message": "Valitse...",
+    "description": "Täyttömelun syötteen paikkamerkki"
+  },
+  "placeholder.select": {
+    "message": "Valitse",
+    "description": "Valintakentän paikkamerkki"
+  },
+  "placeholder.paddingLevel": {
+    "message": "Valitse...",
+    "description": "Täyttötason paikkamerkki"
+  },
+  "placeholder.prompt": {
+    "message": "Syötä videon tyylin ohje, esim. moving",
+    "description": "Ohje-kentän paikkamerkki"
+  },
+  "placeholder.position": {
+    "message": "Valitse...",
+    "description": "Sijainnin syötteen paikkamerkki"
+  },
+  "button.generate": {
+    "message": "Luo",
+    "description": "Veo-videon luomispainikkeen teksti"
+  },
+  "button.action1": {
+    "message": "Tekstistä video",
+    "description": "Veo-videon luomispainikkeen teksti"
+  },
+  "button.action2": {
+    "message": "Kuvasta video",
+    "description": "Veo-videon luomispainikkeen teksti"
+  },
+  "button.action3": {
+    "message": "Hanki 1080p",
+    "description": "Veo-videon luomispainikkeen teksti"
+  },
+  "button.download": {
+    "message": "Lataa video",
+    "description": "Videon latauspainikkeen teksti"
+  },
+  "button.uploadImageUrl": {
+    "message": "Lataa kuva",
+    "description": "Kuvan latauspainikkeen teksti (yksinkertaista englanniksi 'Upload', älä käytä 'Upload Image')"
+  },
+  "button.uploadVideoUrl": {
+    "message": "Lataa video",
+    "description": "Videon latauspainikkeen teksti"
+  },
+  "button.uploadReferences": {
+    "message": "Lataa",
+    "description": "Painikkeen teksti, joka sallii käyttäjän ladata viittauksia"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "Voit ladata enintään 2 kuvaa",
+    "description": "Virheilmoitus, kun ladattujen kuvien määrä ylittää rajan"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "Kuvien lataus onnistui",
+    "description": "Onnistuneen kuvien latauksen viesti"
+  },
+  "message.uploadReferencesError": {
+    "message": "Kuvien lataus epäonnistui, yritä myöhemmin uudelleen",
+    "description": "Virheilmoitus, kun kuvien lataus epäonnistuu"
+  },
+  "message.startingTask": {
+    "message": "Tehtävää käynnistetään...",
+    "description": "Viesti, kun piirustustehtävä alkaa"
+  },
+  "message.startTaskSuccess": {
+    "message": "Tehtävän käynnistäminen onnistui",
+    "description": "Onnistuneen tehtävän käynnistämisen viesti"
+  },
+  "message.startTaskFailed": {
+    "message": "Tehtävän käynnistäminen epäonnistui, ota yhteyttä ylläpitoon",
+    "description": "Virheilmoitus, kun piirustustehtävän käynnistäminen epäonnistuu"
+  },
+  "message.usedUp": {
+    "message": "Pisteesi on käytetty loppuun, osta lisää pisteitä jatkaaksesi",
+    "description": "Viesti, kun pisteet on käytetty loppuun"
+  },
+  "message.generating": {
+    "message": "Luodaan...",
+    "description": "Viesti, kun kuvaa luodaan"
+  },
+  "message.downloadVideo": {
+    "message": "Lataa tämä video",
+    "description": "Viesti, kun kuvaa luodaan"
+  },
+  "message.generateFailed": {
+    "message": "Videon luominen epäonnistui",
+    "description": "Viesti, kun kuvan luominen epäonnistuu"
+  },
+  "message.uploadVideoExceed": {
+    "message": "Ladattavien alkuperäiskuvien määrä ylittää rajan",
+    "description": "Virheilmoitus, kun ladattavien alkuperäiskuvien määrä ylittää rajan"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "Lähetettävän tiedoston koko ei voi ylittää 10MB!",
+    "description": "Virheilmoitus, kun lähetettävän tiedoston koko ylittää 10MB!"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "Lähetettävän tiedoston on oltava MP4-muodossa!",
+    "description": "Virheilmoitus, kun lähetettävän tiedoston on oltava MP4-muodossa!"
+  },
+  "message.uploadStartEndImageExceed": {
+    "message": "Lähetettävien aloituskuvien määrä ylittää rajan",
+    "description": "Virheilmoitus, kun lähetettävien aloituskuvien määrä ylittää rajan"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "Lähetettävien lopetuskuvien määrä ylittää rajan",
+    "description": "Virheilmoitus, kun lähetettävien lopetuskuvien määrä ylittää rajan"
+  },
+  "message.uploadStartImageError": {
+    "message": "Aloituskuvan lähetys epäonnistui",
+    "description": "Virheilmoitus, kun aloituskuvan lähetys epäonnistuu"
+  },
+  "message.uploadVideoError": {
+    "message": "Videon lähetys epäonnistui",
+    "description": "Virheilmoitus, kun videon lähetys epäonnistuu"
+  },
+  "message.uploadEndImageError": {
+    "message": "Lopetuskuvan lähetys epäonnistui",
+    "description": "Virheilmoitus, kun lopetuskuvan lähetys epäonnistuu"
+  },
+  "message.uploadDocumentsError": {
+    "message": "Asiakirjan lähetys epäonnistui",
+    "description": "Virheilmoitus, kun asiakirjan lähetys epäonnistuu"
+  },
+  "message.noOperations": {
+    "message": "Ei käytettävissä olevia toimintoja",
+    "description": "Viesti, kun ei ole käytettävissä olevia toimintoja"
+  },
+  "message.noTasks": {
+    "message": "Ei historiallisia tehtäviä, napsauta vasemmalla luodaksesi videon",
+    "description": "Viesti, kun ei ole tehtäviä"
+  }
+}

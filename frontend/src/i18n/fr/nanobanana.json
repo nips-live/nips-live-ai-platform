@@ -1,0 +1,138 @@
+{
+  "name.taskId": {
+    "message": "ID de tâche",
+    "description": "ID de la tâche"
+  },
+  "name.task": {
+    "message": "Type de tâche",
+    "description": "Type d'opération d'image Nano Banana"
+  },
+  "name.generate": {
+    "message": "Créer une image",
+    "description": "Type d'opération : créer une image"
+  },
+  "name.edits": {
+    "message": "Éditer l'image",
+    "description": "Type d'opération : éditer l'image"
+  },
+  "name.imageUrls": {
+    "message": "Images de référence",
+    "description": "Images de référence utilisées pour l'édition"
+  },
+  "name.failure": {
+    "message": "Échec",
+    "description": "Échec de la tâche"
+  },
+  "name.failureReason": {
+    "message": "Raison de l'échec",
+    "description": "Raison de l'échec de la tâche"
+  },
+  "name.status": {
+    "message": "Statut",
+    "description": "Statut de la tâche"
+  },
+  "name.traceId": {
+    "message": "ID de suivi",
+    "description": "ID de suivi"
+  },
+  "name.prompt": {
+    "message": "Invite d'image",
+    "description": "Mots d'invite pour générer/éditer"
+  },
+  "name.nanobananaBot": {
+    "message": "Bot Nano Banana",
+    "description": "Nom du générateur d'images Nano Banana"
+  },
+  "name.aspectRatio": {
+    "message": "Ratio d'aspect",
+    "description": "Ratio d'aspect de l'image générée"
+  },
+  "name.resolution": {
+    "message": "Résolution",
+    "description": "Résolution de l'image générée"
+  },
+  "description.resolutionProOnly": {
+    "message": "La configuration de la résolution est uniquement prise en charge par nano-banana-pro.",
+    "description": "Les options de résolution ne s'appliquent qu'au modèle pro"
+  },
+  "description.prompt": {
+    "message": "Mots d'invite pour générer ou éditer une image",
+    "description": "Description des mots d'invite"
+  },
+  "description.action": {
+    "message": "Action pour générer l'image. Si `generate`, l'image sera générée selon les mots d'invite ; si `edit`, l'image sera éditée en fonction des mots d'invite et de l'image téléchargée.",
+    "description": "Description du paramètre action"
+  },
+  "description.model": {
+    "message": "Modèle utilisé pour générer l'image. Par défaut, c'est nano-banana. nano-banana-pro est un alias pour gemini-3-pro-image, nano-banana est un alias pour gemini-2.5-flash-image.",
+    "description": "Description du paramètre model"
+  },
+  "description.imageUrls": {
+    "message": "Doit télécharger de 1 à 5 images pour la tâche d'édition d'image.",
+    "description": "Description du paramètre image_urls"
+  },
+  "description.aspectRatio": {
+    "message": "Ratio d'aspect de l'image générée. Les valeurs prises en charge sont `1:1`, `3:2`, `2:3`, `16:9`, `9:16`, `4:3`, `3:4`. La valeur par défaut est `1:1`. Ne s'applique que si `action` est `generate` ; si `action` est `edit`, le ratio de la première image dans `image_urls` sera utilisé.",
+    "description": "Description du paramètre aspect_ratio"
+  },
+  "status.pending": {
+    "message": "En attente",
+    "description": "État d'attente de la tâche"
+  },
+  "placeholder.select": {
+    "message": "Sélectionner",
+    "description": "Espace réservé pour la sélection"
+  },
+  "placeholder.prompt": {
+    "message": "Entrez les mots d'invite, par exemple : un chat siamois blanc",
+    "description": "Espace réservé pour les mots d'invite"
+  },
+  "button.generate": {
+    "message": "Générer",
+    "description": "Bouton de génération"
+  },
+  "button.uploadImageUrls": {
+    "message": "Télécharger",
+    "description": "Bouton pour télécharger des images de référence (simplifier en anglais à 'Upload', ne pas utiliser 'Upload Images')"
+  },
+  "message.startingTask": {
+    "message": "Démarrage de la tâche...",
+    "description": "Message de début de tâche"
+  },
+  "message.startTaskSuccess": {
+    "message": "Tâche de génération lancée avec succès",
+    "description": "Tâche créée avec succès"
+  },
+  "message.startTaskFailed": {
+    "message": "Échec du lancement de la tâche, veuillez contacter l'administrateur :",
+    "description": "Échec de la création de la tâche"
+  },
+  "message.usedUp": {
+    "message": "Vos crédits sont épuisés, veuillez acheter plus de crédits pour continuer",
+    "description": "Message d'épuisement"
+  },
+  "message.uploadImageExceed": {
+    "message": "Vous pouvez télécharger jusqu'à 5 images",
+    "description": "Nombre d'images dépassant la limite"
+  },
+  "message.uploadImageError": {
+    "message": "Échec du téléchargement de l'image, veuillez réessayer plus tard",
+    "description": "Échec du téléchargement"
+  },
+  "name.model": {
+    "message": "Modèle",
+    "description": "Étiquette de sélection du modèle Nano Banana"
+  },
+  "model.nanoBanana": {
+    "message": "nano-banana",
+    "description": "Option de modèle de base Nano Banana"
+  },
+  "model.nanoBananaPro": {
+    "message": "nano-banana-pro",
+    "description": "Option de modèle professionnel Nano Banana"
+  },
+  "model.nanoBanana2": {
+    "message": "nano-banana-2",
+    "description": "Option de modèle Nano Banana 2"
+  }
+}

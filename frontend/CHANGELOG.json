@@ -1,0 +1,5103 @@
+{
+  "name": "@acedatacloud/nexior",
+  "entries": [
+    {
+      "date": "Sun, 19 Apr 2026 03:30:51 GMT",
+      "version": "3.34.0",
+      "tag": "@acedatacloud/nexior_v3.34.0",
+      "comments": {
+        "none": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "19ef4aeeb5c2fe4d34758982279fabd6ce8d89ab",
+            "comment": "fix: resolve publish version conflict with npm registry"
+          }
+        ],
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "71654c1546c4b3dfca2264c415209ea780e70dd5",
+            "comment": "feat(kling): add kling-v3, v3-omni, v2-6 model support"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "71654c1546c4b3dfca2264c415209ea780e70dd5",
+            "comment": "feat(kling): add kling-v3, v3-omni, v2-6 model support with generate audio toggle"
+          }
+        ],
+        "patch": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "7479b6a0ae9cc472316fb8b90c599b9f34bc6c66",
+            "comment": "fix: remove 3 broken GLM models from frontend"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 05 Apr 2026 13:15:16 GMT",
+      "version": "3.32.9",
+      "tag": "@acedatacloud/nexior_v3.32.9",
+      "comments": {
+        "patch": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "b240fbc1abd29349a3df63942ea008c2349c8bf6",
+            "comment": "fix: standardize selector borders and default to dark theme"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 05 Apr 2026 13:12:53 GMT",
+      "version": "3.32.8",
+      "tag": "@acedatacloud/nexior_v3.32.8",
+      "comments": {
+        "patch": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "5983bd7170182993bb29952024ed969fdc8eff41",
+            "comment": "fix: replace broken DeepSeek avatar icon with original clean logo"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 05 Apr 2026 13:06:20 GMT",
+      "version": "3.32.7",
+      "tag": "@acedatacloud/nexior_v3.32.7",
+      "comments": {
+        "patch": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "d911ab7b12d5ac5ac60fba1dca8891f3e815e2a3",
+            "comment": "fix: add text overflow handling to all task preview cards"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 05 Apr 2026 13:03:14 GMT",
+      "version": "3.32.6",
+      "tag": "@acedatacloud/nexior_v3.32.6",
+      "comments": {
+        "patch": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "664d7852ecfecfc71e51279d5600dd99fb1ce04a",
+            "comment": "fix: change default Veo model from veo2-fast to veo31-fast"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 05 Apr 2026 11:24:56 GMT",
+      "version": "3.32.5",
+      "tag": "@acedatacloud/nexior_v3.32.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "bfe295c2c176954b4169c02a586f420edb26e9b7",
+            "comment": "fix: restore input/select/textarea border visibility in both light and dark mode"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 05 Apr 2026 10:34:16 GMT",
+      "version": "3.32.4",
+      "tag": "@acedatacloud/nexior_v3.32.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "c94a50996ffd6b31042361cdc743f9c67eb90b42",
+            "comment": "fix: show correct logo on collapsed/expanded sidebar and add dark-mode borders"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 05 Apr 2026 10:24:59 GMT",
+      "version": "3.32.3",
+      "tag": "@acedatacloud/nexior_v3.32.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "770ac8683e06796dabb90ae05a6a9fe516a3911c",
+            "comment": "fix: upgrade Solana X402 to signAndSendTransaction, remove Buffer dependency"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 05 Apr 2026 10:13:59 GMT",
+      "version": "3.32.2",
+      "tag": "@acedatacloud/nexior_v3.32.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "85fbec403e20fcfa470270241819d47efed762d1",
+            "comment": "fix: replace hardcoded strings with i18n keys in X402Pay"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 05 Apr 2026 10:11:03 GMT",
+      "version": "3.32.1",
+      "tag": "@acedatacloud/nexior_v3.32.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "8650500dd03a4ddb560ec6563b2ab918d4fe7d43",
+            "comment": "fix: add text overflow ellipsis to suno song title and style"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 05 Apr 2026 10:04:52 GMT",
+      "version": "3.32.0",
+      "tag": "@acedatacloud/nexior_v3.32.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "82d7c75c93fa68ef887a7c5d32ad0d91002bafa3",
+            "comment": "feat: add PayPal payment option with feature flag"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 05 Apr 2026 08:43:57 GMT",
+      "version": "3.31.1",
+      "tag": "@acedatacloud/nexior_v3.31.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "83103f3846849556a70bd0c593c90f292aee6beb",
+            "date": "2026-04-05T10:00:00.000Z",
+            "comment": "fix: update navigator logo with CDN-hosted brand logo"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 05 Apr 2026 08:25:52 GMT",
+      "version": "3.31.0",
+      "tag": "@acedatacloud/nexior_v3.31.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "ccde2da9668889143ef2bd1ef79e6bf0fbb5f3d3",
+            "comment": "feat: add PayPal payment option with feature flag"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 30 Mar 2026 17:01:23 GMT",
+      "version": "3.30.5",
+      "tag": "@acedatacloud/nexior_v3.30.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "ac3270f7a539f8444a88440288901cc88c9938e3",
+            "comment": "fix: add missing English i18n keys for download page buttons"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 28 Mar 2026 18:48:51 GMT",
+      "version": "3.30.4",
+      "tag": "@acedatacloud/nexior_v3.30.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "794efa3659a8c89617f3d5a15a6736cb4dcd9d25",
+            "comment": "refine the mobile download landing page and fix header logo rendering"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 28 Mar 2026 16:35:08 GMT",
+      "version": "3.30.3",
+      "tag": "@acedatacloud/nexior_v3.30.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "d921344355d1087213532968635e43cccf4d3e03",
+            "comment": "restore mobile download entry and Android build sync"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 16 Mar 2026 14:08:00 GMT",
+      "version": "3.30.2",
+      "tag": "@acedatacloud/nexior_v3.30.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "9a9952ed21ef7931ad353f5e7ff4b5d1e99da8ec",
+            "comment": "feat: add robots.txt and sitemap.xml for SEO"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 14 Mar 2026 13:03:07 GMT",
+      "version": "3.30.1",
+      "tag": "@acedatacloud/nexior_v3.30.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "eca8f521d6e92570003df233e379688c10bf33e9",
+            "comment": "style: apply prettier formatting to Vue components"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 14 Mar 2026 12:49:35 GMT",
+      "version": "3.30.0",
+      "tag": "@acedatacloud/nexior_v3.30.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "fix: improve dark mode adaptation across components"
+          },
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "fix nano error"
+          },
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "Upgrade Capacitor to 7.5.0, Android SDK 35, Gradle 8.11.1"
+          },
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "Fix mobile OAuth login by using in-app browser and deep links"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "fix: remove radial gradient background from chat dialogue in dark mode"
+          },
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "fix: adjust dark mode background colors for card visibility"
+          },
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "fix nano error"
+          },
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "fix: adjust dark mode background colors for card visibility"
+          },
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "fix(auth): recover from native OAuth loading dead-end"
+          },
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "fix: adjust dark mode background colors for card visibility"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "fix: redesign model selector and add missing i18n translations"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "fix: redesign model selector and add missing i18n translations"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "fix(android): prevent login from opening Chrome and redirecting to localhost"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "fix(android): use official hub origin on native, skip site config page after login"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "Fix navigator More button popover and task preview text overflow"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "fix: remove gradient background from chat layout in dark mode"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "rename: change mobile app display name from Nexior to AceData"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "feat: add SEO meta tags - description, OG tags, Twitter Cards, canonical URL"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "refactor(ui): replace 1px borders with shadows and fills across 20 components"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "fix: avoid window.location.reload() on native platforms after login"
+          }
+        ],
+        "minor": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "feat: Discord-style sidebar overflow with folder preview popover"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "Upgrade iOS target to 16.0, ESLint 9, Prettier 3, Husky 9, and outdated deps"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "feat: add Android/iOS CI/CD pipelines for Play Store & App Store"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "feat(seedance): add duration selector and generate audio switch"
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "553df60e2c1ebbaa8715cc78e0851acaa687c2c4",
+            "comment": "feat(suno): add comprehensive feature enhancements - remaster, replace section, mashup, WAV/MIDI downloads, AI lyrics generation, vocal gender, advanced params, and redesigned UI components"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 03 Jan 2026 15:12:48 GMT",
+      "version": "3.29.5",
+      "tag": "@acedatacloud/nexior_v3.29.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "9fee7f3f7e416bf17471bbf0e0962cc20578440e",
+            "comment": "update github release change"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 03 Jan 2026 03:01:58 GMT",
+      "version": "3.29.4",
+      "tag": "@acedatacloud/nexior_v3.29.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "6616095e082f678beeabc5ca8edd7b48dc5429ce",
+            "comment": "optimize translate"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 02 Jan 2026 16:54:16 GMT",
+      "version": "3.29.3",
+      "tag": "@acedatacloud/nexior_v3.29.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "46ec0c556f301dccf3ca185e0cf6e9705cd2ec33",
+            "comment": "remove prompt limit"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 02 Jan 2026 12:12:12 GMT",
+      "version": "3.29.2",
+      "tag": "@acedatacloud/nexior_v3.29.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "87f0173fab58da1e3656d631b671b769c7552de6",
+            "comment": "optimize cov management of chat"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 02 Jan 2026 11:16:44 GMT",
+      "version": "3.29.1",
+      "tag": "@acedatacloud/nexior_v3.29.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "ebb94e109033597af516eb55fc3f1790780a1d73",
+            "comment": "fix login auth issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 02 Jan 2026 07:21:30 GMT",
+      "version": "3.29.0",
+      "tag": "@acedatacloud/nexior_v3.29.0",
+      "comments": {
+        "none": [
+          {
+            "author": "198982749+Copilot@users.noreply.github.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "324bca2fcbf86c19136b33d0a7edf728087d8324",
+            "comment": "Add GitHub repository link to settings and footer"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 02 Jan 2026 07:09:55 GMT",
+      "version": "3.29.0",
+      "tag": "@acedatacloud/nexior_v3.29.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "198982749+Copilot@users.noreply.github.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "6d2175271ed4225b2d9f3f2cacda171dc579f936",
+            "comment": "Standardize app logo icons by using constants instead of hardcoded URLs"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 02 Jan 2026 06:35:29 GMT",
+      "version": "3.28.1",
+      "tag": "@acedatacloud/nexior_v3.28.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "198982749+Copilot@users.noreply.github.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "6e10616d7d7de006df76f6f7e684c9a265e8b6ba",
+            "comment": "Replace Seedance logo SVG import with CDN URL"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 02 Jan 2026 06:02:24 GMT",
+      "version": "3.28.0",
+      "tag": "@acedatacloud/nexior_v3.28.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "7cf0c386b939e83349acad8f3bbb030b3e35b41c",
+            "comment": "add seedance "
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 02 Jan 2026 04:50:36 GMT",
+      "version": "3.27.0",
+      "tag": "@acedatacloud/nexior_v3.27.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "532a8d4ca524f25663b7791ea25a1d9efd19aeee",
+            "comment": "add seedream"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 01 Jan 2026 07:29:23 GMT",
+      "version": "3.26.2",
+      "tag": "@acedatacloud/nexior_v3.26.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "5ec85e0612886a3a27155a33c5e7057bd3b0f014",
+            "comment": "update styles"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 01 Jan 2026 05:58:16 GMT",
+      "version": "3.26.1",
+      "tag": "@acedatacloud/nexior_v3.26.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "08f086d209a561d6bca2089416ab664b22e80e7c",
+            "comment": "update loading index effect"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 29 Dec 2025 09:55:09 GMT",
+      "version": "3.26.0",
+      "tag": "@acedatacloud/nexior_v3.26.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "c8127dd39bb4a1da712d3467060ff7e3ab4abe8d",
+            "comment": "support solana payment"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 28 Dec 2025 12:28:04 GMT",
+      "version": "3.25.5",
+      "tag": "@acedatacloud/nexior_v3.25.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "98189caf20b3c3d75169940108f49bea4ea24e81",
+            "comment": "fix build options"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 27 Dec 2025 10:41:20 GMT",
+      "version": "3.25.4",
+      "tag": "@acedatacloud/nexior_v3.25.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "e70b9f1e090bb61698f0c01e811b969bad65039b",
+            "comment": "fix"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 25 Dec 2025 03:28:40 GMT",
+      "version": "3.25.3",
+      "tag": "@acedatacloud/nexior_v3.25.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "d21adeca695a871f2b948e23676cb045cffe729d",
+            "comment": "show aspect ratio"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 15 Dec 2025 01:25:07 GMT",
+      "version": "3.25.2",
+      "tag": "@acedatacloud/nexior_v3.25.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "6b09e81e29c377daec383d8515e273a860fdce2a",
+            "comment": "update image"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 07 Dec 2025 17:29:36 GMT",
+      "version": "3.25.1",
+      "tag": "@acedatacloud/nexior_v3.25.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "b103bee710bd2d746ab62f1e83cb2835934ae54d",
+            "comment": "fix bad pagniation"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 07 Dec 2025 14:54:18 GMT",
+      "version": "3.25.0",
+      "tag": "@acedatacloud/nexior_v3.25.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "bad9fa71ec21f9f4171de75e7c2d75fac59a0f77",
+            "comment": "update loading more"
+          }
+        ],
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "bad9fa71ec21f9f4171de75e7c2d75fac59a0f77",
+            "comment": "refine console"
+          },
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "bad9fa71ec21f9f4171de75e7c2d75fac59a0f77",
+            "comment": "update model"
+          },
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "bad9fa71ec21f9f4171de75e7c2d75fac59a0f77",
+            "comment": "update pagination exp"
+          },
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "bad9fa71ec21f9f4171de75e7c2d75fac59a0f77",
+            "comment": "update model list"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 29 Nov 2025 12:21:23 GMT",
+      "version": "3.24.2",
+      "tag": "@acedatacloud/nexior_v3.24.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "a94a64f4a2121388ad3981b5802f5deb53d6405f",
+            "comment": "fix logout"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 29 Nov 2025 11:03:50 GMT",
+      "version": "3.24.1",
+      "tag": "@acedatacloud/nexior_v3.24.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "fcbbfbf4fe1b27c88183b6703c143dee470aa6c5",
+            "comment": "optimize experience of nano"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 23 Nov 2025 18:01:55 GMT",
+      "version": "3.24.0",
+      "tag": "@acedatacloud/nexior_v3.24.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "513b8ba34797accf0eef43bf9554038e3f149fe2",
+            "comment": "update nano resolution"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 22 Nov 2025 19:27:22 GMT",
+      "version": "3.23.0",
+      "tag": "@acedatacloud/nexior_v3.23.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "11dbe26ae07880b1819185969485ad7471baac30",
+            "comment": "add nano pro"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 22 Nov 2025 19:11:28 GMT",
+      "version": "3.22.0",
+      "tag": "@acedatacloud/nexior_v3.22.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "727f5eb2e1fa081a6699e80ee598676197243ddd",
+            "comment": "add claude"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 22 Nov 2025 16:52:52 GMT",
+      "version": "3.21.0",
+      "tag": "@acedatacloud/nexior_v3.21.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "623d1245218b1fd538398588c42b67fd77fdc487",
+            "comment": "add gemini support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 28 Oct 2025 04:24:20 GMT",
+      "version": "3.20.2",
+      "tag": "@acedatacloud/nexior_v3.20.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "fee415e490533bc1bde58148796e24eee1ae0d71",
+            "comment": "change duration limit"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 26 Oct 2025 04:10:38 GMT",
+      "version": "3.20.1",
+      "tag": "@acedatacloud/nexior_v3.20.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "4df5cc00979971e09630355fe11beb061feed30d",
+            "comment": "update flux model"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 19 Oct 2025 07:30:39 GMT",
+      "version": "3.20.0",
+      "tag": "@acedatacloud/nexior_v3.20.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "0e93a2b94545567eef5338a437213f006dd7abc3",
+            "comment": "add sora"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 27 Sep 2025 13:25:07 GMT",
+      "version": "3.19.5",
+      "tag": "@acedatacloud/nexior_v3.19.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "a66063a64fa3eb1eee3548542dc1f375f88514e1",
+            "comment": "update i18"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 14 Sep 2025 16:29:31 GMT",
+      "version": "3.19.4",
+      "tag": "@acedatacloud/nexior_v3.19.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "cf7e3086cce9385ebff85f2e3bac2241ba004478",
+            "comment": "fix upload bug of nano"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 13 Sep 2025 17:39:36 GMT",
+      "version": "3.19.3",
+      "tag": "@acedatacloud/nexior_v3.19.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "0b9cc1536447c064a11d23e29066730de4044549",
+            "comment": "add nano functions"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 13 Sep 2025 08:46:03 GMT",
+      "version": "3.19.2",
+      "tag": "@acedatacloud/nexior_v3.19.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "397dc31d3d5ea91acd54a60b30dc1d760106b987",
+            "comment": "fix chat layout"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 13 Sep 2025 04:45:42 GMT",
+      "version": "3.19.1",
+      "tag": "@acedatacloud/nexior_v3.19.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "47a21410be5956d67cdb2011bce56c9f1ebe7aa4",
+            "comment": "auto deploy"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 08 Sep 2025 15:26:16 GMT",
+      "version": "3.19.0",
+      "tag": "@acedatacloud/nexior_v3.19.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "d52a65cf6d3f63ebb195eb664a048da16e64ca89",
+            "comment": "migrate tailwind csss"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "d52a65cf6d3f63ebb195eb664a048da16e64ca89",
+            "comment": "fix qrart style"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "d52a65cf6d3f63ebb195eb664a048da16e64ca89",
+            "comment": "fix build error"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "d52a65cf6d3f63ebb195eb664a048da16e64ca89",
+            "comment": "fix build bugs"
+          }
+        ],
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "d52a65cf6d3f63ebb195eb664a048da16e64ca89",
+            "comment": "add nanobanana"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 25 Aug 2025 02:50:58 GMT",
+      "version": "3.18.8",
+      "tag": "@acedatacloud/nexior_v3.18.8",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "8298f5369a4ed9452fe3fc40872a95a9f7640d14",
+            "comment": "fix console style"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 24 Aug 2025 09:24:01 GMT",
+      "version": "3.18.7",
+      "tag": "@acedatacloud/nexior_v3.18.7",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "bafb2cf8d2ed6670e65892527ec5c8469dc3704b",
+            "comment": "add translate"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 24 Aug 2025 05:15:45 GMT",
+      "version": "3.18.6",
+      "tag": "@acedatacloud/nexior_v3.18.6",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "ee6b77f51f4fc26563f295b18002f7a6945966e9",
+            "comment": "fix detail ux"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 24 Aug 2025 00:53:28 GMT",
+      "version": "3.18.5",
+      "tag": "@acedatacloud/nexior_v3.18.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "951eeb80d5c9bd637800ab1dd6e5536d32f62276",
+            "comment": "fix redirect issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 22 Aug 2025 05:02:38 GMT",
+      "version": "3.18.4",
+      "tag": "@acedatacloud/nexior_v3.18.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "df5e811d00175cfa518419f08012e4324f064da8",
+            "comment": "fit mj videos"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 18 Aug 2025 10:37:01 GMT",
+      "version": "3.18.3",
+      "tag": "@acedatacloud/nexior_v3.18.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "3d32b84e9ff7435c11db3371faeae422daf76781",
+            "comment": "fix mj hover"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 17 Aug 2025 17:19:11 GMT",
+      "version": "3.18.2",
+      "tag": "@acedatacloud/nexior_v3.18.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "ec68e228af055c301a5121dcbf6d8ad0a95082c5",
+            "comment": "fix chat scroll x"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 17 Aug 2025 14:18:47 GMT",
+      "version": "3.18.1",
+      "tag": "@acedatacloud/nexior_v3.18.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "665b26d5fb5f89f532b6039a0752c68b861e4cc6",
+            "comment": "add suno mp4 and flux"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 16 Aug 2025 17:21:42 GMT",
+      "version": "3.18.0",
+      "tag": "@acedatacloud/nexior_v3.18.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "921d3ea26077c632401af229f9751060068a0c6c",
+            "comment": "add adapt to mobile"
+          }
+        ],
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "921d3ea26077c632401af229f9751060068a0c6c",
+            "comment": "fix pipline"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 16 Aug 2025 09:33:50 GMT",
+      "version": "3.17.7",
+      "tag": "@acedatacloud/nexior_v3.17.7",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "8e5711d0830e0519a357a1fa004e3435062abf6e",
+            "comment": "fix known bugs"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 12 Aug 2025 09:52:14 GMT",
+      "version": "3.17.6",
+      "tag": "@acedatacloud/nexior_v3.17.6",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "d6dfe05cccfe7b95b6475491fded160b1f610d38",
+            "comment": "add mj describe"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 12 Aug 2025 01:59:08 GMT",
+      "version": "3.17.5",
+      "tag": "@acedatacloud/nexior_v3.17.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "73184fa5db0e2118e028a5efe4cb206213a6c2fb",
+            "comment": "add tab"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 10 Aug 2025 06:21:09 GMT",
+      "version": "3.17.4",
+      "tag": "@acedatacloud/nexior_v3.17.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "97d21500cebb93284c5129583445575549a816c9",
+            "comment": "update gpt45"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 09 Aug 2025 17:19:51 GMT",
+      "version": "3.17.3",
+      "tag": "@acedatacloud/nexior_v3.17.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "9aa7d146f3d4eead26e22031b76e7e033c10195a",
+            "comment": "refine gpt and grok model"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 08 Aug 2025 18:43:14 GMT",
+      "version": "3.17.2",
+      "tag": "@acedatacloud/nexior_v3.17.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "fad3e3934716ad1719e3fcb7896e4bef52ee9be4",
+            "comment": "add gpt 5 model"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 07 Aug 2025 17:53:06 GMT",
+      "version": "3.17.1",
+      "tag": "@acedatacloud/nexior_v3.17.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "ec3269ef7b375301d059a3c3c6c52cc9d2f56432",
+            "comment": "refine veo"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 07 Aug 2025 10:43:45 GMT",
+      "version": "3.17.0",
+      "tag": "@acedatacloud/nexior_v3.17.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "14873dde9b24b0734bb6f953435892db176885af",
+            "comment": "add veo"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 06 Aug 2025 17:27:32 GMT",
+      "version": "3.16.1",
+      "tag": "@acedatacloud/nexior_v3.16.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "9e7290881a236e75440476739651ea79f6c17d16",
+            "comment": "fix the cache"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 05 Aug 2025 16:52:12 GMT",
+      "version": "3.16.0",
+      "tag": "@acedatacloud/nexior_v3.16.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "f8ca20981c4fbb89323f0db48fc706849e42900f",
+            "comment": "add price support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 05 Aug 2025 13:40:51 GMT",
+      "version": "3.15.0",
+      "tag": "@acedatacloud/nexior_v3.15.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "12193c20769fa7341a996412651ab48e1b2e7744",
+            "comment": "fix options for kling and pix"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 05 Aug 2025 05:59:24 GMT",
+      "version": "3.14.1",
+      "tag": "@acedatacloud/nexior_v3.14.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "b1f15384245da8d1ab0ba782342aac0c478da7e0",
+            "comment": "refine pix experience"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 04 Aug 2025 16:55:18 GMT",
+      "version": "3.14.0",
+      "tag": "@acedatacloud/nexior_v3.14.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "ba3c0f31f464cd6bdec10e54b67a7779ce74fa2f",
+            "comment": "adapt to mobile"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 03 Aug 2025 17:52:43 GMT",
+      "version": "3.13.1",
+      "tag": "@acedatacloud/nexior_v3.13.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "bc19c784447ff4c53f9d442eefab77e9ad6454e3",
+            "comment": "fix layout init issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 03 Aug 2025 15:59:11 GMT",
+      "version": "3.13.0",
+      "tag": "@acedatacloud/nexior_v3.13.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "2b894cf2436206c9cc7eb46e1cf5b9423ad15a01",
+            "comment": "add mj videos"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 03 Aug 2025 14:37:59 GMT",
+      "version": "3.12.1",
+      "tag": "@acedatacloud/nexior_v3.12.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "232aab762aebb18620da14fe4bb401b94d2a623f",
+            "comment": "fix video style and bugs"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 03 Aug 2025 13:52:32 GMT",
+      "version": "3.12.0",
+      "tag": "@acedatacloud/nexior_v3.12.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "b797d289ae02a733cc1c7342515f2fd94347f39b",
+            "comment": "add new model for chat"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 01 Aug 2025 12:29:33 GMT",
+      "version": "3.11.1",
+      "tag": "@acedatacloud/nexior_v3.11.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "0f80cbd2c07f6d5c2208eb5cb73120aecec8b3e1",
+            "comment": "fix setting and pix bugs"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 01 Aug 2025 01:51:39 GMT",
+      "version": "3.11.0",
+      "tag": "@acedatacloud/nexior_v3.11.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "d6f6bfd33a729ed81c7ac93a32a9f266f1473887",
+            "comment": "add pixverse"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 27 Jul 2025 16:50:06 GMT",
+      "version": "3.10.4",
+      "tag": "@acedatacloud/nexior_v3.10.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "794381a31843a6f3a948689dfa26afabd0cdb07c",
+            "comment": "add empty task list"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 27 Jul 2025 13:01:06 GMT",
+      "version": "3.10.3",
+      "tag": "@acedatacloud/nexior_v3.10.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "059286a9c741a6e75325d619a67171af536786fd",
+            "comment": "refine application confirm"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 27 Jul 2025 12:30:39 GMT",
+      "version": "3.10.2",
+      "tag": "@acedatacloud/nexior_v3.10.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "5d4da94cdd5b5e9d0188fd86767279f26f2ccffc",
+            "comment": "add i18n for element "
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 27 Jul 2025 10:58:46 GMT",
+      "version": "3.10.1",
+      "tag": "@acedatacloud/nexior_v3.10.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "0c0eea748394300efe2378b74e413318c5e24288",
+            "comment": "refine i18n support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 27 Jul 2025 07:10:11 GMT",
+      "version": "3.10.0",
+      "tag": "@acedatacloud/nexior_v3.10.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "03244e096f367ae5f7ddbfe12b07f79a8c070be5",
+            "comment": "upgrade libs"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 26 Jul 2025 18:15:17 GMT",
+      "version": "3.9.2",
+      "tag": "@acedatacloud/nexior_v3.9.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "820ba24d1e4c0adcc7da45ed3f9bf8052d0bac4a",
+            "comment": "fix name"
+          },
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "820ba24d1e4c0adcc7da45ed3f9bf8052d0bac4a",
+            "comment": " refine console"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 26 Jul 2025 16:12:09 GMT",
+      "version": "3.9.1",
+      "tag": "@acedatacloud/nexior_v3.9.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "83a5746874470f4c99a70b1060cdfb412ecefc2f",
+            "comment": "update wallet ux"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 26 Jul 2025 14:32:44 GMT",
+      "version": "3.9.0",
+      "tag": "@acedatacloud/nexior_v3.9.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "55482163d2f0bd6dbe920384e2703767b962af44",
+            "comment": "use global application"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 19 Jul 2025 15:03:42 GMT",
+      "version": "3.8.1",
+      "tag": "@acedatacloud/nexior_v3.8.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "465159c7e5f355281e743576fc14ad4b7670dfd5",
+            "comment": "fix luma style"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 19 Jul 2025 11:20:48 GMT",
+      "version": "3.8.0",
+      "tag": "@acedatacloud/nexior_v3.8.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "a0eb57c21a4566043838dc35d9f200e2c0125048",
+            "comment": "refine video ui"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 19 Jul 2025 08:39:06 GMT",
+      "version": "3.7.0",
+      "tag": "@acedatacloud/nexior_v3.7.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "4c17ec244bf81edf016997ef75798b648ac6253b",
+            "comment": "new ui of flux"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 19 Jul 2025 06:40:57 GMT",
+      "version": "3.6.0",
+      "tag": "@acedatacloud/nexior_v3.6.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "f34a3931dfdfcbfcea3232325e75b3c19f43da46",
+            "comment": "add change log"
+          }
+        ],
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "f34a3931dfdfcbfcea3232325e75b3c19f43da46",
+            "comment": "remove chatdoc"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 19 Jul 2025 05:32:30 GMT",
+      "version": "3.5.2",
+      "tag": "@acedatacloud/nexior_v3.5.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "6e7787e8277ef354fa11b0eb47bb45d3bf683a67",
+            "comment": "fix mj upload error"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 19 Jul 2025 04:31:33 GMT",
+      "version": "3.5.1",
+      "tag": "@acedatacloud/nexior_v3.5.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "dd19262a73a0adedfb431360286f119e6d0ccf7d",
+            "comment": "update change log"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 19 Jul 2025 04:09:47 GMT",
+      "version": "3.5.0",
+      "tag": "@acedatacloud/nexior_v3.5.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "9ae422925644327e9becea2544a107e5d19ddc6a",
+            "comment": "update application state"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 18 Jul 2025 15:24:13 GMT",
+      "version": "3.4.3",
+      "tag": "@acedatacloud/nexior_v3.4.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "69f0fb302dd8d48134f515406351db0df8beeb59",
+            "comment": "add change log"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 13 Jul 2025 17:55:22 GMT",
+      "version": "3.4.2",
+      "tag": "@acedatacloud/nexior_v3.4.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "eb7c16dae47e80071589a63cdb758258c6b942f0",
+            "comment": "clean up translate files"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 13 Jul 2025 17:02:33 GMT",
+      "version": "3.4.1",
+      "tag": "@acedatacloud/nexior_v3.4.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "728e29dc0d3d413b1534790ae25fc4d4203d7ee3",
+            "comment": "add suno 4.5 model"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 13 Jul 2025 16:06:27 GMT",
+      "version": "3.4.0",
+      "tag": "@acedatacloud/nexior_v3.4.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "4e5ef549add348536cff46da1397c6e9bf781798",
+            "comment": "add thinking support in chat"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 13 Jul 2025 15:24:48 GMT",
+      "version": "3.3.0",
+      "tag": "@acedatacloud/nexior_v3.3.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "d9d50279f38b5d561acad87d83e852cae8e492dc",
+            "comment": "support latex in chat"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 13 Jul 2025 13:33:05 GMT",
+      "version": "3.2.2",
+      "tag": "@acedatacloud/nexior_v3.2.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "3fcd661da4c265688e0b2fd0ad4661e1b12babce",
+            "comment": "update hailuo style"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 13 Jul 2025 10:23:44 GMT",
+      "version": "3.2.1",
+      "tag": "@acedatacloud/nexior_v3.2.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "37af52a3a2e697edc9f6d971165a764e24871a17",
+            "comment": "fix theme init failed issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 13 Jul 2025 10:08:48 GMT",
+      "version": "3.2.0",
+      "tag": "@acedatacloud/nexior_v3.2.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "b3fc92eb4c0994522c4348638e0159668ca4df6f",
+            "comment": "refine new styles for models"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 13 Jul 2025 08:55:55 GMT",
+      "version": "3.1.0",
+      "tag": "@acedatacloud/nexior_v3.1.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "2fcd64509e5c2380e439539f51c0e42d79afe1f6",
+            "comment": "refine mj style and layout"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 13 Jul 2025 07:46:14 GMT",
+      "version": "3.0.0",
+      "tag": "@acedatacloud/nexior_v3.0.0",
+      "comments": {
+        "major": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "9d014e21d2f9f967340e8f87c8bf821239f60da8",
+            "comment": "refactor navigator "
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 12 Jul 2025 16:18:36 GMT",
+      "version": "2.20.3",
+      "tag": "@acedatacloud/nexior_v2.20.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "9edec8247e2a09fb3de163ad67f5ff7b029d29e4",
+            "comment": "fix setting style"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 12 Jul 2025 14:37:30 GMT",
+      "version": "2.20.2",
+      "tag": "@acedatacloud/nexior_v2.20.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "155c2f5373be067d0e16cf56a13004e1cd16bbf9",
+            "comment": "refine user setting to dropdown"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 11 Jul 2025 16:47:51 GMT",
+      "version": "2.20.1",
+      "tag": "@acedatacloud/nexior_v2.20.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "cqc@cuiqingcai.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "dddc2dcb9977d60219ec09d6178af3adcbc78caa",
+            "comment": "fix chat experience for error"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 06 Jul 2025 17:09:22 GMT",
+      "version": "2.20.0",
+      "tag": "@acedatacloud/nexior_v2.20.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "0fbdc3ac120346aebdd166511f3134e39d0d4f11",
+            "comment": "refactor chat"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 29 Jun 2025 15:11:11 GMT",
+      "version": "2.19.0",
+      "tag": "@acedatacloud/nexior_v2.19.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "5cbddd5d95794eb4b368789050da9a78d59a1731",
+            "comment": "fix credential error"
+          }
+        ],
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "5cbddd5d95794eb4b368789050da9a78d59a1731",
+            "comment": "add user center"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 05 Apr 2025 09:19:30 GMT",
+      "version": "2.18.6",
+      "tag": "@acedatacloud/nexior_v2.18.6",
+      "comments": {
+        "patch": [
+          {
+            "author": "germey@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "af9b89ac094a0cfdc80ed4190a7bc0d8d63eaf3a",
+            "comment": "add mj v7 support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 04 Apr 2025 17:48:54 GMT",
+      "version": "2.18.5",
+      "tag": "@acedatacloud/nexior_v2.18.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "germey@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "4114e687dcca1449a2b1de60fd928b03c84bcfcc",
+            "comment": "add image generation"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 22 Mar 2025 15:02:24 GMT",
+      "version": "2.18.4",
+      "tag": "@acedatacloud/nexior_v2.18.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "046638fffe3f6bd3f6367efddf2d7f8836349e52",
+            "comment": "remove comments"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 13 Mar 2025 15:20:15 GMT",
+      "version": "2.18.3",
+      "tag": "@acedatacloud/nexior_v2.18.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "bd423d27de54d064f95f0b3176b1406e90795fc8",
+            "comment": "update i18"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 12 Mar 2025 15:09:49 GMT",
+      "version": "2.18.2",
+      "tag": "@acedatacloud/nexior_v2.18.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "5f0ec79e8334b7f4e8fb87d947f6057d0ee1ca9b",
+            "comment": "add kling"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 02 Mar 2025 17:31:58 GMT",
+      "version": "2.18.1",
+      "tag": "@acedatacloud/nexior_v2.18.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "17edf8b234d78cd04b0fcd4bd14e44c329b65211",
+            "comment": "updated readme"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 02 Mar 2025 16:58:58 GMT",
+      "version": "2.18.0",
+      "tag": "@acedatacloud/nexior_v2.18.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "8ad9637b8692e0ea86b91ae39e1c836ccedc2944",
+            "comment": "optimize application flow"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 02 Mar 2025 12:19:34 GMT",
+      "version": "2.17.2",
+      "tag": "@acedatacloud/nexior_v2.17.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "f984190d70b4f789aa382b04d42f654e86bce8cf",
+            "comment": "fix build issue"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "f984190d70b4f789aa382b04d42f654e86bce8cf",
+            "comment": "fix docker build"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 01 Mar 2025 18:29:40 GMT",
+      "version": "2.17.1",
+      "tag": "@acedatacloud/nexior_v2.17.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "226e5e7771fe0be7ed83c28f9f1052d00992885e",
+            "comment": "update and fix translate of chat"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 26 Feb 2025 17:26:59 GMT",
+      "version": "2.17.0",
+      "tag": "@acedatacloud/nexior_v2.17.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "56a5166c154bf89a6d480df0d7f6eb616d4135bc",
+            "comment": "add grok support "
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 23 Feb 2025 12:36:49 GMT",
+      "version": "2.16.3",
+      "tag": "@acedatacloud/nexior_v2.16.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "c68c2166d8bc85b99bdbd0b2e00f8fe4edd53fa2",
+            "comment": "fix preview"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 22 Feb 2025 18:51:41 GMT",
+      "version": "2.16.2",
+      "tag": "@acedatacloud/nexior_v2.16.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "73fe1656f1ad03c026e7b326f86efd76221a3611",
+            "comment": "fix styles"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 22 Feb 2025 14:48:43 GMT",
+      "version": "2.16.1",
+      "tag": "@acedatacloud/nexior_v2.16.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "f837700d025f5beeaebf5e8a619061b4779610e8",
+            "comment": "add luma pagination"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 20 Feb 2025 15:29:50 GMT",
+      "version": "2.16.0",
+      "tag": "@acedatacloud/nexior_v2.16.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "d357d1c857572e2293eb05575d1986e565f3f717",
+            "comment": "add applictions selection"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 20 Feb 2025 14:24:59 GMT",
+      "version": "2.15.6",
+      "tag": "@acedatacloud/nexior_v2.15.6",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "8bf0476eb488bcccce87d5f77a8442a761b9b26f",
+            "comment": "fix ux styles for index"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 19 Feb 2025 16:35:02 GMT",
+      "version": "2.15.5",
+      "tag": "@acedatacloud/nexior_v2.15.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "1e8da0791221d178908be94db7621c92ab3e3954",
+            "comment": "change flux logo"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 19 Feb 2025 16:24:16 GMT",
+      "version": "2.15.4",
+      "tag": "@acedatacloud/nexior_v2.15.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "56d270378c0180562228bb059e8ef68a8d137c1e",
+            "comment": "update translations"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 19 Feb 2025 15:02:25 GMT",
+      "version": "2.15.3",
+      "tag": "@acedatacloud/nexior_v2.15.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "5d8902e56686ad24a2e4a4d872f9f20f35a58b23",
+            "comment": "add flux"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 16 Feb 2025 16:26:21 GMT",
+      "version": "2.15.2",
+      "tag": "@acedatacloud/nexior_v2.15.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "d17b84749b84a90d9635d6cfa75f6c0cd942e3f4",
+            "comment": "change subscription behavior better"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 16 Feb 2025 14:56:40 GMT",
+      "version": "2.15.1",
+      "tag": "@acedatacloud/nexior_v2.15.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "1a533c2d4b4e6d30033ec1c31672620258fc415e",
+            "comment": "fix order state "
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 15 Feb 2025 16:33:38 GMT",
+      "version": "2.15.0",
+      "tag": "@acedatacloud/nexior_v2.15.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "79488870483b1f99f3d6e3c08b9fb8fd7a96443d",
+            "comment": "update unifity entry"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 15 Feb 2025 15:37:49 GMT",
+      "version": "2.14.7",
+      "tag": "@acedatacloud/nexior_v2.14.7",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "7e72859b7f68c7da57f6e54b730a9d7a55cd0095",
+            "comment": "git left chat panel style"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 15 Feb 2025 14:41:39 GMT",
+      "version": "2.14.6",
+      "tag": "@acedatacloud/nexior_v2.14.6",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "1854f8899944076c813831f54042eebc1c7dcfc4",
+            "comment": "fix the price display for distribution"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 12 Feb 2025 13:53:57 GMT",
+      "version": "2.14.5",
+      "tag": "@acedatacloud/nexior_v2.14.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "094b7cd518803d5aa76f60178367a2990eefdcf5",
+            "comment": "add drawai qrart pagination"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 11 Feb 2025 14:21:11 GMT",
+      "version": "2.14.4",
+      "tag": "@acedatacloud/nexior_v2.14.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "bb898f988c09b0e77b551e7775961131f2ba70cb",
+            "comment": "update player slider style"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "bb898f988c09b0e77b551e7775961131f2ba70cb",
+            "comment": "update deepseek experience"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 10 Feb 2025 14:21:28 GMT",
+      "version": "2.14.3",
+      "tag": "@acedatacloud/nexior_v2.14.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "d8fba2afd8b65f00308289971acc0a82f3eebaf0",
+            "comment": "add pika hailuo pagination"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 09 Feb 2025 18:33:48 GMT",
+      "version": "2.14.2",
+      "tag": "@acedatacloud/nexior_v2.14.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "31fc4b4472ec2e9f13a999846b56b7fc033f965a",
+            "comment": "add mj pagination"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 09 Feb 2025 18:13:26 GMT",
+      "version": "2.14.1",
+      "tag": "@acedatacloud/nexior_v2.14.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "93f6aac1651417159462ac7255e097e63abbfc8a",
+            "comment": "fix chat experience"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 09 Feb 2025 16:33:37 GMT",
+      "version": "2.14.0",
+      "tag": "@acedatacloud/nexior_v2.14.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "28876eee56c2daf7bf16d9ac0b0cee76c8707bd2",
+            "comment": "add deepseek model"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 07 Feb 2025 15:53:17 GMT",
+      "version": "2.13.3",
+      "tag": "@acedatacloud/nexior_v2.13.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "5d91f2699a7bd71c803a8dd794d68359d29b7978",
+            "comment": "add pagination for suno"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 06 Feb 2025 11:07:29 GMT",
+      "version": "2.13.2",
+      "tag": "@acedatacloud/nexior_v2.13.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "d3251fa84e142d1a464813208035fa9c3b36ebe1",
+            "comment": "add hailuo"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 03 Feb 2025 04:39:27 GMT",
+      "version": "2.13.1",
+      "tag": "@acedatacloud/nexior_v2.13.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "5ebea7ef0cc04c086c64e7708fb42d6999d5bc8f",
+            "comment": "add pika"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 01 Feb 2025 05:33:24 GMT",
+      "version": "2.13.0",
+      "tag": "@acedatacloud/nexior_v2.13.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "germey@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "fa28d9a3aab7659a7f428a9714ba812bba1a148d",
+            "comment": "add tracker for fingerprint"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 25 Jan 2025 13:01:15 GMT",
+      "version": "2.12.4",
+      "tag": "@acedatacloud/nexior_v2.12.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "71434b50dc70e81341a32f493c8be8084acaa2ca",
+            "comment": "add cover stems concat"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 20 Jan 2025 05:09:59 GMT",
+      "version": "2.12.3",
+      "tag": "@acedatacloud/nexior_v2.12.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "f0e5ec6f5e2a4a613786677091cae9b172d42bfd",
+            "comment": "add suno upload"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 12 Jan 2025 16:04:23 GMT",
+      "version": "2.12.2",
+      "tag": "@acedatacloud/nexior_v2.12.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "47ddd99aa2597bbb8d14248743ecaa8f3fd224c6",
+            "comment": "add baidu stat"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 06 Jan 2025 17:08:58 GMT",
+      "version": "2.12.1",
+      "tag": "@acedatacloud/nexior_v2.12.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "ad3a83453d592a4bdaac953927a259eda248ae94",
+            "comment": "adjust ux flow for qrart"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 05 Jan 2025 16:45:11 GMT",
+      "version": "2.12.0",
+      "tag": "@acedatacloud/nexior_v2.12.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "fe3da8bb20ac0b7589069e5e1182e384088c7ab5",
+            "comment": "update mj style"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 28 Dec 2024 16:44:41 GMT",
+      "version": "2.11.36",
+      "tag": "@acedatacloud/nexior_v2.11.36",
+      "comments": {
+        "patch": [
+          {
+            "author": "germey@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "aaf4452932da066f1e8bb879b969dcdc834a2c1c",
+            "comment": "add dynamic services"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 28 Dec 2024 06:05:38 GMT",
+      "version": "2.11.35",
+      "tag": "@acedatacloud/nexior_v2.11.35",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "cea96712a9e1080b5f3eb2acdedbf0fa2b2e6610",
+            "comment": "fix upload origin"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 13 Dec 2024 02:30:57 GMT",
+      "version": "2.11.34",
+      "tag": "@acedatacloud/nexior_v2.11.34",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "4f1c5e9f12562fa1f458b2c17541cbc7e547e6fd",
+            "comment": "update suno model"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 01 Dec 2024 16:40:35 GMT",
+      "version": "2.11.33",
+      "tag": "@acedatacloud/nexior_v2.11.33",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "672bc842dcb61da7324896a2c0e1f6e4dd50f16a",
+            "comment": "fix suno style len"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 15 Nov 2024 13:28:48 GMT",
+      "version": "2.11.32",
+      "tag": "@acedatacloud/nexior_v2.11.32",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "10a160db126245f5e0440fa8dea5bc3828d58e79",
+            "comment": "fix drawai upload"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 15 Nov 2024 06:49:39 GMT",
+      "version": "2.11.31",
+      "tag": "@acedatacloud/nexior_v2.11.31",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "ba0101d6ce06dc1b4616f934bdd438a2ef53abe7",
+            "comment": "fix drawai reveal"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 14 Nov 2024 02:55:22 GMT",
+      "version": "2.11.30",
+      "tag": "@acedatacloud/nexior_v2.11.30",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "48a6be07b6a207df5905f8da1454b4ea5fa9edb2",
+            "comment": "update headshots translte"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 14 Nov 2024 02:46:13 GMT",
+      "version": "2.11.29",
+      "tag": "@acedatacloud/nexior_v2.11.29",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "2fa9e3b270165165a0c68fbf2f12182c24aae2cd",
+            "comment": "add headshots index"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 06 Nov 2024 17:26:09 GMT",
+      "version": "2.11.28",
+      "tag": "@acedatacloud/nexior_v2.11.28",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "13323642c15b889d7bc5fd32089880d7fa7f780c",
+            "comment": "update translte"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 06 Nov 2024 15:21:08 GMT",
+      "version": "2.11.27",
+      "tag": "@acedatacloud/nexior_v2.11.27",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "561ebbbdbed57cb84e2063956b55ebc5a2d613f4",
+            "comment": "fix suno use"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 06 Nov 2024 08:12:03 GMT",
+      "version": "2.11.26",
+      "tag": "@acedatacloud/nexior_v2.11.26",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "311426c7bc026a3464d4f2929297daeb4fdf719e",
+            "comment": "add headshots translate"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 06 Nov 2024 05:30:06 GMT",
+      "version": "2.11.25",
+      "tag": "@acedatacloud/nexior_v2.11.25",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "23192c50ad53f5f243648bb9d2a0a40fa56682b2",
+            "comment": "add headshots api"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 04 Nov 2024 09:44:43 GMT",
+      "version": "2.11.24",
+      "tag": "@acedatacloud/nexior_v2.11.24",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "fedee8865f4921a658e37843c5ec39f902c83d91",
+            "comment": "add headshots ux"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 20 Sep 2024 03:23:51 GMT",
+      "version": "2.11.23",
+      "tag": "@acedatacloud/nexior_v2.11.23",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "775954ee5201068df417d859413dd861b181fe1b",
+            "comment": "fix stop"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 13 Sep 2024 09:03:50 GMT",
+      "version": "2.11.22",
+      "tag": "@acedatacloud/nexior_v2.11.22",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "9754e2760603c46cc26466fdbd4f8131fee755a3",
+            "comment": "fit discount information"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 11 Sep 2024 06:41:39 GMT",
+      "version": "2.11.21",
+      "tag": "@acedatacloud/nexior_v2.11.21",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "122f6f8020985dd00fb8a9f1065b3dfb7fd163e6",
+            "comment": "fix luma"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 10 Sep 2024 04:21:02 GMT",
+      "version": "2.11.20",
+      "tag": "@acedatacloud/nexior_v2.11.20",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "e9f97f9785cc21faf453d3c8c76e9c17b7a3f4e1",
+            "comment": "fix suno"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 07 Sep 2024 05:40:05 GMT",
+      "version": "2.11.19",
+      "tag": "@acedatacloud/nexior_v2.11.19",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "2ccd7cb0ed4d06dbcbe5ddb0e19888afae5408cd",
+            "comment": "add cache"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 06 Sep 2024 04:36:11 GMT",
+      "version": "2.11.18",
+      "tag": "@acedatacloud/nexior_v2.11.18",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "1adb3875daf00555ce162543cbe37cb388bbbf0d",
+            "comment": "add luma download"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 02 Sep 2024 04:18:00 GMT",
+      "version": "2.11.17",
+      "tag": "@acedatacloud/nexior_v2.11.17",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "4ba638787598216ec5186ad8c2a1ceb1a2252713",
+            "comment": "add language"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 31 Aug 2024 07:22:57 GMT",
+      "version": "2.11.16",
+      "tag": "@acedatacloud/nexior_v2.11.16",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "562d32b713e1ce0c60f234e468d870f8b8d9e91a",
+            "comment": "add price per count"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 30 Aug 2024 17:27:31 GMT",
+      "version": "2.11.15",
+      "tag": "@acedatacloud/nexior_v2.11.15",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "d5b58bb1ce4d5690fb6c9e58c5dcd9350473ed4e",
+            "comment": "fix is wechat browser"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 30 Aug 2024 17:05:12 GMT",
+      "version": "2.11.14",
+      "tag": "@acedatacloud/nexior_v2.11.14",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "0874e193d8cf23815b9267d8642c64e6e3409d41",
+            "comment": "Add support for redirect to sub offcial"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 25 Aug 2024 05:58:27 GMT",
+      "version": "2.11.13",
+      "tag": "@acedatacloud/nexior_v2.11.13",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "efa156debcd0fb923e7aaf50b9fc08247807bbd0",
+            "comment": "add gpt all experience"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 25 Aug 2024 04:21:24 GMT",
+      "version": "2.11.12",
+      "tag": "@acedatacloud/nexior_v2.11.12",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "6ee99e8c23ff4d61409e6f70d308ff977a322df1",
+            "comment": "fix chat responding state"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 25 Aug 2024 03:37:27 GMT",
+      "version": "2.11.11",
+      "tag": "@acedatacloud/nexior_v2.11.11",
+      "comments": {
+        "patch": [
+          {
+            "author": "germey@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "27bb9ee8223ad0b109151d479c1aa3a0a54862a8",
+            "comment": "optimize chat experience"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 21 Aug 2024 17:25:50 GMT",
+      "version": "2.11.10",
+      "tag": "@acedatacloud/nexior_v2.11.10",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "ecea56c4bddc2995bad8b600bb693cf8d4864c43",
+            "comment": "refine translation"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 21 Aug 2024 05:07:00 GMT",
+      "version": "2.11.9",
+      "tag": "@acedatacloud/nexior_v2.11.9",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "b4b03ca022d4465cd55d2f97ea523286e19ae96b",
+            "comment": "update application estimation"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 21 Aug 2024 02:49:18 GMT",
+      "version": "2.11.8",
+      "tag": "@acedatacloud/nexior_v2.11.8",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "9538d44c78d029525088030311b4aa7b021c3244",
+            "comment": "fit url"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 21 Aug 2024 02:46:21 GMT",
+      "version": "2.11.7",
+      "tag": "@acedatacloud/nexior_v2.11.7",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "c74d9e5a3762a9af026fdf4fec7a523076fb7bd7",
+            "comment": "update navbar and index bg color"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 20 Aug 2024 09:21:59 GMT",
+      "version": "2.11.6",
+      "tag": "@acedatacloud/nexior_v2.11.6",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "7fc596a921f44f4c5b60ee1609eec9e77537cccd",
+            "comment": "add luma-url"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 20 Aug 2024 09:05:47 GMT",
+      "version": "2.11.5",
+      "tag": "@acedatacloud/nexior_v2.11.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "qicu@microsoft.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "d5ab027003180b38aa3ef3fc4682daa625bf351b",
+            "comment": "update translate"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 20 Aug 2024 06:42:08 GMT",
+      "version": "2.11.4",
+      "tag": "@acedatacloud/nexior_v2.11.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "5fbb18287edb83994d77409d8b55696d4e08bb4f",
+            "comment": "opt luma"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 20 Aug 2024 04:08:10 GMT",
+      "version": "2.11.3",
+      "tag": "@acedatacloud/nexior_v2.11.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "645976a5fe14826ad36019efe8789af5636c85ba",
+            "comment": "optimize nav experience"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 19 Aug 2024 08:31:50 GMT",
+      "version": "2.11.2",
+      "tag": "@acedatacloud/nexior_v2.11.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "0c5ac0b514590cac537adec748f15efc34ecd00d",
+            "comment": "fix application bug"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 19 Aug 2024 02:55:02 GMT",
+      "version": "2.11.1",
+      "tag": "@acedatacloud/nexior_v2.11.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "65163e31d7d15aacccfdfd44143d84c254e9f3b9",
+            "comment": "fit luma extend custom"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 18 Aug 2024 07:18:18 GMT",
+      "version": "2.11.0",
+      "tag": "@acedatacloud/nexior_v2.11.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "fa44f321117efeb8e82c37ab63d6212bc4a41b4f",
+            "comment": "add luma extend and videoplayer"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 17 Aug 2024 15:08:37 GMT",
+      "version": "2.10.4",
+      "tag": "@acedatacloud/nexior_v2.10.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "31cd8921ef795fab2ac2b99a2ebc4f63faa1e5db",
+            "comment": "add chat stop"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 17 Aug 2024 13:17:47 GMT",
+      "version": "2.10.3",
+      "tag": "@acedatacloud/nexior_v2.10.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "fd8eb9ffcdbacb67e9fad7494a0d934c9b1983e2",
+            "comment": "add luma upload"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 17 Aug 2024 07:21:54 GMT",
+      "version": "2.10.2",
+      "tag": "@acedatacloud/nexior_v2.10.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "06670f0c4df50c66ae62b0628fe1f706edcb6b39",
+            "comment": "fit mj style"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 17 Aug 2024 07:11:02 GMT",
+      "version": "2.10.1",
+      "tag": "@acedatacloud/nexior_v2.10.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "5eb453dec20f49c401c3fe7ef691610e70499b3d",
+            "comment": "fit getApplications"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 16 Aug 2024 17:50:24 GMT",
+      "version": "2.10.0",
+      "tag": "@acedatacloud/nexior_v2.10.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "6be9299532539dbfab61b5240ba4224bf74e19df",
+            "comment": "finish luma ui"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 16 Aug 2024 12:41:20 GMT",
+      "version": "2.9.4",
+      "tag": "@acedatacloud/nexior_v2.9.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "cc8ee2e138d437632e8c0b1824eaaa47dd7f7503",
+            "comment": "change withdrawl text"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 16 Aug 2024 12:12:10 GMT",
+      "version": "2.9.3",
+      "tag": "@acedatacloud/nexior_v2.9.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "ee9acb11754b6c6548db57f78e455e3e151f893d",
+            "comment": "change default subscription"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 16 Aug 2024 08:07:12 GMT",
+      "version": "2.9.2",
+      "tag": "@acedatacloud/nexior_v2.9.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "49ab74e344d3c8165d8ede8ac97eed4ff1384643",
+            "comment": "fix application list apply"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 16 Aug 2024 07:42:29 GMT",
+      "version": "2.9.1",
+      "tag": "@acedatacloud/nexior_v2.9.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "acc99514ca9c6f30e24d549b3fdc47f8d59efa2b",
+            "comment": "fix retrieve task issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 15 Aug 2024 17:54:12 GMT",
+      "version": "2.9.0",
+      "tag": "@acedatacloud/nexior_v2.9.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "3fecca9369ee511d175963bbfb93a6f6f197b7de",
+            "comment": "fix chat restart"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 15 Aug 2024 16:33:11 GMT",
+      "version": "2.8.0",
+      "tag": "@acedatacloud/nexior_v2.8.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "14b04fe54f4260a580e1dcc912ee16eb2df33ed0",
+            "comment": "add subscriptions support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 15 Aug 2024 16:11:49 GMT",
+      "version": "2.7.0",
+      "tag": "@acedatacloud/nexior_v2.7.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "1acebc565124e301ef249c03491b118d8f436d91",
+            "comment": "fix chat restart"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 14 Aug 2024 17:53:13 GMT",
+      "version": "2.6.1",
+      "tag": "@acedatacloud/nexior_v2.6.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "895f93d6366c026b78d920d91bb0eb2db4fbb8b7",
+            "comment": "fix edit message"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 14 Aug 2024 08:41:03 GMT",
+      "version": "2.6.0",
+      "tag": "@acedatacloud/nexior_v2.6.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "9353a96826dc2b29b516ac59c0c386b02c2cb7a8",
+            "comment": "add edit chat"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 14 Aug 2024 04:06:01 GMT",
+      "version": "2.5.1",
+      "tag": "@acedatacloud/nexior_v2.5.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "3f38a2b0eef28f14df34b41f35d8864bde3f1d92",
+            "comment": "fix application packages options"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 12 Aug 2024 13:15:36 GMT",
+      "version": "2.5.0",
+      "tag": "@acedatacloud/nexior_v2.5.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "b46a96e2194baeea716c5b4f87d4adb02f425796",
+            "comment": "add suno extend"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 09 Aug 2024 17:44:42 GMT",
+      "version": "2.4.1",
+      "tag": "@acedatacloud/nexior_v2.4.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "5a0bbb91343799ff1b7b28616c673007eab2a563",
+            "comment": "fix the confirm flow"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "5a0bbb91343799ff1b7b28616c673007eab2a563",
+            "comment": "fix packages"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "5a0bbb91343799ff1b7b28616c673007eab2a563",
+            "comment": "try to fix publish error"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "5a0bbb91343799ff1b7b28616c673007eab2a563",
+            "comment": "fix type definition"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 04 Aug 2024 16:56:06 GMT",
+      "version": "2.1.0",
+      "tag": "@acedatacloud/nexior_v2.1.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "fb832578ca571818dd8cdc722067a1a93d9816a2",
+            "comment": "add test env support"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "5843f9c837cea7bdb954e8d0794054a604bbee83",
+            "comment": "add test env tag"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "4e0c76e117928f55b93559a46415e1d9b1327c79",
+            "comment": "fix test env detect"
+          }
+        ],
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "af0c3db0f46cb438f0cb03ce18792635875e8592",
+            "comment": "add android and ios support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 03 Aug 2024 16:31:39 GMT",
+      "version": "2.0.6",
+      "tag": "@acedatacloud/nexior_v2.0.6",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "fb832578ca571818dd8cdc722067a1a93d9816a2",
+            "comment": "add test env support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 31 Jul 2024 17:36:46 GMT",
+      "version": "2.0.5",
+      "tag": "@acedatacloud/nexior_v2.0.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "germey@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "5bd53377e17336444c0eb0f360beffe477671444",
+            "comment": "update translate"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 29 Jul 2024 04:45:53 GMT",
+      "version": "2.0.4",
+      "tag": "@acedatacloud/nexior_v2.0.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "1348977728@qq.com",
+            "package": "@acedatacloud/nexior",
+            "commit": "cb5d49a819bc58af711a1f64cff1435be70bd74b",
+            "comment": "fix suno bug"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 28 Jul 2024 16:41:32 GMT",
+      "version": "2.0.3",
+      "tag": "@acedatacloud/nexior_v2.0.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "78e9562994bf7ec19582600e89033acde5051095",
+            "comment": "fix tech support i18n"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 28 Jul 2024 05:17:58 GMT",
+      "version": "2.0.2",
+      "tag": "@acedatacloud/nexior_v2.0.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "germey@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "558eadb63ccb7d123f296b3095a74c3a7c89c733",
+            "comment": "fix auth and experience issues"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 27 Jul 2024 19:11:01 GMT",
+      "version": "2.0.1",
+      "tag": "@acedatacloud/nexior_v2.0.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "germey@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "7110baf4a3828544f85be324178a853226fa93ad",
+            "comment": "fix suno task processing"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 27 Jul 2024 18:35:47 GMT",
+      "version": "2.0.0",
+      "tag": "@acedatacloud/nexior_v2.0.0",
+      "comments": {
+        "major": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "a46fc4ef3cb76e76659e088e9e87137deca5e21c",
+            "comment": "init suno"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 16 Jul 2024 13:57:36 GMT",
+      "version": "1.14.0",
+      "tag": "@acedatacloud/nexior_v1.14.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "germey@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "7421cc22c9ed30ba8f056e85dff7b88565a78668",
+            "comment": "add short link for referral"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 16 Jul 2024 13:39:17 GMT",
+      "version": "1.13.0",
+      "tag": "@acedatacloud/nexior_v1.13.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "b4c99eed58dfcf59d5767d0f208d91f3239bb4bd",
+            "comment": "add index page"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 14 Jul 2024 07:35:58 GMT",
+      "version": "1.12.0",
+      "tag": "@acedatacloud/nexior_v1.12.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "c83b4fcc9f4b26b96dc870e2c0b7a8fb8ad27141",
+            "comment": "add auto concurrency transform"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 08 Jul 2024 18:29:13 GMT",
+      "version": "1.11.4",
+      "tag": "@acedatacloud/nexior_v1.11.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "ef9d0718fbaa762a39d61fe42462c11621d2a459",
+            "comment": "fix support switch"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 08 Jul 2024 18:16:54 GMT",
+      "version": "1.11.3",
+      "tag": "@acedatacloud/nexior_v1.11.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "906d5cc10f76c2db0147be2ed4850a6ee2c724e5",
+            "comment": "fix site config for support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 08 Jul 2024 17:55:17 GMT",
+      "version": "1.11.2",
+      "tag": "@acedatacloud/nexior_v1.11.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "e82f5748adf0caaaae8f75dcb55687770dde8e0b",
+            "comment": "add config for support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 08 Jul 2024 14:48:47 GMT",
+      "version": "1.11.1",
+      "tag": "@acedatacloud/nexior_v1.11.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "f8b297c9da8b48cd90827c2d220fd20704b398d5",
+            "comment": "fix ui styles"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 08 Jul 2024 04:03:05 GMT",
+      "version": "1.11.0",
+      "tag": "@acedatacloud/nexior_v1.11.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "ab817b2cdbd303a8e9d70f85bb6474c5d817e98f",
+            "comment": "add wechatpay"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 07 Jul 2024 15:40:07 GMT",
+      "version": "1.10.5",
+      "tag": "@acedatacloud/nexior_v1.10.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "ae0f5e90a93899b25f30fa656bb316808ce4a6a3",
+            "comment": "fix for domain parsing"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 07 Jul 2024 13:11:47 GMT",
+      "version": "1.10.4",
+      "tag": "@acedatacloud/nexior_v1.10.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "b6d26c1ad22aff4d1767f71e469a28fe4a52267e",
+            "comment": "fix the cookie domain"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 07 Jul 2024 12:31:24 GMT",
+      "version": "1.10.3",
+      "tag": "@acedatacloud/nexior_v1.10.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "091a5312cf6ca3d6c5cd4e5c54ee42f334565df7",
+            "comment": "fix for inviter id"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 04 Jul 2024 03:37:16 GMT",
+      "version": "1.10.2",
+      "tag": "@acedatacloud/nexior_v1.10.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "f41ff0fce006a020b56ce87132f76031e2a786c0",
+            "comment": " fix for logout"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 03 Jul 2024 17:56:58 GMT",
+      "version": "1.10.1",
+      "tag": "@acedatacloud/nexior_v1.10.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "c5a8c4a2fdd57c3bc7e2746443b00b31e7eb78d7",
+            "comment": "fix model name"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "c5a8c4a2fdd57c3bc7e2746443b00b31e7eb78d7",
+            "comment": "fix model name"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 03 Jul 2024 17:18:06 GMT",
+      "version": "1.10.0",
+      "tag": "@acedatacloud/nexior_v1.10.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "85aef535f6f6d8b83e49fdd724763b5889908005",
+            "comment": "optimize auth flow"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 02 Jul 2024 16:30:09 GMT",
+      "version": "1.9.1",
+      "tag": "@acedatacloud/nexior_v1.9.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "germey@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "01d44e75f2b7f94442affbb074ca77b7fe7a0032",
+            "comment": "upgrade to use tasks for mj"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 01 Jul 2024 17:01:05 GMT",
+      "version": "1.9.0",
+      "tag": "@acedatacloud/nexior_v1.9.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "674ffb677020d22cf725a0850224fbaa96af931c",
+            "comment": "add support for mobile nav"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 01 Jul 2024 06:15:45 GMT",
+      "version": "1.8.4",
+      "tag": "@acedatacloud/nexior_v1.8.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "893891614c38cedc2ff3eb406d10ecb4fcbbdd98",
+            "comment": "fix the wrong qrart queue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 30 Jun 2024 11:35:08 GMT",
+      "version": "1.8.3",
+      "tag": "@acedatacloud/nexior_v1.8.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "germey@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "ce6274a88b640ffd5e0de6c45560e87dd4895b4e",
+            "comment": "update qrart task style"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 30 Jun 2024 11:19:28 GMT",
+      "version": "1.8.2",
+      "tag": "@acedatacloud/nexior_v1.8.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "c3176e41b845af1d69d1a66768308d1c07294a76",
+            "comment": "update translation files"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 27 Jun 2024 16:56:44 GMT",
+      "version": "1.8.1",
+      "tag": "@acedatacloud/nexior_v1.8.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "1c77b60c7a3cf830a0961e7e213cb167cfc31a5a",
+            "comment": "update translation files"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 27 Jun 2024 16:36:00 GMT",
+      "version": "1.8.0",
+      "tag": "@acedatacloud/nexior_v1.8.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "germey@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "74cec8e429b22a6ee6f38950023d840fe8c91a01",
+            "comment": "Update mj new layout"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 25 Jun 2024 03:01:07 GMT",
+      "version": "1.7.0",
+      "tag": "@acedatacloud/nexior_v1.7.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "a2e11fb02ed785eb5bc886c6bb1caad2de7813e3",
+            "comment": "Add a navbar on top"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "a2e11fb02ed785eb5bc886c6bb1caad2de7813e3",
+            "comment": "bump version"
+          }
+        ],
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "a2e11fb02ed785eb5bc886c6bb1caad2de7813e3",
+            "comment": "update support info"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 17 Jun 2024 16:58:12 GMT",
+      "version": "1.5.5",
+      "tag": "@acedatacloud/nexior_v1.5.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "dcc1271606abd603191df92c9d1d92d8ca27e395",
+            "comment": "fix nav width issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 17 Jun 2024 16:40:10 GMT",
+      "version": "1.5.4",
+      "tag": "@acedatacloud/nexior_v1.5.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "0008ae243e5b24504977366e7d8a4160ea525204",
+            "comment": "fix the auth init issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 17 Jun 2024 16:01:53 GMT",
+      "version": "1.5.3",
+      "tag": "@acedatacloud/nexior_v1.5.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "151c5379bf655cd5af5eaeb241d109464f4f6f8e",
+            "comment": "fix mj custom option"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 17 Jun 2024 14:39:35 GMT",
+      "version": "1.5.2",
+      "tag": "@acedatacloud/nexior_v1.5.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "4a0bd88c89096de138f0ae2055097ba251a69841",
+            "comment": "fix the site sync bug"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 17 Jun 2024 03:29:34 GMT",
+      "version": "1.5.1",
+      "tag": "@acedatacloud/nexior_v1.5.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "56a82af86729f06d90f688e687b68f3928f357b8",
+            "comment": "fix issue for init site"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 16 Jun 2024 15:39:44 GMT",
+      "version": "1.5.0",
+      "tag": "@acedatacloud/nexior_v1.5.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "07a100c403fd7b06038a17b1236cddaeab608fa5",
+            "comment": "add config page for site"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 15 Jun 2024 04:49:17 GMT",
+      "version": "1.4.2",
+      "tag": "@acedatacloud/nexior_v1.4.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "b082f52c5d3a10a98c5065e4012192893013d967",
+            "comment": "make adaptation for mobile"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 13 Jun 2024 16:50:06 GMT",
+      "version": "1.4.1",
+      "tag": "@acedatacloud/nexior_v1.4.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "ab452503da2e7009561cf56f12a966192fd292ef",
+            "comment": "update mj style and fix chat conv groups"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 13 Jun 2024 16:04:05 GMT",
+      "version": "1.4.0",
+      "tag": "@acedatacloud/nexior_v1.4.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "8ff5ca8d2fb2ee608dae2b12e15e996fff2deda7",
+            "comment": "adapt to latest chatgpt stlye for aichat"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 26 May 2024 04:02:57 GMT",
+      "version": "1.3.0",
+      "tag": "@acedatacloud/nexior_v1.3.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "beb12aecc0234a33131626d4e9360bd42b048f1f",
+            "comment": "optimize loading speed"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 14 May 2024 13:41:47 GMT",
+      "version": "1.2.1",
+      "tag": "@acedatacloud/nexior_v1.2.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "52a1de6a635ac734b9009aba71ae73b0a994a94b",
+            "comment": "add user id support for levels"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 12 May 2024 17:51:31 GMT",
+      "version": "1.2.0",
+      "tag": "@acedatacloud/nexior_v1.2.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "86f6f5522d01d1a82da0c5c1856811ceca37ffb0",
+            "comment": "Add nexior support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 12 May 2024 03:07:35 GMT",
+      "version": "1.1.5",
+      "tag": "@acedatacloud/hub_v1.1.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "7efdac3e68824be7e6cfea901982588d21a5f2a6",
+            "comment": "fix conversations reverse"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 11 May 2024 19:00:48 GMT",
+      "version": "1.1.4",
+      "tag": "@acedatacloud/hub_v1.1.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "6b822d0981321ec536be9fcf0c0acf58a3090c2a",
+            "comment": "fix image display issue for vision model"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 11 May 2024 10:02:39 GMT",
+      "version": "1.1.3",
+      "tag": "@acedatacloud/hub_v1.1.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "1c02618f6d66ca23c64085c6be01075fd4d4dd82",
+            "comment": "fix logo dark theme"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 11 May 2024 09:40:27 GMT",
+      "version": "1.1.2",
+      "tag": "@acedatacloud/hub_v1.1.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "b3f722d8fff1c328594329909da650d9d494d735",
+            "comment": "align across site for theme and locale"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 05 May 2024 06:16:02 GMT",
+      "version": "1.1.1",
+      "tag": "@acedatacloud/hub_v1.1.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "c883d490c511b298d18eebff9ee5ee46a5e2965d",
+            "comment": "fix custom style of qrart"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 03 May 2024 10:01:48 GMT",
+      "version": "1.1.0",
+      "tag": "@acedatacloud/hub_v1.1.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "b5109a2a907f62ccf8d7227c2878f8cdb634b2a0",
+            "comment": "add new parameter for qrart"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 28 Apr 2024 14:22:14 GMT",
+      "version": "1.0.1",
+      "tag": "@acedatacloud/hub_v1.0.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "46a08e6c629dc044f55d50aee65ad6e754849f6e",
+            "comment": "fix qrart issues"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 28 Apr 2024 13:33:01 GMT",
+      "version": "1.0.0",
+      "tag": "@acedatacloud/hub_v1.0.0",
+      "comments": {
+        "major": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "e7e9dbdbdcb11eb3084c5dc1aa3f073e9ddcffb4",
+            "comment": "Add Qrart support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 22 Apr 2024 15:47:56 GMT",
+      "version": "0.20.2",
+      "tag": "@acedatacloud/hub_v0.20.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "44e3b8d330df0201650c698c9cb198b10ec626d0",
+            "comment": "remove unnecessary records"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 22 Apr 2024 05:05:03 GMT",
+      "version": "0.20.1",
+      "tag": "@acedatacloud/hub_v0.20.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "51ad2ad526b82b838eef72867200ce9283779e18",
+            "comment": "fix progress display for mj"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 21 Apr 2024 18:22:58 GMT",
+      "version": "0.20.0",
+      "tag": "@acedatacloud/hub_v0.20.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "0e888589f7eca025aae6eb4caf6a5a4e2bdd5749",
+            "comment": "add support for usage history"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 21 Apr 2024 17:40:44 GMT",
+      "version": "0.19.0",
+      "tag": "@acedatacloud/hub_v0.19.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "dbde4cd56c8451c58103ca52e74eb0864bb292ff",
+            "comment": "add support for usage history"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 20 Apr 2024 17:27:50 GMT",
+      "version": "0.18.2",
+      "tag": "@acedatacloud/hub_v0.18.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "ba1d2f3bf18139988381e5fc225344a188b9a229",
+            "comment": "fix conversation display issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 16 Apr 2024 18:39:16 GMT",
+      "version": "0.18.1",
+      "tag": "@acedatacloud/hub_v0.18.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "e19b923628782bd1d33829048728ef044660f721",
+            "comment": "fix bug of applying"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 14 Apr 2024 17:24:51 GMT",
+      "version": "0.18.0",
+      "tag": "@acedatacloud/hub_v0.18.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "2a42ff5f760456f66488e399cef8875640d0545e",
+            "comment": "add support for renew credentials"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 13 Apr 2024 16:31:12 GMT",
+      "version": "0.17.6",
+      "tag": "@acedatacloud/hub_v0.17.6",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "887865ab6937084ec374d2943b72d8564372a782",
+            "comment": "fix apply dialog display"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 09 Apr 2024 17:16:57 GMT",
+      "version": "0.17.5",
+      "tag": "@acedatacloud/hub_v0.17.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "aeb68025fc791e631cc599aa1b13b14078010a81",
+            "comment": "fix bugs of not refreshing for mj"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 06 Apr 2024 15:35:50 GMT",
+      "version": "0.17.4",
+      "tag": "@acedatacloud/hub_v0.17.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "e03176058386ca26380ddf8ffac21ad069dbdde0",
+            "comment": "fix upload issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 06 Apr 2024 13:52:35 GMT",
+      "version": "0.17.3",
+      "tag": "@acedatacloud/hub_v0.17.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "5ae8f0527abc3c6a55c1b3e0971d5b9088a121db",
+            "comment": "fix error json parse for chat"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 06 Apr 2024 10:06:57 GMT",
+      "version": "0.17.2",
+      "tag": "@acedatacloud/hub_v0.17.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "d0c00b7af7e0cd0738c14317bce8d2d5a36d50d4",
+            "comment": "fix style bugs"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 06 Apr 2024 07:11:07 GMT",
+      "version": "0.17.1",
+      "tag": "@acedatacloud/hub_v0.17.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "94cd138f5f4302746dbdf43b8fd6dad8f5f80722",
+            "comment": "update translations"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 06 Apr 2024 06:59:17 GMT",
+      "version": "0.17.0",
+      "tag": "@acedatacloud/hub_v0.17.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "de242c810be79ec4e8eaca5a4f5b8d7cff9cc62b",
+            "comment": "add dark mode switch"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sat, 06 Apr 2024 05:28:44 GMT",
+      "version": "0.16.2",
+      "tag": "@acedatacloud/hub_v0.16.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "a7fcab2256ff27fd931f93e22ee93c56b34aba5a",
+            "comment": "fix chatdoc create issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 05 Apr 2024 06:40:33 GMT",
+      "version": "0.16.1",
+      "tag": "@acedatacloud/hub_v0.16.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "9866a2a8e162ddf5a9f5e3304783f7ff89313b09",
+            "comment": "fix wrong model name"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 04 Apr 2024 18:13:26 GMT",
+      "version": "0.16.0",
+      "tag": "@acedatacloud/hub_v0.16.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "134f44e44f6bc249189498089caf9e7b8925a14a",
+            "comment": "add dark mode support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 31 Mar 2024 17:10:16 GMT",
+      "version": "0.15.1",
+      "tag": "@acedatacloud/hub_v0.15.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "bf1969695d24e62d7c02ee29ee7ef01f7ad2afc3",
+            "comment": "fix order style"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 25 Mar 2024 15:25:10 GMT",
+      "version": "0.15.0",
+      "tag": "@acedatacloud/hub_v0.15.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "23362d21552c408d33bd211219b989bb2845d44a",
+            "comment": "bump version manually"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "23362d21552c408d33bd211219b989bb2845d44a",
+            "comment": "migrate to new architecture"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "23362d21552c408d33bd211219b989bb2845d44a",
+            "comment": "fix chatdoc issues"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "23362d21552c408d33bd211219b989bb2845d44a",
+            "comment": "bump version manually"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "23362d21552c408d33bd211219b989bb2845d44a",
+            "comment": "fix experience bugs"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "23362d21552c408d33bd211219b989bb2845d44a",
+            "comment": "add test i18n files"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "23362d21552c408d33bd211219b989bb2845d44a",
+            "comment": "update translations files"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "23362d21552c408d33bd211219b989bb2845d44a",
+            "comment": "fix translate issues"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "23362d21552c408d33bd211219b989bb2845d44a",
+            "comment": "update i18n files"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "23362d21552c408d33bd211219b989bb2845d44a",
+            "comment": "update i18n files"
+          }
+        ],
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "23362d21552c408d33bd211219b989bb2845d44a",
+            "comment": "add i18n support"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "23362d21552c408d33bd211219b989bb2845d44a",
+            "comment": "add localization support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 29 Jan 2024 16:17:58 GMT",
+      "version": "1.0.1",
+      "tag": "@zhishuyun/hub_v1.0.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@zhishuyun/hub",
+            "commit": "5c925f97128e2fa12efe0e9f8d151419d1203dc3",
+            "comment": "fix chatdoc upload issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 28 Jan 2024 07:24:49 GMT",
+      "version": "1.0.0",
+      "tag": "@zhishuyun/hub_v1.0.0",
+      "comments": {
+        "major": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@zhishuyun/hub",
+            "commit": "1a7fc4a59a1eeb11bbcdd668ff7fc325f940f5f0",
+            "comment": "add chatdoc feature"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 21 Jan 2024 03:37:14 GMT",
+      "version": "0.12.2",
+      "tag": "@zhishuyun/hub_v0.12.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@zhishuyun/hub",
+            "commit": "1dc324c35c1c9cf9b533a9e75eff8a25fda59f95",
+            "comment": "add docs for docker deploy"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 08 Jan 2024 17:48:17 GMT",
+      "version": "0.12.1",
+      "tag": "@acedatacloud/hub_v0.12.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "8cadaa341cdd9c98eeb13d78b2dba99bdf7e046c",
+            "comment": "improve mj experience"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 08 Jan 2024 15:49:20 GMT",
+      "version": "0.12.0",
+      "tag": "@acedatacloud/hub_v0.12.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "9a9c9be30b56d40934f115abf658326b59f336a1",
+            "comment": "add support for config title and favicon"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 08 Jan 2024 14:35:52 GMT",
+      "version": "0.11.7",
+      "tag": "@acedatacloud/hub_v0.11.7",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "6e14432a4c27933eb386fe70fc23658210fc86c9",
+            "comment": "add auth config support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 08 Jan 2024 14:09:32 GMT",
+      "version": "0.11.6",
+      "tag": "@acedatacloud/hub_v0.11.6",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "9495ba466a28952817e3ee6011cbef092e3ffd0c",
+            "comment": "fix upload image issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 07 Jan 2024 14:37:32 GMT",
+      "version": "0.11.5",
+      "tag": "@acedatacloud/hub_v0.11.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "060521d34cf5af4431c31b0c36a4ec07f0212cc8",
+            "comment": "fix distribution level"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 07 Jan 2024 13:54:47 GMT",
+      "version": "0.11.4",
+      "tag": "@acedatacloud/hub_v0.11.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "a8d1d6c8bdcfeb397b8156ba35fe0176227da276",
+            "comment": "fix invitee page"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 07 Jan 2024 13:30:23 GMT",
+      "version": "0.11.3",
+      "tag": "@acedatacloud/hub_v0.11.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "31280b0f5c6d65764bbfa594e68559d3ba4d516e",
+            "comment": "persist floating state when touch"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 07 Jan 2024 13:14:56 GMT",
+      "version": "0.11.2",
+      "tag": "@acedatacloud/hub_v0.11.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "0af9c9858e2ec7c597bd5e2a40df30e1bcf494ae",
+            "comment": "fix qr show issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 07 Jan 2024 12:48:15 GMT",
+      "version": "0.11.1",
+      "tag": "@acedatacloud/hub_v0.11.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "82d2947dccb054ecd89f25922edc9b18d4f3bf40",
+            "comment": "fix ios scan qr issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 07 Jan 2024 12:22:21 GMT",
+      "version": "0.11.0",
+      "tag": "@acedatacloud/hub_v0.11.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "05a638472b9409abe860c828dc3fcd9ebd4676c7",
+            "comment": "move distribution pages"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Sun, 07 Jan 2024 11:06:07 GMT",
+      "version": "0.10.0",
+      "tag": "@acedatacloud/hub_v0.10.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "576e0a7b8581ecf9db5b3ce0bfb0871619e768d2",
+            "comment": "add config support global"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 05 Jan 2024 18:09:16 GMT",
+      "version": "0.9.3",
+      "tag": "@acedatacloud/hub_v0.9.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "0300664fb3283a4d3cf9cb6e015cc378e0afae26",
+            "comment": "fix error message for chat"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 03 Jan 2024 12:21:58 GMT",
+      "version": "0.9.2",
+      "tag": "@acedatacloud/hub_v0.9.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "4e6c9a9904059565da346cc3fe4d1d86f38f07a8",
+            "comment": "refine styles"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 03 Jan 2024 10:14:47 GMT",
+      "version": "0.9.1",
+      "tag": "@acedatacloud/hub_v0.9.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "5ee40bd959c9b691b0ecb7e6a8689dce9bbf930d",
+            "comment": "update style of model selector"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 03 Jan 2024 08:41:15 GMT",
+      "version": "0.9.0",
+      "tag": "@acedatacloud/hub_v0.9.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "11868c2de2322aafd72f422670404f96e283536f",
+            "comment": "update onboarding experience "
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 03 Jan 2024 06:02:27 GMT",
+      "version": "0.8.4",
+      "tag": "@acedatacloud/hub_v0.8.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "357151cbca01b06b5cc0a4646108d4941ad4e726",
+            "comment": "add pr pipeline check"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 03 Jan 2024 05:56:48 GMT",
+      "version": "0.8.3",
+      "tag": "@acedatacloud/hub_v0.8.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "2dcf43ce1e9901893aca5ea03011f8e0635ac353",
+            "comment": "fix block styles"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 03 Jan 2024 05:10:13 GMT",
+      "version": "0.8.2",
+      "tag": "@acedatacloud/hub_v0.8.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "d7d67e8a99f9cc58befa9a4ed4655545fd92172a",
+            "comment": "split chunks to optimize loading speed"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 03 Jan 2024 04:20:31 GMT",
+      "version": "0.8.1",
+      "tag": "@acedatacloud/hub_v0.8.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "7dbda76452c339c73d859d5dca9603f7f1fb6cc5",
+            "comment": "fix docker build issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 03 Jan 2024 04:14:55 GMT",
+      "version": "0.8.0",
+      "tag": "@acedatacloud/hub_v0.8.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "0daf32ba3d2bcb1c7e0f50920598957ba868216d",
+            "comment": "upgrade tailwind and add css optimization"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 03 Jan 2024 03:33:35 GMT",
+      "version": "0.7.3",
+      "tag": "@acedatacloud/hub_v0.7.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "abbfc84b2fe7510955a0db9b9eabb534d09fd795",
+            "comment": "fix bug of perist cookie"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 02 Jan 2024 19:18:59 GMT",
+      "version": "0.7.2",
+      "tag": "@acedatacloud/hub_v0.7.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "df621bf87a380c06a6549dbd47babef973c0a3a4",
+            "comment": "fix bug of setting cookie of inviter id"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 02 Jan 2024 18:23:41 GMT",
+      "version": "0.7.1",
+      "tag": "@acedatacloud/hub_v0.7.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "0cdb32d71b910677562310022373647a69262490",
+            "comment": "fix inviter id setting"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 02 Jan 2024 17:13:47 GMT",
+      "version": "0.7.0",
+      "tag": "@acedatacloud/hub_v0.7.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "c82f04efcf9b471558164935c4b6781986ebe61f",
+            "comment": "add auth modal"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 02 Jan 2024 06:56:37 GMT",
+      "version": "0.6.1",
+      "tag": "@acedatacloud/hub_v0.6.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "4997334c376727f143e9d0ff849bdd77ea98f461",
+            "comment": "add inviter id cookies persist"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 02 Jan 2024 05:44:29 GMT",
+      "version": "0.6.0",
+      "tag": "@acedatacloud/hub_v0.6.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "5e920f1e31b44edee5c3f8485595f9483cf11028",
+            "comment": "adapt for mobile screen"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 01 Jan 2024 18:11:56 GMT",
+      "version": "0.5.1",
+      "tag": "@acedatacloud/hub_v0.5.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "5429cf6ca991e283fb23de2a6fb0a49378346732",
+            "comment": "fix stream event and netlify build"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 01 Jan 2024 17:58:26 GMT",
+      "version": "0.5.0",
+      "tag": "@acedatacloud/hub_v0.5.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "783f4de0aef2b45c409a06c8e909de725b1814cf",
+            "comment": "add support for deployment of netlify"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 01 Jan 2024 17:34:33 GMT",
+      "version": "0.4.1",
+      "tag": "@acedatacloud/hub_v0.4.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "04e38cef698bb6ad39309a66af1c7e6637e6b69b",
+            "comment": "fix hub url"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 01 Jan 2024 17:28:15 GMT",
+      "version": "0.4.0",
+      "tag": "@acedatacloud/hub_v0.4.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "9e3fc10ac1aed60f7a3c19b64c0ada74469fb27e",
+            "comment": "refine and clean files"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 01 Jan 2024 16:20:13 GMT",
+      "version": "0.3.0",
+      "tag": "@acedatacloud/hub_v0.3.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "bf66f4c32540e5a3ba5c4fea887cb4059e0c2afb",
+            "comment": "add vercel deployment support"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 01 Jan 2024 14:11:29 GMT",
+      "version": "0.2.4",
+      "tag": "@acedatacloud/hub_v0.2.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "29dc25be5073f5652ce36e794ae811707bdb2987",
+            "comment": "update readme"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 01 Jan 2024 12:57:43 GMT",
+      "version": "0.2.3",
+      "tag": "@acedatacloud/hub_v0.2.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "9230bc6c69a6365460c96786edfc25c3ed08ffd0",
+            "comment": "fix build number issue"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 01 Jan 2024 12:47:55 GMT",
+      "version": "0.2.2",
+      "tag": "@acedatacloud/hub_v0.2.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "35cbbba1e1461b051e2539309218c9595da0448d",
+            "comment": "update build number"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 01 Jan 2024 12:38:54 GMT",
+      "version": "0.2.1",
+      "tag": "@acedatacloud/hub_v0.2.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "88bf24ffc23941ae6210efc0bd56521121c65ee8",
+            "comment": "update yarn lock"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 01 Jan 2024 12:26:12 GMT",
+      "version": "0.2.0",
+      "tag": "@acedatacloud/hub_v0.2.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "0287b0bb904cfeee43bb8e0387738b346270de24",
+            "comment": "fix github pipelines"
+          }
+        ],
+        "minor": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "7f938bc6bfbb076c404519358bff0d2b7e25f2ba",
+            "comment": "add publish pipelines"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 01 Jan 2024 11:44:05 GMT",
+      "version": "0.1.2",
+      "tag": "@acedatacloud/hub_v0.1.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "6e12486bfa0fc7ac3cf550e4b5cdd8e435362459",
+            "comment": "change commit info"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 01 Jan 2024 11:28:17 GMT",
+      "version": "0.1.1",
+      "tag": "@acedatacloud/hub_v0.1.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "bc96caf20d8a2ccfd3b7f1866a8f4dc4aa2c46fb",
+            "comment": "fix git hooks"
+          },
+          {
+            "author": "office@acedata.cloud",
+            "package": "@acedatacloud/hub",
+            "commit": "e355b8ab50c123aa05bbc0126434943600350731",
+            "comment": "fix invite link"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "name.taskId": {
+    "message": "ID de tarea",
+    "description": "ID de la tarea"
+  },
+  "name.task": {
+    "message": "Tipo de tarea",
+    "description": "Tipo de operación de imagen de SeeDream"
+  },
+  "name.generate": {
+    "message": "Crear imagen",
+    "description": "Tipo de operación: crear imagen"
+  },
+  "name.edits": {
+    "message": "Editar imagen",
+    "description": "Tipo de operación: editar imagen"
+  },
+  "name.imageUrls": {
+    "message": "Imágenes de referencia",
+    "description": "Imágenes de referencia para editar"
+  },
+  "name.failure": {
+    "message": "Fallido",
+    "description": "La tarea ha fallado"
+  },
+  "name.failureReason": {
+    "message": "Razón del fallo",
+    "description": "Razón por la que la tarea ha fallado"
+  },
+  "name.status": {
+    "message": "Estado",
+    "description": "Estado de la tarea"
+  },
+  "name.traceId": {
+    "message": "ID de seguimiento",
+    "description": "ID de seguimiento"
+  },
+  "name.prompt": {
+    "message": "Sugerencia de imagen",
+    "description": "Palabras clave para generar/editar"
+  },
+  "name.seedreamBot": {
+    "message": "Bot SeeDream",
+    "description": "Nombre del generador de imágenes SeeDream"
+  },
+  "name.size": {
+    "message": "Tamaño",
+    "description": "Tamaño de la imagen de salida"
+  },
+  "name.watermark": {
+    "message": "Marca de agua",
+    "description": "Si se debe agregar una marca de agua"
+  },
+  "description.prompt": {
+    "message": "Palabras clave para generar o editar la imagen",
+    "description": "Descripción de las palabras clave"
+  },
+  "description.model": {
+    "message": "Modelo utilizado para generar o editar imágenes.",
+    "description": "Descripción del parámetro model"
+  },
+  "description.size": {
+    "message": "Tamaño de la imagen. Soporta predefinidos `1K`, `2K`, `4K` o personalizado `<ancho>x<alto>`.",
+    "description": "Descripción del parámetro size"
+  },
+  "description.watermark": {
+    "message": "Si se debe agregar una marca de agua AI a la imagen generada. Activado por defecto.",
+    "description": "Descripción del parámetro watermark"
+  },
+  "description.imageUrls": {
+    "message": "Sube de 1 a 14 imágenes de referencia para habilitar la edición de imágenes.",
+    "description": "Descripción del parámetro image"
+  },
+  "status.pending": {
+    "message": "En espera",
+    "description": "Estado de espera de la tarea"
+  },
+  "placeholder.select": {
+    "message": "Seleccionar",
+    "description": "Marcador de posición de selección"
+  },
+  "placeholder.prompt": {
+    "message": "Ingresa las palabras clave, por ejemplo: un gato siames blanco",
+    "description": "Marcador de posición de sugerencia"
+  },
+  "button.generate": {
+    "message": "Generar",
+    "description": "Botón de generar"
+  },
+  "button.uploadImageUrls": {
+    "message": "Subir",
+    "description": "Botón para subir imágenes de referencia (simplificado a 'Subir')"
+  },
+  "message.startingTask": {
+    "message": "Iniciando tarea...",
+    "description": "Mensaje de inicio de tarea"
+  },
+  "message.startTaskSuccess": {
+    "message": "Tarea de generación iniciada con éxito",
+    "description": "Tarea creada con éxito"
+  },
+  "message.startTaskFailed": {
+    "message": "Error al iniciar la tarea, por favor contacta al administrador:",
+    "description": "Error al crear la tarea"
+  },
+  "message.usedUp": {
+    "message": "Tus créditos se han agotado, por favor compra más créditos para continuar",
+    "description": "Mensaje de agotamiento"
+  },
+  "message.uploadImageExceed": {
+    "message": "Se pueden subir hasta 14 imágenes",
+    "description": "Número de imágenes excede el límite"
+  },
+  "message.uploadImageError": {
+    "message": "Error al subir la imagen, por favor intenta de nuevo más tarde",
+    "description": "Error de subida"
+  },
+  "name.model": {
+    "message": "Modelo",
+    "description": "Etiqueta de selección de modelo de SeeDream"
+  },
+  "model.seedream45": {
+    "message": "doubao-seedream-4.5",
+    "description": "Opción de modelo SeeDream 4.5"
+  },
+  "model.seedream40": {
+    "message": "doubao-seedream-4.0",
+    "description": "Opción de modelo SeeDream 4.0"
+  },
+  "model.seedream30t2i": {
+    "message": "doubao-seedream-3.0-t2i",
+    "description": "Opción de modelo SeeDream 3.0 t2i"
+  },
+  "model.seededit30i2i": {
+    "message": "doubao-seededit-3.0-i2i",
+    "description": "Opción de modelo SeeEdit 3.0 i2i"
+  }
+}

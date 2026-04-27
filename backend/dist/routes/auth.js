@@ -1,0 +1,17 @@
+import { Router } from 'express';
+import bcrypt from 'bcryptjs';
+import { z } from 'zod';
+import { prisma } from '../db.js';
+import { env } from '../env.js';
+import { asyncHandler } from '../utils/asyncHandler.js';
+import { signUser } from '../utils/token.js';
+import { authRequired } from '../middleware/auth.js';
+export const authRouter = Router();
+const registerSchema = z.object({ email: z.string().email(), password: z.string().min(8), name: z.string().optional() });
+const loginSchema = registerSchema.pick({ email: true, password: true });
+const publicUser = (u) => ({ id: u.id, email: u.email, name: u.name, role: u.role, credits: u.credits, avatarUrl: u.avatarUrl });
+authRouter.post('/register', asyncHandler(async (req, res) => { const data = registerSchema.parse(req.body); const exists = await prisma.user.findUnique({ where: { email: data.email.toLowerCase() } }); if (exists)
+    return res.status(409).json({ error: 'Email already registered' }); const user = await prisma.user.create({ data: { email: data.email.toLowerCase(), name: data.name, passwordHash: await bcrypt.hash(data.password, 12), credits: env.defaultFreeCredits } }); res.json({ token: signUser({ id: user.id, email: user.email, role: user.role }), user: publicUser(user) }); }));
+authRouter.post('/login', asyncHandler(async (req, res) => { const data = loginSchema.parse(req.body); const user = await prisma.user.findUnique({ where: { email: data.email.toLowerCase() } }); if (!user || !(await bcrypt.compare(data.password, user.passwordHash)))
+    return res.status(401).json({ error: 'Invalid email or password' }); res.json({ token: signUser({ id: user.id, email: user.email, role: user.role }), user: publicUser(user) }); }));
+authRouter.get('/me', authRequired, asyncHandler(async (req, res) => { const user = await prisma.user.findUnique({ where: { id: req.user.id } }); res.json({ user: user ? publicUser(user) : null }); }));

@@ -1,0 +1,222 @@
+{
+  "name.taskId": {
+    "message": "Uppgift ID",
+    "description": "Uppgiftens ID"
+  },
+  "name.translation": {
+    "message": "Automatisk översättning",
+    "description": "Automatisk översättning av Veo-video"
+  },
+  "name.modePro": {
+    "message": "Hög kvalitet",
+    "description": "Högkvalitetsläge för Kling-video"
+  },
+  "name.failure": {
+    "message": "Misslyckande",
+    "description": "Uppgiftens misslyckandestatus"
+  },
+  "name.failureReason": {
+    "message": "Orsak till misslyckande",
+    "description": "Anledningen till att uppgiften misslyckades"
+  },
+  "name.status": {
+    "message": "Status",
+    "description": "Uppgiftens status"
+  },
+  "name.traceId": {
+    "message": "Spårnings ID",
+    "description": "Uppgiftens spårnings ID"
+  },
+  "name.createdAt": {
+    "message": "Skapat den",
+    "description": "Datum och tid för att generera Veo-video"
+  },
+  "name.startEndImage": {
+    "message": "Start/Slut bildreferens",
+    "description": "Formulärfältets etikett: Start/Slut bildreferens"
+  },
+  "name.action": {
+    "message": "Åtgärd",
+    "description": "Lista över tillgängliga åtgärder"
+  },
+  "name.action3": {
+    "message": "Hämta 1080p video från",
+    "description": "Referensbilden för videon som ska genereras"
+  },
+  "name.prompt": {
+    "message": "Videoprompt",
+    "description": "Prompt för innehållsinmatning"
+  },
+  "name.model": {
+    "message": "Modellversion",
+    "description": "Modellversionen som används för att generera video"
+  },
+  "name.veoBot": {
+    "message": "Google Veo Bot",
+    "description": "Namn på Veo videogenerator"
+  },
+  "name.ratio": {
+    "message": "Förhållande",
+    "description": "Namn på förhållandeparameter"
+  },
+  "description.translation": {
+    "message": "Automatisk översättning kan aktiveras för promptord vid skapande av videouppgifter.",
+    "description": "Beskrivning av parametern 'translation'"
+  },
+  "description.imageUrl": {
+    "message": "Vid skapande av videouppgifter med flera bilder måste flera bilder laddas upp.",
+    "description": "Beskrivning av parametern 'imageUrl'"
+  },
+  "description.prompt": {
+    "message": "Promptord för att generera Veo-video",
+    "description": "Beskrivning av parametern 'prompt'"
+  },
+  "description.uploadStartEndImage": {
+    "message": "Array av referensbildlänkar, den första är startbilden, den andra är slutbilden",
+    "description": "Beskrivning av parametern 'image_url'"
+  },
+  "status.pending": {
+    "message": "Väntar",
+    "description": "Uppgiftens väntande status"
+  },
+  "status.processing": {
+    "message": "Bearbetar",
+    "description": "Uppgiftens bearbetande status"
+  },
+  "placeholder.paddingNoise": {
+    "message": "Vänligen välj...",
+    "description": "Platshållare för inmatning av fyllnadsbrus"
+  },
+  "placeholder.select": {
+    "message": "Välj",
+    "description": "Platshållartext i urvalsfält"
+  },
+  "placeholder.paddingLevel": {
+    "message": "Vänligen välj...",
+    "description": "Platshållare för fyllnadsnivå"
+  },
+  "placeholder.prompt": {
+    "message": "Ange promptord för den stil av video som ska genereras, t.ex.: moving",
+    "description": "Platshållartext i promptfält"
+  },
+  "placeholder.position": {
+    "message": "Vänligen välj...",
+    "description": "Platshållare för positionsinmatning"
+  },
+  "button.generate": {
+    "message": "Generera",
+    "description": "Knapptext för att generera Veo-video"
+  },
+  "button.action1": {
+    "message": "Text till video",
+    "description": "Knapptext för att generera Veo-video"
+  },
+  "button.action2": {
+    "message": "Bild till video",
+    "description": "Knapptext för att generera Veo-video"
+  },
+  "button.action3": {
+    "message": "Hämta 1080p",
+    "description": "Knapptext för att generera Veo-video"
+  },
+  "button.download": {
+    "message": "Ladda ner video",
+    "description": "Knapptext för att ladda ner video"
+  },
+  "button.uploadImageUrl": {
+    "message": "Ladda upp bild",
+    "description": "Knapptext för att ladda upp bild"
+  },
+  "button.uploadVideoUrl": {
+    "message": "Ladda upp video",
+    "description": "Knapptext för att ladda upp video"
+  },
+  "button.uploadReferences": {
+    "message": "Ladda upp",
+    "description": "Knapptext som tillåter användare att ladda upp referenser"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "Maximalt 2 bilder kan laddas upp",
+    "description": "Felmeddelande när antalet uppladdade bilder överskrider gränsen"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "Bilderna har laddats upp framgångsrikt",
+    "description": "Framgångsmeddelande när bilder har laddats upp"
+  },
+  "message.uploadReferencesError": {
+    "message": "Misslyckades med att ladda upp bilder, försök igen senare",
+    "description": "Felmeddelande när bilduppladdning misslyckas"
+  },
+  "message.startingTask": {
+    "message": "Startar uppgift...",
+    "description": "Meddelande när ritningsuppgiften startar"
+  },
+  "message.startTaskSuccess": {
+    "message": "Uppgift för generering har startats framgångsrikt",
+    "description": "Framgångsmeddelande när uppgiften har startats"
+  },
+  "message.startTaskFailed": {
+    "message": "Misslyckades med att starta uppgiften, vänligen kontakta administratören",
+    "description": "Felmeddelande när ritningsuppgiften misslyckas"
+  },
+  "message.usedUp": {
+    "message": "Dina poäng är slut, vänligen köp fler poäng för att fortsätta använda",
+    "description": "Meddelande när poängen är slut"
+  },
+  "message.generating": {
+    "message": "Genererar...",
+    "description": "Meddelande när bilden genereras"
+  },
+  "message.downloadVideo": {
+    "message": "Ladda ner denna video",
+    "description": "Meddelande när bilden genereras"
+  },
+  "message.generateFailed": {
+    "message": "Misslyckades med att generera video",
+    "description": "Meddelande när bildgenerering misslyckas"
+  },
+  "message.uploadVideoExceed": {
+    "message": "Antalet uppladdade startbilder överskrider gränsen",
+    "description": "Felmeddelande när antalet uppladdade startbilder överskrider gränsen"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "Filstorleken får inte överstiga 10 MB!",
+    "description": "Felmeddelande när filstorleken överstiger 10 MB!"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "Filuppladdningen måste vara i MP4-format!",
+    "description": "Felmeddelande när filuppladdningen inte är i MP4-format!"
+  },
+  "message.uploadStartEndImageExceed": {
+    "message": "Antalet uppladdade startbilder överskrider gränsen",
+    "description": "Felmeddelande när antalet uppladdade startbilder överskrider gränsen"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "Antalet uppladdade slutbilder överskrider gränsen",
+    "description": "Felmeddelande när antalet uppladdade slutbilder överskrider gränsen"
+  },
+  "message.uploadStartImageError": {
+    "message": "Misslyckades med att ladda upp startbilden",
+    "description": "Felmeddelande när uppladdningen av startbilden misslyckas"
+  },
+  "message.uploadVideoError": {
+    "message": "Misslyckades med att ladda upp videon",
+    "description": "Felmeddelande när uppladdningen av videon misslyckas"
+  },
+  "message.uploadEndImageError": {
+    "message": "Misslyckades med att ladda upp slutbilden",
+    "description": "Felmeddelande när uppladdningen av slutbilden misslyckas"
+  },
+  "message.uploadDocumentsError": {
+    "message": "Misslyckades med att ladda upp dokumentet",
+    "description": "Felmeddelande när uppladdningen av dokumentet misslyckas"
+  },
+  "message.noOperations": {
+    "message": "Inga tillgängliga åtgärder",
+    "description": "Meddelande när inga åtgärder är tillgängliga"
+  },
+  "message.noTasks": {
+    "message": "Inga historiska uppgifter, vänligen klicka på vänster sida för att generera video",
+    "description": "Meddelande när det inte finns några uppgifter"
+  }
+}

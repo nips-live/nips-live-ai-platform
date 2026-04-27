@@ -1,0 +1,818 @@
+{
+  "button.setup": {
+    "message": "Настройки",
+    "description": "Текст на кнопке для доступа к настройкам"
+  },
+  "button.start": {
+    "message": "Начать",
+    "description": "Текст на кнопке для начала определенных действий"
+  },
+  "button.copy": {
+    "message": "Копировать",
+    "description": "Текст на кнопке для копирования содержимого"
+  },
+  "button.copied": {
+    "message": "Скопировано",
+    "description": "Текст на кнопке, указывающий, что содержимое скопировано"
+  },
+  "button.restart": {
+    "message": "Перегенерировать",
+    "description": "Текст на кнопке для перегенерации содержимого"
+  },
+  "button.preview": {
+    "message": "Предпросмотр",
+    "description": "Текст на кнопке для открытия предпросмотра файла по URL"
+  },
+  "button.seeRawImage": {
+    "message": "Просмотреть оригинал",
+    "description": "Текст на кнопке для просмотра оригинального изображения"
+  },
+  "button.seeRawVideo": {
+    "message": "Просмотреть видео",
+    "description": "Текст на кнопке для просмотра оригинального видео"
+  },
+  "button.edit": {
+    "message": "Редактировать",
+    "description": "Текст на кнопке для редактирования содержимого"
+  },
+  "button.login": {
+    "message": "Войти",
+    "description": "Текст на кнопке для входа в систему"
+  },
+  "button.logout": {
+    "message": "Выйти",
+    "description": "Текст на кнопке для выхода из системы"
+  },
+  "button.new": {
+    "message": "Создать",
+    "description": "Текст на кнопке для создания нового элемента"
+  },
+  "button.delete": {
+    "message": "Удалить",
+    "description": "Текст на кнопке для удаления содержимого"
+  },
+  "button.confirm": {
+    "message": "Подтвердить",
+    "description": "Текст на кнопке для подтверждения действия"
+  },
+  "button.cancel": {
+    "message": "Отмена",
+    "description": "Текст на кнопке для отмены действия"
+  },
+  "button.alert": {
+    "message": "Предупреждение",
+    "description": "Текст на кнопке для выдачи предупреждения"
+  },
+  "button.info": {
+    "message": "Информация",
+    "description": "Текст на кнопке для отображения информации"
+  },
+  "button.publish": {
+    "message": "Опубликовать",
+    "description": "Текст на кнопке для публикации содержимого"
+  },
+  "button.watch": {
+    "message": "Смотреть",
+    "description": "Текст на кнопке для просмотра содержимого"
+  },
+  "button.verify": {
+    "message": "Подтверждение личности",
+    "description": "Текст на кнопке для подтверждения личности пользователя"
+  },
+  "button.profile": {
+    "message": "Профиль",
+    "description": "Текст на кнопке для отображения профиля пользователя"
+  },
+  "button.console": {
+    "message": "Консоль",
+    "description": "Текст на кнопке для отображения консольной страницы"
+  },
+  "button.learn": {
+    "message": "Изучить",
+    "description": "Текст на кнопке для изучения содержимого"
+  },
+  "button.buy": {
+    "message": "Купить",
+    "description": "Текст на кнопке для покупки содержимого"
+  },
+  "button.try": {
+    "message": "Попробовать",
+    "description": "Текст на кнопке для пробного использования содержимого"
+  },
+  "button.startForFree": {
+    "message": "Начать бесплатно",
+    "description": "Текст на кнопке для бесплатного начала"
+  },
+  "button.downloadAndroid": {
+    "message": "Скачать для Android",
+    "description": "Текст на кнопке для скачивания установочного пакета для Android"
+  },
+  "button.downloadIos": {
+    "message": "Скачать для iOS",
+    "description": "Текст на кнопке для скачивания установочного пакета для iOS"
+  },
+  "button.installIos": {
+    "message": "Установить для iOS",
+    "description": "Текст на кнопке для установки приложения для iOS"
+  },
+  "button.apply": {
+    "message": "Подать заявку",
+    "description": "Текст на кнопке для подачи заявки на API-сервис"
+  },
+  "button.refresh": {
+    "message": "Обновить",
+    "description": "Текст на кнопке для обновления страницы"
+  },
+  "button.pay": {
+    "message": "Оплатить",
+    "description": "Текст на кнопке для оплаты услуг"
+  },
+  "button.repay": {
+    "message": "Продолжить оплату",
+    "description": "Текст на кнопке для продолжения оплаты услуг"
+  },
+  "button.applied": {
+    "message": "Заявка подана",
+    "description": "Текст на кнопке для отображения статуса заявки пользователя"
+  },
+  "button.acquire": {
+    "message": "Получить",
+    "description": "Текст на кнопке для получения токена или ключа API-сервиса"
+  },
+  "button.fillExample": {
+    "message": "Заполнить пример",
+    "description": "Текст на кнопке для заполнения примерных данных"
+  },
+  "button.buyMore": {
+    "message": "Пополнить",
+    "description": "Текст на кнопке для пополнения счета. Должен переводиться как 'Пополнить'."
+  },
+  "button.update": {
+    "message": "Обновить",
+    "description": "Текст на кнопке для обновления содержимого"
+  },
+  "button.view": {
+    "message": "Просмотреть",
+    "description": "Текст на кнопке для просмотра содержимого"
+  },
+  "button.create": {
+    "message": "Создать",
+    "description": "Текст на кнопке для создания содержимого"
+  },
+  "button.referralEarnings": {
+    "message": "Доход от рефералов",
+    "description": "Текст на кнопке для отображения дохода от рефералов, что означает, что пользователь может зарабатывать, приглашая других использовать сервис"
+  },
+  "button.finish": {
+    "message": "Завершить",
+    "description": "Текст на кнопке для завершения действия"
+  },
+  "entity.id": {
+    "message": "ИД",
+    "description": "Уникальный идентификатор для отображения сущности"
+  },
+  "entity.type": {
+    "message": "Тип",
+    "description": "Тип сущности"
+  },
+  "entity.website": {
+    "message": "Ace Data Cloud",
+    "description": "Название сайта, не требует перевода, оставьте как 'Ace Data Cloud'"
+  },
+  "entity.copyright": {
+    "message": "Авторские права",
+    "description": "Текст для отображения авторских прав"
+  },
+  "entity.platform": {
+    "message": "Платформа",
+    "description": "Текст, указывающий, что это платформа API-сервиса"
+  },
+  "entity.title": {
+    "message": "Заголовок",
+    "description": "Заголовок сущности"
+  },
+  "entity.icon": {
+    "message": "Иконка",
+    "description": "Иконка сущности"
+  },
+  "entity.status": {
+    "message": "Статус",
+    "description": "Статус сущности"
+  },
+  "status.loading": {
+    "message": "Загрузка...",
+    "description": "Текст статуса, отображаемый во время загрузки контента"
+  },
+  "entity.operation": {
+    "message": "Операция",
+    "description": "Операция сущности"
+  },
+  "entity.description": {
+    "message": "Описание",
+    "description": "Описание сущности"
+  },
+  "entity.createdAt": {
+    "message": "Создано",
+    "description": "Время создания сущности"
+  },
+  "entity.updatedAt": {
+    "message": "Обновлено",
+    "description": "Время обновления сущности"
+  },
+  "entity.order": {
+    "message": "Заказ",
+    "description": "Заказ сущности, который включает деньги и информацию о сервисе, за который пользователь должен заплатить"
+  },
+  "message.noTasks": {
+    "message": "Нет историй задач, начните новую задачу～",
+    "description": "Сообщение, когда нет задач"
+  },
+  "message.usedAmount": {
+    "message": "Использованная сумма",
+    "description": "Для отображения суммы, уже использованной для сервиса"
+  },
+  "message.mobileAppDescription": {
+    "message": "Используйте AceData на мобильном устройстве, в настоящее время доступна установка Android APK.",
+    "description": "Описание страницы загрузки мобильного приложения"
+  },
+  "message.mobileAndroidHint": {
+    "message": "Подходит для Android-смартфонов и планшетов, отсканируйте QR-код для установки последней APK.",
+    "description": "Описание карточки загрузки Android"
+  },
+  "message.mobileAndroidPending": {
+    "message": "Установка Android еще не готова, пожалуйста, попробуйте позже.",
+    "description": "Сообщение, когда установка Android еще недоступна"
+  },
+  "message.mobileAvailableNow": {
+    "message": "Android доступен для загрузки",
+    "description": "Для отображения статуса доступности Android"
+  },
+  "message.mobileSecureDelivery": {
+    "message": "Безопасная доставка через CDN",
+    "description": "Для подчеркивания, что ссылка на загрузку передается через CDN"
+  },
+  "message.mobileDirectInstall": {
+    "message": "Прямая установка APK",
+    "description": "Для описания метода прямой установки APK на Android"
+  },
+  "message.mobileLatestRelease": {
+    "message": "Текущая публичная версия",
+    "description": "Для указания, что отображается последняя публичная версия"
+  },
+  "message.mobileSharedAccount": {
+    "message": "Общий аккаунт и лимиты с веб-версией",
+    "description": "Для указания, что мобильная версия использует общий аккаунт с веб-версией"
+  },
+  "message.mobileIosHint": {
+    "message": "Подходит для iPhone и iPad, можно установить онлайн; если система блокирует, можно сначала скачать IPA и затем установить.",
+    "description": "Описание карточки загрузки iOS"
+  },
+  "message.mobileIosPending": {
+    "message": "Установка iOS еще не доступна для загрузки, в процессе получения сертификатов Apple.",
+    "description": "Сообщение, когда установка iOS еще недоступна"
+  },
+  "message.mobileInstallNote": {
+    "message": "При первой установке корпоративного или Ad Hoc пакета на iOS система может потребовать сначала доверить сертификат в 'Настройки > Основные > VPN и управление устройством'.",
+    "description": "Подсказка по установке мобильного приложения"
+  },
+  "title.mobileApp": {
+    "message": "Загрузка мобильного приложения",
+    "description": "Заголовок страницы загрузки мобильного приложения"
+  },
+  "title.mobileFastAccess": {
+    "message": "Быстрый доступ, без обхода магазинов приложений",
+    "description": "Заголовок карточки преимуществ на странице загрузки, подчеркивающий быструю установку"
+  },
+  "title.mobileTrustedRelease": {
+    "message": "Централизованное управление версиями, более стабильная доставка",
+    "description": "Заголовок карточки преимуществ на странице загрузки, подчеркивающий стабильность версий и доставки"
+  },
+  "title.mobileUnifiedExperience": {
+    "message": "Единый опыт на мобильном и веб-версии",
+    "description": "Заголовок карточки преимуществ на странице загрузки, подчеркивающий единый опыт"
+  },
+  "nav.mobileApp": {
+    "message": "Мобильное приложение",
+    "description": "Вход для загрузки мобильного приложения в навигации"
+  },
+  "message.mobileFastAccess": {
+    "message": "Пользователи могут установить приложение, отсканировав QR-код на мобильном, или сначала скачать APK на настольном компьютере и затем раздать команде, что подходит для быстрого тестирования и бета-тестирования.",
+    "description": "Описание преимуществ на странице загрузки, подчеркивающее быстрый доступ"
+  },
+  "message.mobileTrustedRelease": {
+    "message": "Все ссылки на загрузку сосредоточены на одной странице, номера версий, статус платформы и способы установки видны с первого взгляда, что снижает затраты на коммуникацию из-за разрозненности ссылок.",
+    "description": "Описание преимуществ на странице загрузки, подчеркивающее единое распределение"
+  },
+  "message.mobileUnifiedExperience": {
+    "message": "Система аккаунтов, лимиты и входы в сервис после входа остаются одинаковыми с веб-версией, что позволяет пользователям бесшовно переключаться между настольным и мобильным устройствами.",
+    "description": "Описание преимуществ на странице загрузки, подчеркивающее единый опыт аккаунта"
+  },
+  "message.remainingAmount": {
+    "message": "Остаток",
+    "description": "Для отображения оставшейся суммы для сервиса"
+  },
+  "message.copied": {
+    "message": "Успешно скопировано",
+    "description": "Сообщение о том, что содержимое успешно скопировано"
+  },
+  "message.restart": {
+    "message": "Перегенерировать",
+    "description": "Сообщение, показывающее, что содержимое было успешно скопировано"
+  },
+  "message.confirmDelete": {
+    "message": "Вы уверены, что хотите удалить?",
+    "description": "Сообщение для подтверждения удаления контента пользователем"
+  },
+  "message.expiredAt": {
+    "message": "Срок действия",
+    "description": "Сообщение для отображения срока действия услуги"
+  },
+  "message.alert": {
+    "message": "Предупреждение",
+    "description": "Сообщение для предупреждения пользователя"
+  },
+  "message.info": {
+    "message": "Информация",
+    "description": "Сообщение для отображения информации"
+  },
+  "message.free": {
+    "message": "Бесплатно",
+    "description": "Сообщение, показывающее, что услуга бесплатна, то есть пользователю не нужно платить"
+  },
+  "message.startPrice": {
+    "message": "Начальная цена",
+    "description": "Сообщение для отображения минимальной цены услуги"
+  },
+  "message.joinDiscord": {
+    "message": "Присоединиться к Discord",
+    "description": "Сообщение, предлагающее пользователю присоединиться к каналу Discord"
+  },
+  "message.addWeChat": {
+    "message": "Добавить WeChat",
+    "description": "Сообщение, предлагающее пользователю добавить учетную запись WeChat"
+  },
+  "message.serviceTech": {
+    "message": "Техническая поддержка",
+    "description": "Сообщение для отображения технической поддержки"
+  },
+  "message.businessCooperation": {
+    "message": "Данные и бизнес-сотрудничество",
+    "description": "Сообщение для отображения бизнес-сотрудничества"
+  },
+  "message.noData": {
+    "message": "Нет данных",
+    "description": "Сообщение для отображения отсутствия данных в таблице или списке"
+  },
+  "nav.home": {
+    "message": "Главная",
+    "description": "Текст в навигационной панели сайта для отображения главной страницы"
+  },
+  "nav.content": {
+    "message": "Контент",
+    "description": "Текст в навигационной панели сайта для отображения страницы контента"
+  },
+  "nav.category": {
+    "message": "Категория",
+    "description": "Текст в навигационной панели сайта для отображения страницы категории"
+  },
+  "nav.service": {
+    "message": "Все услуги",
+    "description": "Текст в навигационной панели сайта для отображения страницы услуг"
+  },
+  "nav.profile": {
+    "message": "Профиль",
+    "description": "Текст в навигационной панели сайта для отображения страницы профиля"
+  },
+  "nav.products": {
+    "message": "Продукты",
+    "description": "Текст в навигационной панели сайта для отображения страницы продуктов"
+  },
+  "nav.referral": {
+    "message": "Партнерская программа",
+    "description": "Текст в навигационной панели сайта для отображения страницы рекомендаций"
+  },
+  "nav.apiPlatform": {
+    "message": "API Платформа",
+    "description": "Текст в навигационной панели сайта для отображения страницы API платформы"
+  },
+  "nav.document": {
+    "message": "Документация",
+    "description": "Текст в навигационной панели сайта для отображения страницы документации"
+  },
+  "nav.console": {
+    "message": "Консоль",
+    "description": "Текст в навигационной панели сайта для отображения страницы консоли"
+  },
+  "nav.chatgpt": {
+    "message": "ChatGPT",
+    "description": "Текст в навигационной панели сайта для отображения страницы ChatGPT, не переводить, оставить как 'ChatGPT'"
+  },
+  "nav.deepseek": {
+    "message": "DeepSeek",
+    "description": "Текст в навигационной панели сайта для отображения страницы DeepSeek, не переводить, оставить как 'DeepSeek'"
+  },
+  "nav.grok": {
+    "message": "Grok",
+    "description": "Текст в навигационной панели сайта для отображения страницы Grok, не переводить, оставить как 'Grok'"
+  },
+  "nav.chat": {
+    "message": "Чат",
+    "description": "Текст в навигационной панели сайта для отображения страницы чата, не переводить, оставить как 'Chat'"
+  },
+  "nav.veo": {
+    "message": "Veo",
+    "description": "Текст в навигационной панели сайта для отображения страницы Veo, не переводить, оставить как 'Veo'"
+  },
+  "nav.sora": {
+    "message": "Sora",
+    "description": "Текст в навигационной панели сайта для отображения страницы Sora, не переводить, оставить как 'Sora'"
+  },
+  "nav.midjourney": {
+    "message": "Midjourney",
+    "description": "Текст в навигационной панели сайта для отображения страницы Midjourney, не переводить, оставить как 'Midjourney'"
+  },
+  "nav.qrart": {
+    "message": "QRArt",
+    "description": "Текст в навигационной панели сайта для отображения страницы QRArt, не переводить, оставить как 'QRArt'"
+  },
+  "nav.suno": {
+    "message": "Suno",
+    "description": "Текст в навигационной панели сайта для отображения страницы Suno, не переводить, оставить как 'Suno'"
+  },
+  "nav.pixverse": {
+    "message": "Pixverse",
+    "description": "Текст в навигационной панели сайта для отображения страницы Pixverse, не переводить, оставить как 'Pixverse'"
+  },
+  "nav.flux": {
+    "message": "Flux",
+    "description": "Текст в навигационной панели сайта для отображения страницы Flux, не переводить, оставить как 'Flux'"
+  },
+  "nav.nanobanana": {
+    "message": "Nano Banana",
+    "description": "Текст в навигационной панели сайта для отображения страницы Nano Banana, не переводить, оставить как 'Nano Banana'"
+  },
+  "nav.openaiimage": {
+    "message": "OpenAI Image",
+    "description": "Текст в навигационной панели сайта для отображения страницы OpenAI Image, не переводить, оставить как 'OpenAI Image'"
+  },
+  "nav.seedream": {
+    "message": "SeeDream",
+    "description": "网站导航栏中的文本，用于显示SeeDream页面，请不要翻译此字段，必须保持为'SeeDream'"
+  },
+  "nav.seedance": {
+    "message": "SeeDance",
+    "description": "网站导航栏中的文本，用于显示SeeDance页面，请不要翻译此字段，必须保持为'SeeDance'"
+  },
+  "nav.luma": {
+    "message": "Luma",
+    "description": "网站导航栏中的文本，用于显示Luma页面，请不要翻译此字段，必须保持为'Luma'"
+  },
+  "nav.pika": {
+    "message": "Pika",
+    "description": "网站导航栏中的文本，用于显示Pika页面，请不要翻译此字段，必须保持为'Pika'"
+  },
+  "nav.kling": {
+    "message": "Kling",
+    "description": "网站导航栏中的文本，用于显示Kling页面，请不要翻译此字段，必须保持为'Kling'"
+  },
+  "nav.hailuo": {
+    "message": "Hailuo",
+    "description": "网站导航栏中的文本，用于显示Hailuo页面，请不要翻译此字段，必须保持为'Hailuo'"
+  },
+  "nav.wan": {
+    "message": "Wan",
+    "description": "网站导航栏中的文本，用于显示Wan页面，请不要翻译此字段，必须保持为'Wan'"
+  },
+  "nav.producer": {
+    "message": "Producer",
+    "description": "网站导航栏中的文本，用于显示Producer页面，请不要翻译此字段，必须保持为'Producer'"
+  },
+  "nav.kimi": {
+    "message": "Kimi",
+    "description": "网站导航栏中的文本，用于显示Kimi页面，请不要翻译此字段，必须保持为'Kimi'"
+  },
+  "nav.serp": {
+    "message": "SERP",
+    "description": "网站导航栏中的文本，用于显示SERP页面，请不要翻译此字段，必须保持为'SERP'"
+  },
+  "nav.image": {
+    "message": "Изображение",
+    "description": "网站导航栏中的文本，用于显示图片页面"
+  },
+  "nav.music": {
+    "message": "Музыка",
+    "description": "网站导航栏中的文本，用于显示音乐页面"
+  },
+  "nav.video": {
+    "message": "Видео",
+    "description": "网站导航栏中的文本，用于显示视频页面"
+  },
+  "nav.distribution": {
+    "message": "Рекомендации",
+    "description": "网站导航栏中的文本，用于显示推荐收益页面"
+  },
+  "nav.logOut": {
+    "message": "Выйти",
+    "description": "网站导航栏中的文本，用于退出登录"
+  },
+  "nav.site": {
+    "message": "Настройки сайта",
+    "description": "网站导航栏中的文本，用于显示站点配置页面"
+  },
+  "nav.setting": {
+    "message": "Настройки",
+    "description": "网站导航栏中的文本，用于显示设置页面"
+  },
+  "nav.headshots": {
+    "message": "AI Фото",
+    "description": "网站导航栏中的文本，用于显示站点配置页面"
+  },
+  "nav.more": {
+    "message": "Больше",
+    "description": "网站导航栏中的文本，用于展开更多服务"
+  },
+  "nav.locale": {
+    "message": "Языковые настройки",
+    "description": "网站导航栏中的文本，用于更改语言"
+  },
+  "nav.support": {
+    "message": "Поддержка",
+    "description": "网站导航栏中的文本，用于显示联系页面"
+  },
+  "nav.darkMode": {
+    "message": "Темный режим",
+    "description": "网站导航栏中的文本，用于切换到深色主题"
+  },
+  "title.alert": {
+    "message": "Предупреждение",
+    "description": "警告消息的标题"
+  },
+  "title.placeholderOfSelect": {
+    "message": "Пожалуйста, выберите",
+    "description": "选择输入的占位符"
+  },
+  "title.placeholderOfInput": {
+    "message": "Пожалуйста, введите",
+    "description": "输入的占位符"
+  },
+  "title.allApplications": {
+    "message": "Все заявки",
+    "description": "显示所有申请的页面标题"
+  },
+  "title.allOrders": {
+    "message": "Все заказы",
+    "description": "显示所有订单的页面标题"
+  },
+  "title.orderInfo": {
+    "message": "Информация о заказе",
+    "description": "显示订单信息的页面标题"
+  },
+  "title.buyMore": {
+    "message": "Пополнить",
+    "description": "页面标题，用于充值。英文必须翻译为“Top Up”，中文为“充值”。"
+  },
+  "title.distribution": {
+    "message": "Рекомендации",
+    "description": "显示推荐收入的页面标题，意味着用户可以通过邀请他人使用该服务来赚钱"
+  },
+  "title.site": {
+    "message": "Настройки сайта",
+    "description": "显示站点配置的页面标题"
+  },
+  "title.distributionHistory": {
+    "message": "История рекомендаций",
+    "description": "显示推荐历史的页面标题"
+  },
+  "title.invitee": {
+    "message": "Пригласивший",
+    "description": "显示邀请人的页面标题"
+  },
+  "title.allUsages": {
+    "message": "История использования",
+    "description": "显示API服务所有使用的页面标题"
+  },
+  "title.allCredentials": {
+    "message": "Ключи",
+    "description": "显示所有凭证的页面标题，凭证用于访问API"
+  },
+  "about.title1": {
+    "message": "Связаться с нами",
+    "description": "显示联系信息的部分标题"
+  },
+  "about.title2": {
+    "message": "Ресурсы",
+    "description": "Часть заголовка, отображающая ссылки"
+  },
+  "about.title3": {
+    "message": "Ссылки",
+    "description": "Часть заголовка, отображающая информацию о поддержке"
+  },
+  "about.address": {
+    "message": "США, штат Делавэр, город Мидлтаун, улица Норт Грант 651, офис 201",
+    "description": "Адрес компании"
+  },
+  "about.email": {
+    "message": "office@acedata.cloud",
+    "description": "Электронная почта компании"
+  },
+  "about.link1": {
+    "message": "Услуги",
+    "description": "Ссылка на страницу документации"
+  },
+  "about.link2": {
+    "message": "Документация для разработчиков",
+    "description": "Ссылка на страницу услуг"
+  },
+  "about.link3": {
+    "message": "Консоль",
+    "description": "Ссылка на страницу консоли"
+  },
+  "about.link4": {
+    "message": "Профиль",
+    "description": "Ссылка на страницу профиля"
+  },
+  "about.link5": {
+    "message": "UI Платформа",
+    "description": "Ссылка на центральную страницу"
+  },
+  "about.link6": {
+    "message": "Рекомендации по доходам",
+    "description": "Ссылка на страницу доходов от рекомендаций"
+  },
+  "about.link7": {
+    "message": "Поддержка",
+    "description": "Ссылка на страницу поддержки"
+  },
+  "about.link8": {
+    "message": "Условия обслуживания",
+    "description": "Ссылка на страницу условий обслуживания"
+  },
+  "about.link9": {
+    "message": "Политика конфиденциальности",
+    "description": "Ссылка на страницу политики конфиденциальности"
+  },
+  "theme.light": {
+    "message": "Светлая тема",
+    "description": "Название светлой темы"
+  },
+  "theme.dark": {
+    "message": "Темная тема",
+    "description": "Название темной темы"
+  },
+  "theme.system": {
+    "message": "Системная",
+    "description": "Название системной темы, указывающее на автоматическое переключение темы в зависимости от настроек системы"
+  },
+  "settings.general": {
+    "message": "Общие настройки",
+    "description": "Заголовок раздела общих настроек на странице настроек"
+  },
+  "settings.language": {
+    "message": "Язык",
+    "description": "Заголовок раздела языковых настроек на странице настроек"
+  },
+  "settings.theme": {
+    "message": "Тема",
+    "description": "Заголовок раздела настроек темы на странице настроек"
+  },
+  "settings.seo": {
+    "message": "Настройки SEO",
+    "description": "Заголовок раздела настроек SEO на странице настроек"
+  },
+  "settings.site": {
+    "message": "Настройки сайта",
+    "description": "Заголовок раздела настроек сайта на странице настроек"
+  },
+  "settings.distribution": {
+    "message": "Настройки распределения",
+    "description": "Заголовок раздела настроек распределения на странице настроек"
+  },
+  "settings.function": {
+    "message": "Настройки функций",
+    "description": "Заголовок раздела настроек функций на странице настроек"
+  },
+  "nav.gemini": {
+    "message": "Gemini",
+    "description": "Текст в навигационной панели сайта для отображения страницы Gemini, должен оставаться как 'Gemini'"
+  },
+  "nav.claude": {
+    "message": "Claude",
+    "description": "Текст в навигационной панели сайта для отображения страницы Claude, должен оставаться как 'Claude'"
+  },
+  "button.detail": {
+    "message": "Подробнее",
+    "description": ""
+  },
+  "button.testEnv": {
+    "message": "Тестовая среда",
+    "description": "Текст в кнопке для переключения на тестовую среду"
+  },
+  "button.upload": {
+    "message": "Загрузить",
+    "description": "Текст в кнопке для загрузки файлов или содержимого"
+  },
+  "message.cnbeian": {
+    "message": "Регистрация в Китае",
+    "description": "Информация о регистрации в Китае"
+  },
+  "message.copyFailed": {
+    "message": "Не удалось скопировать",
+    "description": "Сообщение о неудаче при копировании содержимого"
+  },
+  "nav.tryNow": {
+    "message": "Попробуйте сейчас",
+    "description": "Текст в навигационной панели сайта, позволяющий пользователю попробовать услугу"
+  },
+  "title.coin": {
+    "message": "Криптовалюта",
+    "description": "Заголовок страницы, отображающей криптовалюту"
+  },
+  "title.distributionRank": {
+    "message": "Рейтинг рекомендаций",
+    "description": "Заголовок страницы, отображающей рейтинг рекомендаций"
+  },
+  "title.distributionPlatformRank": {
+    "message": "Рейтинг платформы",
+    "description": "Заголовок страницы, отображающей рейтинг платформы"
+  },
+  "customers.name1": {
+    "message": "Марк Дю",
+    "description": "Имя клиента"
+  },
+  "customers.job1": {
+    "message": "Программист",
+    "description": "Профессия клиента"
+  },
+  "customers.comment1": {
+    "message": "Ace Data Cloud предоставила нашей команде отличные услуги, помогая нам повысить продуктивность. Очень нравится!",
+    "description": "Отзыв клиента"
+  },
+  "customers.name2": {
+    "message": "Якоб Уильямс",
+    "description": "Имя клиента"
+  },
+  "customers.job2": {
+    "message": "Менеджер по продукту",
+    "description": "Профессия клиента"
+  },
+  "customers.comment2": {
+    "message": "Ace Data Cloud - отличная интеграционная платформа с высоким качеством обслуживания.",
+    "description": "Отзыв клиента"
+  },
+  "customers.name3": {
+    "message": "Ларри Генри",
+    "description": "Имя клиента"
+  },
+  "customers.job3": {
+    "message": "Дизайнер",
+    "description": "Профессия клиента"
+  },
+  "customers.comment3": {
+    "message": "Мне нравится сервис Ace Data Cloud, он удобен в использовании и по разумной цене, надеюсь, что он будет только улучшаться!",
+    "description": "Отзыв клиента"
+  },
+  "nav.github": {
+    "message": "GitHub",
+    "description": "Ссылка на репозиторий GitHub"
+  },
+  "settings.github": {
+    "message": "Исходный код",
+    "description": "Ссылка для просмотра исходного кода на GitHub"
+  },
+  "settings.about": {
+    "message": "О нас",
+    "description": "Заголовок раздела 'О нас' на странице настроек"
+  },
+  "settings.poweredBy": {
+    "message": "Проект с открытым исходным кодом",
+    "description": "Заголовок, который показывает, на каком открытом проекте основан сайт на странице 'О нас'"
+  },
+  "settings.poweredByTip": {
+    "message": "Наш сайт основан на проекте Nexior с открытым исходным кодом, код полностью открыт.",
+    "description": "Описание, которое показывает, на каком открытом проекте основан сайт на странице 'О нас'"
+  },
+  "settings.apiService": {
+    "message": "API Сервис",
+    "description": "Заголовок, который показывает поставщика API сервиса на странице 'О нас'"
+  },
+  "settings.apiServiceTip": {
+    "message": "API сервис нашего сайта предоставляется Ace Data Cloud.",
+    "description": "Описание, которое показывает поставщика API сервиса на странице 'О нас'"
+  },
+  "settings.buildYourOwn": {
+    "message": "Создайте свой собственный",
+    "description": "Заголовок, который подсказывает пользователю, что он может создать аналогичный сайт на странице 'О нас'"
+  },
+  "settings.buildYourOwnTip": {
+    "message": "Хотите создать такой же AI сайт? Свяжитесь с нами для получения поддержки по развертыванию.",
+    "description": "Описание создания аналогичного сайта на странице 'О нас'"
+  },
+  "settings.contactUs": {
+    "message": "Связаться с поддержкой",
+    "description": "Текст кнопки для связи с поддержкой"
+  },
+  "message.viewOnGithub": {
+    "message": "Посмотреть на GitHub",
+    "description": "Текст ссылки для просмотра проекта на GitHub"
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "name.taskId": {
+    "message": "タスク ID",
+    "description": "タスクの ID"
+  },
+  "name.type": {
+    "message": "タイプ",
+    "description": "生成する Kling ビデオの内容タイプ、例：'リンク'、'テキスト'など"
+  },
+  "name.modeStd": {
+    "message": "標準",
+    "description": "Kling ビデオの標準モード"
+  },
+  "name.modePro": {
+    "message": "高品質",
+    "description": "Kling ビデオの高品質モード"
+  },
+  "name.failure": {
+    "message": "失敗",
+    "description": "タスクの失敗状態"
+  },
+  "name.failureReason": {
+    "message": "失敗理由",
+    "description": "タスク失敗の理由"
+  },
+  "name.status": {
+    "message": "状態",
+    "description": "タスクの状態"
+  },
+  "name.traceId": {
+    "message": "トレース ID",
+    "description": "タスクのトレース ID"
+  },
+  "name.createdAt": {
+    "message": "作成日時",
+    "description": "Kling ビデオ生成の日付と時間"
+  },
+  "name.cfgScale": {
+    "message": "自由度",
+    "description": "生成ビデオの自由度パラメータ（0-1）、値が大きいほど参照に近くなる（英語の提案：Freedom Level）"
+  },
+  "name.generateAudio": {
+    "message": "音声を同期生成",
+    "description": "音声を同期生成するかどうか、kling-v3、kling-v3-omni、kling-v2-6（プロモード）をサポート"
+  },
+  "name.startImage": {
+    "message": "初フレーム参照画像",
+    "description": "フォームフィールドラベル：初フレーム参照画像（英語の提案：'First Frame'、短くしてボタンを隠さないように）"
+  },
+  "name.negativePrompt": {
+    "message": "ネガティブプロンプト",
+    "description": "生成ビデオのネガティブテキストプロンプト"
+  },
+  "name.endImage": {
+    "message": "終フレーム参照画像",
+    "description": "フォームフィールドラベル：終フレーム参照画像（英語の提案：'Last Frame'、短くしてボタンを隠さないように）"
+  },
+  "name.videoUrl": {
+    "message": "カスタムビデオ",
+    "description": "カスタムビデオ"
+  },
+  "name.prompt": {
+    "message": "ビデオプロンプト",
+    "description": "内容入力のプロンプト"
+  },
+  "name.duration": {
+    "message": "ビデオの長さ",
+    "description": "ビデオの長さ"
+  },
+  "name.ingredients": {
+    "message": "複数画像でビデオ作成",
+    "description": "複数画像でビデオ作成のスイッチ/ラベル（英語の提案：Multi-Image、短く）"
+  },
+  "name.model": {
+    "message": "モデルバージョン",
+    "description": "生成ビデオに使用するモデルバージョン"
+  },
+  "name.ratio": {
+    "message": "ビデオ比率",
+    "description": "生成ビデオに使用するビデオ比率"
+  },
+  "name.mode": {
+    "message": "ビデオモード",
+    "description": "生成ビデオに使用するモード"
+  },
+  "name.effect": {
+    "message": "ビデオ効果",
+    "description": "異なるバージョンやスタイルのモデル間で切り替えるためのスタイルパラメータ名"
+  },
+  "name.ingredientsModel": {
+    "message": "成分モデル",
+    "description": "生成ビデオに使用するモデルバージョン"
+  },
+  "name.klingBot": {
+    "message": "Kling Bot",
+    "description": "Kling ビデオ生成器の名前"
+  },
+  "description.ingredients": {
+    "message": "複数の画像をアップロードして自分のビデオを生成したい場合は、このボタンをオンにしてください。",
+    "description": "パラメータ 'ingredients' の説明"
+  },
+  "description.imageUrl": {
+    "message": "複数画像でビデオ作成のタスクでは、複数の画像をアップロードする必要があります。",
+    "description": "パラメータ 'imageUrl' の説明"
+  },
+  "description.prompt": {
+    "message": "Kling ビデオ生成のためのプロンプト",
+    "description": "パラメータ 'prompt' の説明"
+  },
+  "description.negativePrompt": {
+    "message": "ネガティブテキストプロンプト、オプション、200文字以内",
+    "description": "パラメータ 'negativePrompt' の説明"
+  },
+  "description.uploadStartImage": {
+    "message": "生成の参考として初フレーム画像をアップロードします。最終的なビデオは初フレームを参考に生成されます。",
+    "description": "アップロード参考パラメータの説明"
+  },
+  "description.uploadEndImage": {
+    "message": "生成の参考として終フレーム画像をアップロードします。最終的なビデオは終フレームを参考に生成されます。",
+    "description": "アップロード参考パラメータの説明"
+  },
+  "description.cfgScale": {
+    "message": "生成ビデオの自由度、オプション [0,1]。値が大きいほど関連性が強くなります。",
+    "description": "アップロード参考パラメータの説明"
+  },
+  "status.pending": {
+    "message": "待機中",
+    "description": "タスクの待機状態"
+  },
+  "status.processing": {
+    "message": "処理中",
+    "description": "タスクの処理状態"
+  },
+  "placeholder.paddingNoise": {
+    "message": "選択してください...",
+    "description": "パディングノイズ入力のプレースホルダー"
+  },
+  "placeholder.select": {
+    "message": "選択",
+    "description": "選択フィールドのプレースホルダーテキスト"
+  },
+  "placeholder.paddingLevel": {
+    "message": "選択してください...",
+    "description": "パディングレベルのプレースホルダー"
+  },
+  "placeholder.prompt": {
+    "message": "生成するビデオスタイルのプロンプトを入力してください。例：moving",
+    "description": "プロンプトフィールドのプレースホルダーテキスト"
+  },
+  "placeholder.negativePrompt": {
+    "message": "生成するビデオスタイルのネガティブプロンプトを入力してください。200文字以内",
+    "description": "プロンプトフィールドのプレースホルダーテキスト"
+  },
+  "placeholder.position": {
+    "message": "選択してください...",
+    "description": "位置入力のプレースホルダー"
+  },
+  "placeholder.aspectRatio": {
+    "message": "選択してください...",
+    "description": "アスペクト比入力のプレースホルダー"
+  },
+  "placeholder.preset": {
+    "message": "選択してください...",
+    "description": "プリセット入力のプレースホルダー"
+  },
+  "placeholder.markerShape": {
+    "message": "選択してください...",
+    "description": "マーカー形状入力のプレースホルダー"
+  },
+  "placeholder.rotate": {
+    "message": "選択してください...",
+    "description": "回転入力のプレースホルダー"
+  },
+  "placeholder.subMarker": {
+    "message": "選択してください...",
+    "description": "サブマーカー入力のプレースホルダー"
+  },
+  "button.precise": {
+    "message": "精密",
+    "description": "Kling動画を生成するボタンのテキスト"
+  },
+  "button.creative": {
+    "message": "クリエイティブ",
+    "description": "Kling動画を生成するボタンのテキスト"
+  },
+  "button.generate": {
+    "message": "生成",
+    "description": "Kling動画を生成するボタンのテキスト"
+  },
+  "button.extend": {
+    "message": "動画を拡張",
+    "description": "動画を拡張するボタンのテキスト"
+  },
+  "button.download": {
+    "message": "動画をダウンロード",
+    "description": "動画をダウンロードするボタンのテキスト"
+  },
+  "button.uploadImageUrl": {
+    "message": "アップロード",
+    "description": "画像をアップロードするボタンのテキスト（英語は「Upload」に簡略化し、「Upload Image」は使用しない）"
+  },
+  "button.uploadVideoUrl": {
+    "message": "動画をアップロード",
+    "description": "動画をアップロードするボタンのテキスト"
+  },
+  "button.uploadReferences": {
+    "message": "アップロード",
+    "description": "ユーザーが参考をアップロードできるボタンのテキスト"
+  },
+  "message.uploadReferencesExceed": {
+    "message": "最大1枚の画像をアップロードできます",
+    "description": "アップロードされた画像の数が制限を超えたときのエラーメッセージ"
+  },
+  "message.uploadReferencesSuccess": {
+    "message": "画像のアップロードに成功しました",
+    "description": "画像のアップロードが成功したときの成功メッセージ"
+  },
+  "message.uploadReferencesError": {
+    "message": "画像のアップロードに失敗しました。後で再試行してください",
+    "description": "画像のアップロードに失敗したときのエラーメッセージ"
+  },
+  "message.startingTask": {
+    "message": "タスクを開始しています...",
+    "description": "描画タスクが開始されるときのメッセージ"
+  },
+  "message.startTaskSuccess": {
+    "message": "生成タスクを正常に開始しました",
+    "description": "タスクが正常に開始されたときの成功メッセージ"
+  },
+  "message.startTaskFailed": {
+    "message": "タスクの開始に失敗しました。管理者に連絡してください",
+    "description": "描画タスクの開始に失敗したときのエラーメッセージ"
+  },
+  "message.usedUp": {
+    "message": "ポイントが使い切れました。追加のポイントを購入して続行してください",
+    "description": "使い切ったときのメッセージ"
+  },
+  "message.generating": {
+    "message": "生成中...",
+    "description": "画像が生成されているときのメッセージ"
+  },
+  "message.downloadVideo": {
+    "message": "この動画をダウンロード",
+    "description": "画像が生成されているときのメッセージ"
+  },
+  "message.extendVideo": {
+    "message": "この動画の生成を続ける",
+    "description": "画像が生成されているときのメッセージ"
+  },
+  "message.generateFailed": {
+    "message": "画像の生成に失敗しました",
+    "description": "画像の生成に失敗したときのメッセージ"
+  },
+  "message.uploadVideoExceed": {
+    "message": "アップロード可能な最初のフレーム画像の数が制限を超えています",
+    "description": "最初のフレーム画像の数が制限を超えたときのエラーメッセージ"
+  },
+  "message.uploadVideoSizeExceed": {
+    "message": "アップロードファイルのサイズは10MBを超えてはいけません！",
+    "description": "アップロードファイルのサイズが10MBを超えたときのエラーメッセージ"
+  },
+  "message.uploadVideoTypeFailed": {
+    "message": "アップロードファイルはMP4形式でなければなりません！",
+    "description": "アップロードファイルがMP4形式でないときのエラーメッセージ"
+  },
+  "message.uploadStartImageExceed": {
+    "message": "アップロード可能な最初のフレーム画像の数が制限を超えています",
+    "description": "最初のフレーム画像の数が制限を超えたときのエラーメッセージ"
+  },
+  "message.uploadEndImageExceed": {
+    "message": "アップロード可能な最後のフレーム画像の数が制限を超えています",
+    "description": "最後のフレーム画像の数が制限を超えたときのエラーメッセージ"
+  },
+  "message.uploadStartImageError": {
+    "message": "最初のフレーム画像のアップロードに失敗しました",
+    "description": "最初のフレーム画像のアップロードに失敗したときのエラーメッセージ"
+  },
+  "message.uploadVideoError": {
+    "message": "動画のアップロードに失敗しました",
+    "description": "動画のアップロードに失敗したときのエラーメッセージ"
+  },
+  "message.uploadEndImageError": {
+    "message": "最後のフレーム画像のアップロードに失敗しました",
+    "description": "最後のフレーム画像のアップロードに失敗したときのエラーメッセージ"
+  },
+  "message.uploadDocumentsError": {
+    "message": "文書のアップロードに失敗しました",
+    "description": "文書のアップロードに失敗したときのエラーメッセージ"
+  },
+  "message.noOperations": {
+    "message": "利用可能な操作はありません",
+    "description": "利用可能な操作がないときのメッセージ"
+  },
+  "message.noTasks": {
+    "message": "履歴タスクはありません。左側のボタンをクリックして動画を生成してください",
+    "description": "タスクがないときのメッセージ"
+  }
+}
